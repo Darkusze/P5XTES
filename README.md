@@ -28,8 +28,8 @@ Si quieres ver mas detalles visita a mi [Ko-fi](https://ko-fi.com/shinoesp)
 
 ### Opcion 2 (sencillo)
 1. Descargas los archivos en el apartado de [Release](https://github.com/Darkusze/P5XTES/releases) vX.X.X - P5XTES.zip
-2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de vX.X.P5XTES.zip hacia la carpeta
-3. Y Iniciar el juego
+2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de vX.X.P5XTES.zip hacia la carpeta.
+3. Y Iniciar el juego.
 
 ## Advertencia Legal
 
