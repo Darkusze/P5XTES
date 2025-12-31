@@ -19,10 +19,17 @@ Sí, planeo actualizar las traducciones regularmente para mantener compatibilida
 Si quieres ver mas detalles visita a mi [Ko-fi](https://ko-fi.com/shinoesp)
 
 ## Guía de instalación
-1. Descargar los archivos de repositorio junto al plugins de mod de BenInEx y XUnity que esta en el Archivo .zip llamado P5XTES.zip. y la carpeta Translate
+
+### Opcion 1
+1. Descargar los archivos del repositorio en main junto al plugins de mod de BenInEx y XUnity que esta en el Archivo .zip llamado P5XTES.zip. y la carpeta Translate
 2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de P5XTES.zip hacia la carpeta
 3. Luego la carpeta Translate lo colocan al \P5X\client\pc\BepInEx
 4. Y Listo ya pueden iniciar el juego.
+
+### Opcion 2 (sencillo)
+1. Descargas los archivos en el apartado de [Release](https://github.com/Darkusze/P5XTES/releases) vX.X.X - P5XTES.zip
+2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de vX.X.X - P5XTES.zip hacia la carpeta
+3. Y Iniciar el juego
 
 ## Advertencia Legal
 
