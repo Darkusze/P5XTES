@@ -17,6 +17,7 @@ Todos sabemos que la versión global de Persona 5: The Phantom X fue lanzada ún
 Sí, planeo actualizar las traducciones regularmente para mantener compatibilidad con los parches oficiales del juego y agregar mejoras basadas en feedback.
 
 Si quieres ver mas detalles visita a mi [Ko-fi](https://ko-fi.com/shinoesp)
+
 Vista a mi discord pueden contactarme por el servidor [Discord](https://discord.gg/c8vnkFmsFb)
 ## Guía de instalación
 
