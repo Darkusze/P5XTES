@@ -7,7 +7,7 @@
 
 ## introducción
 
-P5X-Traduccion-ES es un proyecto fan-made para llevar a cabo la traduccion al español de la versión global de Persona 5 The Phantom X (P5X) mediante el uso del plugins mod [BepInEx](https://github.com/BepInEx/BepInEx) y [XUnity](https://github.com/bbepis/XUnity.AutoTranslator) para crear y cargar las traducciones automaticas generadas y manuales.
+P5XTES es un proyecto fan-made para llevar a cabo la traduccion al español de la versión global de Persona 5 The Phantom X (P5X) mediante el uso del plugins mod [BepInEx](https://github.com/BepInEx/BepInEx) y [XUnity](https://github.com/bbepis/XUnity.AutoTranslator) para crear y cargar las traducciones automaticas generadas y manuales.
 
 ## ¿A que se debe este proyecto?
 
