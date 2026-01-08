@@ -7,7 +7,7 @@
 
 ## introducción
 
-P5X-Traduccion-ES es un proyecto fan-made para llevar a cabo la traduccion al español de la versión global de Persona 5 The Phantom X (P5X) mediante el uso del plugins mod [BepInEx](https://github.com/BepInEx/BepInEx) y [XUnity](https://github.com/bbepis/XUnity.AutoTranslator) para crear y cargar las traducciones automaticas generadas y manuales.
+P5XTES es un proyecto fan-made para llevar a cabo la traduccion al español de la versión global de Persona 5 The Phantom X (P5X) mediante el uso del plugins mod [BepInEx](https://github.com/BepInEx/BepInEx) y [XUnity](https://github.com/bbepis/XUnity.AutoTranslator) para crear y cargar las traducciones automaticas generadas y manuales.
 
 ## ¿A que se debe este proyecto?
 
@@ -18,6 +18,7 @@ Sí, planeo actualizar las traducciones regularmente para mantener compatibilida
 
 Si quieres ver mas detalles visita a mi [Ko-fi](https://ko-fi.com/shinoesp)
 
+Vista a mi discord pueden contactarme por el servidor [Discord](https://discord.gg/c8vnkFmsFb)
 ## Guía de instalación
 
 ### Opcion 1
@@ -27,7 +28,7 @@ Si quieres ver mas detalles visita a mi [Ko-fi](https://ko-fi.com/shinoesp)
 4. Y Listo ya pueden iniciar el juego.
 
 ### Opcion 2 (sencillo)
-1. Descargas los archivos en el apartado de [Release](https://github.com/Darkusze/P5XTES/releases) vX.X.X - P5XTES.zip
+1. Descargas los archivos en el apartado de [Release](https://github.com/Darkusze/P5XTES/releases) vX.X - P5XTES.zip
 2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de vX.X.P5XTES.zip hacia la carpeta.
 3. Y Iniciar el juego.
 
