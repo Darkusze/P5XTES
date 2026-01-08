@@ -76,6 +76,8 @@ r:"^Claim\s+until:\s+(\d{4}-\d{1,2}-\d{1,2})$"="Reclamar hasta: $1"
 
 r:"^Expires\s+after\s+(\d+)\s+d$"="Expira después de $1 días"
 
+r:"^Unlocks\s+in\s+(\d+)\s+d$"="Se desbloquea en $1 d"
+
 ++-------------VA Character----------------++
 
 r:"^VA:\\s+(.+)$"="VA: $1"
@@ -242,11 +244,11 @@ r:"^Get\\s+<color\=#FF423F>(\\d+)</color>\\s+total\\s+stars$"="Necesitas <color\
 ++-------------Sistema Goals-----------------++
 
 r:"^Log in to the game \\((\\d+)/(\\d+)\\)$"="Inicia sesión en el juego ($1/$2)"
-r:"^Use (\\d+) stamina \\((\\d+)/(\\d+)\\)$"="Usa $1 de resistencia ($2/$3)"
+r:"^Use (\\d+) stamina \\((\\d+)/(\\d+)\\)$"="Usa $1 de Energía ($2/$3)"
 r:"^Use (\\d+) Action Points\\((\\d+)/(\\d+)\\)$"="Usa $1 puntos de acción ($2/$3)"
 r:"^\\{\\{A\\}\\} the Realm of Repression (\\d+) times \\((\\d+)/(\\d+)\\)$"="Completa el reino de la represión $1 veces ($2/$3)"
 r:"^Use (\\d+) Action Points \\((\\d+)/(\\d+)\\)$"="Usa $1 puntos de acción ($2/$3)"
-r:"^Use (\\d+,\\d+) stamina \\((\\d+)/(\\d+)\\)$"="Usa $1 resistencia ($2/$3)"
+r:"^Use (\\d+,\\d+) stamina \\((\\d+)/(\\d+)\\)$"="Usa $1 Energía ($2/$3)"
 r:"^Spend (\\d+,\\d+) Konpaku Gems \\((\\d+)/(\\d+)\\)$"="Gasta $1 gemas Konpaku ($2/$3)"
 r:"^Spend (\\d+,\\d+) yen \\((\\d+)/(\\d+)\\)$"="Gasta $1 yen ($2/$3)"
 r:"^\\{\\{A\\}\\} Realm of Repression: Gear Forging \\((\\d+)/(\\d+)\\)$"="Completa Reino de la represión: Forja de engranajes ($1/$2)"
@@ -264,6 +266,7 @@ r:"^Fuse a Persona \\((\\d+)/(\\d+)\\)$"="Fusiona una Persona ($1/$2)"
 r:"^Use (\\d+,\\d+) Konpaku Gems \\((\\d+)/(\\d+)\\)$"="Usa $1 gemas Konpaku ($2/$3)"
 
 ++-------------Interfaz-----------------++
+Select content to input.=Elige qué introducir.
 r:"^ID:(\d+)$"="ID:$1"
 r:"^\(Paid:\s+(\d+)\)$"="(Pagado: $1)"
 r:"^Unlocks at Lv\\. (\\d+)$"="Se desbloquea en Nv. $1"
@@ -382,13 +385,44 @@ r:"^\\((\\d+)%\\s+left\\)$"="($1% restante)"
 r:"^Revelation\\s+Card\\s+x(\d+)\\s+Obtained$"="Carta Revelación x$1 Obtenida"
 r:"^Upgrade\\s+any\\s+weapon\\s+to\\s+\\{\\{A\\}\\}.\\s+(\d+)\\. $"="Mejora cualquier arma a {{A}}. $2. "
 r:"^Current\s+(\d+)%$"="Actual $1%"
-r:"^Raise\\s+any\\s+Phantom\\s+Thief's\\s+skill\\s+to\\s+\\{\\{A\\}\\}.\\s+(\d+)\\. $"="Aumenta la habilidad de cualquier Ladrón Fantasma a {{A}}. $2. "
+r:"^Raise\\s+any\\s+Phantom\\s+Thief's\\s+skill\\s+to\\s+\\{\\{A\\}\\}.\\s+(\d+)\\. $"="Aumenta la habilidad de cualquier Ladrón Fantasma a {{A}}. $1. "
 r:"^Can\s+enhance\s+at\s+Thief\s+Lv\.\s+(\d+)$"="Mejorable a partir del nivel $1 de Ladrón"
 r:"^Raise\s+Justine\s+&\s+Caroline\s+to\s+level\s+(\d+)\s+\((\d+)\/(\d+)\)$"="Lleva a Justine y Caroline al nivel $1 ($2/$3)"
 r:"^Can\s+enhance\s+more\s+at\s+Thief\s+\{\{A\}\}\.\s+(\d+)$"="Puede mejorarse más al {{A}}. $1 de ladrón."
 r:"^<color\=#FFFFFF>\(Currently\s+(\d+\.?\d*)%\)</color>$"="<color\=#FFFFFF>(Actualmente $1%)</color>"
 r:"^(\d+)★\s+C(\d+)$"="$1★ C$2"
 r:"^Can\s+be\s+exchanged\s+for\s+(\d+)\s+points\s+at\s+the\s+Catch\s+'n'\s+Trade\.$"="Puede canjearse por $1 puntos en Captura e Intercambio."
+r:"^Do\s+you\s+want\s+to\s+travel\s+to\s+(.+)\?$"="¿Quieres viajar a $1?"
+r:"^Watch\s+all\s+projections\s+\((.+)\)$"="Ver todas las proyecciones ($1)"
+++-------------Tareas-----------------++
+r:"^Troublesome\s+Trek\s+(\d+)$"="Travesía problemática $1"
+r:"^Elusive\s+Finds\s+(\d+)$"="Hallazgos esquivos $1"
+r:"^Unreasonable\s+Request\s+(\d+)$"="Petición irrazonable $1"
+r:"^Short\s+Excursion\s+(\d+)$"="Excursión corta $1"
+r:"^Specialized\s+Skills\s+(\d+)$"="Habilidades especializadas $1"
+r:"^Special\s+Request\s+(\d+)$"="Petición especial $1"
+r:"^Risky\s+Restock\s+(\d+)$"="Reabastecimiento arriesgado $1"
+r:"^Woe\s+Is\s+Marthym\s+(\d+)$"="La desdicha de Marthym $1"
+r:"^Now\s+Hiring\s+(\d+)$"="Se busca personal $1"
+r:"^Simple\s+Favor\s+(\d+)$"="Favor sencillo $1"
+r:"^Brilliant\s+Spark\s+(\d+)$"="Chispa Brillante $1"
+r:"^Like\s+Minds\s+(\d+)$"="Mentes afines $1"
+++-------------Club Música-----------------++
+r:"^Duration:\s+(\d+:\d+)$"="Duración: $1"
+r:"^Unlocks\s+at\s+Band\s+Club\s+level\s+(\d+)$"="Se desbloquea al nivel $1 del Club de Música"
+
+++-------------Sinergia-----------------++
+r:"^Earned\s+for\s+building\s+a\s+strong\s+bond\s+of\s+friendship\s+with\s+(.+)\.$"="Se obtiene al forjar un sólido vínculo de amistad con $1."
+r:"^Earned\s+for\s+forming\s+a\s+romantic\s+relationship\s+with\s+(.+)\.$"="Se obtiene al establecer una relación sentimental con $1."
+r:"^Friend\s+(.+)\s+Avatar$"="Avatar de Amistad de $1"
+r:"^Soulmate\s+(.+)\s+Avatar$"="Avatar de Alma Gemela con $1"
+r:"^Reach\s+Synergy\s+Rank\s+(\d+)\s+and\s+become\s+soulmates\s+with\s+(.+)\.$"="Alcanza el rango de sinergia $1 y conviértete en alma gemela de $2."
+r:"^Reach\s+Synergy\s+Rank\s+(\d+)\s+and\s+become\s+close\s+friends\s+with\s+(.+)\.$"="Alcanza el rango de sinergia $1 y hazte amigo íntimo de $2."
+r:"^Unlock\s+Synergy\s+with\s+(.+)\.?$"="Desbloquea la sinergia con $1."
+r:"^Give\s+a\s+gift\s+to\s+an\s+accomplice\s+(\d+)\s+times\.$"="Dale un regalo a un cómplice $1 veces."
+r:"^Oh,\s+that's\s+right,(\s|\\n)I\s+have\s+something(\s|\\n)(.+)\s+might\s+like\.\.\.$"="Ah, es verdad...\nCreo que tengo algo\nque podría gustarle a $3..."
+r:"^I\s+feel\s+my\s+bond\s+with\s+(.+)(\s|\\n)growing\s+deeper\.\.\.$"="Siento que mi vínculo con $1\nse hace más profundo..."
+r:"^\.\.\.I\s+feel\s+my\s+bond\s+with\s+(.+)(\s|\\n)growing\s+deeper\.\.\.$"="...siento que mi vínculo con $1\nse hace más profundo..."
 ++-------------Pasiva Armas-----------------++
 
 r:"^Increase Attack by (<color.*?%<\\/color>)\\. When attacking a (<link.*?<u>)({{A}}ing)(<\\/u><\\/link>) foe, increase Attack by (<color.*?%<\\/color>)\\.$"="Aumenta el Ataque en $1.\nAl atacar un enemigo con $2Quemadura$4, Aumenta el ataque de $5."
@@ -717,3 +751,23 @@ r:"^When\\s+using\\s+ranged\\s+attacks,\\s+increase\\s+skill\\s+dmg\\s+by\\s+(\d
 r:"^Increase\\s+skill\\s+damage\\s+by\\s+(\d+\.?\d*)%\\s+when\\s+using\\s+ranged\\s+attack\\s+with\\s+Target\\s+Audience\\.$"="Aumenta el daño de habilidad un $1% al usar ataque a distancia con Público objetivo."
 
 r:"^(.+)\s+is\s+brainwashed\s+and\s+can't\s+move!$"="$1 tiene el cerebro lavado y no puede moverse."
+
+r:"^Increase\s+Desire\s+Level\s+by\s+(\d+)%\.$"="Aumenta el Nivel de Deseo un $1%."
+
+r:"^Desire\s+Level:\s+(\d+)$"="Nivel de deseo: $1"
+
+r:"^Increase\s+recovery\s+by\s+(\d+)%\.\s*$"="Aumenta la recuperación en un $1%."
+
+r:"^Increase\s+ailment\s+resistance\s+by\s+(\d+)%\.\s*$"="Aumenta la resistencia a las dolencias un $1%."
+
+r:"^(.+)\s+became\s+an\s+easier\s+target!$"="¡$1 se convirtió en un blanco más fácil!"
+
+r:"^Increase\s+shield\s+and\s+healing\s+effects\s+received\s+by\s+(\d+)%\.$"="Aumenta los efectos recibidos de escudo y curación en un $1%."
+
+r:"^Mizuhiki\s+Knot:\s+(\d+)$"="Nudo Mizuhiki: $1"
+
+r:"^Damage\s+Up\s+([\d.]+)%$"="Aumento de daño $1%"
+
+r:"^Decrease\s+dmg\s+taken\s+by\s+([\d.]+)%\.$"="Reduce los daños recibidos en un $1%."
+
+r:"^Increase\s+max\s+HP\s+by\s+([\d.]+)%\.$"="Aumenta los PS máximos un $1%."
