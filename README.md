@@ -18,7 +18,8 @@ Sí, planeo actualizar las traducciones regularmente para mantener compatibilida
 
 Si quieres ver mas detalles visita a mi [Ko-fi](https://ko-fi.com/shinoesp)
 
-Vista a mi discord pueden contactarme por el servidor [Discord](https://discord.gg/9MFSd3AAc4)
+Vista a mi discord pueden contactarme por el servidor y tengo mas información [Discord](https://discord.gg/9MFSd3AAc4) 
+
 ## Guía de instalación
 
 ### Opcion 1
