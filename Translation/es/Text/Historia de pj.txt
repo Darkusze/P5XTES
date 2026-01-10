@@ -1,0 +1,5 @@
+++--------Joker--------+
+A second-year high school student. One day, with his back against the wall, his powers as a Persona-user awakened.\nHis code name is Joker and his initial Persona is {{A}}.=Un estudiante de segundo de bachillerato. Un día, con la espalda contra la pared, despertaron sus poderes como usuario de Persona. Su nombre en clave es Joker y su Persona inicial es {{A}}.
+
+A Persona whose face is like a mask, with great black wings. The name of "{{A}}" brings to mind the famous phantom thief {{A}} Lupin, but what is the true origin of this Persona, and what power is contained within?=Una Persona cuyo rostro es como una máscara y posee grandes alas negras. El nombre de "{{A}}" evoca al famoso ladrón de guante blanco {{A}} Lupin, pero ¿cuál es el verdadero origen de esta Persona y qué poder encierra en su interior?
+

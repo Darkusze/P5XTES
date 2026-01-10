@@ -78,6 +78,8 @@ r:"^Expires\s+after\s+(\d+)\s+d$"="Expira después de $1 días"
 
 r:"^Unlocks\s+in\s+(\d+)\s+d$"="Se desbloquea en $1 d"
 
+r:"^\s*(\d+)\s+d\s+(\d+)\s+h\s+left$"=" Quedan $1 d $2 h"
+
 ++-------------VA Character----------------++
 
 r:"^VA:\\s+(.+)$"="VA: $1"
@@ -162,19 +164,40 @@ r:"^All\\s+foes'\\s+damage\\s+taken\\s+from\\s+All-Out\\s+Attacks\\s+is\\s+incre
 
 r:"^When\\s+a\\s+foe\\s+is\\s+defeated,\\s+the\\s+party's\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%,\\s+up\\s+to\\s+(\\d+)%\\.$"="Cuando un enemigo es derrotado, el daño del grupo aumenta en un $1%, hasta un $2%."
 
-r:"^\\{\\{A\\}\\}'s\\s+Curse\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño de la maldición de {{A}} aumenta en un $1%."
+r:"^\\{\\{A\\}\\}'s\\s+Curse\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño de la maldición del {{A}} aumenta en un $1%."
 
-r:"^\\{\\{A\\}\\}'s\\s+Electric\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño eléctrico de {{A}} aumenta en un $1%."
+r:"^\\{\\{A\\}\\}'s\\s+Electric\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño eléctrico del {{A}} aumenta en un $1%."
 
-r:"^\\{\\{A\\}\\}'s\\s+Fire\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño al fuego de {{A}} aumenta en un $1%."
+r:"^\\{\\{A\\}\\}'s\\s+Fire\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño al fuego del {{A}} aumenta en un $1%."
 
-r:"^\\{\\{A\\}\\}'s\\s+Ice\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño de hielo de {{A}} aumenta en un $1%."
+r:"^\\{\\{A\\}\\}'s\\s+Ice\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño de hielo del {{A}} aumenta en un $1%."
 
-r:"^\\{\\{A\\}\\}'s\\s+Wind\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño del viento de {{A}} aumenta en un $1%."
+r:"^\\{\\{A\\}\\}'s\\s+Wind\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño del viento del {{A}} aumenta en un $1%."
 
-r:"^\\{\\{A\\}\\}'s\\s+Nuclear\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño nuclear de {{A}} aumenta en un $1%."
+r:"^\\{\\{A\\}\\}'s\\s+Nuclear\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño nuclear del {{A}} aumenta en un $1%."
 
+r:"^\\{\\{A\\}\\}'s\s+<color\=#FFFC40>Resonance</color>\s+damage\s+is\s+increased\s+by\s+([\d.]+)%\.$"="El daño de <color\=#FFFC40>Resonancia</color> del {{A}} se incrementa en un $1%."
 
+r:"^\\{\\{A\\}\\}'s\s+<color\=#FF423F>Resonance</color>\s+damage\s+is\s+increased\s+by\s+([\d.]+)%\.$"="El daño de <color\=#FF423F>Resonancia</color> del {{A}} aumenta en un $1%."
+
+r:"^\\{\\{A\\}\\}'s\s+<color\=#FF423F>Highlight</color>\s+damage\s+is\s+increased\s+by\s+([\d.]+)%\.$"="El daño de <color\=#FF423F>Highlight</color> del {{A}} aumenta en un $1%."
+
+++------------Mail-----------------++
+r:"^Your\s+current\s+star\s+level\s+in\s+the\s+Velvet\s+Trials\s+is\s+(\d+)\.\\nYour\s+(\d+)\s+days\s+of\s+unclaimed\s+rewards\s+have\s+been\s+delivered\s+to\s+you\s+via\s+this\s+message\.$"="Tu nivel actual en las Pruebas del Terciopelo es $1. Te hemos enviado $2 día(s) de recompensas no reclamadas a través de este mensaje."
+
+++------------Fechas-----------------++
+r:"^Date\s+received:\s+Jan\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de enero de $2"
+r:"^Date\s+received:\s+Feb\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de febrero de $2"
+r:"^Date\s+received:\s+Mar\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de marzo de $2"
+r:"^Date\s+received:\s+Apr\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de abril de $2"
+r:"^Date\s+received:\s+May\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de mayo de $2"
+r:"^Date\s+received:\s+Jun\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de junio de $2"
+r:"^Date\s+received:\s+Jul\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de julio de $2"
+r:"^Date\s+received:\s+Aug\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de agosto de $2"
+r:"^Date\s+received:\s+Sep\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de septiembre de $2"
+r:"^Date\s+received:\s+Oct\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de octubre de $2"
+r:"^Date\s+received:\s+Nov\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de noviembre de $2"
+r:"^Date\s+received:\s+Dec\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de diciembre de $2"
 ++-------------Guarida de ladrones-----------------++
 
 r:"^•\\s+Raise\\s+P\\s+Medal\\s+cap\\s+to\\s+(\\d+)\\.\\n•\\s+Earn\\s+a\\s+P\\s+Medal\\s+every\\s+(\\d+)\\s+seconds\\.\\n•\\s+Raise\\s+Visitor\\s+EXP\\s+cap\\s+to\\s+(\\d+)\\.\\n•\\s+Gain\\s+Visitor\\s+EXP\\s+every\\s+(\\d+)\\s+seconds\\.$"="• Eleva el límite de Medallas P a $1.\n• Gana una Medalla P cada $2 segundos.\n• Eleva el límite de EXP de visitantes a $3.\n• Obtén EXP de visitantes cada $4 segundos."
@@ -214,6 +237,7 @@ r:"<color\=#FFFF00>Increases\s+Wind\s+and\s+Curse\s+allies'\s+damage\s+by\s+([\d
 r:"<color\=#FFFF00>Increases\s+Electric\s+and\s+Bless\s+allies'\s+damage\s+by\s+([\d\.]+)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta el daño de los aliados Eléctrico y Bendición un $1% (tiene efecto en batalla).</color>"
 r:"^•\s+({{A}})\s+Thunderous\s+Blessing\s+stage\s+(\d+)\s+in\s+the\s+Velvet\s+Trials\.\s+\((\d+)\/(\d+)\)$"="- $1 Bendición atronadora etapa $2 en las Pruebas de Terciopelo. ($3/$4)"
 r:"^All-Out\s+Attack\s+Finisher\s+\((.+)\)$"="All-Out Attack Finisher ($1)"
+r:"^<color\=#FFFF00>Increases\s+ally\s+Highlight\s+damage\s+by\s+(\d+\.?\d*)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="<color\=#FFFF00>Aumenta el daño de Highlight del aliado un $1% (tiene efecto en batalla).</color>"
 ++-------------Companio-----------------++
 
 r:"^<color\=[^>]+>Online\\s+(\\d+)\\s+d\\s+ago</color>$"="<color\=#8F8D8D>En línea hace $1 d</color>"
@@ -233,7 +257,9 @@ r:"^Visit\\s+the\\s+international\\s+restaurant,\\s+eel\\s+shop,\\s+and\\s+weste
 r:"^Clear\\s+the\\s+mission\\s+Treasure\\s+Tail\\.\\s+<size\=30>\\((\\d+)\\/(\\d+)\\)</size>$"="Completa la misión Cola del Tesoro. <size\=30>($1/$2)</size>"
 r:"^Get\\s+a\\s+score\\s+of\\s+(\\d+,?\\d*)\\s+against\\s+Dvesha\\s+\\((\\d+)\\/(\\d+)\\)$"="Consigue una puntuación de $1 contra Dvesha ($2/$3)"
 r:"^Katayama's\\s+Palace\\s+\\{\\{A\\}\}\\s+Plant\\s+(\\d+)F$"="Palacio de Katayama Planta de Energía $1F"
-
+r:"^Reach\s+the\s+objective\s+in\s+Phase\s+(\d+)\s+of\s+Nightmare's\s+Gateway\s+\((\d+)/(\d+)\)$"="Alcanza el objetivo en la fase $1 de la Puerta de la Pesadilla ($2/$3)"
+r:"^Clear\s+Realm\s+of\s+Repression:\s+Recollections\s+\((\d+)/(\d+)\)$"="Completa el Reino de la Represión: Recuerdos ($1/$2)"
+r:"^Into\s+the\s+Metaverse\s+(\d+)$"="Hacia el Metaverso $1"
 
 ++-------------Combate Sistema-----------------++
 r:"^(\\d+)-Stack$"="$1 acumulaciones"
@@ -268,6 +294,7 @@ r:"^Use (\\d+,\\d+) Konpaku Gems \\((\\d+)/(\\d+)\\)$"="Usa $1 gemas Konpaku ($2
 ++-------------Interfaz-----------------++
 Select content to input.=Elige qué introducir.
 r:"^ID:(\d+)$"="ID:$1"
+r:"^Out\s+of\s+Stock\s+(\d+)$"="Sin stock: $1"
 r:"^\(Paid:\s+(\d+)\)$"="(Pagado: $1)"
 r:"^Unlocks at Lv\\. (\\d+)$"="Se desbloquea en Nv. $1"
 r:"^Lv\\.(\\d+)$"="Nv.$1"
@@ -394,6 +421,7 @@ r:"^(\d+)★\s+C(\d+)$"="$1★ C$2"
 r:"^Can\s+be\s+exchanged\s+for\s+(\d+)\s+points\s+at\s+the\s+Catch\s+'n'\s+Trade\.$"="Puede canjearse por $1 puntos en Captura e Intercambio."
 r:"^Do\s+you\s+want\s+to\s+travel\s+to\s+(.+)\?$"="¿Quieres viajar a $1?"
 r:"^Watch\s+all\s+projections\s+\((.+)\)$"="Ver todas las proyecciones ($1)"
+r:"^Fight\s+Shadow\s+(.+)$"="Lucha contra la Sombra de $1"
 ++-------------Tareas-----------------++
 r:"^Troublesome\s+Trek\s+(\d+)$"="Travesía problemática $1"
 r:"^Elusive\s+Finds\s+(\d+)$"="Hallazgos esquivos $1"
@@ -515,6 +543,30 @@ r:"^Collect\\s+(\d+)\\s+Commemorative\\s+Coins\\s+in\\s+the\\s+Spaceport\\s+Arc\
 r:"^Get\\s+(\d+)%\\s+progress\\s+in\\s+all\\s+Spaceport\\s+Arc\\s+stages\\s+\\((\d+)/(\d+)\\)$"="Consigue el $1% de progreso en todas las fases de Spaceport Arc ($2/$3)"
 r:"^Meta\s+Jewel\s+x(\d+)$"="Meta Jewel x$1"
 r:"^Can\s+be\s+purchased\s+at\s+level\s+(\d+)\.$"="Se puede comprar en el nivel $1."
+r:"^Use\s+(\d+)\s+Willpower\s+\((\d+)/(\d+)\)$"="Usa $1 de Fuerza de Voluntad ($2/$3)"
+r:"^({{.+\}})\s+(\d+)\s+Trial\s+of\s+the\s+Astrolabe\s+missions\s+\((\d+)/(\d+)\)$"="$1 $2 misiones de la Prueba del Astrolabio ($3/$4)"
+r:"^Use\s+(\d+)\s+Stardust\s+Bells\s+\((\d+)/(\d+)\)$"="Usa $1 Campanas de Polvo de Estrellas ($2/$3)"
+r:"^Use\s+(\d+)\s+Stardust\s+Gems\s+\((\d+)/(\d+)\)$"="Usa $1 Gemas de Polvo de Estrellas ($2/$3)"
+r:"^Use\s+(\d+)\s+Stardust\s+Bottles\s+\((\d+)/(\d+)\)$"="Usa $1 Frascos de Polvo de Estrellas ($2/$3)"
+r:"^({{.+\}})\s+Realm\s+of\s+Repression:\s+Pursuit\s+of\s+Starshot\s+(\d+)\s+times\s+\((\d+)/(\d+)\)$"="$1 Reino de la Represión: Búsqueda del Disparo Estelar $2 veces ($3/$4)"
+r:"^Use\s+(\d+)\s+Stardust\s+Shards\s+\((\d+)/(\d+)\)$"="Usa $1 Fragmentos de Polvo de Estrellas ($2/$3)"
+r:"^Plum\s+Blossom\s+Dango:\s+(\d+)$"="Dango de flor de ciruelo: $1"
+r:"^Infiltrate\s+the\s+second\s+half\s+of\s+the\s+third\s+Palace\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Infíltrate en la segunda mitad del tercer Palacio. <size\=30>($1/$2)</size>"
+r:"^Discover\s+the\s+identity\s+of\s+the\s+new\s+power\s+source\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Descubre la identidad de la nueva fuente de energía. <size\=30>($1/$2)</size>"
+r:"^View\s+all\s+the\s+Palace\s+ruler's\s+memories\s+in\s+the\s+second\s+half\s+of\s+the\s+third\s+Palace\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Consulta todos los recuerdos del gobernante del Palacio en la segunda mitad del tercer Palacio. <size\=30>($1/$2)</size>"
+r:"^Discuss\s+your\s+visions\s+with\s+Igor\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Discuta sus visiones con Igor. <size\=30>($1/$2)</size>"
+r:"^Defeat\s+(\d+)\s+Savage\s+Shadows?\s+in\s+the\s+3rd\s+Palace's\s+control\s+center\s+\((\d+)/(\d+)\)$"="Derrota a $1 Sombras Salvajes en el centro de control del 3er Palacio ($2/$3)"
+r:"^({{.+\}})\s+(\d+)\s+Visions\s+of\s+Ruin\s+missions\s+\((\d+)/(\d+)\)$"="$1 $2 misiones de Visiones de la Ruina ($3/$4)"
+r:"^Open\s+(\d+)\s+chests\s+in\s+the\s+3rd\s+Palace's\s+2nd\s+half\s+\((\d+)/(\d+)\)$"="Abre $1 cofres en la 2ª mitad del 3er Palacio ($2/$3)"
+r:"^Reach\s+(\d+)%\s+progress\s+in\s+the\s+3rd\s+Palace's\s+control\s+center\s+\((\d+)/(\d+)\)$"="Alcanza el $1% de progreso en el centro de control del 3er Palacio ($2/$3)"
+r:"^Collect\s+(\d+)\s+surveillance\s+room\s+chips\s+\((\d+)/(\d+)\)$"="Consigue $1 fichas de sala de vigilancia ($2/$3)"
+r:"^Successfully\s+perform\s+mind\s+control\s+(\d+)\s+times\s+\((\d+)/(\d+)\)$"="Realiza con éxito el control mental $1 veces ($2/$3)"
+r:"^Witness\s+the\s+incident\s+\((\d+)/(\d+)\)$"="Presenciar el incidente ($1/$2)"
+r:"^Find\s+the\s+spirit\s+controller\s+in\s+the\s+control\s+center\s+\((\d+)/(\d+)\)$"="Encuentra al controlador de espíritus en el centro de control ($1/$2)"
+r:"^Enter\s+the\s+power\s+plant\s+area\s+\((\d+)/(\d+)\)$"="Entrar en la zona de la central eléctrica ($1/$2)"
+r:"^Uncover\s+the\s+Palace\s+ruler's\s+past\s+\((\d+)/(\d+)\)$"="Descubre el pasado del gobernante del Palacio ($1/$2)"
+r:"^Find\s+the\s+command\s+center\s+\((\d+)/(\d+)\)$"="Encontrar el centro de mando ($1/$2)"
+r:"^Locate\s+the\s+Treasure\s+\((\d+)/(\d+)\)$"="Localizar el Tesoro ($1/$2)"
 ++-------------Planes de lufel-----------------++
 
 r:"^Raise (\d+) Phantom Thieves to Talent \{\{([A-Za-z]+)\}\}\. (\d+)$"=Eleva a $1 Ladrones Fantasma al Talento {{$2}}. $3
@@ -552,6 +604,11 @@ r:"^Diff\\.\\s+Bonus:\\s+<color\=[^>]+>(\\d+\\.?\\d*)</color>$"="Diferencia Bono
 r:"^Raise\\s+(\\d+)\\s+Personas\\s+to\\s+level\\s+(\\d+)\\.\\s*<size\=30>\\((\\d+)\\/(\\d+)\\)</size>$"="Sube $1 Personas al nivel $2. <size\=30>($3/$4)</size>"
 r:"^Progress:\\s+(\\d+)\\/(\\d+)$"="Progreso: $1/$2"
 r:"^Forged:\\s+(\\d+)\\/(\\d+)$"="Forjado: $1/$2"
+
+
+++-------------Marcos Avatares-----------------++
+r:"^Phantom\s+Pass\s+Phase\s+(\d+)\s+(.+)\s+reward\.$"="Phantom Pass Fase $1 $2 recompensa."
+
 
 ++-------------Combate-----------------++
 r:"^([A-Za-z\s]+) is being protected by ([A-Za-z]+)\.\.\.$"="$1 está siendo protegido por $2..."
@@ -771,3 +828,15 @@ r:"^Damage\s+Up\s+([\d.]+)%$"="Aumento de daño $1%"
 r:"^Decrease\s+dmg\s+taken\s+by\s+([\d.]+)%\.$"="Reduce los daños recibidos en un $1%."
 
 r:"^Increase\s+max\s+HP\s+by\s+([\d.]+)%\.$"="Aumenta los PS máximos un $1%."
+
+r:"^Increase\s+pierce\s+rate\s+by\s+([\d.]+)%.\s+Stacks\s+up\s+to\s+(\d+)\s+times\.$"="Aumenta la tasa de perforación un $1%. Se acumula hasta $2 veces."
+
+r:"^Increase\s+Psychokinesis\s+dmg\s+by\s+([\d.]+)%\.$"="Aumenta el daño de Psicoquinesis un $1%."
+
+r:"^Increase\s+final\s+dmg\s+based\s+on\s+ailment\s+accuracy\.\s+\(Current\s+Increase:\s+([\d.]+)%\)$"="Aumenta el daño final en función de la precisión de la dolencia. (Aumento actual: $1%)"
+
+r:"^The\s+Eye\s+of\s+Heaven\s+is\s+watching\s+(.+)\.\.\.$"="El Ojo del Cielo está observando a $1..."
+
+r:"^Cannot\s+activate\s+critical\s+hits,\s+but\s+increase\s+final\s+dmg\s+by\s+(\d+\.?\d*)%\s+based\s+on\s+crit\s+rate\s+and\s+crit\s+dmg\.$"="No puede activar los golpes críticos, pero aumenta el daño final en un $1% en función de la probabilidad de crítico y el daño crítico."
+
+r:"^Increase\s+Ice\s+dmg\s+taken\s+by\s+(\d+\.?\d*)%\.$"="Aumenta el daño de Hielo recibido en un $1%."
