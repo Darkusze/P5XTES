@@ -18,7 +18,8 @@ Sí, planeo actualizar las traducciones regularmente para mantener compatibilida
 
 Si quieres ver mas detalles visita a mi [Ko-fi](https://ko-fi.com/shinoesp)
 
-Vista a mi discord pueden contactarme por el servidor [Discord](https://discord.gg/c8vnkFmsFb)
+Vista a mi discord pueden contactarme por el servidor y tengo mas información [Discord](https://discord.gg/9MFSd3AAc4) 
+
 ## Guía de instalación
 
 ### Opcion 1
@@ -29,8 +30,32 @@ Vista a mi discord pueden contactarme por el servidor [Discord](https://discord.
 
 ### Opcion 2 (sencillo)
 1. Descargas los archivos en el apartado de [Release](https://github.com/Darkusze/P5XTES/releases) vX.X - P5XTES.zip
-2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de vX.X.P5XTES.zip hacia la carpeta.
+2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de X.X.P5XTES.zip hacia la carpeta.
 3. Y Iniciar el juego.
+
+### Opcion 3 (Para los que ya instalaron el mod)
+Si ya tienes instalado el mod solo necesita actualizar los archivos de Translation habra dos formas de descargarlo:
+- Desde el repositorio: Con el repositorio puedes ver que archivo se han actualizado en la carpeta translation puedes seleccionar los archivos a descargar y colocarlo dentro de la carpeta \P5X\client\pc\BepInEx\Translation\es\Text
+- Desde el [Release](https://github.com/Darkusze/P5XTES/releases): Por el repositorio tendras un archivo llamado Only-Translation.x.x.zip, extrae el archivo .zip y tendras la carpeta de Translation, lo copias y pegas a la siguiente ruta P5X\client\pc\BepInEx
+  
+## El mod ha modificado mi nombre y tambien afecta el chat general del juego ¿que puedo hacer?
+El mod usa un auto traductor como mencione en el proyecto agarra las traducciones automaticas por si hay alguna traducción  que no tenga a la mano (si se fijan el nombre de mi protagonista se llama Nagisa Kamisiro por default) por lo que el texto de algunos dialogos o nombres de los personaje (mas que todo el protagonista) no lo tomara por no tener el nombre tal cual como esta escrito en la traducción manual, que puede afectar los que tienen nombre japones o en ingles.
+
+### Soluciones
+Hay formas de solucionarlo por lo que puedo mencionar lo siguiente:
+- Agreguen manualmente sus nombre en el archivo de _Substitutions.txt localizado en \P5X\client\pc\BepInEx\Translation\es\Text
+<img width="707" height="269" alt="image" src="https://github.com/user-attachments/assets/ce0c7161-70b2-40f4-bb54-88804ae73fdb" />
+
+-Y escribes tu nombre del pj como se ve en el siguiente ejemplo:
+
+<img width="365" height="86" alt="image" src="https://github.com/user-attachments/assets/ecc5b52c-7e1c-4bda-822e-bef146602b7b" />
+
+- Otra Solución es usar otro Endpoint para la traducción pueden usar las de Deepl o alguna de su preferencia si tienes conocimiento puedes cambiarlo a tu gusto para cambiarlo tienes que ir
+<string name="text">P5X\client\pc\BepInEx\config <b></b>.</string> y busquen el archivo llamado AutoTranslatorConfig.ini, Tengo una guía subida en mi Servidor de discord
+
+<img width="483" height="95" alt="image" src="https://github.com/user-attachments/assets/5cb5372c-aef4-4682-9fe9-245649c6cbf2" />
+
+
 
 ## Advertencia Legal
 
