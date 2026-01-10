@@ -47,6 +47,7 @@ Hay formas de solucionarlo por lo que puedo mencionar lo siguiente:
 <img width="707" height="269" alt="image" src="https://github.com/user-attachments/assets/ce0c7161-70b2-40f4-bb54-88804ae73fdb" />
 
 -Y escribes tu nombre del pj como se ve en el siguiente ejemplo:
+
 <img width="365" height="86" alt="image" src="https://github.com/user-attachments/assets/ecc5b52c-7e1c-4bda-822e-bef146602b7b" />
 
 - Otra Solución es usar otro Endpoint para la traducción pueden usar las de Deepl o alguna de su preferencia si tienes conocimiento puedes cambiarlo a tu gusto para cambiarlo tienes que ir
