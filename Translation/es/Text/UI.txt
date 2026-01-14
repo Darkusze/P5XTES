@@ -80,17 +80,19 @@ r:"^Unlocks\s+in\s+(\d+)\s+d$"="Se desbloquea en $1 d"
 
 r:"^\s*(\d+)\s+d\s+(\d+)\s+h\s+left$"=" Quedan $1 d $2 h"
 
+r:"{{A}}(\d+)\s+h\s+(\d+)\s+m"="{{A}}$1 h $2 m"
+
 ++-------------VA Character----------------++
 
 r:"^VA:\\s+(.+)$"="VA: $1"
 
 ++-------------Efectos de subida de nivel de Qualia-----------------++
 
-r:"^\{\{([A-Za-z]+)\}\}(\d+) Thieves Den EXP Credit increased by (\d+)$"={{$1}}$2 Crédito de EXP del Refugio de los Ladrones aumentado en $3
+r:"^\{\{([A-Za-z]+)\}\}(\d+) Thieves Den EXP Credit increased by (\d+)$"={{$1}}$2 Crédito de EXP del Guarida de los Ladrones aumentado en $3
 r:"^\\{\\{A\\}\\}(\\d+)\\s+Increases\\s+Wind\\s+and\\s+Curse\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="{{A}}$1 aumenta el daño de viento y maldición en un $2% (En combate)."
 r:"^\\{\\{A\\}\\}?(\\d+)\\s+Increases\\s+the\\s+protagonist's\\s+damage\\s+dealt\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="{{A}}$1 aumenta el daño infligido por el protagonista en un $2% (En combate)."
 r:"^Increases\\s+Ice\\s+and\\s+Nuclear\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Aumenta el daño de Hielo y Nuclear en un $1% (En combate)."
-r:"^Thieves\\s+Den\\s+EXP\\s+Credit\\s+increased\\s+by\\s+(\\d+)$"="Crédito de EXP del Refugio de Ladrones aumentado en $1"
+r:"^Thieves\\s+Den\\s+EXP\\s+Credit\\s+increased\\s+by\\s+(\\d+)$"="Crédito de EXP del Guarida de Ladrones aumentado en $1"
 r:"^Increases\\s+ally\\s+damage\\s+dealt\\s+in\\s+the\\s+Realm\\s+of\\s+Repression\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Aumenta el daño infligido por los aliados en el Reino de la Represión en un $1% (En combate)."
 r:"^Increases\\s+Fire\\s+and\\s+Psychokinesis\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Aumenta el daño de Fuego y Psicoquinesis en un $1% (En combate)."
 r:"^Increases\\s+Physical\\s+and\\s+Gun\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Aumenta el daño físico y de armas de fuego en un $1% (En combate)."
@@ -111,7 +113,7 @@ r:"^Qualia\\s+{{A}}\\.\\s+72\\s+Increases\\s+Wind\\s+and\\s+Curse\\s+damage\\s+b
 r:"^Qualia\\s+{{A}}\\.\\s+73\\s+Increases\\s+all\\s+allies'\\s+HP\\s+by\\s+(\\d+)\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Qualia {{A}}. 73 Aumenta los PS de todos los aliados en $1 (En combate)."
 r:"^Qualia\\s+{{A}}\\.\\s+74\\s+Increases\\s+damage\\s+in\\s+Trials\\s+from\\s+the\\s+Sea\\s+of\\s+Souls\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Qualia {{A}}. 74 Aumenta el daño en Pruebas del Mar de las Almas un $1% (En combate)."
 r:"^Qualia\\s+{{A}}\\.\\s+75\\s+Increases\\s+the\\s+protagonist's\\s+damage\\s+dealt\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Qualia {{A}}. 75 Aumenta el daño infligido por el protagonista en un $1% (En combate)."
-r:"^Qualia\\s+{{A}}\\.\\s+76\\s+Thieves\\s+Den\\s+EXP\\s+Credit\\s+increased\\s+by\\s+(\\d+)$"="Qualia {{A}}. 76 Refugio de Ladrones la EXP Crédito aumenta en $1"
+r:"^Qualia\\s+{{A}}\\.\\s+76\\s+Thieves\\s+Den\\s+EXP\\s+Credit\\s+increased\\s+by\\s+(\\d+)$"="Qualia {{A}}. 76 Guarida de Ladrones la EXP Crédito aumenta en $1"
 r:"^Qualia\\s+{{A}}\\.\\s+77\\s+Increases\\s+all\\s+allies'\\s+Defense\\s+by\\s+(\\d+)\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Qualia {{A}}. 77 Aumenta la Defensa de todos los aliados en $1 (En combate)."
 r:"^Qualia\\s+{{A}}\\.\\s+78\\s+Increases\\s+damage\\s+in\\s+Gates\\s+of\\s+the\\s+Nightmare\\s+Catcher\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Qualia {{A}}. 78 Aumenta el daño en las Puertas del Atrapador de Pesadillas un $1% (En combate)."
 r:"^Qualia\\s+{{A}}\\.\\s+79\\s+Increases\\s+all\\s+allies'\\s+Speed\\s+by\\s+(\\d+\\.?\\d*)\\s+\\(effective\\s+in\\s+battle\\)\\.$"="Qualia {{A}}. 79 Aumenta la Velocidad de todos los aliados en $1 (En combate)."
@@ -127,7 +129,7 @@ r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Increases\\s+Physical\\s+an
 r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Increases\\s+Wind\\s+and\\s+Curse\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="$1 {{A}}. $2 Aumenta el daño de Viento y Maldición un $3% (En combate)."
 r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Increases\\s+Electric\\s+and\\s+Bless\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="$1 {{A}}. $2 Aumenta el daño eléctrico y de bendición un $3% (En combate)."
 r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Increases\\s+Persona\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="$1 {{A}}. $2 Aumenta el daño de Persona un $3% (En combate)."
-r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Increases\\s+the\\s+protagonist's\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="$1 {{A}}. $2 Aumenta el daño del protagonista un $3% (surte efecto en combate)."
+r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Increases\\s+the\\s+protagonist's\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="$1 {{A}}. $2 Aumenta el daño del protagonista un $3% (Tiene efecto en combate)."
 r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Grants\\s+(\\d+)\\s+extra\\s+Konpaku\\s+Gems\\s+when\\s+you\\s+play\\s+Pursuit\\s+of\\s+Treasure\\.$"="$1 {{A}}. $2 Concede $3 gemas konpaku extra al jugar a En busca del tesoro."
 r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Restores\\s+(\\d+)\\s+stamina\\s+after\\s+the\\s+first\\s+login\\s+of\\s+each\\s+day\\.$"="$1 {{A}}. $2 Restaura $3 de energía tras el primer inicio de sesión de cada día."
 r:"^(Qualia|Cualia)\\s+\\{\\{A\\}\\}\\.\\s+(\\d+)\\s+Increases\\s+ally\\s+damage\\s+dealt\\s+in\\s+the\\s+Realm\\s+of\\s+Repression\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="$1 {{A}}. $2 Aumenta el daño infligido por los aliados en el Reino de la Represión un $3% (En combate)."
@@ -143,7 +145,7 @@ r:"^Increases\\s+Ice\\s+and\\s+Nuclear\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(
 r:"^Increases\\s+Electric\\s+and\\s+Bless\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta el daño de Electricidad y Bendición un $1% (En combate)."
 r:"^Increases\\s+Wind\\s+and\\s+Curse\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta el daño de Viento y Maldición un $1% (En combate)."
 r:"^Increases\\s+Persona\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta el daño de Persona un $1% (En combate)."
-r:"^Increases\\s+the\\s+protagonist's\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta el daño del protagonista en un $1% (surte efecto en combate)."
+r:"^Increases\\s+the\\s+protagonist's\\s+damage\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta el daño del protagonista en un $1% (Tiene efecto en combate)."
 r:"^Increase\\s+all\\s+allies'\\s+ailment\\s+accuracy\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta la precisión de las dolencias de todos los aliados un $1% (En combate)."
 r:"^Increases\\s+all\\s+allies'\\s+HP\\s+recovery\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta la recuperación de PS de todos los aliados en un $1% (En combate)."
 r:"^Increases\\s+all\\s+allies'\\s+(Attack|Defense|HP|Speed)\\s+(by|in)\\s+(\\d+\\.?\\d*)\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta $1 de todos los aliados en $3 (En combate)."
@@ -200,8 +202,9 @@ r:"^Date\s+received:\s+Nov\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de noviem
 r:"^Date\s+received:\s+Dec\s+(\d+),\s+(\d+)$"="Fecha de recepción: $1 de diciembre de $2"
 ++-------------Guarida de ladrones-----------------++
 
+r:"^You\s+can\s+place\s+that\s+here\s+once\s+your\s+Den\s+Level\s+reaches\s+(\d+)\.$"="Puedes colocar eso aquí una vez que tu Nivel de Guarida llegue a $1."
 r:"^•\\s+Raise\\s+P\\s+Medal\\s+cap\\s+to\\s+(\\d+)\\.\\n•\\s+Earn\\s+a\\s+P\\s+Medal\\s+every\\s+(\\d+)\\s+seconds\\.\\n•\\s+Raise\\s+Visitor\\s+EXP\\s+cap\\s+to\\s+(\\d+)\\.\\n•\\s+Gain\\s+Visitor\\s+EXP\\s+every\\s+(\\d+)\\s+seconds\\.$"="• Eleva el límite de Medallas P a $1.\n• Gana una Medalla P cada $2 segundos.\n• Eleva el límite de EXP de visitantes a $3.\n• Obtén EXP de visitantes cada $4 segundos."
-r:"^•\\s+Reach\\s+Den\\s+Level\\s+(\\d+)\\.$"="• Alcanza el nivel $1 del Refugio."
+r:"^•\\s+Reach\\s+Den\\s+Level\\s+(\\d+)\\.$"="• Alcanza el nivel $1 del Guarida."
 r:"^<color\=#FFFF00>Increases\\s+drop\\s+rate\\s+for\\s+advanced\\s+skill\\s+enhancement\\s+materials\\s+by\\s+(\\d+)%\\s+when\\s+you\\s+play\\s+Realm\\s+of\\s+Repression:\\s+Recollections\\.<\\/color>$"="<color\=#FFFF00>Aumenta la tasa de obtención de materiales de mejora avanzada de habilidades en un $1% cuando juegas Reino de la Represión: Recuerdos.</color>"
 r:"^Tiles\\s+Collected:\\s+(\\d+)\\/(\\d+)$"="Azulejos recolectados: $1/$2"
 r:"^([^\\s]+)\\s+Transformation\\s+Tile$"="Mosaico de transformación de $1"
@@ -211,9 +214,9 @@ r:"^•\\s+Available\\s+upon\\s+obtaining\\s+([^\\s]+)\\.$"="• Disponible al o
 r:"^Until\\s+5★:\\s+(\\d+)\\/(\\d+)$"="Hasta 5★: $1/$2"
 r:"^Page\\s+(\\d+)\\/(\\d+)$"="Página $1/$2"
 r:"^Do\\s+you\\s+want\\s+to\\s+use\\s+the\\s+following\\s+to\\s+perform\\s+Phantom\\s+Idol\\s+Draft\\s+X\\s+(\\d+)\\s+times\\?$"="¿Quieres usar lo siguiente para realizar Proyecto de Ídolos Fantasma X $1 vez?"
-r:"^Unlocks\\s+at\\s+Den\\s+Level\\s+(\\d+)$"="Se desbloquea en el nivel $1 del Refugio"
+r:"^Unlocks\\s+at\\s+Den\\s+Level\\s+(\\d+)$"="Se desbloquea en el nivel $1 del Guarida"
 r:"^Gain\\s+1\\s+Visitor\\s+EXP\\s+every\\s+(\\d+)\\s+s$"="Gana 1 EXP de visitante cada $1 s"
-r:"^Unlock\\s+at\\s+Den\\s+Level\\s+(\\d+)$"="Requiere Refugio nivel $1"
+r:"^Unlock\\s+at\\s+Den\\s+Level\\s+(\\d+)$"="Requiere Guarida nivel $1"
 r:"^<color\=#737373>Visitor\\s+EXP\\s+(\\d+):\\s+Obtain\\s+P\\s+Medal\\*(\\d+)</color>$"="<color\=#737373>EXP de visitante $1: Obtén Medalla P*$2</color>"
 r:"^<color\=#737373>Visitor\\s+EXP\\s+(\\d+):\\s+Unlock\\s+New\\s+Dialogue\\s+Event</color>$"="<color\=#737373>EXP de visitante $1: Desbloquea nuevo evento de diálogo</color>"
 r:"^Cut-In:\\s+(.+)$"="Aparición especial: $1"
@@ -230,14 +233,41 @@ r:"^•\s+Attain\s+(\d+)★\s+in\s+Trials\s+from\s+the\s+Sea\s+of\s+Souls\s+for\
 r:"^•\s+Raise\s+(\d+)\s+social\s+stats\s+to\s+level\s+(\d+)\.\s+\((\d+)\/(\d+)\)$"="- Aumenta $1 estadísticas sociales hasta el nivel $2. ($3/$4)"
 r:"<color\=#FFFF00>Increases\s+ally\s+critical\s+rate\s+by\s+([\d\.]+)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta la probabilidad de críticos de los aliados en un $1% (tiene efecto en batalla).</color>"
 r:"^•\s+Have\s+Chihaya\s+Mifune\s+read\s+your\s+fortune\s+(\d+)\s+times\.\s+\((\d+)\/(\d+)\)$"="- Haz que Chihaya Mifune te lea la suerte $1 veces. ($2/$3)"
-r:"<color\=#FFFF00>Increases\s+ally\s+HP\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta los PS de los aliados en $1 (surte efecto en combate).</color>"
+r:"<color\=#FFFF00>Increases\s+ally\s+HP\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta los PS de los aliados en $1 (Tiene efecto en combate).</color>"
 r:"^•\s+Finish\s+the\s+Universe-Sized\s+Ramen\s+at\s+Victory\s+Kitchen\.\s+\((\d+)\/(\d+)\)$"="- Termina el Ramen del Tamaño del Universo en Victory Kitchen. ($1/$2)"
-r:"<color\=#FFFF00>Increases\s+Personas'\s+damage\s+by\s+([\d\.]+)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta el daño de las Personas un $1% (surte efecto en combate).</color>"
+r:"<color\=#FFFF00>Increases\s+Personas'\s+damage\s+by\s+([\d\.]+)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta el daño de las Personas un $1% (Tiene efecto en combate).</color>"
 r:"<color\=#FFFF00>Increases\s+Wind\s+and\s+Curse\s+allies'\s+damage\s+by\s+([\d\.]+)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta el daño de los aliados Viento y Maldición un $1% (tiene efecto en batalla).</color>"\
 r:"<color\=#FFFF00>Increases\s+Electric\s+and\s+Bless\s+allies'\s+damage\s+by\s+([\d\.]+)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta el daño de los aliados Eléctrico y Bendición un $1% (tiene efecto en batalla).</color>"
 r:"^•\s+({{A}})\s+Thunderous\s+Blessing\s+stage\s+(\d+)\s+in\s+the\s+Velvet\s+Trials\.\s+\((\d+)\/(\d+)\)$"="- $1 Bendición atronadora etapa $2 en las Pruebas de Terciopelo. ($3/$4)"
 r:"^All-Out\s+Attack\s+Finisher\s+\((.+)\)$"="All-Out Attack Finisher ($1)"
 r:"^<color\=#FFFF00>Increases\s+ally\s+Highlight\s+damage\s+by\s+(\d+\.?\d*)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="<color\=#FFFF00>Aumenta el daño de Highlight del aliado un $1% (tiene efecto en batalla).</color>"
+r:"^•\s+Get\s+(.+)'s\s+Rating\s+to\s+(\d+)\s+points\.$"="• Lleva la valoración de $1 a $2 puntos."
+r:"^<color\=#FFFF00>Increases\s+(.+)'s\s+HP\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="<color\=#FFFF00>Aumenta los PS de $1 en $2 (Tiene efecto en combate).</color>"
+r:"^<color\=#FFFF00>Increases\s+(.+)'s\s+Defense\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="<color\=#FFFF00>Aumenta la Defensa de $1 en $2 (Tiene efecto en combate).</color>"
+r:"^<color\=#FFFF00>Increases\s+(.+)'s\s+Attack\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="<color\=#FFFF00>Aumenta el Ataque de $1 en $2 (Tiene efecto en combate).</color>"
+r:"^<color\=#FFFF00>Increases\s+Justine\s+&\s+Caroline's\s+HP\s+by\s+(\d+%)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="<color\=#FFFF00>Aumenta los PS de Justine y Caroline un $1 (tiene efecto en combate).</color>"
+r:"^(.+)\s+cut-in\s+that\s+displays\s+during\s+battle\.\n<color\=#FFD145>Increases\s+(.+)'s\s+HP\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="Imagen de inserción de $1 que se muestra en batalla.\n<color\=#FFD145>Aumenta los PS de $2 en $3 (tiene efecto en combate).</color>"
+r:"^(.+)\s+cut-in\s+that\s+displays\s+during\s+an\s+All-Out\s+Attack\.\n<color\=#FFD145>Increases\s+Twins'\s+Defense\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="Animación de $1 que se despliega durante un All-Out Attack.\n<color\=#FFD145>Aumenta la Defensa de las Gemelas en $2 (tiene efecto en batalla).</color>"
+Protagonist cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increases the protagonist's Defense by 10 (takes effect in battle).</color>=Animación del protagonista que se muestra durante un All-Out Attack.\n<color\=#FFD145>Aumenta la Defensa del protagonista en 10 (tiene efecto en batalla).</color>
+All-Out Attack (Protagonist)=All-Out Attack (Protagonista)
+Cut-In: Protagonist=Aparición especial: Protagonista
+Cut-In: Tropical Motoha=Aparición especial: Motoha Tropical
+Cut-In: Seaside Tomoko=Aparición especial: Tomoko Costera
+r:"^Cut-In:\s*Frostgale\s+(.+)$"="Aparición especial: $1 Vientogélido"
+Motoha cut-in that displays during battle.\n<color\=#FFD145>Increase Tropical Motoha's HP by 40 (takes effect in battle).</color>=Imagen de inserción de Motoha que se muestra en batalla.\n<color\=#FFD145>Aumenta los PS de Motoha Tropical en 40 (Tiene efecto en combate).</color>
+Tomoko cut-in that displays during battle.\n<color\=#FFD145>Increases Seaside Tomoko's HP by 40 (takes effect in battle).</color>=Imagen de inserción de Tomoko que se muestra en batalla.\n<color\=#FFD145>Aumenta los PS de Tomoko Costera en 40 (tiene efecto en combate).</color>
+Kotone cut-in that displays during battle.\n<color\=#FFD145>Increases Frostgale Kotone's HP by 40 (takes effect in battle).</color>=Imagen de inserción de Kotone que se muestra en batalla.\n<color\=#FFD145>Aumenta los PS de Kotone Vientogélido en 40 (tiene efecto en combate).</color>
+<color\=#FFFF00>Increase Frostgale Kotone's HP by 40 (takes effect in battle).</color>=<color\=#FFFF00>Aumenta los PS de Kotone Vientogélido en 40 (tiene efecto en batalla).</color>
+<color\=#FFFF00>Increase Frostgale Kotone's Defense by 10 (takes effect in battle).</color>=<color\=#FFFF00>Aumenta la Defensa de Kotone Vientogélido en 10 (tiene efecto en batalla).</color>
+• Get Frostgale Kotone's Rating to 60 points.=• Lleva la valoración de Kotone Vientogélido a 60 puntos.
+<color\=#FFFF00>Increase Tropical Motoha's HP by 40 (takes effect in battle).</color>=<color\=#FFFF00>Aumenta los PS de Motoha Tropical en 40 (tiene efecto en combate).</color>
+<color\=#FFFF00>Increase Seaside Tomoko HP by 40 (takes effect in battle).</color>=<color\=#FFFF00>Aumenta los PS de Tomoko Costera en 40 (tiene efecto en combate).</color>
+r:"^(.+)\s+cut-in\s+that\s+displays\s+during\s+battle\.\n<color\=#FFD145>Increases\s+Twins'\s+HP\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="Imagen de inserción de $1 que se despliega durante la batalla.\n<color\=#FFD145>Aumenta los PS de Caroline y Justine en $2 (Tiene efecto en combate). </color>"
+<color\=#FFFF00>Increase Tropical Motoha's Defense by 10 (takes effect in battle).</color>=<color\=#FFFF00>Aumenta la Defensa de Motoha Tropical en 10 (tiene efecto en batalla).</color>
+Motoha cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase Tropical Motoha's Defense by 10 (takes effect in battle).</color>=Animación de Motoha que se muestra durante un All-Out Attack.\n<color\=#FFD145>Aumenta la Defensa de Motoha Tropical en 10 (tiene efecto en batalla).</color>
+<color\=#FFFF00>Increase Seaside Tomoko's Defense by 10 (takes effect in battle).</color>=<color\=#FFFF00>Aumenta la Defensa de Tomoko Costera en 10 (tiene efecto en batalla).</color>
+Tomoko cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase Seaside Tomoko's Defense by 10 (takes effect in battle).</color>=Animación de Tomoko que se despliega durante un All-Out Attack.\n<color\=#FFD145>Aumenta la Defensa de Tomoko Costera en 10 (tiene efecto en batalla).</color>
+Kotome cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase Frostgale Kotone's Defense by 10 (takes effect in battle).</color>=Animación de Kotone que se despliega durante un All-Out Attack.\n<color\=#FFD145>Aumenta la Defensa de Kotone Vientogélido en 10 (tiene efecto en batalla).</color>
 ++-------------Companio-----------------++
 
 r:"^<color\=[^>]+>Online\\s+(\\d+)\\s+d\\s+ago</color>$"="<color\=#8F8D8D>En línea hace $1 d</color>"
@@ -249,7 +279,8 @@ r:"^Contribution History\\s*(\\d+)$"="Historial de contribución $1"
 r:"^<color\=[^>]+>([^<]+)</color>\\s+has\\s+been\\s+offline\\s+for\\s+a\\s+long\\s+time\\.\\|The\\s+leader\\s+role\\s+has\\s+been\\s+automatically\\s+given\\s+to\\s+<color\=[^>]+>([^<]+)</color>\\.$"="<color\=#FF423F>$1</color> ha estado fuera de línea durante mucho tiempo. El papel del líder se ha dado automáticamente a <color\=#FF423F>$2</color>."
 r:"^Have members of your Companio participate to earn rewards!\\s+Current total:\\s+<color\=[^>]+>(\\d+)</color>$"="¡Haga que los miembros de su Companio participen para ganar recompensas!\nTotal actual: <color\=#eade10>$1</color>"
 r:"^Participants:(\\d+)/(\\d+)$"="Participantes: $1/$2"
-
+r:"^All-Out\s+Attack\s+Finisher\s+\((.+)\)<alpha\=#00>____<alpha\=#FF>All-Out\s+Attack\s+Finisher\s+\((.+)\)<alpha\=#00>____<alpha\=#FF>$"="All-Out Attack Finisher ($1)<alpha\=#00>____<alpha\=#FF>All-Out Attack Finisher ($2)<alpha\=#00>____<alpha\=#FF>"
+r:"^Image\s+of\s+(.+)\s+that\s+displays\s+after\s+an\s+All-Out\s+Attack\s+finisher\.\\n<color\=#FFD145>Increases\s+(.+)'s\s+Attack\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="Imagen de $1 que aparece tras un All-Out Attack Finisher.\n<color\=#FFD145>Aumenta el Ataque de $2 en $3 (Tiene efecto en combate).</color>"
 ++-------------Misiones-----------------++
 
 r:"^Clear\\s+the\\s+side\\s+mission\\s+Thoughts\\s+and\\s+Dreams<size\=30>\\((\\d+)\\/(\\d+)\\)</size>$"="Completa la misión secundaria Pensamientos y sueños<size\=30>($1/$2)</size>"
@@ -404,7 +435,7 @@ r:"^Unlocks\\s+at\\s+Talent\\s+level\\s+(\\d+)$"="Se desbloquea en el nivel de T
 r:"^Overclock(\\d+)$"="Sobrecarga$1"
 r:"^Fish\\s+Caught:\\s+(\\d+)$"="<size\=24>Peces capturados: $1</size>"
 r:"^Total\\s+Score\\s+\\((\\d+)/(\\d+)\\)$"="Puntuación total ($1/$2)"
-r:"^Cannot\\s+be\\s+placed\\s+here\\s+until\\s+Den\\s+Level\\s+(\\d+)\\.$"="No se puede colocar aquí hasta alcanzar el Nivel $1 del Refugio."
+r:"^Cannot\\s+be\\s+placed\\s+here\\s+until\\s+Den\\s+Level\\s+(\\d+)\\.$"="No se puede colocar aquí hasta alcanzar el Nivel $1 del Guarida."
 Unlocks when Guts is 13.=Se desbloquea cuando el Valor alcanza a 13.
 r:"^Left:\\s+(\\d+)/(\\d+)$"="Restante: $1/$2"
 r:"^(\\d+)%\\s+left$"="$1% restante"
@@ -422,6 +453,14 @@ r:"^Can\s+be\s+exchanged\s+for\s+(\d+)\s+points\s+at\s+the\s+Catch\s+'n'\s+Trade
 r:"^Do\s+you\s+want\s+to\s+travel\s+to\s+(.+)\?$"="¿Quieres viajar a $1?"
 r:"^Watch\s+all\s+projections\s+\((.+)\)$"="Ver todas las proyecciones ($1)"
 r:"^Fight\s+Shadow\s+(.+)$"="Lucha contra la Sombra de $1"
+r:"^Willpower\s+will\s+increase\s+by\s+<color\=#FFC000>(\d+)</color>\s+\(max\s+(\d+)\)\.$"="La Fuerza de Voluntad aumentará en <color\=#FFC000>$1</color> (máx. $2)."
+r:"^Challenge\s+attempts\s+will\s+increase\s+by\s+<color\=#FFC000>(\d+)</color>\s+\(max\s+(\d+)\)\.$"="Los intentos de desafío aumentarán en <color\=#FFC000>$1</color> (máx. $2)."
+r:"^<color\=#FFC000>Rank\s+(\d+)</color>:\s+You\s+can\s+fuse\s+(.+)\.$"="<color\=#FFC000>Rango $1</color>: Puedes fusionar a $2."
+r:"^<color\=#FFC000>Rank\s+(\d+)</color>:\s+You\s+may\s+receive\s+an\s+extra\s+seal\s+when\s+fusing\s+a\s+(\d+)★\s+or\s+(\d+)★\s+Persona\s+of\s+Rank\s+(\d+)\s+or\s+lower\.$"="<color\=#FFC000>Rango $1</color>: Puedes recibir un sello adicional al fusionar una Persona de $2★ o $3★ de Rango $4 o inferior."
+r:"^<color\=#FFC000>(.+)</color>'s\s+Synergy\s+<color\=#FFC000>Rank\s+(\d+)</color>:\s+You\s+can\s+fuse\s+(.+)$"="<color\=#FFC000>$1</color>: Sinergia <color\=#FFC000>Rango $2</color>: Puedes fusionar a $3"
+r:"S-{{A}}\.(\d+)"="S-Nv.$1"
+r:"^Whenever\s+an\s+ally\s+deals\s+damage,\s+that\s+ally's\s+damage\s+is\s+increased\s+by\s+(\d+)%\.\s+Lasts\s+for\s+(\d+)\s+turns\.\s+Stacks\s+up\s+to\s+(\d+)\s+times\.$"="Cada vez que un aliado inflige daño, el daño de ese aliado aumenta un $1%. Dura $2 turnos. Se acumula hasta $3 veces."
+
 ++-------------Tareas-----------------++
 r:"^Troublesome\s+Trek\s+(\d+)$"="Travesía problemática $1"
 r:"^Elusive\s+Finds\s+(\d+)$"="Hallazgos esquivos $1"
@@ -435,6 +474,7 @@ r:"^Now\s+Hiring\s+(\d+)$"="Se busca personal $1"
 r:"^Simple\s+Favor\s+(\d+)$"="Favor sencillo $1"
 r:"^Brilliant\s+Spark\s+(\d+)$"="Chispa Brillante $1"
 r:"^Like\s+Minds\s+(\d+)$"="Mentes afines $1"
+r:"^Combined\s+Efforts\s+(\d+)$"="Esfuerzos combinados $1"
 ++-------------Club Música-----------------++
 r:"^Duration:\s+(\d+:\d+)$"="Duración: $1"
 r:"^Unlocks\s+at\s+Band\s+Club\s+level\s+(\d+)$"="Se desbloquea al nivel $1 del Club de Música"
@@ -451,6 +491,8 @@ r:"^Give\s+a\s+gift\s+to\s+an\s+accomplice\s+(\d+)\s+times\.$"="Dale un regalo a
 r:"^Oh,\s+that's\s+right,(\s|\\n)I\s+have\s+something(\s|\\n)(.+)\s+might\s+like\.\.\.$"="Ah, es verdad...\nCreo que tengo algo\nque podría gustarle a $3..."
 r:"^I\s+feel\s+my\s+bond\s+with\s+(.+)(\s|\\n)growing\s+deeper\.\.\.$"="Siento que mi vínculo con $1\nse hace más profundo..."
 r:"^\.\.\.I\s+feel\s+my\s+bond\s+with\s+(.+)(\s|\\n)growing\s+deeper\.\.\.$"="...siento que mi vínculo con $1\nse hace más profundo..."
+r:"^(.+)\s+might\s+like\s+this\s+present\.\nBase\s+Synergy\s+\+(\d+),\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+preferred\s+gifts,\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+first-time\s+preferred\s+gifts\.$"="Puede que a $1 le guste este regalo.\nSinergia base +$2, con +$3 extra para regalos preferidos, con +$4 extra por ser el primer regalo preferido."
+r:"^Base\s+Synergy\s+\+(\d+),\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+preferred\s+gifts,\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+first-time\s+preferred\s+gifts\.$"="Sinergia de base +$1, con un +$2 extra por dones preferidos, con un +$3 extra por dones preferidos por primera vez."
 ++-------------Pasiva Armas-----------------++
 
 r:"^Increase Attack by (<color.*?%<\\/color>)\\. When attacking a (<link.*?<u>)({{A}}ing)(<\\/u><\\/link>) foe, increase Attack by (<color.*?%<\\/color>)\\.$"="Aumenta el Ataque en $1.\nAl atacar un enemigo con $2Quemadura$4, Aumenta el ataque de $5."
@@ -491,7 +533,29 @@ r:"^Use a Highlight (\d+) times\. <size\=30>\((\d+)\/(\d+)\)</size>$"=Use un Hig
 r:"^Perform a (\d+) More attack (\d+) times\. <size\=30>\((\d+)\/(\d+)\)</size>$"=Realice un ataque $1 más $2 veces. <size\=30>($3/$4)</size>
 r:"^Defeat (\d+) enemies with Psychokinesis damage\. <size\=30>\((\d+)\/(\d+)\)</size>$"=Derrota a $1 enemigos con daño en la psicoquinesis. <size\=30>($2/$3)</size>
 r:"^Defeat (\d+) enemies with Nuclear damage\. <size\=30>\((\d+)\/(\d+)\)</size>$"=Derrota a $1 enemigos con daño nuclear. <size\=30>($2/$3)</size>
-
+r:"^Raise\s+Proficiency\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube la competencia a {{A}}. $1."
+r:"^Raise\s+Kindness\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube la bondad a {{A}}. $1."
+r:"^Raise\s+Guts\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube el Coraje a {{A}}. $1."
+r:"^Raise\s+Knowledge\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube el conocimiento a {{A}}. $1."
+r:"^Raise\s+Charm\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube el Encanto a {{A}}. $1."
+r:"^Complete\s+(\d+)\s+unique\s+City\s+Life\s+activities\.\s?$"="Completa $1 actividades únicas de Vida Urbana."
+r:"^Complete\s+a\s+City\s+Life\s+activity\s+with\s+a\s+multiplier\s+applied\s+(\d+)\s+times\.\s?$"="Completa una actividad de Vida Urbana con un multiplicador aplicado $1 veces."
+r:"^Complete\s+(\d+)\s+City\s+Life\s+activities\.\s?$"="Completa $1 actividades de Vida Urbana."
+r:"^Work\s+(\d+)\s+unique\s+part-time\s+jobs\.\s?$"="Trabaja en $1 empleos únicos a tiempo parcial."
+r:"^Use\s+the\s+capsule\s+machine\s+(\d+)\s+times\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Utilice la máquina de cápsulas $1 veces. <size\=30>($2/$3)</size>"
+r:"^Take\s+a\s+break\s+at\s+the\s+café\s+in\s+Yongen-Jaya\s+(\d+)\s+times\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Tómate un descanso en el café de Yongen-Jaya $1 veces. <size\=30>($2/$3)</size>"
+r:"^Finish\s+the\s+Universe-Sized\s+Ramen\s+at\s+Victory\s+Kitchen\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Termina el Ramen del Tamaño del Universo en Victory Kitchen. <size\=30>($1/$2)</size>"
+r:"^Finish\s+the\s+Extra-Large\s+Ramen\s+at\s+Victory\s+Kitchen\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Termina el Ramen Extra Grande en Victory Kitchen. <size\=30>($1/$2)</size>"
+r:"^On\s+the\s+batting\s+cage's\s+highest\s+difficulty,\s+hit\s+(\d+)\s+home\s+runs\s+in\s+one\s+game\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="En la dificultad más alta de la jaula de bateo, batea $1 jonrones en un partido. <size\=30>($2/$3)</size>"
+r:"^Raise\s+your\s+fishing\s+proficiency\s+to\s+level\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Aumenta tu habilidad de pesca al nivel $1. <size\=30>($2/$3)</size>"
+r:"^Hit\s+the\s+ball\s+(\d+)\s+times\s+at\s+the\s+batting\s+cages\.<size\=30>\((\d+)/(\d+)\)</size>$"="Golpea la pelota $1 veces en las jaulas de bateo.<size\=30>($2/$3)</size>"
+r:"^Hit\s+a\s+home\s+run\s+(\d+)\s+times\s+at\s+the\s+batting\s+cages\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Batea un jonrón $1 veces en las jaulas de bateo. <size\=30>($2/$3)</size>"
+r:"^Watch\s+(\d+)\s+movies\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Ver $1 películas. <size\=30>($2/$3)</size>"
+r:"^Catch\s+(\d+)\s+fish\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Captura $1 peces. <size\=30>($2/$3)</size>"
+r:"^Raise\s+Proficiency\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube la competencia a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Read\s+(\d+)\s+times\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Leído $1 veces. <size\=30>($2/$3)</size>"
+r:"^Raise\s+Kindness\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube la bondad a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Unlock\s+the\s+Master\s+Pond\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Desbloquea el Estanque Maestro. <size\=30>($1/$2)</size>"
 ++-------------Eventos-----------------++
 r:"^Raise\s+Justine\s+&\s+Caroline\s+to\s+\{\{A\}\}\.\s+(\d+)\.$"="Sube a Justine y Caroline a {{A}}. $1."
 r:"^Take\\s+down\\s+(\\d+)\\s+targets\\s+\\((\\d+)/(\\d+)\\)$"="Derriba $1 objetivos ($2/$3)"
@@ -514,6 +578,7 @@ r:"^Complete\\s+a\\s+Stage\\s+(\\d+)\\s+goal\\s*$"="Completar un objetivo de la 
 r:"^Earn\\s+a\\s+Silver\\s+rating\\s+for\\s+stage\\s+Stage\\s+(\\d+)$"="Consigue una calificación de Plata en la Etapa $1"
 r:"^(\\d+)x\\s+damage\\s+for\\s+(\\d+)\\s+s\\.\\s+Charge\\s+(\\d+)\\s+s\\.$"="$1x daño durante $2 s. Carga $3 s."
 r:"^Countdown\\s+and\\s+targets\\s+pause\\s+for\\s+(\\d+)\\s+s\\.\\s+Charge\\s+(\\d+)\\s+s\\.$"="Cuenta atrás y objetivos en pausa durante $1 s. Carga $2 s."
+r:"^Complete\s+(\d+)\s+City\s+Life\s+activities\s+in\s+(.+)\.\s+\((\d+)\/(\d+)\)$"="Completa $1 actividades de la vida urbana en $2. ($3/$4)"
 r:"^Earn\\s+a\\s+Gold\\s+rating\\s+for\\s+stage\\s+Stage\\s+(\\d+)$"="Consigue una clasificación Oro en la etapa Etapa $1"
 r:"^Get\\s+(\\d+)\\s+pts\\s+in\\s+(\\d+)\\s+s\\s+\\((\\d+)/(\\d+)\\)$"="Consigue $1 puntos en $2 s ($3/$4)"
 r:"^Get\\s+(\\d+)\\s+pts\\s+in\\s+(\\d+)\\s+s\\s*$"="Consigue $1 puntos en $2 s"
@@ -567,6 +632,22 @@ r:"^Enter\s+the\s+power\s+plant\s+area\s+\((\d+)/(\d+)\)$"="Entrar en la zona de
 r:"^Uncover\s+the\s+Palace\s+ruler's\s+past\s+\((\d+)/(\d+)\)$"="Descubre el pasado del gobernante del Palacio ($1/$2)"
 r:"^Find\s+the\s+command\s+center\s+\((\d+)/(\d+)\)$"="Encontrar el centro de mando ($1/$2)"
 r:"^Locate\s+the\s+Treasure\s+\((\d+)/(\d+)\)$"="Localizar el Tesoro ($1/$2)"
+
+++-------------Tutoriales UI-----------------++
+r:"(?s)<color\=#FFD145>The Velvet Trials</color>.*?Defeat Unique Shadows.*?Points from both battles will be tallied after the second battle is completed\."="<color\=#FFD145>Las Pruebas de Terciopelo</color>\nDerrota a Sombras únicas con habilidades especiales para perfeccionar tu destreza en combate y aspirar a mejores calificaciones.\n\n<color\=#FFD145>Reglas Básicas</color>\nLas Pruebas de Terciopelo son desafíos de alta dificultad. Hay múltiples etapas, cada una dividida en varias áreas.\nCompletar la Etapa 5 de la prueba desbloqueará todas las etapas.\nPuedes cambiar libremente tu formación antes de que comience la batalla. Si el combate te resulta demasiado difícil, puedes reiniciarlo en cualquier momento.\nCada batalla tiene tres rangos. Al final del combate, tu rango se determinará en función de los puntos obtenidos.\n\n<color\=#FFD145>Ganar Puntos</color>\nEl daño infligido durante la batalla se calcula como puntos.\n\n<color\=#FFD145>Condiciones Especiales de Puntos</color>\nAl cumplir condiciones especiales, puedes ganar puntos adicionales.\nPuedes desafiar las etapas varias veces para intentar conseguir la puntuación más alta.\n\n<color\=#FFD145>Desafío de Grupo Doble</color>\nAlgunas Pruebas de Terciopelo requerirán que comandes un Grupo Doble para enfrentar el desafío.\nNo se pueden usar los mismos Ladrones Fantasma y Personas en ambos grupos.\nLos puntos de ambas batallas se sumarán una vez completada la segunda batalla."
+
+r:"(?s)<color\=#FFD145>Basic Rules</color>\nThe Trials from the Sea of Souls.*?Collect a certain amount of Star Crystals to receive valuable rewards\."="<color\=#FFD145>Reglas Básicas</color>\nLas Pruebas del Mar de las Almas son desafíos de alta dificultad disponibles por tiempo limitado, cada temporada se lanzan cuatro etapas.\nDebes completar las etapas en orden, y hay un total de nueve pruebas hasta la Etapa 3.\nEn la etapa final, deberás resistir los ataques de enemigos poderosos durante un número determinado de turnos.\nUna vez que comienza una etapa, no puedes cambiar tu grupo hasta completarla. El estado del grupo se mantendrá para la siguiente prueba.\nSi el desafío te resulta demasiado difícil, puedes reiniciar la prueba en cualquier momento.\n\n<color\=#FFD145>Efectos Especiales</color>\nAl desafiar las Pruebas del Mar de las Almas, ciertas etapas pueden tener Efectos Especiales. Asegúrate de revisar la descripción del efecto y cambiar a los Ladrones Fantasma de tu grupo según la situación.\n\n<color\=#FFD145>Puntos</color>\nCada prueba hasta la Etapa 3 tiene Objetivos de Etapa. Obtendrás puntos cada vez que completes dichos objetivos.\nEn la etapa final, el daño infligido a los enemigos se convertirá en puntos.\nPuedes desafiar las etapas varias veces para intentar conseguir la puntuación más alta.\n\n<color\=#FFD145>Rango</color>\nSi los Ladrones Fantasma cumplen las condiciones para aumentar su rango durante la prueba.\nA medida que el rango aumenta, las pruebas serán más difíciles, pero las recompensas que puedes ganar también serán más sustanciales.\n\n<color\=#FFD145>Recompensas de Prueba</color>\nAl completar una prueba, recibirás recompensas especiales.\nRecompensas de Misión: Cada temporada trae nuevas misiones de desafío.\nCompletar estas misiones te otorgará recompensas.\nRecompensas de Clasificación: Al final de la temporada, Merope enviará recompensas según la clasificación de los Ladrones Fantasma.\nRecompensas de Rango: Al alcanzar un nuevo rango por primera vez, recibirás recompensas de rango.\nAl completar los objetivos de la prueba, recibirás Cristal Estelar correspondientes a tu nivel.\nReúne una cierta cantidad de Cristal Estelar para recibir valiosas recompensas."
+
+r:"(?s)<color\=#FFD145>Basic Rules</color>\nEach season, open Gates of the Nightmare Catcher.*?Ranking Rewards are reset every season\."="<color\=#FFD145>Reglas Básicas</color>\nCada temporada, se abren las Puertas Del Cazador de Pesadillas para desafiar a varios jefes en múltiples niveles de dificultad, que deben completarse en orden. El número de jefes que aparecen será aleatorio.\nLas Puertas Del Cazador de Pesadillas se pueden intentar un número ilimitado de veces.\nLos jefes que aparecen y las puntuaciones obtenidas se reiniciarán cada temporada.\n\n<color\=#FFD145>Puntos de Exterminio</color>\nEl daño infligido a los jefes se convierte en puntos de exterminio.\nPuedes aumentar la cantidad de puntos obtenidos enfrentando dificultades más altas.\nSolo se registrará el valor de puntuación más alto.\nGanar puntos te permite obtener recompensas por puntuación y aumentar los puntos totales de tu Companio.\nLos puntos totales de tu Companio afectarán su rango en las Puertas Del Cazador de Pesadillas.\n\n<color\=#FFD145>Bloqueo de Grupo</color>\nAl enfrentarte a un jefe, los Ladrones Fantasma, Personas y Revelaciones que hayas utilizado quedarán bloqueados.\nLos Ladrones Fantasma, Personas y Revelaciones bloqueados no pueden participar ni ser utilizados en otros desafíos de las Puertas Del Cazador de Pesadillas.\nSi deseas editar tu grupo, debes reiniciar el desafío.\nEsto restablecerá tus puntos obtenidos, pero no afectará a tus puntos totales ni a los niveles de dificultad desbloqueados.\n\n<color\=#FFD145>Recompensas</color>\nRecompensas de Etapa: Recibirás recompensas de etapa al alcanzar ciertos hitos personales de puntos de exterminio.\nEstos puntos se reinician al final de cada temporada.\n\n<color\=#FFD145>Recompensas de Participación</color>\nObtendrás más recompensas según el número de miembros del Companio que participen en las Puertas Del Cazador de Pesadillas.\nLas recompensas de participación también se reinician al final de cada temporada.\n\n<color\=#FFD145>Recompensas de Rango</color>\nAl final de la temporada, se enviarán recompensas de clasificación correspondientes al rango de tu Companio.\nLas recompensas de clasificación se reinician cada temporada."
+
+r:"(?s)<color\=#FFD145>Acquiring Personas</color>\nYou can obtain Personas.*?Check detailed information about your Personas\."="<color\=#FFD145>Obtención de Personas</color>\nPuedes obtener Personas al derrotar Sombras en los Palacios. Si obtienes una Persona que ya posees, se convertirá automáticamente en un Sello de esa Persona.\nUsando Sellos de Persona, puedes fusionar Personas más raras.\n\n<color\=#FFD145>Efectos de Persona</color>\nCuando equipas una Persona, puedes usar sus habilidades durante la batalla.\nEl protagonista puede invocar hasta tres Personas al mismo tiempo.\n\n<color\=#FFD145>Acerca de las Personas</color>\nFusión de Persona: Fusiona Personas para crear otras nuevas.\nEntrenamiento de Persona: Fortalece, desarrolla y mejora las habilidades de tus Personas.\nVer/Invocar Personas: Consulta información detallada sobre tus Personas."
+
+r:"(?s)<color\=#FFD145>Feature Explanation</color>.*?a Concerto is activated\."="<color\=#FFD145>Explicación de funciones</color>\nPuedes ajustar la formación seleccionando un espacio vacío o un conjunto de Ladrones Fantasma en el grupo. Solo se puede cambiar la posición de los Ladrones Fantasma de apoyo.\n\n<color\=#FFD145>Cambiar tu grupo</color>\nPuedes ver tus grupos presionando el botón Grupo en la parte superior derecha de la pantalla para ver la lista de grupos. Puedes cambiar el nombre de un grupo presionando el botón Cambiar nombre. Los nombres pueden tener hasta 7 caracteres.\nSelecciona un grupo y presiona Establecer para cambiar al grupo seleccionado.\n\n<color\=#FFD145>Ladrón Fantasma de apoyo</color>\nEn el Reino de la Represión y en algunos desafíos de exploración, puedes usar Ladrones Fantasma de apoyo.\nUn Ladrón Fantasma de apoyo no puede exceder tu límite de nivel actual de Ladrón Fantasma.\nEn las Puertas del Cazador de Pesadillas, puedes usar Ladrones Fantasma pertenecientes a miembros de Companio independientemente del límite de nivel.\nCuando otro jugador usa tu Ladrón Fantasma de apoyo, o cuando usas un Ladrón Fantasma de apoyo de otro jugador, obtendrás Puntos de Apoyo.\nPuedes usar Puntos de Apoyo para comprar objetos a través del Intercambio: Recompensas de apoyo.\n\n<color\=#FFD145>Llamas del Deseo</color>\nCuando se establecen Ladrones Fantasma del mismo atributo en el mismo grupo, se enciende un efecto armonioso llamado Llamas del Deseo.\nEste efecto solo se aplica a las Personas del protagonista y de los tres Ladrones Fantasma establecidos, no a los Ladrones Fantasma de apoyo.\nCuando dos miembros del grupo tienen el mismo atributo, se activa un Dúo de ese atributo.\nCuando tres o más miembros del grupo tienen el mismo atributo, se activa un Coro de ese atributo. Cuando el grupo tiene cuatro o más atributos diferentes, se activa un Armonía."
+
+r:"(?s)<color\=#FFD145>Ranked Match</color>.*?Richly Common 0★\."="<color\=#FFD145>Partida Clasificatoria</color>\nUn modo multijugador en línea.\nCompetirás en 3 rondas y ganarás Puntos de Magnate dependiendo de tu clasificación final.\nPuedes ganar hasta un máximo de 1000 Puntos de Magnate cada semana entre la Partida Clasificatoria y el Modo en solitario.\n\n<color\=#FFD145>Rango</color>\nHay 15 rangos en total. Cuando el número de ★ ganado en la Partida Clasificatoria exceda el valor máximo de tu rango actual, serás ascendido.\nPor el contrario, si pierdes ★, serás degradado.\nEl rango final es Magnate Legendario, donde tu clasificación se muestra directamente en lugar de tu número de ★.\n\n<color\=#FFD145>Cambio de Rango</color>\nPara el rango de Rico Ordinario e inferiores, no serás degradado aunque pierdas todos tus ★.\nPara el rango de Millonario e inferiores, según tu clasificación final, ganarás +2/+1/+0/-1 ★.\nPor encima del rango de Millonario, según tu clasificación final, ganarás +2/+1/-1/-2 ★.\nLos Magnates Legendarios no perderán su rango aunque pierdan ★.\n\n<color\=#FFD145>Clasificaciones</color>\nLas clasificaciones se basan en tu rango; los jugadores con rangos más altos se situarán más arriba.\nCuando te conviertas en Magnate Legendario, tu puntuación se calculará según tu clasificación final en cada partida y, según dicha clasificación, ganarás +2/+1/-1/-2 ★, y se te clasificará según tu puntuación.\n\n<color\=#FFD145>Preparación tras emparejamiento con éxito</color>\nTras un emparejamiento con éxito, puedes cambiar tu personaje mientras se prepara la partida.\nSi varios jugadores seleccionan el mismo personaje, se elegirá a uno al azar para usarlo y los demás deberán cambiar a otro.\nSi no seleccionas un personaje durante la etapa de preparación, se seleccionará uno al azar tras 30 segundos.\n\n<color\=#FFD145>Temporada</color>\nAl final de cada temporada de Tycoon, puedes ganar recompensas según tu rango final.\nTu rango al final de la temporada también determinará tu rango al inicio de la siguiente.\nEn los rangos 1-2 <color\=#FF423F>Mendigo</color>, comenzarás la siguiente temporada en el mismo rango.\nEn los rangos 3-6 <color\=#FF423F>Pobre</color>, comenzarás la siguiente temporada en 3 - Bastante Pobre 0★.\nEn los rangos 7-10 <color\=#FF423F>Común</color>, comenzarás la siguiente temporada en 5 - Algo Pobre 0★.\nEn los rangos 11-14 <color\=#FF423F>Rico</color>, comenzarás la siguiente temporada en 7 - Ordinariamente común 0★.\nEn el rango 15 <color\=#FF423F>Magnate</color>, comenzarás la siguiente temporada en 9 - Ricamente común 0★."
+
+r:"(?s)<color\=#FFD145>Synergy</color>.*?Profile screen\."="<color\=#FFD145>Sinergia</color>\nCada cómplice tiene un nivel de Sinergia, que puede aumentarse hasta un rango máximo de 20 (10 para Lufel).\nPara subir de rango, debes cumplir ciertas condiciones, como estadísticas sociales, habilidades de Persona o completar ciertas misiones.\nLa Sinergia también aumenta cuando pasas tiempo con un cómplice o le das regalos.\nLas salidas especiales que hacen avanzar vuestra relación desbloquearán el límite de rango de Sinergia.\n* Si no se cumplen estas condiciones, las salidas de Sinergia no estarán disponibles.\n\n<color\=#FFD145>Vínculos prioritarios</color>\nPriorizar un vínculo aumentará enormemente las posibilidades de un evento de salida con ese personaje.\n* Si no se cumplen las condiciones, el evento de salida no ocurrirá.\n\n<color\=#FFD145>Relaciones con los cómplices</color>\nCuando tu Sinergia con un cómplice alcanza cierto nivel, tu vínculo con ellos se profundizará y podréis convertiros en <color\=#FF423F>amigos cercanos</color>.\nCon algunos cómplices, puedes formar un vínculo especial y convertiros en <color\=#FF423F>almas gemelas</color>.\nLas recompensas de rango están ligadas a tu relación con el cómplice. Las recompensas marcadas con una estrella son para amigos cercanos, y las marcadas con un corazón son para almas gemelas.\nSi las recompensas de amigo cercano y de alma gemela están disponibles en el mismo rango, recibirás una basada en tu relación con el cómplice.\n\n<color\=#FFD145>Habilidades de Sinergia</color>\nLas habilidades de Sinergia se obtienen al aumentar tu Sinergia con los cómplices.\nCada cómplice tiene sus propias habilidades, que pueden desbloquearse y mejorarse a medida que aumenta tu rango de Sinergia.\n\n<color\=#FFD145>Perfiles</color>\nPuedes consultar la información básica, las líneas de voz y la historia de un cómplice desde la pantalla de Perfil."
+
 ++-------------Planes de lufel-----------------++
 
 r:"^Raise (\d+) Phantom Thieves to Talent \{\{([A-Za-z]+)\}\}\. (\d+)$"=Eleva a $1 Ladrones Fantasma al Talento {{$2}}. $3
@@ -604,8 +685,11 @@ r:"^Diff\\.\\s+Bonus:\\s+<color\=[^>]+>(\\d+\\.?\\d*)</color>$"="Diferencia Bono
 r:"^Raise\\s+(\\d+)\\s+Personas\\s+to\\s+level\\s+(\\d+)\\.\\s*<size\=30>\\((\\d+)\\/(\\d+)\\)</size>$"="Sube $1 Personas al nivel $2. <size\=30>($3/$4)</size>"
 r:"^Progress:\\s+(\\d+)\\/(\\d+)$"="Progreso: $1/$2"
 r:"^Forged:\\s+(\\d+)\\/(\\d+)$"="Forjado: $1/$2"
-
-
+r:"^Raise\s+any\s+Phantom\s+Thief\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube cualquier Ladrón Fantasma a {{A}}. $1."
+r:"^Raise\s+Knowledge\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube el Conocimiento a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Raise\s+(\d+)\s+Personas\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube $1 Personas a {{A}}. $2."
+r:"^•\s+Raise\s+\{\{A\}\}\s+to\s+level\s+(\d+)\.$"="• Sube a {{A}} al nivel $1."
+r:"^Raise\s+Charm\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube el Encanto a Nv. $1. <size\=30>($2/$3)</size>"
 ++-------------Marcos Avatares-----------------++
 r:"^Phantom\s+Pass\s+Phase\s+(\d+)\s+(.+)\s+reward\.$"="Phantom Pass Fase $1 $2 recompensa."
 
@@ -840,3 +924,9 @@ r:"^The\s+Eye\s+of\s+Heaven\s+is\s+watching\s+(.+)\.\.\.$"="El Ojo del Cielo est
 r:"^Cannot\s+activate\s+critical\s+hits,\s+but\s+increase\s+final\s+dmg\s+by\s+(\d+\.?\d*)%\s+based\s+on\s+crit\s+rate\s+and\s+crit\s+dmg\.$"="No puede activar los golpes críticos, pero aumenta el daño final en un $1% en función de la probabilidad de crítico y el daño crítico."
 
 r:"^Increase\s+Ice\s+dmg\s+taken\s+by\s+(\d+\.?\d*)%\.$"="Aumenta el daño de Hielo recibido en un $1%."
+
+r:"^Sparks:\s+(\d+)$"="Chispas: $1"
+
+r:"^Within\s+(\d+)\s+ally\s+actions$"="Dentro de $1 acciones aliadas"
+
+r:"^Increase\s+shield\s+by\s+(\d+)%\.$"="Aumenta el escudo un $1%."
