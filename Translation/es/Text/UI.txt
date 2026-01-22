@@ -82,6 +82,11 @@ r:"^\s*(\d+)\s+d\s+(\d+)\s+h\s+left$"=" Quedan $1 d $2 h"
 
 r:"{{A}}(\d+)\s+h\s+(\d+)\s+m"="{{A}}$1 h $2 m"
 
+r:"^Event\s+Ends\s+in:\s+(\d+)\s+h\s+(\d+)\s+m$"="El evento termina en: $1 h $2 m"
+
+r:"^(\d+)\s+d\s+ago$"="Hace $1 días"
+
+r:"^{{A}}(\d+)\s+m$"="{{A}}$1 m"
 ++-------------VA Character----------------++
 
 r:"^VA:\\s+(.+)$"="VA: $1"
@@ -179,6 +184,8 @@ r:"^\\{\\{A\\}\\}'s\\s+Wind\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="
 r:"^\\{\\{A\\}\\}'s\\s+Nuclear\\s+damage\\s+is\\s+increased\\s+by\\s+(\\d+)%\\.$"="El daño nuclear del {{A}} aumenta en un $1%."
 
 r:"^\\{\\{A\\}\\}'s\s+<color\=#FFFC40>Resonance</color>\s+damage\s+is\s+increased\s+by\s+([\d.]+)%\.$"="El daño de <color\=#FFFC40>Resonancia</color> del {{A}} se incrementa en un $1%."
+
+r:"^\\{\\{A\\}\\}'s\s+<color\=#FFFC40>Resonance</color>\s+critical\s+damage\s+is\s+increased\s+by\s+(\d+)%\s+and\s+Attack\s+by\s+(\d+)%\.$"="El daño crítico de <color\=#FFFC40>Resonancia</color> del equipo aumenta en un $1% y el Ataque en un $2%."
 
 r:"^\\{\\{A\\}\\}'s\s+<color\=#FF423F>Resonance</color>\s+damage\s+is\s+increased\s+by\s+([\d.]+)%\.$"="El daño de <color\=#FF423F>Resonancia</color> del {{A}} aumenta en un $1%."
 
@@ -291,7 +298,11 @@ r:"^Katayama's\\s+Palace\\s+\\{\\{A\\}\}\\s+Plant\\s+(\\d+)F$"="Palacio de Katay
 r:"^Reach\s+the\s+objective\s+in\s+Phase\s+(\d+)\s+of\s+Nightmare's\s+Gateway\s+\((\d+)/(\d+)\)$"="Alcanza el objetivo en la fase $1 de la Puerta de la Pesadilla ($2/$3)"
 r:"^Clear\s+Realm\s+of\s+Repression:\s+Recollections\s+\((\d+)/(\d+)\)$"="Completa el Reino de la Represión: Recuerdos ($1/$2)"
 r:"^Into\s+the\s+Metaverse\s+(\d+)$"="Hacia el Metaverso $1"
-
+r:"^It\s+seems\s+we\s+don't\s+have\s+enough\s+([A-Z])\s+Chips\s+for\s+the\s+Security\s+Room\.$"="Parece que no tenemos suficientes chips $1 para la Sala de Seguridad."
+r:"^Do\s+you\s+want\s+to\s+use\s+your\s+<color\=#ffff76>Security\s+Room\s+Chip\s+([A-Z])</color>\?\n\(Use:\s+(\d+)/Have:\s+(\d+)\)$"="¿Deseas usar tu <color\=#ffff76>Chip $1 de la Sala de Seguridad</color>?\n(Uso: $2/Tienes: $3)"
+r:"^Do\s+you\s+want\s+to\s+use\s+your\s+<color\=#ffff76>Security\s+Room\s+Core\s+Chip</color>\?\n\(Use:\s+(\d+)/Have:\s+(\d+)\)$"="¿Deseas usar tu <color\=#ffff76>Chip de núcleo de la sala de seguridad</color>?\n(Uso: $1/Tienes: $2)"
+r:"^Phase\s+(\d+)$"="Fase $1"
+r:"^Defeat\s+Lesser\s+Shadows\s+\((\d+)/(\d+)\)$"="Derrota Sombras Menores ($1/$2)"
 ++-------------Combate Sistema-----------------++
 r:"^(\\d+)-Stack$"="$1 acumulaciones"
 r:"^(\\d+) Turns$"="$1 Turno"
@@ -324,7 +335,7 @@ r:"^Use (\\d+,\\d+) Konpaku Gems \\((\\d+)/(\\d+)\\)$"="Usa $1 gemas Konpaku ($2
 
 ++-------------Interfaz-----------------++
 Select content to input.=Elige qué introducir.
-r:"^ID:(\d+)$"="ID:$1"
+r:"^ID:(\d+)$"="ID:"
 r:"^Out\s+of\s+Stock\s+(\d+)$"="Sin stock: $1"
 r:"^\(Paid:\s+(\d+)\)$"="(Pagado: $1)"
 r:"^Unlocks at Lv\\. (\\d+)$"="Se desbloquea en Nv. $1"
@@ -346,6 +357,8 @@ r:"^\{\{([A-Za-z]+)\}\} must be at least \{\{([A-Za-z]+)\}\}\. (\d+)\.$"={{$1}} 
 r:"^Items Collected: (\d+)\/(\d+)$"=Artículos recolectados: $1/$2
 r:"^Illustrations Collected: (\d+)\/(\d+)$"=Ilustraciones recolectadas: $1/$2
 r:"^Expires after (\\d+) d$"="Expira en $1 días"
+r:"^Collected\s+Badges:\s+(\d+)$"="Insignias coleccionadas: $1"
+r:"^Badge\s+Book\s+Collection:\s+(\d+)$"="Colección de Libros de Insignias: $1"
 r:"^\t\{\{([A-Za-z]+)\}\}\. (\d+) Set$"={{$1}}. Conjunto $2
 r:"^\t\{\{([A-Za-z]+)\}\}\. (\d+) Present$"={{$1}}. Obsequio $2
 r:"^Songs Collected: (\d+)\/(\d+)$"=Canciones recopiladas: $1/$2
@@ -460,7 +473,9 @@ r:"^<color\=#FFC000>Rank\s+(\d+)</color>:\s+You\s+may\s+receive\s+an\s+extra\s+s
 r:"^<color\=#FFC000>(.+)</color>'s\s+Synergy\s+<color\=#FFC000>Rank\s+(\d+)</color>:\s+You\s+can\s+fuse\s+(.+)$"="<color\=#FFC000>$1</color>: Sinergia <color\=#FFC000>Rango $2</color>: Puedes fusionar a $3"
 r:"S-{{A}}\.(\d+)"="S-Nv.$1"
 r:"^Whenever\s+an\s+ally\s+deals\s+damage,\s+that\s+ally's\s+damage\s+is\s+increased\s+by\s+(\d+)%\.\s+Lasts\s+for\s+(\d+)\s+turns\.\s+Stacks\s+up\s+to\s+(\d+)\s+times\.$"="Cada vez que un aliado inflige daño, el daño de ese aliado aumenta un $1%. Dura $2 turnos. Se acumula hasta $3 veces."
-
+r:"^Get\s+(.+)\s+to\s+Rank\s+(\d+)$"="Lleva a $1 al Rango $2"
+r:"^(\d+)/(\d+)\s+Thoughts\s+Linked$"="$1/$2 Pensamientos vinculados"
+r:"^(.+)\s+any\s+Terminal\s+Station\s+on\s+difficulty\s+(\d+)$"="$1 cualquier Estación Terminal en dificultad $2"
 ++-------------Tareas-----------------++
 r:"^Troublesome\s+Trek\s+(\d+)$"="Travesía problemática $1"
 r:"^Elusive\s+Finds\s+(\d+)$"="Hallazgos esquivos $1"
@@ -632,7 +647,8 @@ r:"^Enter\s+the\s+power\s+plant\s+area\s+\((\d+)/(\d+)\)$"="Entrar en la zona de
 r:"^Uncover\s+the\s+Palace\s+ruler's\s+past\s+\((\d+)/(\d+)\)$"="Descubre el pasado del gobernante del Palacio ($1/$2)"
 r:"^Find\s+the\s+command\s+center\s+\((\d+)/(\d+)\)$"="Encontrar el centro de mando ($1/$2)"
 r:"^Locate\s+the\s+Treasure\s+\((\d+)/(\d+)\)$"="Localizar el Tesoro ($1/$2)"
-
+r:"^Complete\s+(\d+)\s+Metaverse\s+Exploration\s+missions\s+\((\d+)/(\d+)\)$"="Completa $1 misiones de exploración del metaverso ($2/$3)"
+r:"^Collect\s+plum\s+blossom\s+dango\s+from\s+Unconditional\s+Love:\s+Phase\s+(\d+)\s+\((\d+)/(\d+)\)$"="Recoge dango de flor de ciruelo de Amor incondicional: Fase $1 ($2/$3)"
 ++-------------Tutoriales UI-----------------++
 r:"(?s)<color\=#FFD145>The Velvet Trials</color>.*?Defeat Unique Shadows.*?Points from both battles will be tallied after the second battle is completed\."="<color\=#FFD145>Las Pruebas de Terciopelo</color>\nDerrota a Sombras únicas con habilidades especiales para perfeccionar tu destreza en combate y aspirar a mejores calificaciones.\n\n<color\=#FFD145>Reglas Básicas</color>\nLas Pruebas de Terciopelo son desafíos de alta dificultad. Hay múltiples etapas, cada una dividida en varias áreas.\nCompletar la Etapa 5 de la prueba desbloqueará todas las etapas.\nPuedes cambiar libremente tu formación antes de que comience la batalla. Si el combate te resulta demasiado difícil, puedes reiniciarlo en cualquier momento.\nCada batalla tiene tres rangos. Al final del combate, tu rango se determinará en función de los puntos obtenidos.\n\n<color\=#FFD145>Ganar Puntos</color>\nEl daño infligido durante la batalla se calcula como puntos.\n\n<color\=#FFD145>Condiciones Especiales de Puntos</color>\nAl cumplir condiciones especiales, puedes ganar puntos adicionales.\nPuedes desafiar las etapas varias veces para intentar conseguir la puntuación más alta.\n\n<color\=#FFD145>Desafío de Grupo Doble</color>\nAlgunas Pruebas de Terciopelo requerirán que comandes un Grupo Doble para enfrentar el desafío.\nNo se pueden usar los mismos Ladrones Fantasma y Personas en ambos grupos.\nLos puntos de ambas batallas se sumarán una vez completada la segunda batalla."
 
@@ -930,3 +946,13 @@ r:"^Sparks:\s+(\d+)$"="Chispas: $1"
 r:"^Within\s+(\d+)\s+ally\s+actions$"="Dentro de $1 acciones aliadas"
 
 r:"^Increase\s+shield\s+by\s+(\d+)%\.$"="Aumenta el escudo un $1%."
+
+r:"^(.+)\s+is\s+targeted\.\.\.$"="$1 es objetivo..."
+
+Seaside Tomoko is targeted...=Tomoko Costera es objetivo...
+
+Tropical Motoha is targeted...=Motoha Tropical es objetivo...
+
+Frostgale Kotone is targeted...=Kotone Vientogélido es objetivo...
+
+r:"^Decrease\s+dmg\s+by\s+(\d+)%\.$"="Disminuye el daño en un $1%."

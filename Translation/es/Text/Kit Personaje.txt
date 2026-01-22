@@ -523,3 +523,13 @@ r:"^Increase\s+(\d+)\s+ally's\s+ailment\s+accuracy\s+and\s+ailment\s+resistance\
 r:"^Curse\s+dmg\s+to\s+(\d+)\s+foe\s+\((\d+\.?\d*)%\s+Atk\)\.\s+Inflict\s+Hell's\s+Inferno\.\s+Increase\s+dmg\s+per\s+Hell's\s+Inferno\s+stacks\.\s+Increase\s+this\s+dmg\s+(\d+)%\.$"="Daño de Maldición a $1 enemigo ($2% ATQ). Inflige Infierno Infernal. Aumenta el daño por cada acumulación de Infierno Infernal. Aumenta este daño en un $3%."
 
 r:"^Gun\s+dmg\s+to\s+1\s+foe\s+\(([\d.]+)%\s+Atk\)\.\s+Inflict\s+Marked\s+on\s+foe\.$"="Daño de Arma de fuego a 1 enemigo ($1% ATQ). Inflige Marcado al enemigo."
+
+r:"^Increase\s+this\s+skill's\s+critical\s+rate\s+by\s+(\d+)%,\s+and\s+deal\s+Gun\s+damage\s+to\s+(\d+)\s+foe\s+equal\s+to\s+<color\=#fffc40>(\d+\.?\d*)%<\/color>\s+of\s+Attack\.$"="Aumenta la probabilidad de crítico de esta habilidad en un $1% e inflige daño de arma de fuego a $2 enemigo equivalente al <color\=#fffc40>$3%</color> del Ataque."
+
+r:"^Gun\s+dmg\s+to\s+1\s+foe\s+\(([\d\.]+%%)\s+Atk\)\.$"="Daño con arma de fuego a 1 enemigo ($1 ATQ)."
+
+r:"^Wind\s+dmg\s+to\s+1\s+foe\s+\(([\d\.]+%%)\s+Atk\)\.$"="Daño de viento a 1 enemigo ($1 ATQ)."
+
+r:"^Phys\s+dmg\s+to\s+all\s+foes\s+\(([\d\.]+%)\s+Atk,\s+(\d+-\d+)\s+hits\)\.$"="Daño físico a todos los enemigos ($1 ATQ, $2 golpes)."
+
+r:"^Increase\s+critical\s+rate\s+([\d\.]+)%\.\s+Increase\s+chance\s+to\s+inflict\s+Windswept\s+(\d+)%\.\s+Windswept\s+foes\s+take\s+(\d+)%\s+more\s+dmg\.\s+When\s+inflicting\s+or\s+extending\s+Windswept,\s+decrease\s+target's\s+Def\s+(\d+)%\s+\((\d+)\s+turns\)\.$"="Aumenta la probabilidad de golpe crítico un $1%. Aumenta la probabilidad de infligir Azotado por el viento un $2%. Los enemigos Azotado por el viento reciben un $3% más de daño. Al infligir o extender Azotado por el viento, disminuye la Defensa del objetivo un $4% ($5 turnos)."
