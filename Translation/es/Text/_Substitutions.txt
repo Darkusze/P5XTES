@@ -353,7 +353,6 @@ Fierce Remix=Remix feroz
 Carefree Melody=Melodía despreocupada
 Foam of Dawn=Espuma del amanecer
 Converging Minds=Mentes convergentes
-Burn=Quemadura
 Single-Target=Objetivo único
 Multi-Target=Objetivo múltiple
 Absolute Judgement=Juicio absoluto

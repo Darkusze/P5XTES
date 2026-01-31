@@ -86,7 +86,16 @@ r:"^Event\s+Ends\s+in:\s+(\d+)\s+h\s+(\d+)\s+m$"="El evento termina en: $1 h $2 
 
 r:"^(\d+)\s+d\s+ago$"="Hace $1 días"
 
+r:"^Left:\s+(\d+)\s+d\s+(\d+)\s+h$"="Queda: $1 d $2 h"
+
 r:"^{{A}}(\d+)\s+m$"="{{A}}$1 m"
+
+r:"^\s+(\d+)\s+min\s+(\d+)\s+s$"=" $1 min $2 s"
+
+r:"^Valid\s+until:\s+(\d{2}/\d{2}/\d{4}),\s+(\d{2}:\d{2})\s*$"="Válido hasta: $1, $2"
+
+r:"^\s+(\d+)\s+h\s*$"=" $1 h"
+
 ++-------------VA Character----------------++
 
 r:"^VA:\\s+(.+)$"="VA: $1"
@@ -158,7 +167,7 @@ r:"^Grants\\s+(\\d+)\\s+extra\\s+Konpaku\\s+Gems\\s+when\\s+you\\s+play\\s+Pursu
 r:"^Restores\\s+(\\d+)\\s+stamina\\s+after\\s+the\\s+first\\s+login\\s+of\\s+each\\s+day\\.$"="Restaura $1 de energía tras el primer inicio de sesión de cada día."
 r:"^Increases\\s+ally\\s+damage\\s+dealt\\s+in\\s+the\\s+Realm\\s+of\\s+Repression\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta el daño infligido por los aliados en el Reino de la Represión un $1% (Combate)."
 r:"^Increases\\s+damage\\s+in\\s+Trials\\s+from\\s+the\\s+Sea\\s+of\\s+Souls\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta el daño en Pruebas del mar de las almas un $1% (En combate)."
-r:"^Increases\\s+damage\\s+in\\s+Gates\\s+of\\s+the\\s+Nightmare\\s+Catcher\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta un $1% el daño en Puertas del cazador de pesadillas (En combate)."
+r:"^Increases\\s+damage\\s+in\\s+Gates\\s+of\\s+the\\s+Nightmare\\s+Catcher\\s+by\\s+(\\d+\\.?\\d*)%\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta un $1% el daño en Portal del Cazapesadillas (En combate)."
 r:"^Increases\\s+all\\s+allies'\\s+Attack\\s+by\\s+(\\d+\\.?\\d*)\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta el Ataque de todos los aliados en $1 (En combate)."
 r:"^Increases\\s+all\\s+allies'\\s+Defense\\s+by\\s+(\\d+\\.?\\d*)\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta la Defensa de todos los aliados en $1 (En combate)."
 r:"^Increases\\s+all\\s+allies'\\s+HP\\s+by\\s+(\\d+\\.?\\d*)\\s+\\(takes\\s+effect\\s+in\\s+battle\\)\\.$"="Aumenta los PS de todos los aliados en $1 (En combate)."
@@ -232,10 +241,10 @@ r:"^All-Out\s+Attack\s+\((.+)\)$"="All-Out Attack ($1)"
 r:"^·\s+Increases\s+part-time\s+earnings\s+by\s+5%\.\\n·\s+Increases\s+part-time\s+earnings\s+by\s+3%\.\\n·\s+Increases\s+part-time\s+earnings\s+by\s+2%\.\\n$"="- Aumenta un 5% los ingresos a tiempo parcial.\n- Aumenta los ingresos a tiempo parcial en un 3%.\n- Aumenta los ingresos a tiempo parcial en un 2%.\n"
 r:"^Den\s+\{\{A\}\}\.\s+(\d+)$"="Guarida {{A}}. $1"
 r:"^•\s+Collect\s+(\d+)\s+series\s+of\s+capsules\.\s+\((\d+)\/(\d+)\)$"="- Recoge $1 series de cápsulas. ($2/$3)"
-r:"^•\s+Reach\s+a\s+score\s+of\s+([\d,]+)\s+in\s+Gates\s+of\s+the\s+Nightmare\s+Catcher\.\s+\((\d+)\/(\d+)\)$"="- Alcanza una puntuación de $1 en Puertas del Cazador de Pesadillas. ($2/$3)"
+r:"^•\s+Reach\s+a\s+score\s+of\s+([\d,]+)\s+in\s+Gates\s+of\s+the\s+Nightmare\s+Catcher\.\s+\((\d+)\/(\d+)\)$"="- Alcanza una puntuación de $1 en Portal del Cazapesadillas. ($2/$3)"
 r:"^•\s+Become\s+close\s+friends\s+with\s+(\d+)\s+accomplices\.\s+\((\d+)\/(\d+)\)$"="- Hazte amigo íntimo de $1 cómplices. ($2/$3)"
 r:"<color\=#FFFF00>Increases\s+ally\s+damage\s+by\s+([\d\.]+)%\s+in\s+Trials\s+from\s+the\s+Sea\s+of\s+Souls\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta el daño de los aliados un $1% en Pruebas del Mar de las Almas (tiene efecto en batalla).</color>"
-r:"^•\s+Reach\s+a\s+score\s+of\s+([\d,]+)\s+in\s+Gates\s+of\s+the\s+Nightmare\s+Catcher\s+(\d+)\s+times\.\s+\((\d+)\/(\d+)\)$"="- Alcanza una puntuación de $1 en Puertas del Cazador de Pesadillas $2 veces. ($3/$4)"
+r:"^•\s+Reach\s+a\s+score\s+of\s+([\d,]+)\s+in\s+Gates\s+of\s+the\s+Nightmare\s+Catcher\s+(\d+)\s+times\.\s+\((\d+)\/(\d+)\)$"="- Alcanza una puntuación de $1 en Portal del Cazapesadillas $2 veces. ($3/$4)"
 r:"^•\s+Attain\s+(\d+)★\s+in\s+Trials\s+from\s+the\s+Sea\s+of\s+Souls\s+for\s+(\d+)\s+seasons\s+\(effective\s+from\s+the\s+next\s+season\)\.\s+\((\d+)\/(\d+)\)$"="- Consigue $1★ en Pruebas del Mar de las Almas durante $2 temporadas (efectivo a partir de la siguiente temporada). ($3/$4)"
 r:"^•\s+Raise\s+(\d+)\s+social\s+stats\s+to\s+level\s+(\d+)\.\s+\((\d+)\/(\d+)\)$"="- Aumenta $1 estadísticas sociales hasta el nivel $2. ($3/$4)"
 r:"<color\=#FFFF00>Increases\s+ally\s+critical\s+rate\s+by\s+([\d\.]+)%\s+\(takes\s+effect\s+in\s+battle\)\.</color>"="<color\=#FFFF00>Aumenta la probabilidad de críticos de los aliados en un $1% (tiene efecto en batalla).</color>"
@@ -275,19 +284,61 @@ Motoha cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase 
 <color\=#FFFF00>Increase Seaside Tomoko's Defense by 10 (takes effect in battle).</color>=<color\=#FFFF00>Aumenta la Defensa de Tomoko Costera en 10 (tiene efecto en batalla).</color>
 Tomoko cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase Seaside Tomoko's Defense by 10 (takes effect in battle).</color>=Animación de Tomoko que se despliega durante un All-Out Attack.\n<color\=#FFD145>Aumenta la Defensa de Tomoko Costera en 10 (tiene efecto en batalla).</color>
 Kotome cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase Frostgale Kotone's Defense by 10 (takes effect in battle).</color>=Animación de Kotone que se despliega durante un All-Out Attack.\n<color\=#FFD145>Aumenta la Defensa de Kotone Vientogélido en 10 (tiene efecto en batalla).</color>
-++-------------Companio-----------------++
 
+r:"^All-Out\s+Attack\s+Finisher\s+\((.+)\)<alpha\=#00>____<alpha\=#FF>All-Out\s+Attack\s+Finisher\s+\((.+)\)<alpha\=#00>____<alpha\=#FF>$"="All-Out Attack Finisher ($1)<alpha\=#00>____<alpha\=#FF>All-Out Attack Finisher ($2)<alpha\=#00>____<alpha\=#FF>"
+
+r:"^Image\s+of\s+(.+)\s+that\s+displays\s+after\s+an\s+All-Out\s+Attack\s+finisher\.\\n<color\=#FFD145>Increases\s+(.+)'s\s+Attack\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="Imagen de $1 que aparece tras un All-Out Attack Finisher.\n<color\=#FFD145>Aumenta el Ataque de $2 en $3 (Tiene efecto en combate).</color>"
+
+++-------------Companio-----------------++
+r:"^The\s+leader\s+of\s+your\s+Companio\s+(.+?)\s+has\s+been\s+changed\s+to\s+(.+?)\.\s*$"="El líder de tu Companio $1 ha sido cambiado a $2."
 r:"^<color\=[^>]+>Online\\s+(\\d+)\\s+d\\s+ago</color>$"="<color\=#8F8D8D>En línea hace $1 d</color>"
 r:"^<color\=[^>]+>Online\\s+(\\d+)\\s+h\\s+ago</color>$"="<color\=#8F8D8D>En línea hace $1 h</color>"
 r:"^<color\=[^>]+>Online\\s+(\\d+)\\s+m\\s+ago</color>$"="<color\=#8F8D8D>En línea hace $1 m</color>"
+r:"<color\=#FF423F>(.+?)</color> changed <color\=#FF423F>(.+?)</color> to <color\=#FF423F>(.+?)</color>\."="<color\=#FF423F>$1</color> ha cambiado a <color\=#FF423F>$2</color> a <color\=#FF423F>$3</color>."
+r:"<color\=#FF423F>(.+?)</color> appointed <color\=#FF423F>(.+?)</color> as leader\."="<color\=#FF423F>$1</color> ha nombrado a <color\=#FF423F>$2</color> como líder."
+r:"<color\=#FF423F>(.+?)</color> joined the Companio\."="<color\=#FF423F>$1</color> se ha unido al Companio."
+r:"<color\=#FF423F>(.+?)</color> left the Companio\."="<color\=#FF423F>$1</color> ha dejado el Companio."
 r:"^Contribution:\\s*(\\d+)$"="Contribución: $1"
 r:"^<color\=[^>]+>([^<]+)</color>\\s+was\\s+removed\\s+<color\=[^>]+>([^<]+)</color>\\s+from\\s+the\\s+Companio\\.$"="<color\=#FF423F>$1</color> fue eliminado <color\=#FF423F>$2</color> del Companio."
 r:"^Contribution History\\s*(\\d+)$"="Historial de contribución $1"
 r:"^<color\=[^>]+>([^<]+)</color>\\s+has\\s+been\\s+offline\\s+for\\s+a\\s+long\\s+time\\.\\|The\\s+leader\\s+role\\s+has\\s+been\\s+automatically\\s+given\\s+to\\s+<color\=[^>]+>([^<]+)</color>\\.$"="<color\=#FF423F>$1</color> ha estado fuera de línea durante mucho tiempo. El papel del líder se ha dado automáticamente a <color\=#FF423F>$2</color>."
 r:"^Have members of your Companio participate to earn rewards!\\s+Current total:\\s+<color\=[^>]+>(\\d+)</color>$"="¡Haga que los miembros de su Companio participen para ganar recompensas!\nTotal actual: <color\=#eade10>$1</color>"
 r:"^Participants:(\\d+)/(\\d+)$"="Participantes: $1/$2"
-r:"^All-Out\s+Attack\s+Finisher\s+\((.+)\)<alpha\=#00>____<alpha\=#FF>All-Out\s+Attack\s+Finisher\s+\((.+)\)<alpha\=#00>____<alpha\=#FF>$"="All-Out Attack Finisher ($1)<alpha\=#00>____<alpha\=#FF>All-Out Attack Finisher ($2)<alpha\=#00>____<alpha\=#FF>"
-r:"^Image\s+of\s+(.+)\s+that\s+displays\s+after\s+an\s+All-Out\s+Attack\s+finisher\.\\n<color\=#FFD145>Increases\s+(.+)'s\s+Attack\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="Imagen de $1 que aparece tras un All-Out Attack Finisher.\n<color\=#FFD145>Aumenta el Ataque de $2 en $3 (Tiene efecto en combate).</color>"
+r:"^Change\s+(.+?)'s\s+permission\s+to\s+the\s+following:\s*$"="Cambia los permisos de $1 a lo siguiente:"
+Subleader=Sublíder
+No Companio join requests available.=No hay solicitudes de unión de Companio disponibles.
+Rejected all.=Rechazado todo.
+Controls=Controles
+Player=Jugador
+Request List=Lista de Solicitudes
+Allow=Permitir
+Deny=Denegar
+What next=¿Qué sigue?
+Graphic=Gráfico
+Pattern=Patrón
+Select Badges=Seleccionar insignias
+Companio Leader Change Notice=Aviso de Cambio de Líder de Companio
+You can set up to three tags.=Puedes configurar hasta tres etiquetas.
+Free Spirited Travelers=Viajeros de espíritu libre
+Infiltrators=Infiltrados
+Metaverse Marauders=Merodeadores del Metaverso
+Treasure Lovers=Amantes del Tesoro
+Rebels=Rebeldes
+Lackluster=Sin brillo
+Friendly=Amistoso
+FTP=F2P
+Part-Timers=Trabajadores a tiempo parcial
+Gourmands=Gourmets
+Villains=Villanos
+Tags have been changed.=Etiquetas han sido cambiadas.
+Players who meet the level conditions will be auto-approved.=Jugadores que cumplan las condiciones de nivel serán aprobados automáticamente.
+Join Level=Nivel de unión
+Only players who meet the level conditions can ask to join.=Solo los jugadores que cumplan las condiciones de nivel pueden solicitar unirse.
+No message for new members available.=No hay mensaje disponible para nuevos miembros.
+Join Settings=Configuración de unión
+Change Permissions=Cambiar permisos
+If you transfer, you will become a regular member of this Companio. Are you sure you want to step down?=Si te transfieres, te convertirás en un miembro regular de este Companio. ¿Estás seguro de que quieres renunciar?
+Permission changes have been completed.=Los cambios de permiso se han completado.
 ++-------------Misiones-----------------++
 
 r:"^Clear\\s+the\\s+side\\s+mission\\s+Thoughts\\s+and\\s+Dreams<size\=30>\\((\\d+)\\/(\\d+)\\)</size>$"="Completa la misión secundaria Pensamientos y sueños<size\=30>($1/$2)</size>"
@@ -303,12 +354,27 @@ r:"^Do\s+you\s+want\s+to\s+use\s+your\s+<color\=#ffff76>Security\s+Room\s+Chip\s
 r:"^Do\s+you\s+want\s+to\s+use\s+your\s+<color\=#ffff76>Security\s+Room\s+Core\s+Chip</color>\?\n\(Use:\s+(\d+)/Have:\s+(\d+)\)$"="¿Deseas usar tu <color\=#ffff76>Chip de núcleo de la sala de seguridad</color>?\n(Uso: $1/Tienes: $2)"
 r:"^Phase\s+(\d+)$"="Fase $1"
 r:"^Defeat\s+Lesser\s+Shadows\s+\((\d+)/(\d+)\)$"="Derrota Sombras Menores ($1/$2)"
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Almighty\s+damage\.\s*$"="Derrota a $1 enemigos con daño de Todopoderoso."
+r:"^Have\s+any\s+Persona\s+learn\s+(\d+)\s+skills\.\s*$"="Haz que cualquier Persona aprenda $1 habilidades."
 ++-------------Combate Sistema-----------------++
 r:"^(\\d+)-Stack$"="$1 acumulaciones"
 r:"^(\\d+) Turns$"="$1 Turno"
 r:"^Get\\s+<color\=#FF423F>(\\d+)</color>\\s+total\\s+stars$"="Necesitas <color\=#FF423F>$1</color> estrellas totales"
 
-
+++-------------Selección de Revelacion Espacio-----------------++
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Nativity x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de fortuna naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Natividad de Revelación Espacial x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Meditation x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Meditación de Revelación Espacial x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Awareness x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Revelación Espacial de Conciencia x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Growth x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Crecimiento de Revelación Espacial x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Trust x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Revelación Espacial Confianza x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Departure x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Revelación Espacial Partida x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Faith x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Revelación Espacial Fe x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Acceptance x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Revelación Espacial Aceptación x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Harmony x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Armonía de Revelación Espacial x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Integrity x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Revelación Espacial Integridad x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Freedom x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Revelación Espacial Libertad x1</color>.\n¿Quieres confirmar?
+Spend: <color\=#FFDE00>Orange Fortune Revelation x1</color>.\nTrade: <color\=#FFDE00>Space Revelation Creation x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Revelación de la Fortuna Naranja x1</color>.\nIntercambiar: <color\=#FFDE00>Creación de Revelación Espacial x1</color>. ¿Quieres confirmarlo?
+This is currently equipped to Lufel. Do you want to change that?=Esto está equipado actualmente a Lufel.\n¿Quieres confirmar?
 ++-------------Sistema Goals-----------------++
 
 r:"^Log in to the game \\((\\d+)/(\\d+)\\)$"="Inicia sesión en el juego ($1/$2)"
@@ -326,9 +392,9 @@ r:"^\\{\\{A\\}\\} Realm of Repression: Persona \\((\\d+)/(\\d+)\\)$"="Completa R
 r:"^\\{\\{A\\}\\} Realm of Repression: Alluring Aroma \\((\\d+)/(\\d+)\\)$"="Completa Reino de la represión: Aroma atractivo ($1/$2)"
 r:"^\\{\\{A\\}\\} Realm of Repression: Gear Forging I at any difficulty$"="Completa Reino de la represión: Forja de engranajes I en cualquier dificultad"
 r:"^\\{\\{A\\}\\} Realm of Repression: Recollections \\((\\d+)/(\\d+)\\)$"="Completa Reino de la Represión: Recuerdos ($1/$2)"
-r:"^Reach the (\\d+)(?:st|nd|rd|th) level point goal in Gates of the Nightmare Catcher \\((\\d+)/(\\d+)\\)$"="Alcanza el objetivo del punto de nivel $1 en Gates of the Nightmare Catcher ($2/$3)"
+r:"^Reach the (\\d+)(?:st|nd|rd|th) level point goal in Gates of the Nightmare Catcher \\((\\d+)/(\\d+)\\)$"="Alcanza el objetivo del punto de nivel $1 en Las Portal del Cazapesadillas ($2/$3)"
 r:"^Work a part-time job \\((\\d+)/(\\d+)\\)$"="Trabaja en un empleo de medio tiempo ($1/$2)"
-r:"^\\{\\{A\\}\\} Gates of the Nightmare Catcher \\((\\d+)/(\\d+)\\)$"="Completa Puertas del Cazador de Pesadillas ($1/$2)"
+r:"^\\{\\{A\\}\\} Gates of the Nightmare Catcher \\((\\d+)/(\\d+)\\)$"="Completa Las Portal del Cazapesadillas ($1/$2)"
 r:"^\\{\\{A\\}\\} Trials from the Sea of Souls \\((\\d+)/(\\d+)\\)$"="Completa Pruebas del Mar de Almas ($1/$2)"
 r:"^Fuse a Persona \\((\\d+)/(\\d+)\\)$"="Fusiona una Persona ($1/$2)"
 r:"^Use (\\d+,\\d+) Konpaku Gems \\((\\d+)/(\\d+)\\)$"="Usa $1 gemas Konpaku ($2/$3)"
@@ -337,13 +403,17 @@ r:"^Use (\\d+,\\d+) Konpaku Gems \\((\\d+)/(\\d+)\\)$"="Usa $1 gemas Konpaku ($2
 Select content to input.=Elige qué introducir.
 r:"^ID:(\d+)$"="ID:$1"
 r:"^Out\s+of\s+Stock\s+(\d+)$"="Sin stock: $1"
+r:"^Info\s+(\d+)\s*$"="Info. $1"
 r:"^\(Paid:\s+(\d+)\)$"="(Pagado: $1)"
 r:"^Unlocks at Lv\\. (\\d+)$"="Se desbloquea en Nv. $1"
 r:"^Lv\\.(\\d+)$"="Nv.$1"
+r:"^EXP:\s+(\d+)\s*$"="EXP: $1"
+r:"^Fusion\s+will\s+produce\s+(\d+)\s+<color\=#FF423F>(.+?)'s\s+Seal</color>\.\s*$"="La fusión producirá $1 <color\=#FF423F>Sello de $2</color>."
 r:"^Phantom Thief level cap increased to \\n<color\=#FFF000>Lv\\. (\\d+)</color>\\.$"="El límite de nivel de Ladrones Fantasma ha aumentado a \n<color\=#FFF000>Lv. $1</color>."
 r:"^Lv\\. (\\d+) Set$"="Set de Nv. $1"
 r:"^Lv\\. (\\d+) Present$"="Regalo de Nv. $1"
 r:"^LV(\\d+)$"="NV$1"
+r:"^(\d+) attempts$"="$1 intentos"
 r:"^Raise\\s+Seaside\\s+Tomoko\\s+to\\s+\\{\\{A\\}\}\\.\\s+(\\d+)\\s+\\((\\d+)/(\\d+)\\)$"="Eleva a Tomoko Costera a {{A}}. $1 ($2/$3)"
 r:"^Unlocks at level (\\d+)\\.$"="Se desbloquea en el nivel $1."
 r:"^Awaken the second Phantom Thief \\((\\d+)/(\\d+)\\)$"="Despierta al 2do Ladrón Fantasma ($1/$2)"
@@ -374,6 +444,7 @@ r:"^Log\\s+in\\s+for\\s+(\\d+)\\s+days\\s+to\\s+obtain$"="Inicie sesión durante
 r:"^\\{\\{A\\}\\} (\\d+)\\s*d\\s*(\\d+)\\s*h$"="{{A}} $1 d $2 h"
 r:"^Increases\\s+your\\s+Synergy\\s+by\\s+<color\=[^>]+>(\\d+)</color>\\.$"="Aumenta tu sinergia por <color\=#FFDE00>$1</color>."
 r:"^Synergy\\s+\\+(\\d+)\\nPreferred\\s+\\+(\\d+)\\nFirst-Time\\s+Preferred\\s+\\+(\\d+)$"="Sinergia +$1\nPreferido +$2\nPreferido por primera vez +$3"
+r:"^This\s+present\s+is\s+liked\s+by\s+all\s+of\s+your\s+accomplices\.\nBase\s+Synergy\s+\+(\d+),\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+preferred\s+gifts,\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+first-time\s+preferred\s+gifts\.\s*$"="Este regalo les gusta a todos tus cómplices.\nSinergia base +$1, con un +$2 adicional para regalos preferidos, y un +$3 adicional para regalos preferidos por primera vez."
 r:"^Synergy\\s+\\+(\\d+)\\nPreferred\\s+\\+(\\d+)\\n<color\=[^>]+>First-Time\\s+Preferred\\s+\\+(\\d+)</color>$"="Sinergia +$1\nPreferido +$2\n<color\=#787878>Preferido por primera vez +$3</color>"
 r:"^Synergy\\s+\\+(\\d+)\\n<color\=[^>]+>Preferred\\s+\\+(\\d+)</color>\\n<color\=[^>]+>First-Time\\s+Preferred\\s+\\+(\\d+)</color>$"="Sinergia +$1\n<color\=#787878>Preferido +$2</color>\n<color\=#787878>Preferido por primera vez +$3</color>"
 r:"^Expires\\s+after\\s+(\\d+)\\s+h$"="Expira en $1 h"
@@ -449,7 +520,6 @@ r:"^Overclock(\\d+)$"="Sobrecarga$1"
 r:"^Fish\\s+Caught:\\s+(\\d+)$"="<size\=24>Peces capturados: $1</size>"
 r:"^Total\\s+Score\\s+\\((\\d+)/(\\d+)\\)$"="Puntuación total ($1/$2)"
 r:"^Cannot\\s+be\\s+placed\\s+here\\s+until\\s+Den\\s+Level\\s+(\\d+)\\.$"="No se puede colocar aquí hasta alcanzar el Nivel $1 del Guarida."
-Unlocks when Guts is 13.=Se desbloquea cuando el Valor alcanza a 13.
 r:"^Left:\\s+(\\d+)/(\\d+)$"="Restante: $1/$2"
 r:"^(\\d+)%\\s+left$"="$1% restante"
 r:"^\\((\\d+)%\\s+left\\)$"="($1% restante)"
@@ -476,6 +546,59 @@ r:"^Whenever\s+an\s+ally\s+deals\s+damage,\s+that\s+ally's\s+damage\s+is\s+incre
 r:"^Get\s+(.+)\s+to\s+Rank\s+(\d+)$"="Lleva a $1 al Rango $2"
 r:"^(\d+)/(\d+)\s+Thoughts\s+Linked$"="$1/$2 Pensamientos vinculados"
 r:"^(.+)\s+any\s+Terminal\s+Station\s+on\s+difficulty\s+(\d+)$"="$1 cualquier Estación Terminal en dificultad $2"
+r:"^Use\s+(\d+)\s+Willpower\s*\((\d+)\/(\d+)\)$"="Usa $1 Fuerza de Voluntad ($2/$3)"
+Clear Rewards: =Recompensas por completar: 
+r:"^Purchase\s+to\s+reach\s+level\s+(\d+)\s+and\s+obtain\s+the\s+rewards\s+below\.$"="Compra para alcanzar el nivel $1 y obtener las siguientes recompensas."
+r:"(?s)Do\s+you\s+want\s+to\s+spend\s+<color\=(.*?)>(.*?)\s+x(\d+)</color>\s+to\s+reset\s+the\s+Revelation\s+Card\?.*?generic\s+materials\)\."="¿Quieres gastar <color\=$1>Tarjeta Retrógrada x$3</color> para restablecer la Carta de Revelación?\nDespués del restablecimiento, ocurrirán los siguientes cambios:\nEl nivel de la Carta de Revelación se restablecerá a 0.\nLos atributos principales y secundarios volverán a sus estados iniciales.\nTodos los materiales de experiencia gastados para alcanzar el nivel actual serán devueltos (en forma de materiales genéricos)."
+r:"^x\s*(\d+)$"="x$1"
+r:"^(\d+)\s+or\s+more\s+Perfect\s+notes\.\s*$"="$1 o más notas perfectas."
+r:"^Achieve\s+a\s+(\d+)\+\s+combo\.\s*$"="Alcanza un combo de $1+."
+r:"^Trial\s+(\d+)\s*$"="Prueba $1"
+r:"^Pt\.\s*(\d+)\s*$"="Pt. $1"
+r:"^(.+?)'s\s+Cognitite\s*$"="Cognición de $1"
+r:"^(.+?)'s\s+Cognitite\s+Shard\s*$"="Fragmento de Cognición de $1"
+Thief's Cognitite Shard=Fragmento de Cognición de Ladrones
+r:"^Collect\s+(\d+)\s+to\s+obtain\s+one\s+(.+?)'s\s+Cognitite\.\s*$"="Reúne $1 para obtener un Cognición de $2."
+r:"^Spend:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+Shard\s+x(\d+)</color>\.\nTrade:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+Shard\s+x(\d+)</color>\.\\nConfirm\s+trade\?\s*$"="Gastar: <color\=#FFDE00>Fragmento de Cognición de $1 x$2</color>.\nIntercambiar: <color\=#FFDE00>Fragmento de Cognición de $3 x$4</color>.\n¿Confirmar intercambio?"
+r:"^Spend:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+Shard\s+x(\d+)</color>\.\nCraft:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+x(\d+)</color>\.\nDo\s+you\s+want\s+to\s+confirm\?\s*$"="Gastar: <color\=#FFDE00>Fragmento de Cognición de $1 x$2</color>.\nCrear: <color\=#FFDE00>Cognición de $3 x$4</color>.\n¿Quieres confirmarlo?"
+r:"^Can\s+be\s+used\s+in\s+certain\s+areas\s+to\s+raise\s+(.+?)'s\s+Awareness\s+Level\.\s*$"="Se puede usar en ciertas zonas para aumentar el nivel de consciencia de $1."
+r:"^Raises\s+an\s+ally's\s+skill\s+level\s+\(up\s+to\s+(\d+)\)\.\s*$"="Aumenta el nivel de habilidad de un aliado (hasta $1)."
+r:"^On\s+(.+?),\s+you\s+had\s+some\s+unclaimed\s+rewards\s+from\s+Half-Year\s+Anniversary\.\s+They\s+have\s+been\s+delivered\s+directly\s+to\s+you\s+via\s+this\s+message\.\s*$"="El $1, tenías algunas recompensas sin reclamar del Aniversario de Medio Año. Te han sido entregadas directamente a través de este mensaje."
+r:"^Can\s+overclock\s+a\s+Rank\s+(.+?)\s+Persona\.\s*$"="Puede sobrecargar una Persona de rango $1."
+r:"^Rocking\s+with\s+the\s+Band\s+Club\s+(\d+)\s*$"="Rockeando con el Club de Banda $1"
+r:"^(\d+)\s+players\s+online\s*$"="$1 jugadores en línea"
+r:"^Goal\s+(\d+)$"="Meta $1"
+r:"^Awarded to players who ranked within the top (\d+[\d.]*)%–(\d+[\d.]*)% during a set period after a Gates of the Nightmare Catcher season starts\.$"="Otorgado a los jugadores que clasificaron dentro del $1%–$2% superior durante un periodo determinado después de que comienza una temporada de Portal del Cazapesadillas."
+r:"^Crane Game: (.+?)$"="Máquina de Gancho: $1"
+r:"^5 Plays$"="5 Partidas"
+r:"^1 Play$"="1 Partida"
+r:"^Now featuring a chance to win the super-rare Mini (.+?) plushie!$"="¡Ahora con la oportunidad de ganar el súper raro peluche Mini $1!"
+r:"^Large \((\d+)\)$"="Grande ($1)"
+r:"^Med\. \((\d+)\)$"="Med. ($1)"
+r:"^Small \((\d+)\)$"="Pequeño ($1)"
+r:"^Large\((\d+)\)$"="Grande($1)"
+r:"^Medium\((\d+)\)$"="Mediano($1)"
+r:"^Small\((\d+)\)$"="Pequeño($1)"
+++-------------UI Habitación Terciopelo-----------------++
+r:"^Fuse\s+(\d+)\s+Rank\s+(.+?)\s+Persona\s+of\s+(\d+).?\s*rarity\s*$"="Fusiona $1 Persona de rango $2 con rareza de $3★."
+r:"^Raise\s+(\d+)\s+Personas\s+of\s+Rank\s+(.+?)\s+or\s+higher\s+to\s+{{(.*?)}}\.\s+(\d+)\s*$"="Sube a $1 Personas de rango $2 o superior a {{$3}}. $4"
+r:"^Fuse\s+to\s+obtain\s+(\d+)\s+more\s+skills\s*$"="Fusiona para obtener $1 habilidades más"
+
+
+++-------------Meses-----------------++
+r:"^January\s+(\d+)\s*$"="$1 de enero"
+r:"^February\s+(\d+)\s*$"="$1 de febrero"
+r:"^March\s+(\d+)\s*$"="$1 de marzo"
+r:"^April\s+(\d+)\s*$"="$1 de abril"
+r:"^May\s+(\d+)\s*$"="$1 de mayo"
+r:"^June\s+(\d+)\s*$"="$1 de junio"
+r:"^July\s+(\d+)\s*$"="$1 de julio"
+r:"^August\s+(\d+)\s*$"="$1 de agosto"
+r:"^September\s+(\d+)\s*$"="$1 de septiembre"
+r:"^October\s+(\d+)\s*$"="$1 de octubre"
+r:"^November\s+(\d+)\s*$"="$1 de noviembre"
+r:"^December\s+(\d+)\s*$"="$1 de diciembre"
+
 ++-------------Tareas-----------------++
 r:"^Troublesome\s+Trek\s+(\d+)$"="Travesía problemática $1"
 r:"^Elusive\s+Finds\s+(\d+)$"="Hallazgos esquivos $1"
@@ -490,11 +613,27 @@ r:"^Simple\s+Favor\s+(\d+)$"="Favor sencillo $1"
 r:"^Brilliant\s+Spark\s+(\d+)$"="Chispa Brillante $1"
 r:"^Like\s+Minds\s+(\d+)$"="Mentes afines $1"
 r:"^Combined\s+Efforts\s+(\d+)$"="Esfuerzos combinados $1"
-++-------------Club Música-----------------++
+r:"^Valuable\s+Information\s+(\d+)\s*$"="Información valiosa $1"
+r:"^Out\s+on\s+Errands\s+(\d+)\s*$"="Haciendo recados $1"
+r:"^Marthym\s+in\s+a\s+Bind\s+(\d+)\s*$"="Marthym en aprietos $1"
+r:"^Picnic\s+Time\s+(\d+)\s*$"="Hora del picnic $1"
+r:"^Strong\s+and\s+Steady\s+(\d+)\s*$"="Fuerte y constante $1"
+
+++-------------Club de Banda-----------------++
 r:"^Duration:\s+(\d+:\d+)$"="Duración: $1"
 r:"^Unlocks\s+at\s+Band\s+Club\s+level\s+(\d+)$"="Se desbloquea al nivel $1 del Club de Música"
+r:"^Achieve\s+a\s+(\d+)\+\s+combo\.\s+\((\d+)\/(\d+)\)\s*$"="Logra un combo de $1 o más. ($2/$3)"
+r:"^(\d+)\s+or\s+more\s+Perfect\s+notes\.\s+\((\d+)\/(\d+)\)\s*$"="$1 o más notas Perfectas. ($2/$3)"
 
+++-------------Club de Futbol-----------------++
+r:"^Score\s+(\d+)\s+goals\s+by\s+shooting\s+at\s+weaknesses\s*$"="Anota $1 goles disparando a los puntos débiles"
+r:"^Score\s+all\s+(\d+)\s+goals\s*$"="Anota los $1 goles"
+r:"^Score\s+(\d+)\s+goals\s*$"="Anota $1 goles"
+r:"^Difficulty\s+(\d+)\s+and\s+(\d+)\s+unlocked\.\s*$"="Dificultad $1 y $2 desbloqueadas."
+r:"^Difficulty\s+(\d+)\s+unlocked\.\s+Insight\s+raised\s+to\s+{{(.*?)}}\.\s+(\d+)\.\s*$"="Dificultad $1 desbloqueada. Perspicacia aumentada a {{$2}}. $3."
+r:"^Insight\s+raised\s+to\s+{{(.*?)}}\.\s+(\d+)\.\s*$"="Perspicacia aumentada a {{$1}}. $2."
 ++-------------Sinergia-----------------++
+
 r:"^Earned\s+for\s+building\s+a\s+strong\s+bond\s+of\s+friendship\s+with\s+(.+)\.$"="Se obtiene al forjar un sólido vínculo de amistad con $1."
 r:"^Earned\s+for\s+forming\s+a\s+romantic\s+relationship\s+with\s+(.+)\.$"="Se obtiene al establecer una relación sentimental con $1."
 r:"^Friend\s+(.+)\s+Avatar$"="Avatar de Amistad de $1"
@@ -508,6 +647,8 @@ r:"^I\s+feel\s+my\s+bond\s+with\s+(.+)(\s|\\n)growing\s+deeper\.\.\.$"="Siento q
 r:"^\.\.\.I\s+feel\s+my\s+bond\s+with\s+(.+)(\s|\\n)growing\s+deeper\.\.\.$"="...siento que mi vínculo con $1\nse hace más profundo..."
 r:"^(.+)\s+might\s+like\s+this\s+present\.\nBase\s+Synergy\s+\+(\d+),\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+preferred\s+gifts,\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+first-time\s+preferred\s+gifts\.$"="Puede que a $1 le guste este regalo.\nSinergia base +$2, con +$3 extra para regalos preferidos, con +$4 extra por ser el primer regalo preferido."
 r:"^Base\s+Synergy\s+\+(\d+),\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+preferred\s+gifts,\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+first-time\s+preferred\s+gifts\.$"="Sinergia de base +$1, con un +$2 extra por dones preferidos, con un +$3 extra por dones preferidos por primera vez."
+r:"^To\s+Unlock:\s+Reach\s+Synergy\s+Rank\s+(\d+)\s+with\s+the\s+accomplice\.$"="Para desbloquear: Alcanza el rango de Sinergia $1 con el acompañante."
+r:"^Spending\s+time\s+with\s+(.*?),\s+I\s+feel\s+hope\s+rising\s+within\s+me\.\.\.$"="Pasando tiempo con $1,\nsiento que la esperanza\ncrece dentro de mí..."
 ++-------------Pasiva Armas-----------------++
 
 r:"^Increase Attack by (<color.*?%<\\/color>)\\. When attacking a (<link.*?<u>)({{A}}ing)(<\\/u><\\/link>) foe, increase Attack by (<color.*?%<\\/color>)\\.$"="Aumenta el Ataque en $1.\nAl atacar un enemigo con $2Quemadura$4, Aumenta el ataque de $5."
@@ -542,16 +683,17 @@ r:"^Increase Shield that the user grants by (\d+\.?\d+)%\.$"=Aumenta el escudo o
 r:"^Requires\\s+(\\d+)\\s+<size\=46><color\=#ffffff><sprite\=2 tint\=1></size></color>\\.$"="Requiere $1 <size\=46><color\=#ffffff><sprite\=2 tint\=1></size></color>."
 r:"^Increase\\s+HP\\s+by\\s+(\\d+)\\.\\nIncrease\\s+Attack\\s+by\\s+(\\d+)\\.$"="Aumenta los PS en $1. Aumenta el ataque en $2."
 r:"^Increase\\s+HP\\s+by\\s+(\\d+)\\.\\nIncrease\\s+Attack\\s+by\\s+(\\d+)\\.\\nIncrease\\s+Defense\\s+by\\s+(\\d+)\\.$"="Aumenta los PS en $1. Aumenta el Ataque en $2. Aumenta la Defensa en $3."
+
 ++-------------Logros-----------------++
 
 r:"^Use a Highlight (\d+) times\. <size\=30>\((\d+)\/(\d+)\)</size>$"=Use un Highlight $1 veces. <size\=30>($2/$3)</size>
 r:"^Perform a (\d+) More attack (\d+) times\. <size\=30>\((\d+)\/(\d+)\)</size>$"=Realice un ataque $1 más $2 veces. <size\=30>($3/$4)</size>
 r:"^Defeat (\d+) enemies with Psychokinesis damage\. <size\=30>\((\d+)\/(\d+)\)</size>$"=Derrota a $1 enemigos con daño en la psicoquinesis. <size\=30>($2/$3)</size>
 r:"^Defeat (\d+) enemies with Nuclear damage\. <size\=30>\((\d+)\/(\d+)\)</size>$"=Derrota a $1 enemigos con daño nuclear. <size\=30>($2/$3)</size>
-r:"^Raise\s+Proficiency\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube la competencia a {{A}}. $1."
-r:"^Raise\s+Kindness\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube la bondad a {{A}}. $1."
+r:"^Raise\s+Proficiency\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube la Destreza a {{A}}. $1."
+r:"^Raise\s+Kindness\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube la Amabilidad a {{A}}. $1."
 r:"^Raise\s+Guts\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube el Coraje a {{A}}. $1."
-r:"^Raise\s+Knowledge\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube el conocimiento a {{A}}. $1."
+r:"^Raise\s+Knowledge\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube el Conocimiento a {{A}}. $1."
 r:"^Raise\s+Charm\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube el Encanto a {{A}}. $1."
 r:"^Complete\s+(\d+)\s+unique\s+City\s+Life\s+activities\.\s?$"="Completa $1 actividades únicas de Vida Urbana."
 r:"^Complete\s+a\s+City\s+Life\s+activity\s+with\s+a\s+multiplier\s+applied\s+(\d+)\s+times\.\s?$"="Completa una actividad de Vida Urbana con un multiplicador aplicado $1 veces."
@@ -567,10 +709,69 @@ r:"^Hit\s+the\s+ball\s+(\d+)\s+times\s+at\s+the\s+batting\s+cages\.<size\=30>\((
 r:"^Hit\s+a\s+home\s+run\s+(\d+)\s+times\s+at\s+the\s+batting\s+cages\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Batea un jonrón $1 veces en las jaulas de bateo. <size\=30>($2/$3)</size>"
 r:"^Watch\s+(\d+)\s+movies\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Ver $1 películas. <size\=30>($2/$3)</size>"
 r:"^Catch\s+(\d+)\s+fish\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Captura $1 peces. <size\=30>($2/$3)</size>"
-r:"^Raise\s+Proficiency\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube la competencia a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Raise\s+Proficiency\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube la Destreza a Nv. $1. <size\=30>($2/$3)</size>"
 r:"^Read\s+(\d+)\s+times\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Leído $1 veces. <size\=30>($2/$3)</size>"
-r:"^Raise\s+Kindness\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube la bondad a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Raise\s+Guts\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)\/(\d+)\)</size>$"="Sube el Coraje al Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Raise\s+Kindness\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube la Amabilidad a Nv. $1. <size\=30>($2/$3)</size>"
 r:"^Unlock\s+the\s+Master\s+Pond\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Desbloquea el Estanque Maestro. <size\=30>($1/$2)</size>"
+r:"^End\s+(\d+)\s+battles\s+with\s+an\s+All-Out\s+Attack\.\s*$"="Termina $1 batallas con un All-Out Attack."
+r:"^Start\s+(\d+)\s+battles\s+with\s+an\s+ambush\.\s*$"="Empieza $1 batallas con una emboscada."
+r:"^Hit\s+an\s+enemy's\s+weakness\s+(\d+)\s+times\.\s*$"="Golpea la debilidad de un enemigo $1 veces."
+r:"^Perform\s+a\s+1\s+More\s+(\d+)\s+times\.\s*$"="Realiza un 1 Más $1 veces."
+r:"^Use\s+a\s+Highlight\s+(\d+)\s+times\.\s*$"="Usa un Highlight $1 veces."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+melee\s+attacks\.\s*$"="Derrota a $1 enemigos con ataques cuerpo a cuerpo."
+r:"^Fire\s+off\s+(\d+)\s+rounds\s+of\s+ammo\.\s*$"="Dispara $1 cartuchos de munición."
+r:"^Inflict\s+spiritual\s+ailments\s+(\d+)\s+times\.\s*$"="Inflige dolencias espirituales $1 veces."
+r:"^Inflict\s+elemental\s+ailments\s+(\d+)\s+times\.\s*$"="Inflige dolencias elementales $1 veces."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Physical\s+damage\.\s*$"="Derrota a $1 enemigos con daño Físico."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Fire\s+damage\.\s*$"="Derrota a $1 enemigos con daño de Fuego."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Ice\s+damage\.\s*$"="Derrota a $1 enemigos con daño de Hielo."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Psychokinesis\s+damage\.\s*$"="Derrota a $1 enemigos con daño de Psicoquinesis."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Electric\s+damage\.\s*$"="Derrota a $1 enemigos con daño Eléctrico."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Wind\s+damage\.\s*$"="Derrota a $1 enemigos con daño de Viento."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Bless\s+damage\.\s*$"="Derrota a $1 enemigos con daño de Bendición."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Nuclear\s+damage\.\s*$"="Derrota a $1 enemigos con daño Nuclear."
+r:"^Defeat\s+(\d+)\s+enemies\s+with\s+Curse\s+damage\.\s*$"="Derrota a $1 enemigos con daño de Maldición."
+r:"^Grant\s+Blessing\s+(\d+)\s+times\s+in\s+one\s+battle\.\s*$"="Otorga Bendición $1 veces en una sola batalla."
+r:"^Inflict\s+Curse\s+(\d+)\s+times\s+in\s+one\s+battle\.\s*$"="Inflige una Maldición $1 veces en una batalla."
+r:"^Guard\s+(\d+)\s+times\.\s*$"="Usa la guardia $1 veces."
+r:"^Craft\s+(\d+)\s+infiltration\s+tools\s+at\s+the\s+workbench\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Crea $1 herramientas de infiltración en la mesa de trabajo. <size\=30>($2/$3)</size>"
+r:"^Change\s+into\s+casualwear\s+at\s+your\s+closet\s+(\d+)\s+times\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Cambia a ropa casual en tu armario $1 veces. <size\=30>($2/$3)</size>"
+r:"^Craft\s+(\d+)\s+gifts\s+at\s+the\s+workbench\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Crea $1 regalos en la mesa de trabajo. <size\=30>($2/$3)</size>"
+r:"^Obtain\s+(\d+)\s+sets\s+of\s+new\s+clothes\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Obtén $1 conjuntos de ropa nueva. <size\=30>($2/$3)</size>"
+
+r:"^Raise\s+(\d+)\s+Personas\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Sube $1 Personas a Nv. $2.<size\=30>($3/$4)</size>"
+r:"^Obtain\s+Personas\s+from\s+wandering\s+Shadows\s+or\s+the\s+Realm\s+of\s+Repression\s+(\d+)\s+times\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Consigue Personas de las Sombras Errantes o del Reino de la Represión $1 veces.<size\=30>($2/$3)</size>"
+r:"^Fuse\s+Personas\s+(\d+)\s+times\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Fusiona Personas $1 veces.<size\=30>($2/$3)</size>"
+r:"^Own\s+(\d+)\s+Rank\s+(.+?)\s+Personas\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Posee $1 personajes de rango $2.<size\=30>($3/$4)</size>"
+r:"^Own\s+a\s+Rank\s+(.+?)\s+Persona\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Posee un Persona de rango $1.<size\=30>($2/$3)</size>"
+r:"^Obtain\s+a\s+Persona\s+with\s+S-rank\s+survivability\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Consigue una Persona con supervivencia de rango S.<size\=30>($1/$2)</size>"
+r:"^Obtain\s+a\s+Persona\s+with\s+S-rank\s+multi-target\s+damage\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Consigue una Persona con daño multiobjetivo de rango S.<size\=30>($1/$2)</size>"
+r:"^Obtain\s+a\s+Persona\s+with\s+S-rank\s+single-target\s+damage\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Consigue un Persona con daño de rango S en un solo objetivo.<size\=30>($1/$2)</size>"
+r:"^Obtain\s+an\s+S-rank\s+support\s+Persona\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Obtén una Persona de apoyo de rango S.<size\=30>($1/$2)</size>"
+r:"^Obtain\s+a\s+Persona\s+with\s+S-rank\s+healing\s+abilities\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Consigue una Persona con habilidades curativas de rango S.<size\=30>($1/$2)</size>"
+r:"^Obtain\s+a\s+Persona\s+with\s+S-rank\s+status\s+ailment\s+abilities\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Consigue un personaje con habilidades de dolencia de estado de rango S.<size\=30>($1/$2)</size>"
+r:"^Have\s+any\s+Persona\s+learn\s+(\d+)\s+skills\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Haz que cualquier Persona aprenda $1 habilidades.<size\=30>($2/$3)</size>"
+r:"^Fuse\s+(\d+)\s+Rank\s+(.+?)\s+Personas\s+of\s+(\d+).?\s*rarity\s*$"="Fusiona $1 Personas de rango $2 y rareza de $3★."
+r:"^Perform\s+Persona\s+skill\s+training\s+(\d+)\s+times\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Realiza el entrenamiento de habilidad Persona $1 veces. <size\=30>($2/$3)</size>"
+r:"^Fuse\s+Personas\s+(\d+)\s+times\.\s*$"="Fusiona Personas $1 veces."
+r:"^Raise\s+any\s+Persona\s+to\s+{{(.*?)}}\.\s+(\d+)\.\s*$"="Sube cualquier Persona a {{$1}}. $2."
+r:"^Upgrade\s+any\s+weapon\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Mejora cualquier arma a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Raise\s+any\s+Phantom\s+Thief's\s+skill\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Aumenta la habilidad de cualquier Ladrón Fantasma a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Raise\s+any\s+Phantom\s+Thief\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Sube cualquier Ladrón Fantasma a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Obtain\s+the\s+Phantom\s+Thief\s+(.+?)\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Consigue el ladrón fantasma $1. <size\=30>($2/$3)</size>"
+r:"^Advance\s+any\s+Phantom\s+Thief's\s+Talent\s+(\d+)\s+times\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Mejora el talento de cualquier ladrón fantasma $1 veces. <size\=30>($2/$3)</size>"
+r:"^Advance\s+any\s+Phantom\s+Thief's\s+Talent\s+(\d+)\s+times\.\s*$"="Mejora el talento de cualquier ladrón fantasma $1 veces."
+r:"^Raise\s+(.+?)\s+to\s+Synergy\s+Rank\s+(\d+)\.\s+<size\=30>\((\d+)\/(\d+)\)</size>\s*$"="Sube a $1 al rango de sinergia $2. <size\=30>($3/$4)</size>"
+r:"^Raise\s+(\d+)\s+Persona\s+of\s+Rank\s+(.+?)\s+or\s+higher\s+to\s+{{(.*?)}}\.\s+(\d+)\s*$"="Sube $1 Persona de rango $2 o superior a {{$3}}. $4"
+r:"^Raise\s+a\s+Persona\s+of\s+Rank\s+(.+?)\s+or\s+higher\s+to\s+{{(.*?)}}\.\s+(\d+)\s*$"="Sube un Persona de rango $1 o superior a {{$2}}. $3"
+r:"^Accelerate the {{A}}mobile (\d+) times\.$"="Acelera el {{A}}móvil $2 veces."
+r:"^Clear the mission Treasure Tail\. (<size\=30>\(\d+/\d+\)</size>)$"="Completa la misión Cola del Tesoro. $1"
+r:"^Cook (\d+) dishes\. (<size\=30>\(\d+/\d+\)</size>)$"="Prepara $1 platos. $2"
+r:"^Cook a delicious dish\. (<size\=30>\(\d+/\d+\)</size>)$"="Prepara un plato delicioso. $1"
+r:"^Cook a delicious dish (\d+) times\. (<size\=30>\(\d+/\d+\)</size>)$"="Prepara un plato delicioso $1 veces. $2"
+r:"^Check the large poster on the wall of the building in Akihabara\. (<size\=30>\(\d+/\d+\)</size>)$"="Revisa el gran póster en la pared del edificio en Akihabara. $1"
+
 ++-------------Eventos-----------------++
 r:"^Raise\s+Justine\s+&\s+Caroline\s+to\s+\{\{A\}\}\.\s+(\d+)\.$"="Sube a Justine y Caroline a {{A}}. $1."
 r:"^Take\\s+down\\s+(\\d+)\\s+targets\\s+\\((\\d+)/(\\d+)\\)$"="Derriba $1 objetivos ($2/$3)"
@@ -649,23 +850,87 @@ r:"^Find\s+the\s+command\s+center\s+\((\d+)/(\d+)\)$"="Encontrar el centro de ma
 r:"^Locate\s+the\s+Treasure\s+\((\d+)/(\d+)\)$"="Localizar el Tesoro ($1/$2)"
 r:"^Complete\s+(\d+)\s+Metaverse\s+Exploration\s+missions\s+\((\d+)/(\d+)\)$"="Completa $1 misiones de exploración del metaverso ($2/$3)"
 r:"^Collect\s+plum\s+blossom\s+dango\s+from\s+Unconditional\s+Love:\s+Phase\s+(\d+)\s+\((\d+)/(\d+)\)$"="Recoge dango de flor de ciruelo de Amor incondicional: Fase $1 ($2/$3)"
+r:"^Pass\s+any\s+Stella\s+in\s+Trial\s+of\s+the\s+Astrolabe\s+\((\d+)\/(\d+)\)$"="Pasa cualquier Estrellas en el Juicio del Astrolabio ($1/$2)"
+r:"^Complete\s+a\s+total\s+of\s+(\d+)\s+tasks\s+\((\d+)\/(\d+)\)$"="Completa un total de $1 tareas ($2/$3)"
+r:"^You\s+will\s+now\s+earn\s+more\s+social\s+stats\s+the\s+next\s+(\w+)\s+times\s+you\s+increase\s+your\s+Proficiency\s+through\s+City\s+Life\.<color\=#FFC000>\(Attempts\s+Left:\s+(\d+)\)</color>$"="Ahora obtendrás más estadísticas sociales las próximas $1 veces que aumentes tu Destreza a través de Vida Urbana.<color\=#FFC000>(Intentos restantes: $2)</color>"
+r:"^Collect\s+(\d+)\s+keywords\s+on\s+the\s+answer\s+sheet\s*$"="Recopila $1 palabras clave en la hoja de respuestas"
+r:"^Complete\s+(\d+)\s+Adventure\s+Story\s+missions\s+\((\d+)/(\d+)\)\s*$"="Completa $1 misiones de Historia de Aventura ($2/$3)"
+r:"^{{A}} (\d+) missions in City Life\. \((\d+)/(\d+)\)$"="Completa $1 misiones en Vida Urbana. ($2/$3)"
+r:"^Win a total of (\d+) plushies from the crane game\. \((\d+)/(\d+)\)$"="Gana un total de $1 peluches en el juego de la garra. ($2/$3)"
+r:"^Obtain (\d+) (.+?) capsules\. \((\d+)/(\d+)\)$"="Consigue $1 cápsulas de $2. ($3/$4)"
+Watch the two dancers and examine the poster in Akihabara =Observa a los dos bailarines y examina el cartel en Akihabara.
+r:"^{{A}} Stage (\d+) of Puzzle Bots to unlock\.$"="Completa la Etapa $1 de Robots de rompecabezas para desbloquear."
+r:"^Collect (\d+) gold coins$"="Recolecta $1 monedas de oro"
+r:"^Collect 1 gold coin$"="Recoge 1 moneda de oro"
+r:"^Reach the goal within (\d+) turns$"="Alcanza la meta en $1 turnos o menos"
+r:"^STAR (\d+)$"="ESTRELLA $1"
+r:"^Defeat (\d+) Berserk Bots$"="Derrota a $1 Bots Berserk"
+###Evento Robo
+Move the King Bot to the goal=Mueve el Rey Bot a la meta
+Before Battle=Antes de la batalla
+EASY=FÁCIL
+No Comment History=Sin historial de comentarios
+<color\=#FF423F>Prohibited Areas</color> have been sealed off due to data corruption, and the King Bot cannot enter.=<color\=#FF423F>Áreas Prohibidas</color> han sido selladas debido a corrupción de datos, y el Rey Bot no puede entrar.
+<color\=#FF423F>Firewalls</color> are extremely tough barriers that block robots from proceeding. It blocks all robots and cannot be destroyed.=<color\=#FF423F>Cortafuegos</color> Son barreras extremadamente resistentes que impiden que los robots avancen. Bloquea a todos los robots y no puede ser destruida.
+<color\=#FF423F>Electrolock Barriers</color> will block robots from proceeding, but they can be destroyed with explosions.=<color\=#FF423F>Barreras de Electrocierre</color> bloqueará el avance de los robots, pero pueden ser destruidos con explosiones.
+Check details and accept>=Revisa los detalles y acepta
+No Self-Destruct Bots destroyed=No se destruyeron Bots Autodestructivos
+<color\=#FF423F>Self-Destruct Bots</color> can blow themselves up to destroy Electrolock Barriers or enemy robots.=<color\=#FF423F>Bots Autodestructivos</color> pueden volarse para destruir Barreras Electrolock o robots enemigos.
+<color\=#FF423F>Combat Drones</color> can attack enemies, and are able to fly over Restricted Zones.=<color\=#FF423F>Drones de combate</color> pueden atacar enemigos y volar sobre las Zonas Restringidas.
+The <color\=#FF423F>King Bot</color> is at the heart of the robot party, and taking it to the goal will clear the challenge. Of course, you must protect it.=La <color\=#FF423F>Rey Bot</color> está en el corazón de la fiesta de robots, y llevarlo a la meta completará el desafío. Por supuesto, debes protegerlo.
+<color\=#FF423F>Berserk Bots</color> are affected by an unstable program and are running amok. They aim to destroy the King Bot and will destroy all other robots in their path in order to do so. Do your best to avoid them.=<color\=#FF423F>Robots Berserk</color> están afectados por un programa inestable y están descontrolados. Su objetivo es destruir al Rey Bot y no dudarán en destruir a todos los demás robots que se interpongan en su camino. Haz lo posible por evitarlos.
+No Combat Drones destroyed=No se destruyeron Drones de Combate
+<color\=#FF423F>Key Switches</color> are activated when a robot stands on them, and will disable an Electrolock Barrier.=<color\=#FF423F>Interruptores clave</color> se activan cuando un robot se para sobre ellos y desactivan una Barreras de Electrocierre.
+r:"^Reach the goal within (\d+) turns \((\d+)/(\d+)\)$"="Alcanza la meta en $1 turnos ($2/$3)"
+r:"^Collect (\d+) gold coins \((\d+)/(\d+)\)$"="Recolecta $1 monedas de oro ($2/$3)"
+r:"^Defeat (\d+) Berserk Bots \((\d+)/(\d+)\)$"="Derrota $1 Robots Berserker ($2/$3)"
+r:"^Collect (\d+) gold coin \((\d+)/(\d+)\)$"="Recoge $1 moneda de oro ($2/$3)"
+r:"^Defeat (\d+) Berserk Bots \((\d+)/(\d+)\)$"="Derrota a $1 Robots Berserk ($2/$3)"
+r:"^Collect (\d+) gold coin \((\d+)/(\d+)\)$"="Recoge $1 moneda de oro ($2/$3)"
+r:"^{{A}} the tutorial stage and Puzzle Bots stage (\d+) to unlock$"="{{A}} el tutorial y el nivel $1 de Puzzle Bots para desbloquear"
+r:"^{{A}} Stage (\d+) of Robo Challenge: Puzzle Bots \((\d+)/(\d+)\)$"="{{A}} Etapa $1 del Desafío Robo: Robots de puzzle ($2/$3)"
+r:"^{{A}} Stage (\d+) of Robo Challenge: Brawl Bots \((\d+)/(\d+)\)$"="{{A}} Etapa $1 del Desafío Robo: Bots de Combate ($2/$3)"
+
 ++-------------Tutoriales UI-----------------++
 r:"(?s)<color\=#FFD145>The Velvet Trials</color>.*?Defeat Unique Shadows.*?Points from both battles will be tallied after the second battle is completed\."="<color\=#FFD145>Las Pruebas de Terciopelo</color>\nDerrota a Sombras únicas con habilidades especiales para perfeccionar tu destreza en combate y aspirar a mejores calificaciones.\n\n<color\=#FFD145>Reglas Básicas</color>\nLas Pruebas de Terciopelo son desafíos de alta dificultad. Hay múltiples etapas, cada una dividida en varias áreas.\nCompletar la Etapa 5 de la prueba desbloqueará todas las etapas.\nPuedes cambiar libremente tu formación antes de que comience la batalla. Si el combate te resulta demasiado difícil, puedes reiniciarlo en cualquier momento.\nCada batalla tiene tres rangos. Al final del combate, tu rango se determinará en función de los puntos obtenidos.\n\n<color\=#FFD145>Ganar Puntos</color>\nEl daño infligido durante la batalla se calcula como puntos.\n\n<color\=#FFD145>Condiciones Especiales de Puntos</color>\nAl cumplir condiciones especiales, puedes ganar puntos adicionales.\nPuedes desafiar las etapas varias veces para intentar conseguir la puntuación más alta.\n\n<color\=#FFD145>Desafío de Grupo Doble</color>\nAlgunas Pruebas de Terciopelo requerirán que comandes un Grupo Doble para enfrentar el desafío.\nNo se pueden usar los mismos Ladrones Fantasma y Personas en ambos grupos.\nLos puntos de ambas batallas se sumarán una vez completada la segunda batalla."
 
 r:"(?s)<color\=#FFD145>Basic Rules</color>\nThe Trials from the Sea of Souls.*?Collect a certain amount of Star Crystals to receive valuable rewards\."="<color\=#FFD145>Reglas Básicas</color>\nLas Pruebas del Mar de las Almas son desafíos de alta dificultad disponibles por tiempo limitado, cada temporada se lanzan cuatro etapas.\nDebes completar las etapas en orden, y hay un total de nueve pruebas hasta la Etapa 3.\nEn la etapa final, deberás resistir los ataques de enemigos poderosos durante un número determinado de turnos.\nUna vez que comienza una etapa, no puedes cambiar tu grupo hasta completarla. El estado del grupo se mantendrá para la siguiente prueba.\nSi el desafío te resulta demasiado difícil, puedes reiniciar la prueba en cualquier momento.\n\n<color\=#FFD145>Efectos Especiales</color>\nAl desafiar las Pruebas del Mar de las Almas, ciertas etapas pueden tener Efectos Especiales. Asegúrate de revisar la descripción del efecto y cambiar a los Ladrones Fantasma de tu grupo según la situación.\n\n<color\=#FFD145>Puntos</color>\nCada prueba hasta la Etapa 3 tiene Objetivos de Etapa. Obtendrás puntos cada vez que completes dichos objetivos.\nEn la etapa final, el daño infligido a los enemigos se convertirá en puntos.\nPuedes desafiar las etapas varias veces para intentar conseguir la puntuación más alta.\n\n<color\=#FFD145>Rango</color>\nSi los Ladrones Fantasma cumplen las condiciones para aumentar su rango durante la prueba.\nA medida que el rango aumenta, las pruebas serán más difíciles, pero las recompensas que puedes ganar también serán más sustanciales.\n\n<color\=#FFD145>Recompensas de Prueba</color>\nAl completar una prueba, recibirás recompensas especiales.\nRecompensas de Misión: Cada temporada trae nuevas misiones de desafío.\nCompletar estas misiones te otorgará recompensas.\nRecompensas de Clasificación: Al final de la temporada, Merope enviará recompensas según la clasificación de los Ladrones Fantasma.\nRecompensas de Rango: Al alcanzar un nuevo rango por primera vez, recibirás recompensas de rango.\nAl completar los objetivos de la prueba, recibirás Cristal Estelar correspondientes a tu nivel.\nReúne una cierta cantidad de Cristal Estelar para recibir valiosas recompensas."
 
-r:"(?s)<color\=#FFD145>Basic Rules</color>\nEach season, open Gates of the Nightmare Catcher.*?Ranking Rewards are reset every season\."="<color\=#FFD145>Reglas Básicas</color>\nCada temporada, se abren las Puertas Del Cazador de Pesadillas para desafiar a varios jefes en múltiples niveles de dificultad, que deben completarse en orden. El número de jefes que aparecen será aleatorio.\nLas Puertas Del Cazador de Pesadillas se pueden intentar un número ilimitado de veces.\nLos jefes que aparecen y las puntuaciones obtenidas se reiniciarán cada temporada.\n\n<color\=#FFD145>Puntos de Exterminio</color>\nEl daño infligido a los jefes se convierte en puntos de exterminio.\nPuedes aumentar la cantidad de puntos obtenidos enfrentando dificultades más altas.\nSolo se registrará el valor de puntuación más alto.\nGanar puntos te permite obtener recompensas por puntuación y aumentar los puntos totales de tu Companio.\nLos puntos totales de tu Companio afectarán su rango en las Puertas Del Cazador de Pesadillas.\n\n<color\=#FFD145>Bloqueo de Grupo</color>\nAl enfrentarte a un jefe, los Ladrones Fantasma, Personas y Revelaciones que hayas utilizado quedarán bloqueados.\nLos Ladrones Fantasma, Personas y Revelaciones bloqueados no pueden participar ni ser utilizados en otros desafíos de las Puertas Del Cazador de Pesadillas.\nSi deseas editar tu grupo, debes reiniciar el desafío.\nEsto restablecerá tus puntos obtenidos, pero no afectará a tus puntos totales ni a los niveles de dificultad desbloqueados.\n\n<color\=#FFD145>Recompensas</color>\nRecompensas de Etapa: Recibirás recompensas de etapa al alcanzar ciertos hitos personales de puntos de exterminio.\nEstos puntos se reinician al final de cada temporada.\n\n<color\=#FFD145>Recompensas de Participación</color>\nObtendrás más recompensas según el número de miembros del Companio que participen en las Puertas Del Cazador de Pesadillas.\nLas recompensas de participación también se reinician al final de cada temporada.\n\n<color\=#FFD145>Recompensas de Rango</color>\nAl final de la temporada, se enviarán recompensas de clasificación correspondientes al rango de tu Companio.\nLas recompensas de clasificación se reinician cada temporada."
+r:"(?s)<color\=#FFD145>Basic Rules</color>\nEach season, open Gates of the Nightmare Catcher.*?Ranking Rewards are reset every season\."="<color\=#FFD145>Reglas Básicas</color>\nCada temporada, se abren las Portal del Cazapesadillas para desafiar a varios jefes en múltiples niveles de dificultad, que deben completarse en orden. El número de jefes que aparecen será aleatorio.\nLas Portal del Cazapesadillas se pueden intentar un número ilimitado de veces.\nLos jefes que aparecen y las puntuaciones obtenidas se reiniciarán cada temporada.\n\n<color\=#FFD145>Puntos de Exterminio</color>\nEl daño infligido a los jefes se convierte en puntos de exterminio.\nPuedes aumentar la cantidad de puntos obtenidos enfrentando dificultades más altas.\nSolo se registrará el valor de puntuación más alto.\nGanar puntos te permite obtener recompensas por puntuación y aumentar los puntos totales de tu Companio.\nLos puntos totales de tu Companio afectarán su rango en las Portal del Cazapesadillas.\n\n<color\=#FFD145>Bloqueo de Grupo</color>\nAl enfrentarte a un jefe, los Ladrones Fantasma, Personas y Revelaciones que hayas utilizado quedarán bloqueados.\nLos Ladrones Fantasma, Personas y Revelaciones bloqueados no pueden participar ni ser utilizados en otros desafíos de las Portal del Cazapesadillas.\nSi deseas editar tu grupo, debes reiniciar el desafío.\nEsto restablecerá tus puntos obtenidos, pero no afectará a tus puntos totales ni a los niveles de dificultad desbloqueados.\n\n<color\=#FFD145>Recompensas</color>\nRecompensas de Etapa: Recibirás recompensas de etapa al alcanzar ciertos hitos personales de puntos de exterminio.\nEstos puntos se reinician al final de cada temporada.\n\n<color\=#FFD145>Recompensas de Participación</color>\nObtendrás más recompensas según el número de miembros del Companio que participen en las Portal del Cazapesadillas.\nLas recompensas de participación también se reinician al final de cada temporada.\n\n<color\=#FFD145>Recompensas de Rango</color>\nAl final de la temporada, se enviarán recompensas de clasificación correspondientes al rango de tu Companio.\nLas recompensas de clasificación se reinician cada temporada."
 
 r:"(?s)<color\=#FFD145>Acquiring Personas</color>\nYou can obtain Personas.*?Check detailed information about your Personas\."="<color\=#FFD145>Obtención de Personas</color>\nPuedes obtener Personas al derrotar Sombras en los Palacios. Si obtienes una Persona que ya posees, se convertirá automáticamente en un Sello de esa Persona.\nUsando Sellos de Persona, puedes fusionar Personas más raras.\n\n<color\=#FFD145>Efectos de Persona</color>\nCuando equipas una Persona, puedes usar sus habilidades durante la batalla.\nEl protagonista puede invocar hasta tres Personas al mismo tiempo.\n\n<color\=#FFD145>Acerca de las Personas</color>\nFusión de Persona: Fusiona Personas para crear otras nuevas.\nEntrenamiento de Persona: Fortalece, desarrolla y mejora las habilidades de tus Personas.\nVer/Invocar Personas: Consulta información detallada sobre tus Personas."
 
-r:"(?s)<color\=#FFD145>Feature Explanation</color>.*?a Concerto is activated\."="<color\=#FFD145>Explicación de funciones</color>\nPuedes ajustar la formación seleccionando un espacio vacío o un conjunto de Ladrones Fantasma en el grupo. Solo se puede cambiar la posición de los Ladrones Fantasma de apoyo.\n\n<color\=#FFD145>Cambiar tu grupo</color>\nPuedes ver tus grupos presionando el botón Grupo en la parte superior derecha de la pantalla para ver la lista de grupos. Puedes cambiar el nombre de un grupo presionando el botón Cambiar nombre. Los nombres pueden tener hasta 7 caracteres.\nSelecciona un grupo y presiona Establecer para cambiar al grupo seleccionado.\n\n<color\=#FFD145>Ladrón Fantasma de apoyo</color>\nEn el Reino de la Represión y en algunos desafíos de exploración, puedes usar Ladrones Fantasma de apoyo.\nUn Ladrón Fantasma de apoyo no puede exceder tu límite de nivel actual de Ladrón Fantasma.\nEn las Puertas del Cazador de Pesadillas, puedes usar Ladrones Fantasma pertenecientes a miembros de Companio independientemente del límite de nivel.\nCuando otro jugador usa tu Ladrón Fantasma de apoyo, o cuando usas un Ladrón Fantasma de apoyo de otro jugador, obtendrás Puntos de Apoyo.\nPuedes usar Puntos de Apoyo para comprar objetos a través del Intercambio: Recompensas de apoyo.\n\n<color\=#FFD145>Llamas del Deseo</color>\nCuando se establecen Ladrones Fantasma del mismo atributo en el mismo grupo, se enciende un efecto armonioso llamado Llamas del Deseo.\nEste efecto solo se aplica a las Personas del protagonista y de los tres Ladrones Fantasma establecidos, no a los Ladrones Fantasma de apoyo.\nCuando dos miembros del grupo tienen el mismo atributo, se activa un Dúo de ese atributo.\nCuando tres o más miembros del grupo tienen el mismo atributo, se activa un Coro de ese atributo. Cuando el grupo tiene cuatro o más atributos diferentes, se activa un Armonía."
+r:"(?s)<color\=#FFD145>Feature Explanation</color>.*?a Concerto is activated\."="<color\=#FFD145>Explicación de funciones</color>\nPuedes ajustar la formación seleccionando un espacio vacío o un conjunto de Ladrones Fantasma en el grupo. Solo se puede cambiar la posición de los Ladrones Fantasma de apoyo.\n\n<color\=#FFD145>Cambiar tu grupo</color>\nPuedes ver tus grupos presionando el botón Grupo en la parte superior derecha de la pantalla para ver la lista de grupos. Puedes cambiar el nombre de un grupo presionando el botón Cambiar nombre. Los nombres pueden tener hasta 7 caracteres.\nSelecciona un grupo y presiona Establecer para cambiar al grupo seleccionado.\n\n<color\=#FFD145>Ladrón Fantasma de apoyo</color>\nEn el Reino de la Represión y en algunos desafíos de exploración, puedes usar Ladrones Fantasma de apoyo.\nUn Ladrón Fantasma de apoyo no puede exceder tu límite de nivel actual de Ladrón Fantasma.\nEn las Portal del Cazapesadillas, puedes usar Ladrones Fantasma pertenecientes a miembros de Companio independientemente del límite de nivel.\nCuando otro jugador usa tu Ladrón Fantasma de apoyo, o cuando usas un Ladrón Fantasma de apoyo de otro jugador, obtendrás Puntos de Apoyo.\nPuedes usar Puntos de Apoyo para comprar objetos a través del Intercambio: Recompensas de apoyo.\n\n<color\=#FFD145>Llamas del Deseo</color>\nCuando se establecen Ladrones Fantasma del mismo atributo en el mismo grupo, se enciende un efecto armonioso llamado Llamas del Deseo.\nEste efecto solo se aplica a las Personas del protagonista y de los tres Ladrones Fantasma establecidos, no a los Ladrones Fantasma de apoyo.\nCuando dos miembros del grupo tienen el mismo atributo, se activa un Dúo de ese atributo.\nCuando tres o más miembros del grupo tienen el mismo atributo, se activa un Coro de ese atributo. Cuando el grupo tiene cuatro o más atributos diferentes, se activa un Armonía."
 
 r:"(?s)<color\=#FFD145>Ranked Match</color>.*?Richly Common 0★\."="<color\=#FFD145>Partida Clasificatoria</color>\nUn modo multijugador en línea.\nCompetirás en 3 rondas y ganarás Puntos de Magnate dependiendo de tu clasificación final.\nPuedes ganar hasta un máximo de 1000 Puntos de Magnate cada semana entre la Partida Clasificatoria y el Modo en solitario.\n\n<color\=#FFD145>Rango</color>\nHay 15 rangos en total. Cuando el número de ★ ganado en la Partida Clasificatoria exceda el valor máximo de tu rango actual, serás ascendido.\nPor el contrario, si pierdes ★, serás degradado.\nEl rango final es Magnate Legendario, donde tu clasificación se muestra directamente en lugar de tu número de ★.\n\n<color\=#FFD145>Cambio de Rango</color>\nPara el rango de Rico Ordinario e inferiores, no serás degradado aunque pierdas todos tus ★.\nPara el rango de Millonario e inferiores, según tu clasificación final, ganarás +2/+1/+0/-1 ★.\nPor encima del rango de Millonario, según tu clasificación final, ganarás +2/+1/-1/-2 ★.\nLos Magnates Legendarios no perderán su rango aunque pierdan ★.\n\n<color\=#FFD145>Clasificaciones</color>\nLas clasificaciones se basan en tu rango; los jugadores con rangos más altos se situarán más arriba.\nCuando te conviertas en Magnate Legendario, tu puntuación se calculará según tu clasificación final en cada partida y, según dicha clasificación, ganarás +2/+1/-1/-2 ★, y se te clasificará según tu puntuación.\n\n<color\=#FFD145>Preparación tras emparejamiento con éxito</color>\nTras un emparejamiento con éxito, puedes cambiar tu personaje mientras se prepara la partida.\nSi varios jugadores seleccionan el mismo personaje, se elegirá a uno al azar para usarlo y los demás deberán cambiar a otro.\nSi no seleccionas un personaje durante la etapa de preparación, se seleccionará uno al azar tras 30 segundos.\n\n<color\=#FFD145>Temporada</color>\nAl final de cada temporada de Tycoon, puedes ganar recompensas según tu rango final.\nTu rango al final de la temporada también determinará tu rango al inicio de la siguiente.\nEn los rangos 1-2 <color\=#FF423F>Mendigo</color>, comenzarás la siguiente temporada en el mismo rango.\nEn los rangos 3-6 <color\=#FF423F>Pobre</color>, comenzarás la siguiente temporada en 3 - Bastante Pobre 0★.\nEn los rangos 7-10 <color\=#FF423F>Común</color>, comenzarás la siguiente temporada en 5 - Algo Pobre 0★.\nEn los rangos 11-14 <color\=#FF423F>Rico</color>, comenzarás la siguiente temporada en 7 - Ordinariamente común 0★.\nEn el rango 15 <color\=#FF423F>Magnate</color>, comenzarás la siguiente temporada en 9 - Ricamente común 0★."
 
 r:"(?s)<color\=#FFD145>Synergy</color>.*?Profile screen\."="<color\=#FFD145>Sinergia</color>\nCada cómplice tiene un nivel de Sinergia, que puede aumentarse hasta un rango máximo de 20 (10 para Lufel).\nPara subir de rango, debes cumplir ciertas condiciones, como estadísticas sociales, habilidades de Persona o completar ciertas misiones.\nLa Sinergia también aumenta cuando pasas tiempo con un cómplice o le das regalos.\nLas salidas especiales que hacen avanzar vuestra relación desbloquearán el límite de rango de Sinergia.\n* Si no se cumplen estas condiciones, las salidas de Sinergia no estarán disponibles.\n\n<color\=#FFD145>Vínculos prioritarios</color>\nPriorizar un vínculo aumentará enormemente las posibilidades de un evento de salida con ese personaje.\n* Si no se cumplen las condiciones, el evento de salida no ocurrirá.\n\n<color\=#FFD145>Relaciones con los cómplices</color>\nCuando tu Sinergia con un cómplice alcanza cierto nivel, tu vínculo con ellos se profundizará y podréis convertiros en <color\=#FF423F>amigos cercanos</color>.\nCon algunos cómplices, puedes formar un vínculo especial y convertiros en <color\=#FF423F>almas gemelas</color>.\nLas recompensas de rango están ligadas a tu relación con el cómplice. Las recompensas marcadas con una estrella son para amigos cercanos, y las marcadas con un corazón son para almas gemelas.\nSi las recompensas de amigo cercano y de alma gemela están disponibles en el mismo rango, recibirás una basada en tu relación con el cómplice.\n\n<color\=#FFD145>Habilidades de Sinergia</color>\nLas habilidades de Sinergia se obtienen al aumentar tu Sinergia con los cómplices.\nCada cómplice tiene sus propias habilidades, que pueden desbloquearse y mejorarse a medida que aumenta tu rango de Sinergia.\n\n<color\=#FFD145>Perfiles</color>\nPuedes consultar la información básica, las líneas de voz y la historia de un cómplice desde la pantalla de Perfil."
 
-++-------------Planes de lufel-----------------++
+r:"(?s)<color\=#FFD145>Basic Rules</color>\nYou can obtain Kagura Bells.*?You can also reset the remaining items at any time\."="<color\=#FFD145>Reglas básicas</color>\nPuedes obtener Campanas Kagura en los eventos y gastarlas para participar en el sorteo de objetos.\n\n<color\=#FFD145>Rezar</color>\nPuedes gastar Campanas Kagura para rezar y ganar objetos según el resultado del sorteo.\nCuando hayas reclamado todos los objetos, podrás restablecer los objetos restantes y volver a rezar.\nTambién puedes restablecer los objetos restantes en cualquier momento."
 
+<color\=#FFD145>Event Overview</color>\nIn this event, you use Willpower to complete Stellae in the astrolabe. By completing them, you can obtain rewards. You can also get badges for completing goals.\n\n<color\=#FFD145>Stellae</color>\nStellae are divided into multiple types based on their battle difficulty and rewards.\nAs you progress, the levels and capabilities of enemies will increase, but the rewards you can get will also improve.\n\n<color\=#FFD145>Battles</color>\nBattles end after a set number of turns.\nIf you are unable to defeat the Shadows within the set number of turns, or your party is defeated, you can try again with a different party. The Shadows' remaining HP will carry over from when the previous battle ended. The Stella is considered cleared once you have defeated all of the Shadows.\nEach Stella has its own special effects that can strengthen or weaken your foes.\nAll Shadows will have different weaknesses and resistances than normal.\n\n<color\=#FFD145>Resetting</color>\nWhen resetting Stellae, the clear status of the Stella will be reset, and you can regain the Willpower and challenge attempts you've used.\nYou can press [Reset] on the left of the screen to reset the clear status of all Stellae.\nNote that Stellae you've already obtained rewards from won't grant rewards again, even when you clear them once more.\n\n<color\=#FFD145>Points</color>\nYour Willpower and challenge attempts are increased each week.=<color\=#FFD145>Resumen del evento</color>\nEn este evento, usas Fuerza de Voluntad para completar las estrellas del astrolabio. Al completarlas, puedes obtener recompensas. También puedes conseguir insignias al cumplir ciertos objetivos.\n\n<color\=#FFD145>Estrellas</color>\nLas estrellas se dividen en varios tipos según su dificultad de batalla y sus recompensas.\nA medida que progreses, el nivel y las capacidades de los enemigos aumentarán, pero las recompensas que puedes obtener también mejorarán.\n\n<color\=#FFD145>Batallas</color>\nLas batallas terminan tras un número determinado de turnos.\nSi no logras derrotar a las Sombras dentro del límite de turnos, o si tu equipo es derrotado, puedes intentarlo de nuevo con un equipo diferente. El PS restante de las Sombras se mantendrá tal como quedó al finalizar la batalla anterior. La estrella se considera completada una vez que hayas derrotado a todas las Sombras.\nCada estrella tiene sus propios efectos especiales que pueden fortalecer o debilitar a tus enemigos.\nTodas las Sombras tendrán debilidades y resistencias diferentes a las habituales.\n\n<color\=#FFD145>Restablecer</color>\nAl restablecer las estrellas, se reiniciará su estado de finalización y recuperarás la Fuerza de Voluntad y los intentos de desafío utilizados.\nPuedes pulsar [Restablecer] a la izquierda de la pantalla para reiniciar el estado de todas las estrellas.\nTen en cuenta que las estrellas de las que ya hayas obtenido recompensas no volverán a otorgarlas, aunque las completes de nuevo.\n\n<color\=#FFD145>Puntos</color>\nTu Fuerza de Voluntad y tus intentos de desafío aumentan cada semana.
+
+<color\=#FFD145>Event Overview</color>\nIn this event, you use Willpower to complete Stellae in the astrolabe. By completing them, you can obtain rewards. You can also get badges for completing goals.\n\n<color\=#FFD145>Stellae</color>\nStellae are divided into multiple types based on their battle difficulty and rewards.\nAs you progress, the levels and capabilities of enemies will increase, but the rewards you can get will also improve.\n\n<color\=#FFD145>Battles</color>\nBattles end after a set number of turns.\nIf you are unable to defeat the Shadows within the set number of turns, or your party is defeated, you can try again with a different party. The Shadows' remaining HP will carry over from when the previous battle ended. The Stella is considered cleared once you have defeated all of the Shadows.\nEach Stella has its own special effects that can strengthen or weaken your foes.\nAll Shadows will have their affinities set to normal.\n\n<color\=#FFD145>Resetting</color>\nWhen resetting Stellae, the clear status of the Stella will be reset, and you can regain the Willpower and challenge attempts you've used.\nYou can press [Reset] on the left of the screen to reset the clear status of all Stellae.\nNote that Stellae you've already obtained rewards from won't grant rewards again, even when you clear them once more.\n\n<color\=#FFD145>Points</color>\nYour Willpower and challenge attempts are increased each week.=<color\=#FFD145>Resumen del evento</color>\nEn este evento, usas Fuerza de Voluntad para completar las estrellas del astrolabio. Al completarlas, puedes obtener recompensas. También puedes conseguir insignias al cumplir ciertos objetivos.\n\n<color\=#FFD145>Estrellas</color>\nLas estrellas se dividen en varios tipos según su dificultad de batalla y sus recompensas.\nA medida que progreses, el nivel y las capacidades de los enemigos aumentarán, pero las recompensas que puedes obtener también mejorarán.\n\n<color\=#FFD145>Batallas</color>\nLas batallas terminan tras un número determinado de turnos.\nSi no logras derrotar a las Sombras dentro del límite de turnos, o si tu equipo es derrotado, puedes intentarlo de nuevo con un equipo diferente. El PS restante de las Sombras se mantendrá tal como quedó al finalizar la batalla anterior. La estrella se considera completada una vez que hayas derrotado a todas las Sombras.\nCada estrella tiene sus propios efectos especiales que pueden fortalecer o debilitar a tus enemigos.\nTodas las Sombras tendrán sus afinidades configuradas como normales.\n\n<color\=#FFD145>Restablecer</color>\nAl restablecer las estrellas, se reiniciará su estado de finalización y recuperarás la Fuerza de Voluntad y los intentos de desafío utilizados.\nPuedes pulsar [Restablecer] a la izquierda de la pantalla para reiniciar el estado de todas las estrellas.\nTen en cuenta que las estrellas de las que ya hayas obtenido recompensas no volverán a otorgarlas, aunque las completes de nuevo.\n\n<color\=#FFD145>Puntos</color>\nTu Fuerza de Voluntad y tus intentos de desafío aumentan cada semana.
+
+<color\=#FFD145>How to Play</color>\nParticipate in the soccer club's penalty kick practice. Choose the direction of the shot and press the Shoot button to take the shot.\n\n<color\=#FFD145>Club Level</color>\nYou can earn experience points by completing the soccer club's activities or clearing each difficulty level for the first time.\nAs the club level increases, higher difficulty stages will be unlocked, and your insight will increase.=<color\=#FFD145>Cómo jugar</color>\nParticipa en la práctica de tiros penales del club de fútbol. Elige la dirección del tiro y pulsa el botón de Disparar para realizar el tiro.\n\n<color\=#FFD145>Nivel del club</color>\nPuedes ganar puntos de experiencia completando las actividades del club de fútbol o superando cada nivel de dificultad por primera vez.\nA medida que el nivel del club aumente, se desbloquearán etapas de mayor dificultad y tu perspicacia aumentará.
+
+<color\=#FFD145>Recollections</color>\nBy completing challenges, you can obtain rare materials to enhance your Personas.\n\n<color\=#FFD145>About Rewards</color>\nYou can receive rewards up to twice a week.\nEach Shadow in Recollections can yield rewards once per week.\nThe reward count for Recollections resets every Sunday at 8 PM UTC.=<color\=#FFD145>Recuerdos</color>\nAl completar desafíos, puedes obtener materiales raros para mejorar tus Personas.\n\n<color\=#FFD145>Sobre Recompensas</color>\nPuedes recibir recompensas hasta dos veces a la semana. Cada Sombra en Recuerdos puede generar recompensas una vez a la semana. El contador de recompensas de Recuerdos se reinicia todos los domingos a las 8 PM UTC.
+
+r:"(?s)<color\=#FFD145>Creating a Companio</color>\nYou can create your own Companio.*?▼Members Can:.*?Leave the Companio"="<color\=#FFD145>Creación de un Companio</color>\nPuedes crear tu propio Companio. Se requieren 20,000 Gemas Konpaku para crearlo.\nNo se pueden usar nombres que ya estén en uso por otros Companios.\nAl crear un Companio, te conviertes en el líder y puedes reclutar nuevos miembros.\n\n<color\=#FFD145>Unirse a un Companio</color>\nLos jugadores pueden unirse a un Companio existente.\nAlgunos Companios requieren el permiso del líder o sublíder para unirse.\nAbandonar un Companio activará un periodo de enfriamiento de 24 horas.\n\n<color\=#FFD145>Roles del Companio</color>\n▼ Los Líderes pueden:\n• Editar avisos del Companio\n• Editar el nombre del Companio\n• Editar el avatar del Companio\n• Editar la descripción del Companio\n• Cambiar ajustes de unión (mensajes, requisitos y nivel de autounión)\n• Gestionar solicitudes de unión (permitir/denegar)\n• Gestionar miembros (ver, promover y expulsar)\n• Abandonar el Companio\n\n▼ Los Sublíderes pueden:\n• Editar el avatar del Companio\n• Gestionar solicitudes de unión (permitir/denegar)\n• Gestionar miembros (ver y expulsar)\n• Abandonar el Companio\n\n▼ Los Miembros pueden:\n• Ver miembros\n• Abandonar el Companio"
+
+r:"(?s)<color\=#FFD145>Basic Rules</color>\nYou need money to get capsules from capsule machines.*?by reading \"Encapsulated Mysteries\.\""="<color\=#FFD145>Reglas básicas</color>\nNecesitas dinero para obtener cápsulas de las máquinas de cápsulas.\nLas recompensas obtenidas de las máquinas de cápsulas se registran en tu colección de cápsulas.\nPuedes ganar aún más recompensas al completar una serie de cápsulas.\nPuedes intercambiar las cápsulas que no quieras con amigos o reciclarlas para obtener cápsulas sorpresa.\n\n<color\=#FFD145>Cómo usar</color>\nSelecciona una máquina de cápsulas que venda la serie que quieres obtener y extrae una cápsula de esa máquina.\n\n<color\=#FFD145>Explicación de probabilidad de cápsulas</color>\nPorcentajes de aparición para sets de 8 piezas\nPorcentaje de cápsula súper rara: 1.25%\nPorcentaje de cápsula rara: 12.5%\nPorcentaje de cápsula común: 86.25%\nPorcentajes de aparición para sets de 6 piezas\nPorcentaje de cápsula súper rara: 1.25%\nPorcentaje de cápsula rara: 6.25%\nPorcentaje de cápsula común: 92.5%\nPuedes duplicar los porcentajes de aparición de las cápsulas raras y súper raras leyendo "Misterios encapsulados"."
+
+r:"(?s)<color\=#FFD145>About Revelation Cards</color>.*?determine the effect of the required 4-piece set from the name of the Space set effect\..*?<color\=#FFD145>Inscription</color>.*?randomized Orange Space Revelation Card\."="<color\=#FFD145>Sobre las Cartas de Revelación</color>\nPuedes aumentar la fuerza de un Phantom Thief en batalla equipándolo con Cartas de Revelación.\nHay 5 marcas de Cartas de Revelación: Espacio, Sol, Luna, Estrella y Cielo.\n\n<color\=#FFD145>Efectos de Conjunto</color>\nHeavens: Incluye Sol, Luna, Estrella y Cielo. Equipar 2 o 4 Cartas de Revelación del mismo conjunto activará el efecto de 2 o 4 piezas, respectivamente.\nEspacio: Existen múltiples efectos de conjunto para el efecto de Revelación de Espacio, el cual se determina por los efectos del conjunto de 4 piezas de Cielos que esté activo actualmente.\nPuedes determinar el efecto del conjunto de 4 piezas requerido a partir del nombre del efecto del conjunto de Espacio.\n\n<color\=#FFD145>Mejora de Cartas de Revelación</color>\nAl mejorar una Carta de Revelación, su poder base aumenta.\nSi hay menos de 4 atributos, se añadirá 1 atributo.\nSi hay 4 atributos, los existentes se mejorarán aleatoriamente.\nLa mejora de cartas no está limitada por el nivel del personaje, pero las Cartas de Espacio no se desbloquearán hasta que Wonder alcance el nivel 40.\n\n<color\=#FFD145>Obtención de Cartas de Revelación</color>\nLas cartas de Sol, Luna, Estrella y Cielo pueden obtenerse en sus respectivas Mazmorras de Cartas de Revelación en el Reino de la Represión.\nA mayor nivel de desafío, mayor será la probabilidad de obtener cartas de alta rareza.\n\n<color\=#FFD145>Restablecimiento</color>\nPuedes gastar Cartas Retrógradas para restablecer las Cartas de Revelación mejoradas al nivel máximo.\nUna vez restablecidas, volverán al nivel 0 y se devolverán todos los materiales gastados en su mejora.\n\n<color\=#FFD145>Personalización</color>\nAl seleccionar "Personalizar" en la pantalla principal, puedes modificar una Carta de Revelación.\nUsa Tinta de Vicisitud para crear una carta con un nuevo conjunto, marca (Luna, Estrella, Cielo) y atributo principal.\n\n<color\=#FFD145>Inscripción</color>\nSelecciona "Inscribir" en la pantalla principal para realizar la Inscripción de Cartas de Revelación.\nGasta 5 Cartas de Revelación naranjas (Sol, Luna, Estrella o Cielo) para inscribir una carta naranja aleatoria de esas mismas marcas.\nGasta 3 Cartas de Revelación de Espacio naranjas para inscribir una Carta de Revelación de Espacio naranja aleatoria."
+
+++-------------Pruebas Pjs-----------------++\
+r:"(?s)1\.\s+(.*?)\s+possesses\s+powerful\s+<color\=#FF423F>support\s+capabilities</color>.*?deal\s+even\s+greater\s+damage\."="1. $1 posee poderosas <color\=#FF423F>capacidades de apoyo</color>. Al aprovechar sus diferentes habilidades en batalla, puede infligir <color\=#FF423F>multitud de efectos negativos</color> a los enemigos y <color\=#FF423F>reducir su curación recibida</color>.\n2. Cuando Gran Bienvenida está activo, puede <color\=#FF423F>reducir la Defensa de todos los enemigos</color> e <color\=#FF423F>aumentar el daño de Fuego/Hielo/Eléctrico/Viento recibido</color>, al tiempo que fortalece los ataques de esos elementos de los aliados.\n3. Cuando Seguimiento Feroz está activo, puede reducir la Defensa de un enemigo y aumentar su daño de Resonancia recibido. Cuando se combina con aliados que pueden usar <color\=#FF423F>Resonancia</color>, pueden infligir un daño aún mayor."
+
+++-------------Tutoriales Eventos-----------------++
+r:"(?s)<color\=#FFD145>Collecting Keywords</color>\n• In the mission Answer Sheet, join (.+?) to solve puzzles.*?• Drag the keywords to the correct place and complete the puzzle\."="<color\=#FFD145>Recopilación de palabras clave</color>\n• En la misión Hoja de respuestas, únete a $1 para resolver acertijos en una búsqueda del tesoro que pondrá a prueba tu ingenio. Durante el evento, puedes consultar tu hoja de respuestas para ver las palabras clave que has recopilado.\n• Puedes reunir las palabras clave en cualquier orden, pero solo puedes aceptar una misión de palabra clave a la vez.\n• Habrá más historia disponible cuando hayas reunido 3, 6 y 9 palabras clave. No podrás recolectar la siguiente palabra clave hasta que hayas completado la nueva historia.\n• Recibirás inmediatamente las recompensas por recopilar palabras clave tras completar cada misión. No es necesario volver a la hoja de respuestas para reclamarlas.\n\n<color\=#FFD145>Completar el acertijo</color>\n• Tras recopilar todas las palabras clave, deberás ponerlas en el orden correcto para formar una oración.\n• Arrastra las palabras clave al lugar correcto y completa el acertijo."
+
+r:"(?s)<color\=#FFD145>Puzzle Bots</color>.*?<color\=#FFD145>Brawl Bots</color>.*?<color\=#FFD145>Comments</color>.*?<color\=#FFD145>Event Rewards</color>.*?<color\=#FFD145>Robo Shop</color>.*?"="<color\=#FFD145>Robots de puzzle</color>\nGana el desafío moviendo al Rey Bot a la salida dentro del límite de movimientos.\n\n<color\=#FFD145>Bots de Combate</color>\nHay tres niveles de dificultad para el desafío: Fácil, Normal y Difícil.\nCompletar una etapa de dificultad superior completará automáticamente todas las dificultades inferiores de esa etapa.\nPuedes obtener robots y Chips de Combate de las recompensas por clasificación de estrellas de Robots de puzzle.\n\n<color\=#FFD145>Comentarios</color>\nDurante el programa, llegarán comentarios de la audiencia.\nCompletar Robots de puzzle y Bots de Combate desbloqueará los comentarios.\n\n<color\=#FFD145>Recompensas del evento</color>\nPuedes ganar recompensas completando y superando los objetivos del desafío.\nCompletar las dificultades Fácil, Normal y Difícil en Bots de Combate también te otorgará recompensas.\nTambién puedes obtener recompensas al ver los últimos comentarios.\n\n<color\=#FFD145>Tienda Robo</color>\nLos Puntos del programa de TV ganados en el evento se pueden canjear por objetos en la Tienda Robótico."
+
+++-------------Planes de lufel-----------------++
 r:"^Raise (\d+) Phantom Thieves to Talent \{\{([A-Za-z]+)\}\}\. (\d+)$"=Eleva a $1 Ladrones Fantasma al Talento {{$2}}. $3
 r:"^Raise (\d+) Phantom Thieves to \{\{([A-Za-z]+)\}\}\. (\d+)$"=Eleva a $1 Ladrones Fantasma hasta {{$2}}. $3
 r:"^Raise (\d+) Phantom Thieves to \{\{([A-Za-z]+)\}\}\.(\d+)$"=Eleva a $1 Ladrones Fantasma a {{$2}}.$3
@@ -706,9 +971,40 @@ r:"^Raise\s+Knowledge\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"
 r:"^Raise\s+(\d+)\s+Personas\s+to\s+\{\{A\}\}\.\s+(\d+)\.\s?$"="Sube $1 Personas a {{A}}. $2."
 r:"^•\s+Raise\s+\{\{A\}\}\s+to\s+level\s+(\d+)\.$"="• Sube a {{A}} al nivel $1."
 r:"^Raise\s+Charm\s+to\s+Lv\.\s+(\d+)\.\s+<size\=30>\((\d+)/(\d+)\)</size>$"="Sube el Encanto a Nv. $1. <size\=30>($2/$3)</size>"
+r:"^Raise\s+(\d+)\s+skill\s+for\s+(\d+)\s+Thief\s+to\s+{{(.*?)}}\.\s+(\d+)\s+\(excluding\s+increases\s+from\s+Awareness\s+Levels\)\s*$"="Aumenta $1 habilidad para $2 Ladrón a {{$3}}. $4 (excluyendo aumentos de los Niveles de Conciencia)"
+r:"^Raise\s+(\d+)\s+skills\s+for\s+(\d+)\s+Thief\s+to\s+{{(.*?)}}\.\s+(\d+)\s+\(excluding\s+increases\s+from\s+Awareness\s+Levels\)\s*$"="Aumenta $1 habilidad para $2 Ladrón a {{$3}}. $4 (excluyendo aumentos de los Niveles de Conciencia)"
+r:"^Raise\s+(\d+)\s+skills\s+for\s+(\d+)\s+Thieves\s+to\s+{{(.*?)}}\.?\s+(\d+)\s+\(excluding\s+increases\s+from\s+Awareness\s+Levels\)\s*$"="Aumenta $1 habilidades para $2 Ladrones a {{$3}}. $4 (excluyendo aumentos de los Niveles de Conciencia)"
+r:"^Raise\s+(\d+)\s+skill\s+for\s+(\d+)\s+Thieves\s+to\s+{{(.*?)}}\.\s+(\d+)\s+\(excluding\s+increases\s+from\s+Awareness\s+Levels\)\s*$"="Aumenta $1 habilidad para $2 Ladrones a {{$3}}. $4 (excluyendo aumentos de los Niveles de Conciencia)"
+r:"^Raise\s+{{(.*?)}}\s+to\s+Rank\s+([IVXLCDM]+)\s*$"="Elevar {{$1}} al rango $2"
+r:"^Raise\s+(\d+)\s+Revelation\s+Cards\s+to\s+{{(.*?)}}\.\s+(\d+)\s*$"="Lleva $1 Cartas de Revelación a {{$2}}. $3"
+r:"^Use\s+([\d,]+)\s+schema\s+points\s*$"="Usa $1 puntos de esquema"
+r:"^{{(.*?)}}\s+Recollections\s+on\s+difficulty\s+(\d+)\s+or\s+higher\s*$"="{{$1}} Recuerdos en dificultad $2 o superior"
+r:"^Raise\s+(\d+)\s+Space\s+Revelation\s+Card\s+to\s+{{(.*?)}}\.\s+(\d+)\s*$"="Eleva $1 Carta de Revelación Espacial a {{$2}}. $3"
+r:"^{{(.*?)}}\s+stage\s+(\d+)\s+in\s+(\d+)\s+of\s+the\s+Velvet\s+Trials\s*$"="{{$1}} la etapa $2 en $3 de las Pruebas de Terciopelo"
+r:"^{{(.*?)}}\s+Metro\s+of\s+Desire\s+on\s+difficulty\s+(\d+)\s+or\s+higher\s*$"="{{$1}} Metro del Deseo en dificultad $2 o superior"
+r:"^Raise\s+(\d+)\s+Personas\s+to\s+{{(.*?)}}\.\s+(\d+)\s*$"="Eleva $1 Personas a {{$2}}. $3"
+r:"^Own\s+(\d+)\s+Rank\s+([IVXLCDM]+)\s+Personas\s+of\s+(\d+)★rarity\s*$"="Posee $1 Personas de Rango $2 con rareza de $3★."
+r:"^Raise\s+(\d+)\s+Space\s+Revelation\s+Cards\s+to\s+{{(.*?)}}\.\s+(\d+)\s*$"="Eleva $1 Cartas de Revelación Espacial a {{$2}}. $3"
+r:"^Reach\s+level\s+(\d+)\s+on\s+the\s+Path\s+of\s+Aiyatsbus\s+Fare\s+Machine\s*$"="Alcanza el nivel $1 en la Máquina de tarifas del Camino de Aiyatsbus."
+r:"^Raise\s+(\d+)\s+skill\s+for\s+(\d+)\s+Thie[v|f]e?s\s+to\s+{{(.*?)}}\.\s+(\d+)\s+\(excluding\s+increases\s+from\s+Awareness\s+Levels\)\s*$"="Aumenta $1 habilidades para $2 Ladrones a {{$3}}. $4 (excluyendo aumentos de los Niveles de Conciencia)"
+r:"^Own\s+(\d+)\s+Rank\s+(.+?)\s+Personas\s+of\s+(\d+).?\s*rarity\s*$"="Posee $1 Personas de rango $2 con rareza de $3★."
+
 ++-------------Marcos Avatares-----------------++
 r:"^Phantom\s+Pass\s+Phase\s+(\d+)\s+(.+)\s+reward\.$"="Phantom Pass Fase $1 $2 recompensa."
 
+++-------------Desbloqueo social link-----------------++
+r:"^Unlocks\s+when\s+Guts\s+is\s+(\d+)\.$"="Se desbloquea al alcanzar $1 de Coraje."
+r:"^Unlocks\s+when\s+Proficiency\s+is\s+(\d+)\.$"="Se desbloquea al alcanzar $1 de Destreza."
+r:"^Unlocks\s+when\s+Charm\s+is\s+(\d+)\.$"="Se desbloquea al alcanzar $1 de Encanto."
+r:"^Unlocks\s+when\s+Knowledge\s+is\s+(\d+)\.$"="Se desbloquea al alcanzar $1 de Conocimiento."
+r:"^Unlocks\s+when\s+Kindness\s+is\s+(\d+)\.$"="Se desbloquea al alcanzar $1 de Amabilidad."
+
+++-------------Prueba Astrolabio-----------------++
+r:"^Pass\s+(\d+)\s+Stellae\s+\((\d+)\/(\d+)\)$"="Supera $1 Estrellas ($2/$3)"
+r:"^Pass\s+a\s+Lord\s+Stella\s+\((\d+)\/(\d+)\)$"="Supera una Estrella del Señor ($1/$2)"
+r:"^Pass\s+a\s+Fate\s+Stella\s+\((\d+)\/(\d+)\)$"="Supera una Estrella del Destino ($1/$2)"
+r:"^Pass\s+all\s+Stellae\s+\((\d+)\/(\d+)\)$"="Supera todas las Estrellas ($1/$2)"
+r:"^Use\s+(\d+)\s+Willpower\s+to\s+pass\s+all\s+Stellae\s*\((\d+)\/(\d+)\)$"="Usa $1 de Fuerza de Voluntad para superar todas las Estrellas ($2/$3)"
 
 ++-------------Combate-----------------++
 r:"^([A-Za-z\s]+) is being protected by ([A-Za-z]+)\.\.\.$"="$1 está siendo protegido por $2..."
@@ -956,3 +1252,109 @@ Tropical Motoha is targeted...=Motoha Tropical es objetivo...
 Frostgale Kotone is targeted...=Kotone Vientogélido es objetivo...
 
 r:"^Decrease\s+dmg\s+by\s+(\d+)%\.$"="Disminuye el daño en un $1%."
+
+r:"^Decrease\s+damage\s+taken\s+by\s+([\d\.]+)%\.$"="Disminuye el daño recibido en un $1%."
+
+r:"^Increase\s+healing\s+received\s+by\s+([\d\.]+)%\.$"="Aumenta la curación recibida en un $1%."
+
+r:"^Increase\s+Gun\s+damage\s+by\s+([\d\.]+)%\.$"="Aumenta el daño de las Armas de Fuego en un $1%."
+
+r:"^Increase\s+Physical\s+damage\s+by\s+([\d\.]+)%\.$"="Aumenta el daño Físico en un $1%."
+
+r:"^Increase\s+shield\s+effect\s+by\s+([\d\.]+)%\.$"="Aumenta el efecto del escudo en un $1%."
+
+r:"^Increase\s+Atk\s+by\s+([\d.]+)%\s+for\s+each\s+stack\.$"="Aumenta ATQ en un $1% por cada acumulación."
+
+r:"^Increase\s+Fire\/Ice\/Electric\/Wind\s+dmg\s+taken\s+by\s+([\d.]+)%\.$"="Aumenta el daño de Fuego/Hielo/Eléctrico/Viento recibido en un $1%."
+
+r:"^Decrease\s+HP\s+recovery\s+taken\s+by\s+([\d.]+)%\.$"="Disminuye la recuperación de PS recibida en un $1%."
+
+r:"^Spend\s+(\d+)\s+when\s+taking\s+Fire\/Ice\/Electric\/Wind\s+or\s+Resonance\s+dmg\s+to\s+increase\s+the\s+dmg\s+by\s+([\d.]+)%\.$"="Consume $1 al recibir daño de Fuego/Hielo/Eléctrico/Viento o de Resonancia para aumentar el daño un $2%."
+
+r:"^Increase\s+stats\s+and\s+gain\s+Starfire\s+(\w+)\s+when\s+effect\s+ends\.\s*$"="Aumenta las estadísticas y obtén Fuego estelar $1 cuando el efecto termine."
+
+r:"^Increase\s+damage\s+and\s+strengthen\s+skills\s+activated,\s+based\s+on\s+Wrath\.\s+\(Current\s+Increase:\s+(.+?)%\.\)\s*$"="Aumenta el daño y fortalece las habilidades activadas, según la Ira. (Aumento actual: $1%.)"
+
+r:"^Decrease\s+final\s+damage\s+by\s+(\d+)%\.\s+Lose\s+(\d+)\s+stack\s+when\s+taking\s+weakness\s+damage\.\s*$"="Disminuye el daño final un $1%. Pierde $2 acumulación al recibir daño por debilidad."
+
+r:"^Increase\s+Fire\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño de Fuego recibido un $1%."
+
+r:"^Increase\s+Ice\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño de Hielo recibido un $1%."
+
+r:"^Increase\s+Elec\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño Eléctrico recibido un $1%."
+
+r:"^Increase\s+Electric\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño Eléctrico recibido un $1%."
+
+r:"^Increase\s+Wind\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño de Viento recibido un $1%."
+
+r:"^Increase\s+Psy\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño Psíquico recibido un $1%."
+
+r:"^Increase\s+Nuclear\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño Nuclear recibido un $1%."
+
+r:"^Increase\s+Bless\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño de Bendición recibido un $1%."
+
+r:"^Increase\s+Curse\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño de Maldición recibido un $1%."
+
+r:"^Increase\s+Almighty\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño de Todopoderoso recibido un $1%."
+
+r:"^Increase\s+Physical\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño Físico recibido un $1%."
+
+r:"^Increase\s+Gun\s+dmg\s+taken\s+by\s+(\d+)%\.\s*$"="Aumenta el daño de Arma de Fuego recibido un $1%."
+
+r:"^Increase\s+dmg\s+taken\s+by\s+(.+?)%\.\s+After\s+taking\s+dmg,\s+grant\s+(.+?)\s+(\d+)%\s+Analysis\s+Progress\.\s*$"="Aumenta el daño recibido un $1%. Después de recibir daño, otorga a $2 un $3% de progreso de Análisis."
+
+Physical Damage Taken Up=Daño Físico Recibido Aumentado
+
+Fire Damage Taken Up=Daño de Fuego Recibido Aumentado
+
+Wind Damage Taken Up=Daño de Viento Recibido Aumentado
+
+Ice Damage Taken Up=Daño de Hielo Recibido Aumentado
+
+Electric Damage Taken Up=Daño Eléctrico Recibido Aumentado
+
+Nuclear Damage Taken Up=Daño Nuclear Recibido Aumentado
+
+Psychokinesis Damage Taken Up=Daño Psicocinético Recibido Aumentado
+
+Bless Damage Taken Up=Daño de Bendición Recibido Aumentado
+
+Curse Damage Taken Up=Daño de Maldición Recibido Aumentado
+
+Almighty Damage Taken Up=Daño Todopoderoso Recibido Aumentado
+
+Gun Damage Taken Up=Daño Arma de Fuego Recibido Aumentado
+
+r:"^Increase Atk, Def, ailment accuracy, and ailment resistance by (\d+[\d.]*)%\.$"="Aumenta el ATQ, DEF, precisión de estados adversos y resistencia a estados en un $1%."
+
+r:"^Decrease final dmg taken by (\d+[\d.]*)%\.$"="Disminuye el daño final recibido en un $1%."
+
+r:"^Attack stolen by (.+?)!$"="¡Ataque robado por $1!"
+
+r:"^Damage dealt stolen by (.+?)!$"="¡Daño infligido robado por $1!"
+
+r:"^Defense stolen by (.+?)!$"="¡Defensa robada por $1!"
+
+r:"^Changes (\d+) random attribute to Weak\.$"="Cambia $1 atributo al azar a Débil."
+
+r:"^Inflicted with (\d+) Glitches!$"="¡Afectado por $1 Glitches!"
+
+r:"^Increase Fire, Ice, Electric, and Wind dmg by (\d+)%\.$"="Aumenta el daño de Fuego, Hielo, Eléctrico y Viento en un $1%."
+
+r:"^Increase Psychokinesis, Nuclear, Bless, and Curse dmg by (\d+)%\.$"="Aumenta el daño Psíquico, Nuclear, de Bendición y de Maldición en un $1%."
+
+r:"^Increase dmg taken from shielded foes by (\d+)%\.$"="Aumenta el daño recibido de enemigos con escudo en un $1%."
+
+r:"^Decrease dmg taken by (\d+)% when (.+?) is present\.$"="Disminuye el daño recibido en un $1% cuando $2 esté presente."
+
+r:"^Gained (\d+) Seals of {{A}}!$"="¡Obtuviste $1 Sellos de Poder!"
+
+r:"^At start of turn, if Seal of {{A}} is at (\d+) stacks, greatly increase Atk\. When debuffed, lose (\d+) stack\.$"="Al inicio del turno, si el Sello de Poder tiene $1 acumulaciones, aumenta mucho el ATQ. Al recibir un Debuff, pierde $2 acumulación."
+
+r:"^Increase critical taken rate by (\d+)%\.$"="Aumenta la probabilidad de críticos recibidos en un $1%."
+
+At end of turn, {{A}} will revive if he has been defeated.=Al final del turno, {{A}} revivirá si ha sido derrotado.
+
+Guaranteed critical hit when attack hits.=Golpe crítico garantizado cuando el ataque impacta.
+
+{{A}} will revive if she has been defeated at end of turn.={{A}} revivirá si ha sido derrotada al final del turno.
