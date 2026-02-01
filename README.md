@@ -33,9 +33,8 @@ Vista a mi discord pueden contactarme por el servidor y tengo mas información [
 2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de X.X.P5XTES.zip hacia la carpeta.
 3. Y Iniciar el juego.
 
-### Opcion 3 (Para los que ya instalaron el mod)
+### Opcion 3 (Para los que ya instalaron el mod) (para ACTUALIZAR archivos de TEXTO)
 Si ya tienes instalado el mod solo necesita actualizar los archivos de Translation habra dos formas de descargarlo:
-- Desde el repositorio: Con el repositorio puedes ver que archivo se han actualizado en la carpeta translation puedes seleccionar los archivos a descargar y colocarlo dentro de la carpeta \P5X\client\pc\BepInEx\Translation\es\Text
 - Desde el [Release](https://github.com/Darkusze/P5XTES/releases): Por el repositorio tendras un archivo llamado Only-Translation.x.x.zip, extrae el archivo .zip y tendras la carpeta de Translation, lo copias y pegas a la siguiente ruta P5X\client\pc\BepInEx
   
 ## El mod ha modificado mi nombre y tambien afecta el chat general del juego ¿que puedo hacer?
