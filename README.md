@@ -33,9 +33,10 @@ Vista a mi discord pueden contactarme por el servidor y tengo mas información [
 2. Busque la ruta del juego donde lo tenga instalado hacia la carpeta \P5X\client\pc y extraen los archivos de X.X.P5XTES.zip hacia la carpeta.
 3. Y Iniciar el juego.
 
-### Opcion 3 (Para los que ya instalaron el mod) (para ACTUALIZAR archivos de TEXTO)
-Si ya tienes instalado el mod solo necesita actualizar los archivos de Translation habra dos formas de descargarlo:
+### Opcion para actualizar (Para los que ya instalaron el mod, solo se actualizra los archivo de texto del mod)
+Si ya tienes instalado el mod solo necesita actualizar los archivos de Translation (traducción) de la siguiente manera:
 - Desde el [Release](https://github.com/Darkusze/P5XTES/releases): Por el repositorio tendras un archivo llamado Only-Translation.x.x.zip, extrae el archivo .zip y tendras la carpeta de Translation, lo copias y pegas a la siguiente ruta P5X\client\pc\BepInEx
+
   
 ## El mod ha modificado mi nombre y tambien afecta el chat general del juego ¿que puedo hacer?
 El mod usa un auto traductor como mencione en el proyecto agarra las traducciones automaticas por si hay alguna traducción  que no tenga a la mano (si se fijan el nombre de mi protagonista se llama Nagisa Kamisiro por default) por lo que el texto de algunos dialogos o nombres de los personaje (mas que todo el protagonista) no lo tomara por no tener el nombre tal cual como esta escrito en la traducción manual, que puede afectar los que tienen nombre japones o en ingles.
