@@ -13,6 +13,7 @@ r:"^Deal\s+Curse\s+damage\s+to\s+all\s+foes\s+equal\s+to\s+<color\=#FFFC40>([\d.
 
 r:"^Deal\s+Curse\s+damage\s+to\s+all\s+foes\s+equal\s+to\s+<color\=#FFFC40>(\d+\.?\d*)%</color>\s+of\s+Attack\.\s+(\d+)%\s+chance\s+to\s+inflict\s+<link\=\"s\|112\"><u>Curse</u></link>\.\s+Also\s+gain\s+(\d+)\s+<link\=\"s\|124\"><u>Will\s+of\s+Rebellion</u></link>\s+stack\.$"="Inflige daño de Maldición a todos los enemigos equivalente al <color\=#FFFC40>$1%</color> del Ataque. $2% de probabilidad de infligir <link\="s|112"><u>Maldición</u></link>. Además, obtienes $3 acumulaciones de <link\="s|124"><u>Voluntad de rebelión</u></link>."
 
+r:"<link\=(.+?)><u>Trickster's Plunder</u></link>\nSkill Multiplier (.+?)%→<color\=#FEDA00>(.+?)%</color>\n\n<link\=(.+?)><u>Highlight</u></link>\nHighlight Skill Multiplier (.+?)%→<color\=#FEDA00>(.+?)%</color>"="<link\=$1><u>Botín del Trickster</u></link>\nMultiplicador de habilidad $2%→<color\=#FEDA00>$3%</color>\n\n<link\=$4><u>Highlight</u></link>\nMultiplicador de habilidad de Highlight $5%→<color\=#FEDA00>$6%</color>"
 
 
 ++--------General--------+

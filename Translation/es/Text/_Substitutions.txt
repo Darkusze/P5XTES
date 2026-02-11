@@ -72,15 +72,11 @@ Dogenzaka=Dogenzaka
 Runa=Runa
 Kasumi Yoshizawa=Kasumi Yoshizawa
 Riko Tanemura=Riko Tanemura
-Riko Tanemura=Riko Tanemura
 Minami Miyashita=Minami Miyashita
 Kira Kitazato=Kira Kitazato
 Masaki Ashiya=Masaki Ashiya
 Mayumi Hashimoto=Mayumi Hashimoto
-Hashimoto=Hashimoto
-Mayumi=Mayumi
 Mio Natsukawa=Mio Natsukawa
-Natsukawa=Natsukawa
 
 ++--------Nombres de Persona--------+
 
