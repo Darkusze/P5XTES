@@ -318,6 +318,7 @@ r:"^All-Out\s+Attack\s+Finisher\s+\((.+)\)<alpha\=#00>____<alpha\=#FF>All-Out\s+
 
 r:"^Image\s+of\s+(.+)\s+that\s+displays\s+after\s+an\s+All-Out\s+Attack\s+finisher\.\\n<color\=#FFD145>Increases\s+(.+)'s\s+Attack\s+by\s+(\d+)\s+\(takes\s+effect\s+in\s+battle\)\.</color>$"="Imagen de $1 que aparece tras un All-Out Attack Finisher.\n<color\=#FFD145>Aumenta el Ataque de $2 en $3 (Tiene efecto en combate).</color>"
 
+r:"• {{A}} ([0-9]+) purple or red Stellae in Trial of the Astrolabe\(([0-9]+)/([0-9]+)\)"="• {{A}} $1 estrellas púrpura o roja en Prueba del Astrolabio ($2/$3)"
 ++-------------Companio-----------------++
 r:"^The\s+leader\s+of\s+your\s+Companio\s+(.+?)\s+has\s+been\s+changed\s+to\s+(.+?)\.\s*$"="El líder de tu Companio $1 ha sido cambiado a $2."
 r:"^<color\=[^>]+>Online\\s+(\\d+)\\s+d\\s+ago</color>$"="<color\=#8F8D8D>En línea hace $1 d</color>"
@@ -660,6 +661,7 @@ r:"I have something that ([^ ]+)\nmight like\. Should I give it to\nher now\?"="
 r:"I feel a deep sense of trust\nbetween me and ([^ ]+)\."="Siento un profundo sentido de confianza\nentre $1 y yo."
 r:"I'm about to enter a serious relationship with ([^ ]+) ([^ ]+)\."="Estoy a punto de entablar una relación seria con $1 $2."
 r:"I'm now in a relationship\nwith ([^ ]+)\.\.\."="Estoy ahora en una relación\ncon $1..."
+r:"Complete a task \(1/1\)"="Completa una tarea (1/1)"
 ++------------Tycoon----------------++
 r:"Become Tycoon using Lufel (\d+) time\. \((\d+)/(\d+)\)"="Conviértete en Magnate usando a Lufel $1 vez. ($2/$3)"
 r:"Play a (.+?) card (\d+) times\. \((\d+)/(\d+)\)"="Juega una carta $1 $2 veces. ($3/$4)"
@@ -734,7 +736,8 @@ r:"^(.+)\s+might\s+like\s+this\s+present\.\nBase\s+Synergy\s+\+(\d+),\s+with\s+a
 r:"^Base\s+Synergy\s+\+(\d+),\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+preferred\s+gifts,\s+with\s+an\s+extra\s+\+(\d+)\s+for\s+first-time\s+preferred\s+gifts\.$"="Sinergia de base +$1, con un +$2 extra por dones preferidos, con un +$3 extra por dones preferidos por primera vez."
 r:"^To\s+Unlock:\s+Reach\s+Synergy\s+Rank\s+(\d+)\s+with\s+the\s+accomplice\.$"="Para desbloquear: Alcanza el rango de Sinergia $1 con el acompañante."
 r:"^Spending\s+time\s+with\s+(.*?),\s+I\s+feel\s+hope\s+rising\s+within\s+me\.\.\.$"="Pasando tiempo con $1,\nsiento que la esperanza\ncrece dentro de mí..."
-
+r:"([^,]+) might like this present.\nBase Synergy \+([0-9]+), with an extra \+([0-9]+) for preferred gifts, and an extra \+([0-9]+) for first-time preferred gifts."="A $1 le podría gustar este regalo.\nSinergia base +$2, con un +$3 adicional por regalos preferidos y +$4 extra si es el primer regalo preferido."
+r:"This present is liked by all of your accomplices.\nBase Synergy \+([0-9]+), with an extra \+([0-9]+) for preferred gifts, and an extra \+([0-9]+) for first-time preferred gifts."="Este regalo le gusta a todos tus cómplices.\nSinergia base +$1, con un +$2 extra para regalos preferidos, y un +$3 adicional si es la primera vez que les das un regalo preferido."
 ++-------------Esquemas-----------------++
 
 r:"^Increase HP by (\d+)\.$"=Aumenta el PS en $1.
