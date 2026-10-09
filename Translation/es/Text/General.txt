@@ -283,7 +283,7 @@ Can be used to select and obtain one 4★ weapon for {{A}}, {{B}}, {{C}}, {{D}},
 Chicken Burger=Hamburguesa de pollo
 Beef Bowl=Beef Bowl
 MaraThon Energy=Energía de maratón
-Coffee Aid=Ayuda de Café
+Coffee Aid=Café de Auxilio
 Random Gift Set=Set de regalos aleatorios
 Winter Melon Tea=Té de melón de invierno
 Can be used to obtain random training materials.=Se puede usar para obtener materiales de entrenamiento aleatorios.
@@ -799,9 +799,9 @@ Spare change?=¿Tienes cambio?
 Hi.=Hola.
 I-I'm collecting... donations... to help cats... But um...=Estoy recolectando... donaciones... para ayudar a los gatos... pero eh...
 White Street Outfit=Atuendo de la Calle Blanca
-Gold Set=Set dorado
-Milicoin Set=Set de Milimonedas
-Platinum Set=Set de platino
+Gold Set=Conjunto Dorado
+Milicoin Set=Conjunto de Milimonedas
+Platinum Set=Conjunto de platino
 Marthym's Rewards Card=Tarjeta de recompensas de Marthym
 Newcomer Pass=Pase de recién llegado
 Daily Gift=Regalo diario
@@ -811,13 +811,13 @@ Get Now=Obtener ahora
 Hm? Nothing to worry about, right?=¿Hm? No hay de qué preocuparse, ¿verdad?
 Ends in  3 d=Termina en 3 días
 Status=Estado
-Training Set=Set de entrenamiento
+Training Set=Conjunto de entrenamiento
 Limited 4★ Weapon Case=Estuche de arma 4★ limitado
 Phantom Thief Gift=Regalo de Ladrón Fantasma
-Monthly Platinum Set=Set mensual de platino
+Monthly Platinum Set=Conjunto mensual de platino
 Monthly Limited=Limitado mensual
-Monthly Milicoin Set=Set mensual de Milimonedas
-Coffee Aid Set=Set de ayuda de café
+Monthly Milicoin Set=Conjunto mensual de Milimonedas
+Coffee Aid Set=Conjunto de Café de Auxilio
 Make sure you haven't gotten anything mixed up now!=¡Asegúrate de no haber confundido nada!
 X1=X1
 I could work at the flower shop in Shibuya...=Podría trabajar en la florería de Shibuya...
@@ -1742,10 +1742,32 @@ DAY  TWO=DÍA DOS
 Awaken 2 {{A}}(0/1)=Despierta 2 {{A}} (0/1)
 In Progress=En curso
 Gray Sneakers=Zapatillas grises
-Supplied Daily!\n<color\=#FFEC00>Coffee Aid x1</color>=¡Suministrado diariamente!\n<color\=#FFEC00>Ayuda de café x1</color>
+Supplied Daily!\n<color\=#FFEC00>Coffee Aid x1</color>=¡Suministrado diariamente!\n<color\=#FFEC00>Café de Auxilio x1</color>
 During the event, gain more Konpaku Gems from certain quests in Realm of Repression: Training Materials.=Durante el evento, obtén más gemas Konpaku en ciertas misiones del Reino de la Represión: Materiales de entrenamiento.
 DAY  SIX=DÍA SEIS
 DAY  SEVEN=DÍA SIETE
+DAY EIGHT=DÍA OCHO
+DAY NINE=DÍA NUEVE
+DAY ELEVEN=DÍA ONCE
+DAY TWELVE=DÍA DOCE
+DAY THIRTEEN=DÍA TRECE
+DAY FOURTEEN=DÍA CATORCE
+DAY FIFTEEN=DÍA QUINCE
+DAY SIXTEEN=DÍA DIECISÉIS
+DAY SEVENTEEN=DÍA DIECISIETE
+DAY EIGHTEEN=DÍA DIECIOCHO
+DAY NINETEEN=DÍA DIECINUEVE
+DAY TWENTY=DÍA VEINTE
+DAY TWENTY-ONE=DÍA VEINTIUNO
+DAY TWENTY-TWO=DÍA VEINTIDOS
+DAY TWENTY-THREE=DÍA VEINTITRES
+DAY TWENTY-FOUR=DÍA VEINTICUATRO
+DAY TWENTY-FIVE=DÍA VEINTICINCO
+DAY TWENTY-SIX=DÍA VEINTISÉIS
+DAY TWENTY-SEVEN=DÍA VEINTISIETE
+DAY TWENTY-EIGHT=DÍA VEINTIOCHO
+DAY TWENTY-NINE=DÍA VEINTINUEVE
+DAY THIRTY=DÍA TREINTA
 Remaining Today: =Restante hoy:
 All foes take 100% increased damage from All-Out Attacks.=Todos los enemigos reciben un 100% más de daño por Ataques Combinados.
 Obtain Thief Compendium Volumes and Tomes.=Obtén volúmenes y tomos del Compendio de Ladrones.
@@ -2942,7 +2964,7 @@ But we always needed to start the elevator\nto make progress, right?=Pero siempr
 That is true. {{A}}, let's go to the control\nroom first.=Es cierto.\n{{A}}, vamos primero a la sala de control.
 Club=Club
 Enhancement Rush=Racha de mejora
-Thank you for playing {{A}}5: The Phantom X.\n\nWe are hosting a P5X booth at Anime Expo 2025, which is currently underway in Los {{B}}es, California! To commemorate this occasion, we have sent you Coffee Aid (x1) as a gift.\n\nWe hope you continue to enjoy {{A}}5: The Phantom X.=Gracias por jugar {{A}}5: The Phantom X.\n\nEstamos organizando un stand de P5X en Anime Expo 2025, que actualmente se celebra en Los {{B}}es, California.\nPara conmemorar esta ocasión, te hemos enviado Ayuda de Café (x1) como regalo.\n\nEsperamos que sigas disfrutando de {{A}}5: The Phantom X.
+Thank you for playing {{A}}5: The Phantom X.\n\nWe are hosting a P5X booth at Anime Expo 2025, which is currently underway in Los {{B}}es, California! To commemorate this occasion, we have sent you Coffee Aid (x1) as a gift.\n\nWe hope you continue to enjoy {{A}}5: The Phantom X.=Gracias por jugar {{A}}5: The Phantom X.\n\nEstamos organizando un stand de P5X en Anime Expo 2025, que actualmente se celebra en Los {{B}}es, California.\nPara conmemorar esta ocasión, te hemos enviado Café de Auxilio (x1) como regalo.\n\nEsperamos que sigas disfrutando de {{A}}5: The Phantom X.
 {{A}} HP by 240.=PS de {{A}} en 240.
 {{A}} HP by 180.=PS de {{A}} en 180.
 {{A}} Defense by 60.=Defensa de {{A}} en 60.
@@ -3298,7 +3320,7 @@ Hoo... We've barely had time to catch our\nbreath so far. A break is in order.=H
 Daunting Firepower=Potencia de Fuego Abrumadora
 You can now quick travel to the\n<color\=#FF423F>Club 1F: Back Room</color>.=Ahora puedes viajar rápidamente al\n<color\=#FF423F>Club 1F: Sala trasera</color>.
 hancement Rush=Fiebre de mejora
-On 2025-07-07, during the event Enhancement Rush, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 2025-07-07, durante el evento Fiebre de mejora, no reclamaste la recompensa del objetivo Ayuda de Café*1.\nSe te ha entregado a través de este mensaje.
+On 2025-07-07, during the event Enhancement Rush, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 2025-07-07, durante el evento Fiebre de mejora, no reclamaste la recompensa del objetivo Café de Auxilio*1.\nSe te ha entregado a través de este mensaje.
 2 {{A}}=2 {{A}}
 1 {{A}}=1 {{A}}
 {{A}}.38={{A}}.38
@@ -3396,7 +3418,7 @@ You can now quick travel to the\n<color\=#FF423F>Club 1F: West Side</color>.=Aho
 {{A}}.39={{A}}.39
 Exchange Code=Código de intercambio
 Enter an exchange code.=Ingresa un código de intercambio.
-On 2025-07-08, during the event Enhancement Rush, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 2025-07-08, durante el evento Fiebre de mejora, no reclamaste la recompensa del objetivo Ayuda de Café*1.\nSe te ha entregado a través de este mensaje.
+On 2025-07-08, during the event Enhancement Rush, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 2025-07-08, durante el evento Fiebre de mejora, no reclamaste la recompensa del objetivo Café de Auxilio*1.\nSe te ha entregado a través de este mensaje.
 Ah yes, the story continues.=Ah sí, la historia continúa.
 Hoom... We want to progress the story, but\nthis boss is quite challenging.=Hoom... Queremos avanzar en la historia, pero este jefe es bastante desafiante.
 Perhaps the difficulty level is too high?=¿Quizás el nivel de dificultad sea demasiado alto?
@@ -3466,7 +3488,7 @@ An exclusive 5★ weapon for Yui is now available! Select which weapons are in y
 Ltd. Platinum Set=Set platino limitado
 This one catch your eye?=¿Este te llama la atención?
 Ltd. Milicoin Set=Set de Milimoneda limitado
-Coffee Aid Pass=Pase de ayuda de café
+Coffee Aid Pass=Pase de Café de Auxilio
 Seven-Day Spoils Pass=Pase de botines de siete días
 Purchase to obtain=Compra para obtener
 {{A}}.41={{A}}.41
@@ -4368,7 +4390,7 @@ You did it! They're down!=¡Lo lograste!\n¡Están derrotados!
 {{A}}.48={{A}}.48
 Awakening Avenue=Avenida del Despertar
 akening Avenue=Avenida del Despertar
-On 2025-07-17, during the event Awakening Avenue, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 17-07-2025, durante el evento *Avenida del Despertar*, no reclamaste la recompensa de objetivo *Coffee Aid*1.\nSe ha entregado a través de este mensaje.
+On 2025-07-17, during the event Awakening Avenue, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 17-07-2025, durante el evento *Avenida del Despertar*, no reclamaste la recompensa de objetivo *Café de Auxilio*1.\nSe ha entregado a través de este mensaje.
 {{A}} Seeds=Semillas de {{A}}
 {{A}}.1={{A}}.1
 Purchasable from {{A}}.20=Disponible para compra desde {{A}}.20
@@ -4446,7 +4468,7 @@ It would have taken great courage to confront\ntheir boss... and even more to br
 I respected the bravery of\nthe employees who stood up\nfor their rights...=Respeté la valentía de los empleados que defendieron sus derechos...
 I'm really grateful for you stepping in on\ndays like this. Here's your pay.=Te agradezco mucho que intervengas en días como este.\nAquí está tu paga.
 Well then, hope to see you again soon.=Bueno, entonces, espero verte pronto.
-On 2025-07-18, during the event Awakening Avenue, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 2025-07-18, durante el evento Awakening Avenue, no reclamó la recompensa de Ayuda del Café*1 gol.\nSe le ha entregado a través de este mensaje.
+On 2025-07-18, during the event Awakening Avenue, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 2025-07-18, durante el evento Awakening Avenue, no reclamó la recompensa de Café de Auxilio*1 gol.\nSe le ha entregado a través de este mensaje.
 During the event, gain more rewards from certain quests in Realm of Repression: Training Materials.=Durante el evento, obtenga más recompensas de ciertas misiones en el ámbito de la represión: los materiales de capacitación.
 P<color\=#000000>o</color>wer II=P<color\=#000000>o</color>der II
 Spirit's {{A}}={{A}} del espíritu
@@ -4504,7 +4526,7 @@ Increase maximum number of Attack buff stacks to <color\=#2899ff>5</color>.=Aume
 4 Set Effect：Increase Resonance damage by <color\=#2899ff>40%</color>.=4 piezas: Aumenta el daño de Resonancia en <color\=#2899ff>40%</color>.
 4 Set Effect：When attacking with a skill, deal <color\=#2899ff>8%</color> of own HP as bonus damage to the target.=4 piezas: Al atacar con una habilidad, inflige <color\=#2899ff>8%</color> de tu PS como daño adicional al objetivo.
 4 Set Effect：Increase Attack by <color\=#2899ff>15%</color>. If target is weak to Fire, increase Attack by <color\=#2899ff>15%</color> more.=4 piezas: Aumenta el ATQ en <color\=#2899ff>15%</color>. Si el objetivo es débil al Fuego, el ATQ se incrementa en <color\=#2899ff>15%</color> adicional.
-[Power]=[Fuerza]
+[Power]=[Poder]
 Increase Attack by =Aumenta el Ataque en
 {{A}}.50={{A}}.50
 City Insider=Interno de la ciudad
@@ -5483,7 +5505,7 @@ I plan to explain in greater depth during\nthe comestible hour, but...=Planeo ex
 Your performance yesterday was exceptional.\nFurthermore, I sense strong potential\nwithin you.=Tu desempeño ayer fue excepcional.\nAdemás, percibo un gran potencial dentro de ti.
 You may deliver this world from fading hope\nto salvation... Or perhaps to devastation\ninstead.=Podrías liberar este mundo de la esperanza marchita hacia la salvación... o quizás hacia la devastación.
 Nonetheless, I have the utmost faith in you.=Aun así, tengo plena fe en ti.
-Lufel's "Business" Plan will update occasionally.=El “Plan Comercial” de Lufel se actualizará de vez en cuando.
+Lufel's "Business" Plan will update occasionally.=El “Plan de Negocios” de Lufel se actualizará de vez en cuando.
 It's a Deal=Es un trato
 That being said, the state of your room\nleaves much to be desired.=Dicho eso, el estado de tu habitación deja mucho que desear.
 You plan to move in here?=¿Planeas mudarte aquí?
@@ -6071,7 +6093,7 @@ Come along, {{A}}!=¡Vamos, {{A}}!
 Go to the main gate of the Baseball Stadium=Ir a la entrada principal del estadio de béisbol
 So this is {{A}} Palace, huh? Looks a lot more like a baseball stadium to me.=Entonces este es el Palacio de {{A}}, ¿eh?\nParece más un estadio de béisbol para mí.
 I suppose {{A}} has a vivid imagination.=Supongo que {{A}} tiene mucha imaginación.
-On 2025-07-20, during the event Awakening Avenue, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 20/07/2025, durante el evento Awakening Avenue, no reclamaste la recompensa objetivo de Ayuda de Café*1.\nTe ha sido entregada por este mensaje.
+On 2025-07-20, during the event Awakening Avenue, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 20/07/2025, durante el evento Awakening Avenue, no reclamaste la recompensa objetivo de Café de Auxilio*1.\nTe ha sido entregada por este mensaje.
 Seems like we won't be getting in through the front door.=Parece que no podremos entrar por la puerta principal.
 Think there's another entrance?=¿Crees que hay otra entrada?
 Should we bust it open?=¿Deberíamos forzarla?
@@ -6611,7 +6633,7 @@ Guaranteed:=Garantizado:
 From the 2025-07-22 Phantom Pass, 1 Daily Mission Rewards were not claimed. They have been delivered to you via this message.=Desde el pase Phantom 2025-07-22, no se reclamaron 1 recompensas de la misión diaria.\nSe les han entregado a través de este mensaje.
 claimed Pass Daily Mission Rewards=Reclamado Pase las recompensas de la misión diaria
 Unclaimed Pass Daily Mission Rewards=Recompensas de la misión diaria de aprobación no reclamada
-On 2025-07-21, during the event Awakening Avenue, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 2025-07-21, durante el evento Awakening Avenue, no reclamó la recompensa de la ayuda del café*1 objetivo.\nSe le ha entregado a través de este mensaje.
+On 2025-07-21, during the event Awakening Avenue, you did not claim the Coffee Aid*1 goal reward. It has been delivered to you via this message.=El 2025-07-21, durante el evento Awakening Avenue, no reclamó la recompensa de Café de Auxilio*1 objetivo.\nSe le ha entregado a través de este mensaje.
 Disquiet=Desasosiego
 Persona5: The Phantom X\nPlays in the Metro of Desire.=Persona5: El Phantom X juega en el metro del deseo.
 Pevel.17=Nivel.17
@@ -8869,7 +8891,6 @@ I'm so not a Shadow that belongs here.\nI used to be in the humans' sea of souls
 I'm not actually a Shadow. I... have existed\nin the sea of souls with humanity for all\ntime...=En realidad no soy una sombra.\nHe existido en el mar de almas junto a la humanidad desde siempre...
 I'm <color\=#72C5FF>Dakini</color>.\nI'm part of you too... That's how it\nreally is.=Soy <color\=#72C5FF>Dakini</color>.\nTambién soy parte de ti... así es realmente.
 Maeiga=Maeiga
-Triple Down=Triplicador
 You know, I'm not really a Shadow!\nI came from the humans' sea of souls!=¡Sabes, en realidad no soy una sombra!\n¡Vengo del mar de almas de los humanos!
 My real name's <color\=#72C5FF>Bugs</color>!\nYou and I are the same, mister!=¡Mi verdadero nombre es <color\=#72C5FF>Bugs</color>!\n¡Tú y yo somos lo mismo, señor!
 {{A}}44 Increases Fire and Psychokinesis damage by 0.2% (effective in battle).\n{{A}}45 Increases ally damage dealt in the Realm of Repression by 0.2% (effective in battle).={{A}}44 aumenta el daño de fuego y psicoquinesis en un 0.2% (efectivo en combate).\n{{A}}45 aumenta el daño aliado infligido en el Reino de la Represión en un 0.2% (efectivo en combate).
@@ -9201,7 +9222,6 @@ A Welsh creature commonly known as "Bugbear" or the "Boogeyman." Its existence i
 Cut the Threads of Fate=Cortar los hilos del destino
 Concentrate=Concentración
 Elec Boost II=Aumento Eléctrico II
-Trigger Happy II=Disparo frenético II
 Blazing Hellfire=Llamas infernales ardientes
 Ignition=Encendido
 Attack Master II=Maestro del ataque II
@@ -10988,7 +11008,7 @@ Unbeatable {{A}}-sama!=¡Invencible {{A}}-sama!
 Guerrero Isaiah=Guerrero Isaiah
 Art Pop=Arte pop
 Kurose Harumi=Kurose Harumi
-{{B}}on {{A}} Fire Boost II Trigger Happy II={{B}}on {{A}} Aumento de Fuego II Gatillo Feliz II
+
 Ignition I=Encendido I
 Deal Curse damage to 1 foe equal to <color\=#fffc40>47.1%</color> of Attack. Low chance to deal Curse insta-kill effect to foes with 50% or less HP. Increase chance based on foe's missing HP.=Inflige daño de maldición a 1 enemigo igual al <color\=#fffc40>47.1%</color> del ataque. Baja probabilidad de aplicar efecto de muerte instantánea a enemigos con 50% o menos de PS. La probabilidad aumenta según el PS faltante del enemigo.
 Deal Fire damage to all foes equal to <color\=#fffc40>42.8%</color> of Attack. <color\=#fffc40>23.8%</color> chance to inflict <link\="s|102"><u>Burn</u></link> for 2 turns.=Inflige daño de fuego a todos los enemigos igual al <color\=#fffc40>42.8%</color> del ataque. <color\=#fffc40>23.8%</color> de probabilidad de aplicar <link\="s|102"><u>Quemadura</u></link> durante 2 turnos.
@@ -13443,10 +13463,6 @@ A seal engraved with the legend of {{A}}. It can be used to strengthen and fuse 
 You don't have enough of the required currency.=No tienes suficiente de la moneda requerida.
 Missing:=Faltante:
 Herald of Famine=Heraldo del Hambre
-Trigger Happy III=Gatillo Feliz III
-{{B}}on {{A}}.3={{B}}on {{A}}.3
-Flash Bomb {{A}}.3=Bomba Flash {{A}}.3
-Flash Bomb {{A}}on Curse Boost III Trigger Happy III=Flash Bomb {{A}}on Curse Boost III Trigger Happy III
 Herald of Famine I=Heraldo del Hambre I
 Deal Almighty damage to all foes equal to <color\=#fffc40>32.6%</color> of Attack, ignoring their defense.=Inflige daño Todopoderoso a todos los enemigos igual a <color\=#fffc40>32.6%</color> de Ataque, ignorando su defensa.
 You cannot use a Persona's own seal for training.=No se puede utilizar el propio sello de un Persona para entrenar.
@@ -14206,7 +14222,6 @@ Decrease all foes' Defense by <color\=#fffc40>23.0%</color> for 3 turns.=Reduce 
 Gun Boost III=Aumento de Arma a Distancia III
 Gun Boost II=Aumento de Arma a Distancia II
 Gun Boost I=Aumento de Arma a Distancia I
-Triple Down {{A}}.3=Triple Disparo {{A}}.3
 Resist Sleep=Resistir sueño
 Resist Forget=Resistir olvido
 Resist Dizzy=Resistir aturdimiento
@@ -35123,7 +35138,7 @@ We don't even know the Treasure's location in\nthe original Palace, which makes 
 But now we've got Oracle and Wind here.=Pero ahora tenemos aquí a Oracle y Wind.
 With their Personas and my nose for Treasure,\nthat Core is as good as ours!=Con sus Personas y mi olfato para los Tesoros, ¡ese Núcleo es tan bueno como el nuestro!
 Hey, don't forget about my powers of\nperception, you false feline. We won't have\nto rely solely on your nose.=Oye, no te olvides de mis poderes de percepción, falso felino. No tendremos que confiar sólo en tu nariz.
-What was that!?=¡¿Qué ha sido eso?!
+What was that!?=¡¿Qué fue eso?!
 Hey, you two. Fighting's a big no-no! We're\nall friends now, so could you try to get\nalong?=Oigan, ustedes dos. ¡Nada de pelearse! Ahora todos somos amigos, así que ¿podrían intentar llevarse bien?
 Hoom... Get along, you say...=Hoom... Que nos llevemos bien, dices...
 If Noir says so... Well... I'll try, at\nleast...=Si Noir lo dice... Bueno... Lo intentaré, al menos...
@@ -35762,7 +35777,8 @@ Chirok Beasley=Chirok Beasley
 Brandon Kim=Brandon Kim
 Justine and Caroline Gifts!=Justine y Caroline ¡Regalos!
 When equipped by Justine & Caroline: Increase <link\="s|271"><u>Desire Level</u></link> by <color\=#2899ff>5%</color>.=Cuando está equipado por Justine & Caroline: Aumentar <link\="s|271"><u>Nivel de deseo</u></link> en <color\=#2899ff>5%</color>.
-Nativity & {{A}}=Natividad y Poder
+Nativity & {{A}}=Natividad y {{A}}
+Nativity & Strife=Natividad y Conflicto
 Default Frame=Marco predeterminado
 Get from New Year's Gifts.=Obtener de Regalos de Año Nuevo.
 Receive from an official event. =Recibir de un evento oficial. 
@@ -56488,6 +56504,20 @@ Change: Moon=Cambio: Luna
 Change: Star=Cambio: Estrella
 Change: Sky=Cambio: Cielo
 4 Set Effect：Increase Attack by <color\=#2899ff>25%</color> for 2 turns. After activating a critical, gain the same effect again.=4 piezas: Aumenta el Ataque en un <color\=#2899ff>25%</color> durante 2 turnos. Tras activar un crítico, obtienes el mismo efecto de nuevo.
+
+[Satiety]=[Saciedad]
+Satiety=Saciedad
+Satiety: Sun=Saciedad: Sol
+Satiety: Moon=Saciedad: Luna
+Satiety: Star=Saciedad: Estrella
+Satiety: Sky=Saciedad: Cielo
+
+[Gain]=[Ganancia]
+Gain=Ganancia
+Gain: Moon=Ganancia: Luna
+Gain: Sky=Ganancia: Cielo
+Gain: Star=Ganancia: Estrella
+Gain: Sun=Ganancia: Sol
 
 Perseverance Revelation - Blue=Revelación de Perseverancia - Azul
 

@@ -158,6 +158,8 @@ r:"^Area unlocks in (\d+) h$"="El área se desbloqueará en $1 h"
 
 r:"^Time: (\d{2}:\d{2})$"="Tiempo: $1"
 
+r:"^Resets after\s+(?:(\d+)\s*d\s*)?(?:(\d+)\s*h\s*)?(?:(\d+)\s*m\s*)?$"="Se reinicia en ${1:+$1 d }${2:+$2 h }${3:+$3 m}"
+
 ++-------------VA Character----------------++
 
 r:"^VA:\\s+(.+)$"="VA: $1"
@@ -171,7 +173,7 @@ r:"^Lv(\d+) Increases all allies' Defense by (\d+) \(takes effect in battle\)\.\
 r:"^Lv(\d+) Increases Physical and Gun damage by ([\d.]+)% \(takes effect in battle\)\.\nNv(\d+) Grants (\d+) extra Konpaku Gems when you play Pursuit of Treasure\.$"="Nv. $1 Aumenta el daño Físico y de Arma a Distancia en un $2% (En combate).\nNv. $3 Otorga $4 Gemas Konpaku adicionales al jugar Persecución de Tesoros."
 r:"^Lv(\d+) Increases Fire and Psychokinesis damage by ([\d\.]+)% \(takes effect in battle\)\.\nLv(\d+) Increases ally damage dealt in the Realm of Repression by ([\d\.]+)% \(takes effect in battle\)\.$"="Nv$1 Aumenta el daño de Fuego y Psicoquinesis en un $2% (se aplica en combate).\nNv$3 Aumenta el daño infligido por los aliados en el Reino de la Represión en un $4% (se aplica en combate)."
 r:"^Lv(\d+) Increases Ice and Nuclear damage by ([\d.]+)% \(takes effect in battle\)\.\nLv(\d+) Restores (\d+) stamina after the first login of each day\.\nLv(\d+) Increases Electric and Bless damage by ([\d.]+)% \(takes effect in battle\)\.\nLv(\d+) Increases Persona damage by ([\d.]+)% \(takes effect in battle\)\.\nLv(\d+) Increases all allies' HP recovery by ([\d.]+)% \(takes effect in battle\)\.\nLv(\d+) Increases Wind and Curse damage by ([\d.]+)% \(takes effect in battle\)\.\nLv(\d+) Increases all allies' HP by (\d+) \(takes effect in battle\)\.\nLv(\d+) Increases damage in Trials from the Sea of Souls by ([\d.]+)% \(takes effect in battle\)\.$"="Nv. $1 Aumenta el daño de Hielo y Nuclear en un $2% (surte efecto en batalla).\nNv. $3 Restaura $4 de estamina después del primer inicio de sesión de cada día.\nNv. $5 Aumenta el daño Eléctrico y de Bendición en un $6% (surte efecto en batalla).\nNv. $7 Aumenta el daño de Persona en un $8% (surte efecto en batalla).\nNv. $9 Aumenta la recuperación de PS de todos los aliados en un $10% (surte efecto en batalla).\nNv. $11 Aumenta el daño de Viento y Maldición en un $12% (surte efecto en batalla).\nNv. $13 Aumenta los PS de todos los aliados en $14 (surte efecto en batalla).\nNv. $15 Aumenta el daño en los Juicios del Mar de las Almas en un $16% (surte efecto en batalla)."
-
+r:"^Lv(\d+) Increases Ice and Nuclear damage by ([\d\.]+)% \(takes effect in battle\)\.\nLv(\d+) Restores (\d+) stamina after the first login of each day\.\nLv(\d+) Increases Electric and Bless damage by ([\d\.]+)% \(takes effect in battle\)\.\nLv(\d+) Increases Persona damage by ([\d\.]+)% \(takes effect in battle\)\.$"="Nv.$1 Aumenta el daño Hielo y Nuclear un $2% (se aplica en combate).\nNv.$3 Restaura $4 de energía tras el primer inicio de sesión del día.\nNv.$5 Aumenta el daño Eléctrico y Bendición un $6% (se aplica en combate).\nNv.$7 Aumenta el daño de Persona un $8% (se aplica en combate)."
 
 # ==========================================
 # VARIANTES GENERALES (LvX / NvX)
@@ -409,7 +411,8 @@ Motoha cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase 
 <color\=#FFFF00>Increase Seaside Tomoko's Defense by 10 (takes effect in battle).</color>=<color\=#FFFF00>Aumenta la Defensa de Tomoko Veraniega en 10 (En combate).</color>
 Tomoko cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase Seaside Tomoko's Defense by 10 (takes effect in battle).</color>=Animación de Tomoko que se despliega durante un Ataque Combinado.\n<color\=#FFD145>Aumenta la Defensa de Tomoko Veraniega en 10 (En combate).</color>
 Kotome cut-in that displays during an All-Out Attack.\n<color\=#FFD145>Increase Frostgale Kotone's Defense by 10 (takes effect in battle).</color>=Animación de Kotone que se despliega durante un Ataque Combinado.\n<color\=#FFD145>Aumenta la Defensa de Kotone Vientogélido en 10 (En combate).</color>
-
+Ashiya cut-in that displays\nduring an All-Out Attack.\n<color\=#FFD145>Increases Ashiya's Defense by 10 (takes effect in battle).</color>=Animación de Ashiya que se despliega durante un Ataque Combinado.\n<color\=#FFD145>Aumenta la defensa de Ashiya en 10 (En Combante).</color>
+Ashiya cut-in that\ndisplays during battle.\n<color\=#FFD145>Increases Ashiya's HP by 40 (takes effect in battle).</color>=Imagen de insercion de Ashiya que se muestra durante la batalla.\n<color\=#FFD145>Aumenta los PS de Ashiya en 40 (En Combante).</color>
 r:"^All-Out Attack Finisher \((.+)\)<alpha\=#00>____<alpha\=#FF>All-Out Attack Finisher \((.+)\)<alpha\=#00>____<alpha\=#FF>$"="Remate de Ataque Combinado ($1)<alpha\=#00>____<alpha\=#FF>Remate de Ataque Combinado ($2)<alpha\=#00>____<alpha\=#FF>"
 
 <color\=#FFFF00>Increases Kasumi's Attack by 1% (takes effect in battle).</color>=<color\=#FFFF00>Aumenta el Ataque de Kasumi un 1% (En combate).</color>
@@ -430,6 +433,23 @@ r:"^<color\=#737373>Visitor EXP (\d+): Obtain P Medal x(\d+)</color>$"="<color\=
 r:"^(.+)'s Visitor EXP has increased$"="<size\=23>La EXP de visitante de $1 ha aumentado</size>"
 Current Visitors: =Visitantes actuales: 
 r:"^Gain 1 Visitor EXP\nevery (\d+) s$"="Gana 1 EXP de visitante\ncada $1 s"
+
+r:"^Increases ally Attack by (\d+) \(takes effect in battle, effect doubles in Tartarus\)\.$"="Aumenta el Ataque de los aliados en $1 (surte efecto en batalla, el efecto se duplica en Tártaro)."
+r:"^<color\=#FFFF00>Increases ally Attack by (\d+) \(takes effect in battle, effect doubles in Tartarus\)\.</color>$"="<color\=#FFFF00>Aumenta el Ataque de los aliados en $1 (surte efecto en batalla, el efecto se duplica en Tártaro).</color>"
+
+Kotone Shiomi Transformation Tile=Baldosa de Transformación de Kotone Shiomi
+
+2 items including Muttering Tiara can now be unlocked.\n3 music tracks including After the Battle (P3R Version) can now be unlocked.\n=Ya puedes desbloquear 2 objetos, incluyendo la Tiara de Murmullos. Ya puedes desbloquear 3 pistas de música, incluyendo After the Battle (Versión P3R).
+
+Extravagant Palace=Palacio Extravagante
+Merciless and Cowardly Maya=Maya, despiadada y cobarde
+Merciless and Cowardly Maya<alpha\=#00>____<alpha\=#FF>Merciless and Cowardly Maya<alpha\=#00>____<alpha\=#FF>=Maya, despiadada y cobarde<alpha\=#00>____<alpha\=#FF>Maya, despiadada y cobarde<alpha\=#00>____<alpha\=#FF>
+Sandy Shuffle=Sandy Shuffle
+Looking Back on the Past=Mirando al pasado
+Beyond the Binding Curse=Más allá de la maldición del encuadernado
+The Day We Reel In=El día de la gran pesca
+Strike a Pose!=¡Una pose espectacular!
+
 
 ++-------------Companio-----------------++
 r:"^The\s+leader\s+of\s+your\s+Companio\s+(.+?)\s+has\s+been\s+changed\s+to\s+(.+?)\.\s*$"="El líder de tu Companio $1 ha sido cambiado a $2."
@@ -557,8 +577,8 @@ r:"^\(Paid:\s+(\d+)\)$"="(Pagado: $1)"
 r:"^Unlocks at Lv\\. (\\d+)$"="Desbloquea a Nv. $1"
 r:"^Lv\\.(\\d+)$"="Nv.$1"
 r:"^EXP:\s+(\d+)\s*$"="EXP: $1"
-r:"© Perfect World Adapted from Persona 5 © ATLUS\. © SEGA\.\nSpecial Thanks: Fontworks Inc\. and SHOWASHOTAI Co\., Ltd\.\nClient Version: ([\d.]+) Game Version: ([\d.]+) Resource No\.: ([\w.]+)"="© Perfect World adaptado de Persona 5 © ATLUS. © SEGA.\nAgradecimientos especiales: Fontworks Inc. y SHOWASHOTAI Co., Ltd.\nTraducción al Español por Shinoesp Versión del P5XTES: 2.7.4\nVersión del cliente: $1 Versión del juego: $2 Nº de recurso: $3"
-r:"^©Perfect World Adapted from Persona5 ©ATLUS\. ©SEGA\.\nSpecial Thanks: Fontworks Inc\. and SHOWASHOTAI Co\., Ltd\.\nClient Version: ([\d.]+) Game Version: ([\d.]+) Resource No\.: (.*)$"="©Perfect World Adaptado de Persona5 ©ATLUS. ©SEGA.\nAgradecimientos especiales: Fontworks Inc. y SHOWASHOTAI Co., Ltd.\nTraducción al Español por Shinoesp Versión del P5XTES: 2.7.4\nVersión del cliente: $1 Versión del juego: $2 Nº de recurso: $3"
+r:"© Perfect World Adapted from Persona 5 © ATLUS\. © SEGA\.\nSpecial Thanks: Fontworks Inc\. and SHOWASHOTAI Co\., Ltd\.\nClient Version: ([\d.]+) Game Version: ([\d.]+) Resource No\.: ([\w.]+)"="© Perfect World adaptado de Persona 5 © ATLUS. © SEGA.\nAgradecimientos especiales: Fontworks Inc. y SHOWASHOTAI Co., Ltd.\nTraducción al Español por Shinoesp Versión del P5XTES: 2.9.0\nVersión del cliente: $1 Versión del juego: $2 Nº de recurso: $3"
+r:"^©Perfect World Adapted from Persona5 ©ATLUS\. ©SEGA\.\nSpecial Thanks: Fontworks Inc\. and SHOWASHOTAI Co\., Ltd\.\nClient Version: ([\d.]+) Game Version: ([\d.]+) Resource No\.: (.*)$"="©Perfect World Adaptado de Persona5 ©ATLUS. ©SEGA.\nAgradecimientos especiales: Fontworks Inc. y SHOWASHOTAI Co., Ltd.\nTraducción al Español por Shinoesp Versión del P5XTES: 2.9.0\nVersión del cliente: $1 Versión del juego: $2 Nº de recurso: $3"
 r:"^Fusion\s+will\s+produce\s+(\d+)\s+<color\=#FF423F>(.+?)'s\s+Seal</color>\.\s*$"="La fusión producirá $1 <color\=#FF423F>Sello de $2</color>."
 r:"^Phantom Thief level cap increased to \\n<color\=#FFF000>Lv\\. (\\d+)</color>\\.$"="El límite de Nivel de Ladrones Fantasma ha aumentado a \n<color\=#FFF000>Lv. $1</color>."
 Meta Jewels will be spent.=Se gastarán las Meta gemas.
@@ -724,8 +744,8 @@ r:"^(.+?)'s\s+Cognitite\s*$"="Cognición de $1"
 r:"^(.+?)'s\s+Cognitite\s+Shard\s*$"="Fragmento de Cognición de $1"
 Thief's Cognitite Shard=Fragmento de Cognición de Ladrones
 r:"^Collect\s+(\d+)\s+to\s+obtain\s+one\s+(.+?)'s\s+Cognitite\.\s*$"="Reúne $1 para obtener un Cognición de $2."
-r:"^Spend:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+Shard\s+x(\d+)</color>\.\nTrade:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+Shard\s+x(\d+)</color>\.\\nConfirm\s+trade\?\s*$"="Gastar: <color\=#FFDE00>Fragmento de Cognición de $1 x$2</color>.\nIntercambiar: <color\=#FFDE00>Fragmento de Cognición de $3 x$4</color>.\n¿Confirmar intercambio?"
-r:"^Spend:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+Shard\s+x(\d+)</color>\.\nCraft:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+x(\d+)</color>\.\nDo\s+you\s+want\s+to\s+confirm\?\s*$"="Gastar: <color\=#FFDE00>Fragmento de Cognición de $1 x$2</color>.\nCrear: <color\=#FFDE00>Cognición de $3 x$4</color>.\n¿Quieres confirmarlo?"
+r:"^Spend:\s+<color\=#FFDE00>Thief's\s+Cognitite\s+Shard\s+x(\d+)</color>\.\nTrade:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+Shard\s+x(\d+)</color>\.\\nConfirm\s+trade\?\s*$"="Gastar: <color\=#FFDE00>Fragmento de Cognición de Ladrón x$1</color>.\nIntercambiar: <color\=#FFDE00>Fragmento de Cognición de $2 x$3</color>.\n¿Quieres confirmar la acción?"
+r:"^Spend:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+Shard\s+x(\d+)</color>\.\nCraft:\s+<color\=#FFDE00>(.+?)'s\s+Cognitite\s+x(\d+)</color>\.\nDo\s+you\s+want\s+to\s+confirm\?\s*$"="Gastar: <color\=#FFDE00>Fragmento de Cognición de Ladrones x$2</color>.\nCrear: <color\=#FFDE00>Cognición de $3 x$4</color>.\n¿Quieres confirmar la acción?"
 r:"^Can\s+be\s+used\s+in\s+certain\s+areas\s+to\s+raise\s+(.+?)'s\s+Awareness\s+Level\.\s*$"="Se puede usar en ciertas zonas para aumentar el Nivel de Conciencia de $1."
 r:"^Raises\s+an\s+ally's\s+skill\s+level\s+\(up\s+to\s+(\d+)\)\.\s*$"="Aumenta el Nivel de habilidad de un aliado (hasta $1)."
 r:"^On\s+(.+?),\s+you\s+had\s+some\s+unclaimed\s+rewards\s+from\s+Half-Year\s+AnNversary\.\s+They\s+have\s+been\s+delivered\s+directly\s+to\s+you\s+via\s+this\s+message\.\s*$"="El $1, tenías algunas recompensas sin reclamar del ANversario de Medio Año. Te han sido entregadas directamente a través de este mensaje."
@@ -901,6 +921,57 @@ Weapon is fully forged. View weapon now?=El arma está totalmente forjada. ¿Ver
 Can be exchanged for various items at the Crystal Cognigem tab of the Exchange Shop.=Se pueden canjear por varios objetos en la pestaña de Cognigema de Cristal de la Tienda de Canje.
 Wonder's Persona are not strong enough.=Las Persona de Wonder no son lo suficientemente fuertes.
 Wonder's {0} are not strong enough.=Las Persona de Wonder {0} no son lo suficientemente fuertes.
+Equipo(9)=Equipo(9)
+Equipo(10)=Equipo(10)
+Equipo(11)=Equipo(11)
+Equipo(12)=Equipo(12)
+Unclaimed Trial of the Astrolabe Rewards=Recompensas de la Prueba del Astrolabio sin reclamar
+Clear The Masks We Wear in the main story.=Completa las Máscaras que Vestimos en la historia principal.
+Unlocks after clearing The Masks We Wear. Would you like to unlock this challenge now?<color\=#FF0000>Unlocking now may impact your experience of the story.</color>=Se desbloquea tras completar The Masks We Wear. ¿Quieres desbloquear este desafío ahora? <color\=#FF0000>Desbloquearlo ahora podría afectar la experiencia de la historia.</color>
+
+A cognitive form of Daichi Osaka born from Shimotsuna's cognition.\nHe obediently follows her every command.=Una forma cognitiva de Daichi Osaka nacida de la cognición de Shimotsuna. Sigue obedientemente cada una de sus órdenes.
+
+See how you rank against other players!=¡Descubre en qué puesto estás respecto a los demás jugadores!
+
+5★ Thief Set=Conjunto de Ladrón Fantasma 5★
+Triple Set=Conjunto Triple
+
+You cannot purchase this because it is sold out.=No puedes comprar esto porque se agotó.
+
+Choose Sub-Attribute=Elegir Subatributo
+Create values=Crear valores
+Unlocks=Desbloquea
+
+Realm of Repression:\nWords of Harvest=Reino de la Represión:\nPalabras de la Cosecha
+Words of Harvest I=Palabras de la Cosecha I
+Words of Harvest II=Palabras de la Cosecha II
+Words of Harvest III=Palabras de la Cosecha III
+Words of Harvest IV=Palabras de la Cosecha IV
+Words of Harvest V=Palabras de la Cosecha V
+Words of Harvest VI=Palabras de la Cosecha VI
+
+P3P Cover Art=Arte de portada de P3P
+
++--Categoría--+
+S.E.E.S.=S.E.E.S.
+P3P=P3P
+Female=Femenino
+Category=Categoría
+The Phantom Thieves of Hearts=Los Ladrones Fantasma de Corazones
+P5=P5
+Male=Masculino
+Deal Gun damage to 1 foe.=Inflige daño de arma a distancia a 1 enemigo.
+P5R=P5R
+P3R=P3R
+Virtual=Virtual
+P5X=P5X
+
++--Ranking--+
+Thief Rating Ranking KOTONE=Clasificación de rango de Ladrón: KOTONE
+Qualia Ranking=Clasificación Qualia
+Wonder Level Ranking=Clasificación de Nivel Wonder
+r:"^Trials from the Sea of Souls Ranking (\d+)★$"="Clasificación de las Pruebas del Mar de las Almas $1★"
+
 
 ++----Metro----++
 r:"Clear Difficulty (\d+) with (?:a|an) <link\=(.+?)><u>Curse Formation</u></link>"="Completa la dificultad $1 con una <link\=$2><u>Formación de Maldición</u></link>"
@@ -1003,6 +1074,22 @@ The event Haunted Beach Shack: The Curse of Shirosato Beach has ended.\nYour unu
 Sea Fishing Cruise Rewards=Recompensas del Crucero de Pesca Marina
 The mission rewards for Sea Fishing Cruise were not claimed. They have been delivered to you via this message.=Las misiones del Crucero de Pesca Marina no se reclamaron.\nTus recompensas te han sido entregadas mediante este mensaje.
 
+r:"^Gifts for the New Semester, Day (\d+)$"="Regalos para el Nuevo Semestre, Día $1"
+r:"^Thank you for playing Persona5: The Phantom X\.\n\nEnjoy this gift for Day (\d+) of Gifts for the New Semester\.\n\nWe hope you continue to enjoy Persona5: The Phantom X\.$"="Gracias por jugar Persona5: The Phantom X.\n\nDisfruta este regalo del día $1 de los Regalos para el Nuevo Semestre.\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X."
+
+r:"^Message from Kotone Shiomi - Day (\d+)$"="Mensaje de Kotone Shiomi - Día $1"
+Thank you for playing Persona5: The Phantom X.\n\nKotone Shiomi from Persona 3 Portable has a message for you!\nCheck it out! ▼\nHello, this is Kotone Shiomi! I've been asked to tell you about the daily gifts going out starting tomorrow!\nAlso, believe it or not, there's apparently other S.E.E.S. members here, too! I wonder if I'll meet any... You should go find them!\n---\nListen to Kotone Shiomi's voice messages on the official X account for P5X!\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\n¡Kotone Shiomi de Persona 3 Portable tiene un mensaje para ti!\n¡Échale un vistazo! ▼\n¡Hola! ¡Soy Kotone Shiomi! Me pidieron que les cuente sobre los regalos diarios que se enviarán a partir de mañana.\nAdemás, aunque no lo crean, ¡parece que también hay otros miembros de S.E.E.S. por aquí! Me pregunto si me cruzaré con alguno... ¡Deberías ir a buscarlos!\n---\n¡Escucha los mensajes de voz de Kotone Shiomi en la cuenta oficial de X de P5X!\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
+
+Thank you for playing Persona5: The Phantom X.\n\nKotone Shiomi from Persona 3 Portable has a message for you!\nCheck it out! ▼\nHiya! Incoming gifts starting today!\nLet's see here... Today's gift is a Coffee Aid.\nI wonder what it tastes like? I'd like to try a sip!\n---\nListen to Kotone Shiomi's voice messages on the official X account for P5X!\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\n¡Kotone Shiomi de Persona 3 Portable tiene un mensaje para ti!\n¡Échale un vistazo! ▼\n¡Hola! ¡A partir de hoy empiezan a llegar los regalos!\nVeamos... El regalo de hoy es un café de auxilio.\nMe pregunto a qué sabrá... ¡Me encantaría probar un sorbo!\n---\n¡Escucha los mensajes de voz de Kotone Shiomi en la cuenta oficial de X de P5X!\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
+
+Thank you for playing Persona5: The Phantom X.\n\nKotone Shiomi from Persona 3 Portable has a message for you!\nCheck it out! ▼\nToday's gift is a Revelation Card!\nIf it seems like a good fit, I'd definitely like to try equipping it.\nDon't forget to claim it!\n---\nListen to Kotone Shiomi's voice messages on the official X account for P5X!\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\n¡Kotone Shiomi de Persona 3 Portable tiene un mensaje para ti!\n¡Échale un vistazo! ▼\n¡El regalo de hoy es una carta de revelación!\nSi se adapta bien a tus personajes, ¡definitivamente deberías intentar equiparla!\n¡No olvides reclamarla!\n---\n¡Escucha los mensajes de voz de Kotone Shiomi en la cuenta oficial de X de P5X!\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
+
+Thank you for playing Persona5: The Phantom X.\n\nKotone Shiomi from Persona 3 Portable has a message for you!\nCheck it out! ▼\nTa-da! Today's gift is Curry Rice!\nIf you get hungry, you can dig right in!\nY'know... it does look really good... I'd love to eat this with the S.E.E.S. members... Yum...\n---\nListen to Kotone Shiomi's voice messages on the official X account for P5X!\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\n¡Kotone Shiomi de Persona 3 Portable tiene un mensaje para ti!\n¡Échale un vistazo! ▼\n¡Ta-da! ¡El regalo de hoy es arroz con curry!\nSi tienes hambre, ¡puedes hincarle el diente de inmediato!\n¿Sabes? Se ve delicioso... Me encantaría comer esto con los miembros de S.E.E.S... Qué rico...\n---\n¡Escucha los mensajes de voz de Kotone Shiomi en la cuenta oficial de X de P5X!\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
+
+Thank you for playing Persona5: The Phantom X.\n\nKotone Shiomi from Persona 3 Portable has a message for you!\nCheck it out! ▼\nThe gift for the last day is a Gold Ticket.\nHehe, sending these messages out was so much fun!\nI hope you all had fun, too! Until next time!\n---\nListen to Kotone Shiomi's voice messages on the official X account for P5X!\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\n¡Kotone Shiomi de Persona 3 Portable tiene un mensaje para ti!\n¡Échale un vistazo! ▼\nEl regalo del último día es un boleto de oro.\n¡Jeje, enviar estos mensajes fue muy divertido!\n¡Espero que ustedes también se hayan divertido! ¡Hasta la próxima!\n---\n¡Escucha los mensajes de voz de Kotone Shiomi en la cuenta oficial de X de P5X!\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
+
+Daily Hoot-n-Loot Reward=Recompensa Hoot-&-Loot Diario
+The unclaimed rewards from the event Daily Hoot-n-Loot have been delivered to you via this message.=Las recompensas sin reclamar del evento Daily Hoot-&-Loot Diario se te han entregado mediante este mensaje.
 
 
 
@@ -1148,6 +1235,7 @@ Katayama Only=Sólo Para Katayama
 Kirijo Only=Sólo Para Kirijo
 Miku Only=Sólo Para Miku
 Wavecatcher Miyu Only=Sólo para Miyu Atrapaolas
+Cosmic Yui Only=Solo Para Yui Cósmica
 
 +--Modo Fotografía--+
 Relieved=Aliviado
@@ -1216,6 +1304,8 @@ r:"Play a pair (\d+) times\. \((\d+)/(\d+)\)"="Juega un par $1 veces. ($2/$3)"
 On days 2 and 3 of the event, the daily Tycoon Medal Cap is raised by 600 each day.\nIf you play 1 Round, you will receive 80 Tycoon Medals when rewards are tallied.\nIf you play 3 Rounds, you will receive 200 Tycoon Medals when rewards are tallied.\nIf you play in Ranked Match, you will receive 200 Tycoon Medals when rewards are tallied.=En los días 2 y 3 del evento, el límite diario de Medallas de Tycoon aumenta en 600 cada día.\nSi juegas 1 ronda, recibirás 80 Medallas de Tycoon cuando se contabilicen las recompensas.\nSi juegas 3 rondas, recibirás 200 Medallas de Tycoon cuando se contabilicen las recompensas.\nSi juegas en una Partida Clasificatoria, recibirás 200 medallas Tycoon cuando se calculen las recompensas.
 
 Tycoon is a 4-player card game.\nTo win the game, you must get rid of all your cards before the other players.\n\n<color\=#FFD145>Arena Mode</color>\nIn Solo Mode, you can play against a CPU with a customizable difficulty and choose to play either 1 or 3 games for each match.\n\n In Ranked Match, play against other players, with every match consisting of three games.=Tycoon es un juego de cartas de 4 jugadores.\nPara ganar la partida, debes deshacerte de todas tus cartas antes que los demás jugadores.\n\n<color\=#FFD145>Modo Arena</color>\nEn el Modo en solitario, puedes jugar contra la CPU con una dificultad personalizable y elegir jugar 1 o 3 partidas por cada encuentro.\n\n En la Partida de clasificación, juegas contra otros jugadores, y cada encuentro consta de tres partidas.
+
+r:"^Trigger a Revolution or Counter Revolution (\d+) time[s]?\. \((\d+)/(\d+)\)$"="Provoca una Revolución o una Contrarrevolución $1 vez. ($2/$3)"
 
 ++-------------UI Habitación Terciopelo-----------------++
 r:"^Fuse\s+(\d+)\s+Rank\s+(.+?)\s+Persona\s+of\s+(\d+).?\s*rarity\s*$"="Fusiona $1 Persona de rango $2 con rareza de $3★."
@@ -1310,6 +1400,7 @@ r:"^Increase\\s+HP\\s+by\\s+(\\d+)\\.\\nIncrease\\s+Attack\\s+by\\s+(\\d+)\\.$"=
 r:"^Increase\\s+HP\\s+by\\s+(\\d+)\\.\\nIncrease\\s+Attack\\s+by\\s+(\\d+)\\.\\nIncrease\\s+Defense\\s+by\\s+(\\d+)\\.$"="Aumenta los PS en $1.\nAumenta el Ataque en $2.\nAumenta la Defensa en $3."
 
 ++-------------Logros-----------------++
+Together Forever and Ever=Juntos para siempre
 Nothing's Back Here=Aquí no hay nada
 Wishing Fountain=Fuente de los Deseos
 r:"Unlock all of ([\w\s]+)'s voice lines\."="Desbloquea todas las líneas de voz de $1."
@@ -2018,6 +2109,35 @@ Recommended skill order: Vorpal Butterfly → Obsessive Rose → Obsessive Rose 
 1. Ichigo excels at <color\=#FF423F>single-target attacks</color>. With Vorpal Butterfly, she can deal heavy damage to foes above a certain HP percentage. Also, when Vorpal Butterfly defeats a target, she can activate it again (can be activated consecutively).\n2. During battle, the first time she activates Vorpal Butterfly, as well as each time she activates her Highlight, she can gain Chains of Love. She gains buffs depending on her total number of Chains of Love stacks.\n3. During battle, she can use a special skill to inflict Lovesick, dealing continuous damage. Her Highlight can immediately activate <color\=#FF423F>all continuous damage effects</color> currently inflicted on foes. It also allows Lovesick to activate <color\=#FF423F>critical hits</color> for a period of time.\nRecommended skill order: Vorpal Butterfly → Obsessive Rose → Obsessive Rose → My Beloved Prince=1. Ichigo destaca en los <color\=#FF423F>ataques a un solo objetivo</color>. Con Mariposa Vorpal, inflige gran daño a rivales por encima de cierto porcentaje de PS. Si la habilidad derrota al objetivo, puede volver a activarse de forma consecutiva.\n2. En combate, la primera vez que usa Mariposa Vorpal y cada vez que activa su Highlight, obtiene Cadenas de Amor. Recibe mejoras según el total de cargas acumuladas.\n3. En batalla, puede usar una habilidad especial para aplicar Mal de Amor e infligir daño continuo. Su Highlight activa de inmediato <color\=#FF423F>todos los efectos de daño continuo</color> de los rivales y permite que Mal de Amor aseste <color\=#FF423F>golpes críticos</color> temporalmente.\nOrden de habilidades recomendado: Mariposa Vorpal → Rosa Obsesiva → Rosa Obsesiva → Mi Amado Príncipe
 
 
+Kumi Katayama's Skills=Habilidades de Kumi Katayama
+1. Katayama can inflict <color\=#FF423F>various debuffs</color> on foes that decrease Defense and increase damage taken.\n2. She has the ability to <color\=#FF423F>greatly decrease the target's Down Points</color> when dealing damage, <color\=#FF423F>regardless of Electric affinity</color>. This allows her to help allies to knock down foes and increase chances to activate All-Out Attacks. She can also increase <color\=#FF423F>downed foes' damage taken</color>, boosting her allies' offensive potential.=1. Katayama puede aplicar varias <color\=#FF423F>desventajas (debuffs)</color> a los enemigos, lo que reduce su Defensa y aumenta el daño recibido.\n2. Tiene la capacidad de <color\=#FF423F>reducir mucho los Puntos de Derribo del objetivo</color> al infligir daño, <color\=#FF423F>sin importar su afinidad eléctrica</color>. Esto le permite ayudar a sus aliados a derribar enemigos y aumentar las probabilidades de activar un Ataque Combinado. También puede aumentar el <color\=#FF423F>daño recibido de los enemigos derribados</color>, potenciando la capacidad ofensiva de su equipo.
+Use <color\=#FF423F>Discharge Sprocket</color> to inflict debuffs\non foes, and make <color\=#FF423F>Secret Technique: Lightning Legs</color>\navailable for use.=Usa <color\=#FF423F>Engranaje de Descarga</color> para aplicar desventajas (debuffs)\na los enemigos y activar la <color\=#FF423F>Técnica Secreta: Patadas Fulminantes</color>.
+Deal damage with <color\=#FF423F>Secret Technique: Lightning Legs</color>\nto decrease Down Points regardless of affinity,\nand also increase damage taken.=Inflige daño con <color\=#FF423F>Técnica Secreta: Patadas Relámpago</color>\npara reducir los Puntos de Derribo sin importar la\nafinidad, además de aumentar el daño recibido.
+
+Cosmic Yui's Skills=Habilidades de Yui Cósmica
+1. Cosmic Yui has excellent <color\=#FF423F>single-target damage abilities</color>. During battle, she can summon her <color\=#FF423F>Veggie Knights</color> and command them to attack foes.\n2. Also, Cosmic Yui's Phantom Thief Attire will change color according to her Veggie Knights, granting a variety of different effects.=1. Yui Cósmica tiene excelentes <color\=#FF423F>habilidades de daño contra un solo objetivo</color>. Durante la batalla, puede invocar a sus <color\=#FF423F>Caballeros Vegetales</color> y ordenarles que ataquen a los enemigos.\n2. Además, el atuendo de Ladrón Fantasma de Yui Cósmica cambiará de color según sus Caballeros Vegetales, lo que le otorga una variedad de efectos distintos.
+3. Recommended skill order: Veggie Knights, Go! → Harvest Fest → Veg-Out Attack.=3. Orden de habilidades recomendado: ¡Adelante, Caballeros Vegetales! → Festival de la Cosecha → Ataque Vegetal.
+1. Cosmic Yui has excellent <color\=#FF423F>single-target damage abilities</color>. During battle, she can summon her <color\=#FF423F>Veggie Knights</color> and command them to attack foes.\n2. Also, Cosmic Yui's Phantom Thief Attire will change color according to her Veggie Knights, granting a variety of different effects.\n3. Recommended skill order: Veggie Knights, Go! → Harvest Fest → Veg-Out Attack.=1. Yui Cósmica tiene excelentes <color\=#FF423F>habilidades de daño contra un solo objetivo</color>. Durante la batalla, puede invocar a sus <color\=#FF423F>Caballeros Vegetales</color> y ordenarles que ataquen a los enemigos.\n2. Además, el atuendo de Ladrón Fantasma de Yui Cósmica cambiará de color según sus Caballeros Vegetales, lo que le otorga una variedad de efectos distintos.\n3. Orden de habilidades recomendado: ¡Adelante, Caballeros Vegetales! → Festival de la Cosecha → Ataque Vegetal.
+Cosmic Yui can call upon the\n<color\=#FF423F>Veggie Knights</color> to aid her in battle.=Yui Cósmica puede convocar a los <color\=#FF423F>Caballeros Vegetales</color>\npara que la ayuden en la batalla.
+Use <color\=#FF423F>Veggie Knights, Go!</color> to summon the Veggie Knights.\n<color\=#FF423F>After using this skill, another skill can be used on the same turn.</color>=Usa <color\=#FF423F>¡Adelante, Caballeros Vegetales!</color> para invocar a los Caballeros Vegetales.\n<color\=#FF423F>Tras usar esta habilidad, se puede utilizar otra en el mismo turno.</color>
+Use Harvest Fest to enter the <color\=#FF423F>Huge Harvest</color> state.\nAt the end of each turn, activate Harvest Havoc to\ndeal damage to foes and gain <color\=#FF423F>Veggie Energy</color> stacks.=Usa Festival de la Cosecha para entrar en el estado de <color\=#FF423F>Gran Cosecha</color>.\nAl finalizar cada acción, activa Cosecha Caótica para\ninfligir daño a los enemigos y obtener acumulaciones de <color\=#FF423F>Energía Vegetal</color>.
+When <color\=#FF423F>Veg-Out Attack</color> is activated, all summoned Veggie Knights will attack\nfoes, launching <color\=#FF423F>one synchronized attack</color>. When Veggie Energy reaches <color\=#FF423F>7</color>,\nall Veggie Energy will be spent to deal <color\=#FF423F>All-Out Attack</color> damage to foes.=<color\=#FF423F>Ataque Vegetal</color>: Todos los Caballeros Vegetales invocados\natacarán a los enemigos con <color\=#FF423F>un ataque sincronizado</color>. Al reunir <color\=#FF423F>7</color> acumulaciones\nde Energía Vegetal, se consumirán para infligir daño de <color\=#FF423F>Ataque Combinado</color>.
+
+
+
+Kotone Shiomi's Skills=Habilidades de Kotone Shiomi
+1. Kotone Shiomi has excellent <color\=#FF423F>support capabilities</color>. She can grant the Arcana Link state to 1 ally and provide them with a variety of buffs, as well as <color\=#FF423F>copy</color> buff effects granted by the main target to the ally in the Arcana Link state and grant them as an additional buff.\n2. When Kotone uses Go for Broke, she enters the Fortune state. In this state, she can grant <color\=#FF423F>significant buffs</color> to the ally in the Arcana Link state.=1. Kotone Shiomi tiene excelentes <color\=#FF423F>capacidades de apoyo</color>. Puede otorgar el estado de Vínculo de Arcana a 1 aliado y proporcionarle una variedad de potenciadores, así como <color\=#FF423F>copiar</color> los efectos de los potenciadores que el objetivo principal le conceda al aliado vinculado para otorgárselos como una mejora adicional.\n2. Cuando Kotone usa A Toda Marcha, entra en el estado de Fortuna. En este estado, puede otorgar <color\=#FF423F>potenciadores (buffs) significativos</color> al aliado en el estado de Vínculo de Arcana.
+At the start of battle, <color\=#FF423F>Kotone Shiomi</color> automatically grants\nthe <color\=#FF423F>Arcana Link</color> state to 1 ally. Arcana Link prioritizes\nthe <color\=#FF423F>Sweeper or Assassin</color> ally with the highest Attack.=Al inicio de la batalla, <color\=#FF423F>Kotone Shiomi</color> otorga automáticamente\nel estado de <color\=#FF423F>Vínculo de Arcana</color> a 1 aliado. Este estado prioriza\nal aliado de la <color\=#FF423F>Vía del Barrendero o de la Vía del Asesino</color> con el Ataque más alto.
+<color\=#FF423F>Firecracker Yaoling</color> is selected.\nYou can also reselect the target.=<color\=#FF423F>Firecracker Yaoling</color> está seleccionado.\nTambién puedes volver a seleccionar al objetivo.
+<color\=#FF423F>Lyre's Melody</color>: Increase 1 ally's critical damage.\nIf the target is in the Arcana Link state,\ngrant <color\=#FF423F>Powerful Bond</color>.=<color\=#FF423F>Melodía de la Lira</color>: Aumenta el daño crítico de 1 aliado.\nSi el objetivo está en el estado de Vínculo de Arcana,\notorga <color\=#FF423F>Vínculo Poderoso</color>.
+<color\=#FF423F>Go for Broke</color>: Kotone enters the <color\=#FF423F>Fortune</color> state, gaining\n2 extra actions and greatly enhancing her skills and Highlight.\nHowever, after her extra actions, she will enter the <color\=#FF423F>Sick</color> state.=<color\=#FF423F>A Toda Marcha</color>: Kotone entra en el estado de <color\=#FF423F>Fortuna</color>, lo que le concede\n2 acciones adicionales y potencia enormemente sus habilidades y el Highlight.\nSin embargo, tras sus acciones adicionales, entrará en el estado de <color\=#FF423F>Enferma</color>.
+<color\=#FF423F>Lunar Phaseshift</color>: Kotone copies buff effects granted by an ally\nto the Arcana Link ally with a set amount of their original\neffectiveness. Certain special effects cannot be copied.=<color\=#FF423F>Fase Lunar Variable</color>: Kotone copia los efectos de los potenciadores\notorgados por un aliado al aliado con Vínculo de Arcana con una\ncantidad establecida de su efectividad original. Ciertos efectos especiales\nno se pueden copiar.
+Now take command and continue the battle.=Ahora toma el mando y continúa la batalla.
+
+
+
+
+
 ++-------------Tutoriales Eventos-----------------++
 r:"(?s)<color\=#FFD145>Collecting Keywords</color>\n• In the mission Answer Sheet, join (.+?) to solve puzzles.*?• Drag the keywords to the correct place and complete the puzzle\."="<color\=#FFD145>Recopilación de palabras clave</color>\n• En la misión Hoja de respuestas, únete a $1 para resolver acertijos en una búsqueda del tesoro que pondrá a prueba tu ingenio. Durante el evento, puedes consultar tu hoja de respuestas para ver las palabras clave que has recopilado.\n• Puedes reunir las palabras clave en cualquier orden, pero solo puedes aceptar una misión de palabra clave a la vez.\n• Habrá más historia disponible cuando hayas reunido 3, 6 y 9 palabras clave. No podrás recolectar la siguiente palabra clave hasta que hayas completado la nueva historia.\n• Recibirás inmediatamente las recompensas por recopilar palabras clave tras completar cada misión. No es necesario volver a la hoja de respuestas para reclamarlas.\n\n<color\=#FFD145>Completar el acertijo</color>\n• Tras recopilar todas las palabras clave, deberás ponerlas en el orden correcto para formar una oración.\n• Arrastra las palabras clave al lugar correcto y completa el acertijo."
 
@@ -2258,6 +2378,8 @@ Clear Recollections once =Completa Recuerdo una vez
 Pass any Stella in Trial of the Astrolabe =Supera cualquier estrella en la Prueba del Astrolabio
 r:"^Complete (\d+) tasks \((\d+)\/(\d+)\)$"="Completa $1 tareas ($2/$3)"
 r:"^Clear Recollections once \((\d+)\/(\d+)\)$"="Completa Recuerdos una vez ($1/$2)"
+
+Sigma Stella=Estrella Sigma
 
 
 ++-------------Combate-----------------++
@@ -2900,6 +3022,24 @@ r:"^Increase continuous dmg taken by ([\d\.]+)%\.$"="Aumenta el daño continuo r
 r:"^After using a skill, spend (\d+) stacks to activate additional effects\.$"="Tras usar una habilidad, gasta $1 acumulaciones para activar efectos adicionales."
 r:"^Increase continuous damage by <color\=#2899ff>([\d\.]+)%</color>\.$"="Aumenta el daño continuo un <color\=#2899ff>$1%</color>."
 
+[Spiritual Ailment] Unable to act.=[Dolencias Espirituales] No puede actuar.
+
+r:"^When attacking a downed foe, increase Atk by (\d+)%\.$"="Al atacar a un enemigo derribado, aumenta el ATQ en un $1%."
+
+#Katayama
+Enhance next Thunderbolt Outrage.=Potencia la siguiente Furia del Relámpago.
+Enhance next Discharge Sprocket.=Potencia el siguiente Engranaje de Descarga.
+Decrease Def when inflicted with Hard Knocks more.=Reduce más la DEF al aplicar Golpes Fuertes.
+r:"^Increase dmg taken when downed by ([\d\.]+)%\.$"="Aumenta el daño recibido cuando te derriben un $1%."
+r:"^Increase crit dmg taken by ([\d\.]+)%\.$"="Aumenta el daño de crítico recibido un $1%."
+
+Wind Break=Ruptura de Viento
+
+r:"^Increase weakness dmg by ([\d\.]+)%\.$"="Aumenta el daño por debilidad en un $1%."
+
+r:"^Allies' <color\=#FFFC40>All-Out Attack</color> damage is increased by (\d+)%\.$"="El daño del <color\=#FFFC40>Ataque Combinado</color> de los aliados aumenta un $1%."
+
+r:"^Increase All-Out Attack dmg by ([\d\.]+)%\.$"="Aumenta el daño de Ataque Combinado en un $1%."
 
 +--Stats--+
 Critical Rate=Probabilidad Crítica
@@ -2910,7 +3050,10 @@ Curse Mult. +=Mult. de Maldición +
 Attack Mult. +=Mult. de Ataque +
 Psy Mult. +=Mult. de Psicoquinesis +
 Total Mult. +=Mult. total +
-
+Def Increase Cap=Límite de Aumento de Defensa
+Highlight Dmg Taken Decrease=Disminución de daño recibido por Highlight
+Highlight Base Shield=Escudo base por Highlight
+Highlight Shield Multiplier=Multiplicador de Highlight del Escudo
 
 Applied Max HP Increase=Aumento de PS Máx. Aplicado
 Highlight Applied Crit Mult Increase=Aumento de Mult. Crítico de Highlight Aplicado
@@ -2950,6 +3093,10 @@ Lost 1 Flaming Guard!=¡Perdió 1 carga de Escudo Flamígero!
 
 When allies deal weakness damage, gain Eroding Fissure.\nEroding Fissure: Increase final damage by 20%, and increase continuous damage by 20% for 2 turns.=Cuando los aliados infligen daño de debilidad, obtienen Fisura Erosiva.\nFisura Erosiva: El daño final recibido aumenta un 20% y el daño continuo sube un 20% por 2 turnos.
 
+When a foe is knocked down, inflict Downbeat Daze on the target. When attacking foes with a Highlight or Theurgy, inflict Downbeat Daze on the main target.\nDownbeat Daze: Increase final damage taken by 40% for 2 turns.=Cuando un enemigo es derribado, inflige Aturdimiento Melancólico al objetivo. Al atacar a enemigos con un Highlight o Teúrgia, inflige Aturdimiento Melancólico al objetivo principal.\nAturdimiento Melancólico: Aumenta el daño final recibido un 40% durante 2 turnos.
+
+At the start of battle, allies gain 1 Desperation stack. Gain 1 Desperation stack when attacking a foe with a Resonance.\nDesperation: Increase final damage by 40% for 1 turn.=Al inicio de la batalla, los aliados ganan 1 carga de Desesperación. Gana 1 carga de Desesperación al atacar a un enemigo con Resonancia. Desesperación: Aumenta el daño final un 40% durante 1 turno.
+
 +--Portal Cazapesadillas--+
 When a foe is <color\=#FFFC40>knocked down</color>, increase final damage by 80%.=Cuando un enemigo es <color\=#FFFC40>derribado</color>, su daño final recibido aumenta un 80%.
 
@@ -2965,6 +3112,18 @@ Cannot use while skill is active.=No se puede usar mientras la habilidad esté a
 Cannot use while skill is active.=No se puede usar mientras la habilidad esté activa.
 Cannot be activated during Auto-Battle.=No se puede activar durante el Auto-Combate.
 
+When Vishnu's HP falls below 90% or 60% for the first time, it summons 2 other Vishnus. The summoned Vishnus and original Vishnu are in the <color\=#72C5FF>Soul Link</color> state.\nSoul Link: Distributes all damage received between all Shadows who share this condition, based on the percentage of their current HP.=Cuando la vida de Vishnu baje del 90% o del 60% por primera vez, invocará a otros 2 Vishnus. Los Vishnus invocados y el Vishnu original están en el <color\=#72C5FF>Enlace del alma</color> estado. Enlace de almas: Distribuye todo el daño recibido entre todas las Sombras que comparten esta condición, en función del porcentaje de sus PS actuales.
+
+1. Yatsufusa will activate <color\=#FF423F>Eight Beads of Virtue</color>.\nEight Beads of Virtue: All affinities change to Resist, damage dealt increases, and damage taken decreases.\nIt also summons 4 Shadows.\nWhen a Shadow is defeated, Yatsufusa is inflicted with the corresponding elemental ailment for 2 turns.\nSummoned Shadows have different weaknesses and resistances than normal.\n2. When Yatsufusa is in the Eight Beads of Virtue state and is inflicted with all 4 types of elemental ailments, the Eight Beads of Virtue state is canceled and its Defense decreases.=1. Yatsufusa activará <color\=#FF423F>Ocho perlas de la virtud</color>.\nOcho perlas de la virtud: Todas las afinidades cambian a "Resistencia", el daño infligido aumenta y el daño recibido disminuye. Además, invoca 4 Sombras.\nCuando una Sombra es derrotada, Yatsufusa sufre el estado alterado elemental correspondiente durante 2 turnos.\nLas Sombras invocadas tienen debilidades y resistencias distintas a las normales.\n2. Cuando Yatsufusa se encuentra en el estado de Ocho perlas de la virtud y sufre los 4 tipos de estados alterados elementales, dicho estado se cancela y su Defensa disminuye.
+
+E<color\=#000000>x</color>ecution of Justice=E<color\=#000000>j</color>ecución de la Justicia
+
+When an ally uses a skill on the target, grant Inherited Wish to all allies.\nInherited Wish: Increase final damage by 20% for 3 turns. If the skill user is a SEES member, increase final damage by 20% more.=Cuando un aliado usa una habilidad contra el objetivo, otorga Deseo heredado a todos los aliados.\nDeseo heredado: Aumenta el daño final un 20% durante 3 turnos. Si el usuario de la habilidad es miembro de SEES, aumenta el daño final un 20% más.
+
+
++--Cartas de relevación--+
+Gain Revelation - Orange=Revelación de Ganancia - Naranja
+Satiety Revelation - Orange=Revelación de Saciedad - Naranja
 
 +--Prueba del Astrolabio--+
 
@@ -3247,8 +3406,50 @@ Once a certain amount has been collected, can be exchanged for the Rank VII Pers
 ), get <color\=#EADE10>5★ Phantom Thief Chance 05</color> x1! Use it to randomly get one of these Thieves:=), ¡Obtén <color\=#EADE10>Oportunidad de Ladrón Fantasma 5★ 05</color> x1! Úsalo para obtener un Ladrón:
 Clear Side Mission: Meat Cutlet Destiny to unlock.=Completa la misión secundaria Destino de la Milanesa de Carne para desbloquear.
 Clear Side Mission: Ms. Katayama's Homework to unlock.=Completa la misión secundaria La tarea de la Srta. Katayama para desbloquear.
+Heeeeere's Berry!=¡Aquíííííí viene Berry!
+New Start, New Semester=Nuevo comienzo, nuevo semestre
+Ange Returns=Regreso de Ange
+Remove 1 debuff effect from 1 ally. At the end of the target's next action, grant a special additional action. When entering this state, the target's HP, SP, buff/debuff effects, and skill cooldowns are reset to their state at the start of the previous action.=Elimina 1 desventaja de un aliado. Al final de la siguiente acción del objetivo, le otorga una acción adicional especial. Al entrar en este estado, los PS, PE, mejoras o desventajas y los tiempos de reutilización de las habilidades del objetivo regresan al estado en el que estaban al inicio de su acción anterior.
+
+Words of Harvest=Palabras de la Cosecha
+Kira Kitazato Popularity Poll Gift=Regalo de la Encuesta de Popularidad de Kira Kitazato
+Thank you for playing Persona5: The Phantom X.\n\nTo celebrate Kira Kitazato's victory in the 1st P5X Popularity Poll, we are sending this special badge to you.\nFor more information on the Kira Kitazato ASMR video that was made as a reward for clinching first place in the poll, as well as how to claim the special Thieves Den Illustration, please check the Notice: P5X Popularity Poll 1st Place Celebration Gift.\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\nPara celebrar la victoria de Kira Kitazato en la 1.ª Encuesta de Popularidad de P5X, te enviamos esta insignia especial. Para más información sobre el video ASMR de Kira Kitazato que se hizo como recompensa por ganar el primer lugar en la encuesta, así como para saber cómo reclamar la ilustración especial de la Guarida de los Ladrones, por favor revisa el Aviso: Regalo de celebración por el 1.er lugar en la Encuesta de Popularidad de P5X.\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
+The Masks We Wear: Phase 2 Coin Delivery=Las máscaras que usamos: Entrega de monedas de la Fase 2
+The event The Masks We Wear: Phase 2 has ended.\nYour unused coins have been delivered to you, and can be found in your bag.=El evento Las máscaras que usamos: Fase 2 ha terminado. Tus monedas no utilizadas te han sido entregadas y puedes encontrarlas en tu mochila.
+1st Anni Poll Winner=Ganador de la 1.ª Encuesta de Aniversario
+Obtain <size\=72><sprite\=37 tint\=1></size><size\=34><color\=#FFE500> x10</color></size> from the season total when\nyou purchase a Premium+ Phantom Pass!=Obtén <size\=72><sprite\=37 tint\=1></size><size\=34><color\=#FFE500> x10</color></size>¡del total de la temporada cuando compres un Pase Phantom Premium+!
+<size\=28>Collect</size> <size\=72><sprite\=37 tint\=1></size> <size\=28>to exchange for <color\=#FFFFFF>5★ weapons</color>!\n<color\=#FFE500>(Have: 4)</color></size>=<size\=28>Recolectar</size> <size\=72><sprite\=37 tint\=1></size> <size\=28>para canjear por<color\=#FFFFFF>armas de 5★</color>!\n<color\=#FFE500>(Tengo: 4)</color></size>
+
+Increase ailment accuracy 10.5%. Increase Sleep accuracy 45%.=Aumenta la precisión de los estados alterados un 10.5%. Aumenta la precisión de Sueño un 45%.
+
+Let's get stickers!=¡Vamos por las calcomanías!
+
++--Pendiente--+
 
 
+
+
+
+Perseverance & Gain=Perseverancia y Ganancia
+Increase Attack based on missing HP. Increase Attack by a maximum of <color\=#2899ff>40%</color> when HP is down to 40%.=Aumenta el Ataque según la vida que te falte. Aumenta el Ataque un máximo de <color\=#2899ff>40%</color> cuando la vida baja al 40%.
+Acuity Revelation - Blue=Revelación de Agudeza - Azul
+Acuity=Agudeza
+Increase All-Out Attack damage by <color\=#2899ff>16%</color>.=Aumenta el daño del Ataque Combinado en <color\=#2899ff>16%</color>.
+Acuity & Satiety=Agudeza y Saciedad
+After activating a Theurgy, increase party's damage by <color\=#2899ff>10%</color> for 3 turns.=Después de activar una Theurgy, aumenta el daño del grupo en<color\=#2899ff>10%</color> durante 3 turnos.
+At the start of battle, if the user is the 3rd/4th ally in the turn order, increase Attack by <color\=#2899ff>24%/30%</color>.=Al inicio de la batalla, si el usuario es el 3.er/4.º aliado en el orden de turno, aumenta el Ataque en<color\=#2899ff>24%/30%</color>.
+
+
+
+
+
+
+
+
+
+
+Increase ailment acc 34.9%.\nAt start of battle, gain 3 Bitter Stagnation. Whenever allies inflict debuffs with skills, gain 1 Bitter Stagnation (max 1 per turn). Stacks up to 5 times. Activates even in reserve.\nBitter Stagnation: After skill is used, spend 5 stacks to increase main target's dmg taken from newly inflicted continuous dmg 10% (3 turns).=Aumenta la precisión de estados alterados 34.9%. Al inicio de la batalla, gana 3 de Estancamiento Amargo. Cada vez que un aliado aplique un debuff con una habilidad, gana 1 de Estancamiento Amargo (máximo 1 por turno). Se acumula hasta 5 veces. Se activa incluso si no estás en combate. Estancamiento Amargo: Tras usar una habilidad, consume 5 acumulaciones para aumentar el daño que recibe el objetivo principal por el nuevo daño continuo aplicado en un 10% (3 turnos).
+---
 
 
 Ghost Rule (Lyrics: DECO*27, Music: DECO*27)=Ghost Rule (Letra: DECO*27, Música: DECO*27)
@@ -3264,6 +3465,9 @@ Phantom=Fantasma
 Action -intro-=Acción -introducción-
 Yumi's Invite=Invitación de Yumi
 Shoki ♣2=Shoki ♣2
+Fleeting Youth=Juventud Fugaz
+5★ Thief Select Ticket SP3=Ticket de Selección de Ladrón SP3 de 5★
+Orange Power Revelation=Revelación de Poder Naranja
 
 Unlocks at Minami Miyashita rank 1=Se desbloquea en el rango 1 de Minami Miyashita.
 Can be gifted to accomplices to raise Synergy. Made with daisies and simple packaging at the workbench.=Se puede regalar a los cómplices para aumentar la Sinergia. Se hace con margaritas y un empacado sencillo en el mesa de trabajo.
@@ -3287,6 +3491,11 @@ Pieza de Orden del Mod del Artesano=Pieza de Orden del Mod del Artesano
 r:"^Spend: <color\=#FFDE00>Artisan's Mod Order Piece x(\d+)</color>\nCraft: <color\=#FFDE00>Artisan's Mod Order x(\d+)</color>\nDo you want to confirm\?$"="Gastar: <color\=#FFDE00>Pieza de Orden de Mod del Artesano x$1</color>.\nFabricar: <color\=#FFDE00>Orden de Mod del Artesano x$2</color>.\n¿Quieres confirmarlo?"
 #Revisar
 Spend: <color\=#FFDE00>Artisan's Mod Order Piece x60</color>.\nCraft: <color\=#FFDE00>Artisan's Mod Order x1</color>.\nDo you want to confirm?=Gastar: <color\=#FFDE00>Pieza de Orden de Mod del Artesano x60</color>.\nFabricar: <color\=#FFDE00>Orden de Mod del Artesano x1</color>. ¿Quieres confirmarlo?
+
+An exclusive 5★ weapon for <color\=#FF423F>Kotone Shiomi</color> is now available! Select which weapons are in your 5★ weapon lineup. Press [Info] for more details.=Un arma 5★ exclusiva para <color\=#FF423F>Kotone Shiomi</color> ¡Ya está disponible! Selecciona qué armas formarán parte de tu alineación de armas 5★. Presiona [Info] para más detalles.
+5★ Kotone Shiomi is in the Most Wanted lineup! Press [Info] for more details.=¡Kotone Shiomi de 5★ está en la lista de los más buscados! Presiona [Info] para más detalles.
+
+r:"^Do you want to use the following to perform Way of Life (\d+) times\?$"="¿Quieres usar lo siguiente para realizar Modo de vida $1 veces?"
 
 +--Vida Urbana P3--+
 I could work at Chagall Café in Paulownia Mall...=Podría trabajar en el Cafetería Chagall del Centro Comercial Paulownia...
@@ -3347,8 +3556,16 @@ Beachflower Avatar 2=Avatar Flor Costera 2
 
 <color\=#0F69CA><size\=36>Shadow Hunt has begun!</size></color>\n\nFight powerful foes in the newly-added area of Mementos: The Path of Kaitul.\nWhile there are no event rewards, this event will make progressing through Shadow elimination missions easier, so be sure to use it to aid you in your exploration.\n*The rewards displayed on the event screen are the standard rewards given for defeating the displayed Shadow for the first time.=<color\=#0F69CA><size\=36>¡La Cacería de Sombras ha comenzado!</size></color>\n\nEnfréntate a enemigos poderosos en la nueva área de Mementos: El Camino de Kaitul.\nAunque no hay recompensas exclusivas, este evento facilitará tu progreso en las misiones de eliminación de Sombras. ¡Aprovéchalo para avanzar en tu exploración!\n*Las recompensas que se muestran en la pantalla son las estándar que se otorgan al derrotar a la Sombra indicada por primera vez.
 
+Sanada Returns=El regreso de Sanada
+Yukari Returns=El regreso de Yukari
+Makoto Returns=El regreso de Makoto
+
+<color\=#0F69CA><size\=36>P3P Login Bonus and Special Side Story</size></color>\n\nLog in for 10 days during the event period to earn 10 Platinum Milicoins, as well as the P3P Cover Art illustration for your Thieves Den.\n\nComplete the fourth chapter of the main event story Reach for the Moon to unlock the Friendships Bloom quest. Finishing the quest will unlock a collection of side stories wherein Kotone Shiomi interacts with characters from P5X and P3R.\n\nCompleting all of Reach for the Moon will earn you a special illustration for your Thieves Den, the P3P Music Collection, and give you access to Iwatodai Station, where you can chat with Kotone Shiomi and other characters once per day and earn Meta Jewels.=<color\=#0F69CA><size\=36>Bono de inicio de sesión de P3P e historias secundarias especiales</size></color>\n\nInicia sesión durante 10 días durante el periodo del evento para obtener 10 milimonedas de platino, además de la ilustración de la portada de P3P para tu Guarida de los Ladrones.\n\nCompleta el cuarto capítulo de la historia principal del evento, "Alcanza la Luna", para desbloquear la misión "Las Amistades Florecen". Al terminarla, desbloquearás una colección de historias secundarias en las que Kotone Shiomi interactúa con personajes de P5X y P3R.\n\nAl completar "Alcanza la Luna" por completo, ganarás una ilustración especial para tu Guarida de los Ladrones, la colección musical de P3P y tendrás acceso a la estación de Iwatodai, donde podrás platicar con Kotone Shiomi y otros personajes una vez al día para conseguir Meta Gemas.
 
 
+<color\=#0F69CA><size\=36>Cycle of Fate: Space Card Version</size></color>\n\nA special version of Cycle of Fate is available now, where you can create 1 Space Revelation Card!\nClear event missions to earn Oracle Ink and create your custom Space card!\n\nSpend Oracle Ink to select a Space card of your choice, then lock or reroll any of its sub-attributes, before finally pressing "Create" to obtain your customized Space Revelation Card.\n*You can spend additional Oracle Ink to change the card type or sub-attributes before creation.=<color\=#0F69CA><size\=36>Ciclo del Destino: Versión de carta - Espacio</size></color>\n\n¡Ya está disponible una versión especial de Ciclo del Destino, en la que podrás crear 1 carta de revelación Espacio!\n¡Completa las misiones del evento para obtener tinta de oráculo y crear tu propia carta Espacio personalizada!\n\nUsa la tinta de oráculo para elegir la carta Espacio que prefieras, luego bloquea o vuelve a tirar cualquiera de sus subatributos y, finalmente, presiona "Crear" para obtener tu carta de revelación Espacio personalizada.\n*Puedes usar tinta de oráculo adicional para cambiar el tipo de carta o los subatributos antes de crearla.
+
+During the event, you can customize 1 Space Revelation Card. Complete missions to earn the customization item Oracle Ink.=Durante el evento, podrás personalizar 1 carta de revelación - Espacio. Completa misiones para obtener el objeto de personalización: tinta de oráculo.
 
 +--Banner--+
 Most Wanted 5★=Los Más Buscados de 5★
@@ -3363,6 +3580,9 @@ r:"^In <color\=#FFFC40>(.+)</color> contracts, you use Platinum Tickets to draw 
 
 
 If you didn't obtain a 4★ from the previous 9 draws, your next draw (the 10th draw) will have the Flat 1 rate, which guarantees a 4★ or higher.\nIf you didn't obtain a 5★ from the previous 109 draws, your next draw (the 110th draw) will have the Flat 2 rate, which guarantees a 5★.\n\nAfter you obtain a non-Most Wanted Phantom Thief, if a Phantom Thief of the same rarity appears in the next or subsequent draws, one Most Wanted Phantom Thief will appear.\nThis Special Most Wanted Draw will be valid until you obtain a Most Wanted Phantom Thief of the same rarity.\n\nThe status for Contract Rates applies to all "targeted" contracts, regardless of the event period.\n\nThe displayed contract rates have been rounded off at the fourth decimal place (to the nearest thousandth), and their combined total may not add up to each rarity-based contract rate or to 100%.\nFor contracts, the contract rates are based upon each individual draw. Therefore, an item with a contract rate of 1% is not guaranteed to appear within 100 draws. The same item may also appear more than once.\nPlease note that as the rates for Most Wanted Phantom Thieves are increased, the rates for other Phantom Thieves are also decreased.=Si no obtuviste un personaje de 4★ en las 9 extracciones anteriores, tu siguiente extracción (la número 10) tendrá la tasa Probabilidad Fija 1, la cual garantiza un personaje de 4★ o superior.\nSi no obtuviste un personaje de 5★ en las 109 extracciones anteriores, tu siguiente extracción (la número 110) tendrá la tasa Probabilidad Fija 2, la cual garantiza un personaje de 5★.\n\nDespués de obtener un Ladrón Fantasma que no sea de Los Más Buscados, si aparece un Ladrón Fantasma de la misma rareza en la siguiente extracción o en las posteriores, aparecerá un Ladrón Fantasma de Los Más Buscados.\nEsta Extracción Especial de Los Más Buscados será válida hasta que obtengas un Ladrón Fantasma de Los Más Buscados de la misma rareza.\n\nEl estado de las Tasas de Contrato se aplica a todos los contratos "específicos", sin importar el periodo del evento.\n\nLas tasas de contrato mostradas han sido redondeadas en el cuarto decimal (al milésimo más cercano), y su total combinado podría no sumar la tasa de contrato basada en cada rareza ni el 100%.\nPara los contratos, las tasas se basan en cada extracción individual. Por lo tanto, un objeto con una tasa de contrato del 1% no está garantizado aparecer en 100 extracciones. El mismo objeto también puede aparecer más de una vez.\nTen en cuenta que, a medida que aumentan las tasas de los Ladrones Fantasma de Los Más Buscados, las tasas de los demás Ladrones Fantasma disminuyen.
+
+<color\=#0F69CA><size\=36>Most Wanted Phantom Idol Contract: Way of Life</size></color>\n\nThis is your chance to get the exclusive 5★ Kotone Shiomi!\nWhat's more, her unique 5★ weapon Vetri Vel Muruga is also available in Silent Pistol Arms Deals!\n\nKotone Shiomi is a 5★ Fire Strategist.\n\nShe specializes in buffing allies, and can significantly boost an ally by granting them Arcana Link.\nAlso, once per battle, she's able to gain 2 extra actions, and then activate the Arcana Link ally's Highlight or Theurgy without spending the gauge.\nNot only that, but she can even copy buff effects granted by an ally to the Arcana Link ally, and grant them as an additional buff.\n\nWhen equipped with her 5★ weapon, her Attack increases, and her skill enhancing effects grow even stronger.\n\nPair her up with another Strategist in your party to unleash the full potential of your Assassin or Sweeper allies!\n*As a P3P character-exclusive feature, the P5X Gun attack system is replaced with Kotone Shiomi's Go for Broke skill.=<color\=#0F69CA><size\=36>Contrato de Idol Fantasma destacada: Estilo de vida</size></color>\n\n¡Esta es tu oportunidad de conseguir a la exclusiva Kotone Shiomi de 5★!\nEs más, ¡su arma exclusiva de 5★, Vetri Vel Muruga, también está disponible en el Contrato de Armas de la Pistola Silenciosa!\n\nKotone Shiomi es una Ladrón Fantasma de 5★ de la Vía del Estratega y elemento Fuego.\n\nSe especializa en potenciar a los aliados y puede reforzarlos significativamente al otorgarles el Vínculo de Arcana.\nAdemás, una vez por batalla, puede obtener 2 acciones adicionales para luego activar el Highlight o la Teúrgia del aliado vinculado sin gastar la barra.\nNo solo eso, sino que incluso puede copiar los efectos de los potenciadores otorgados por un aliado al aliado con Vínculo de Arcana para concedérselos como una ventaja adicional.\n\nCuando está equipada con su arma de 5★, su Ataque aumenta y los efectos que potencian sus habilidades se vuelven aún más fuertes.\n\n¡Combínala con otro personaje de la Vía del Estratega en tu grupo para desatar todo el potencial de tus aliados de la Vía del Asesino o de la Vía del Barrendero!\n*Como característica exclusiva de los personajes de P3P, el sistema de ataque a distancia con armas de fuego de P5X se sustituye por la habilidad A Todo Marcha de Kotone Shiomi.
+
 
 +--Primer aniversario--+
 

@@ -12,6 +12,30 @@ Heavenly King's Eyes=Ojos del Rey Celestial
 Heavenly King's Eyes I=Ojos del Rey Celestial I
 Heavenly King's Eyes II=Ojos del Rey Celestial II
 
+Battle Acumen V=Perspicacia en Batalla V
+Attack Boost V=Aumento de Ataque V
+Phys Boost V=Aumento de Físico V
+Accuracy Boost V=Aumento de Precisión V
+
+Serpent's Turmoil=Agitación de la Serpiente
+Serpent's Turmoil I=Agitación de la Serpiente I
+Serpent's Turmoil III=Agitación de la Serpiente II
+Serpent's Turmoil III=Agitación de la Serpiente III
+Serpent's Turmoil IV=Agitación de la Serpiente IV
+
+Trigger Happy I=Disparador I
+Trigger Happy II=Disparador II
+Trigger Happy III=Disparador III
+Trigger Happy IV=Disparador IV
+Trigger Happy IV=Disparador V
+
+Triple Down=Triple Caída
+Triple Down=
+
+Raindrop Barrier IV=Barrera de Gota IV
+A skill card that can teach the skill Rakunda to a Persona.\nMaximum Level Effect: Decrease 1 foe's Defense by 38.8% for 3 turns.=Una carta de habilidad que puede enseñarle la habilidad Rakunda a una Persona. Efecto de nivel máximo: Reduce la defensa de un enemigo en un 38.8% durante 3 turnos.
+
+
 
 +--Pasivas--+
 r:"^Increase Defense by ([\d.]+)%\. When Sandalphon is present, increase shielded allies' Defense by ([\d.]+)%, and when not present, increase shielded allies' Defense by ([\d.]+)%\. When using a unique skill, decrease HP cost by ([\d.]+)%\.$"="Aumenta la Defensa un $1%. Cuando Sandalphon está presente, aumenta la Defensa de los aliados con escudo un $2% y, cuando no está presente, aumenta la Defensa de los aliados con escudo un $3%. Al usar una habilidad única, reduce el coste de PS un $4%."
@@ -19,6 +43,9 @@ r:"^Increase Defense by ([\d.]+)%\. When Sandalphon is present, increase shielde
 r:"^Increase ailment accuracy by ([\d.]+)%\. At the start of battle, increase the Attack of the ally with the highest Attack by ([\d.]+)% and their critical rate by ([\d.]+)% for (\d+) turns \(prioritize Assassins and Sweepers\)\.$"="Aumenta la precisión de dolencias en un $1%. Al comienzo de la batalla, aumenta el Ataque del aliado con el Ataque más alto un $2% y su probabilidad de crítico un $3% durante $4 turnos (prioriza Asesinos y Barrenderos)."
 
 r:"^Increase ailment accuracy ([\d.]+)%\. At the start of battle, increase Atk of ally with highest Atk ([\d.]+)% and crit rate ([\d.]+)% \((\d+) turns\)\.$"="Aumenta la precisión de dolencias en un $1%. Al comienzo de la batalla, aumenta el Ataque del aliado con el Ataque más alto un $2% y su probabilidad de crítico un $3% ($4 turnos)."
+
+r:"^<nobr>Increase crit dmg ([\d\.]+)%\. When allies use Elec skills, Resonance, Highlights, or Theurgy, gain (\d+) Thunder Lord's Majesty \(max (\d+) stacks, (\d+) turns\)\. After dealing Elec dmg and Thunder Lord's Majesty is at (\d+) stacks, increase all foes' Elec dmg taken (\d+)% and Elec crit dmg taken (\d+)% \((\d+) turns\)\.$"="<nobr>Aumenta el daño crítico un $1%. Cuando los aliados usan habilidades Eléctricas, Resonancia, Highlights o Teúrgia, obtiene $2 acumulación de Majestad del Señor del Trueno (máx. $3 acumulaciones, $4 turnos). Tras infligir daño Eléctrico y tener $5 acumulaciones de Majestad del Señor del Trueno, aumenta el daño Eléctrico recibido por todos los enemigos un $6% y el daño crítico Eléctrico recibido un $7% ($8 turnos)."
+
 
 +--Habilidades Nivel--+
 r:"^Rebellion Lv\.(\d+)$"="Rebelión Nv. $1"
@@ -61,3 +88,10 @@ Brave Blade {{A}}.7=Hoja Valiente {{A}}.7
 
 Memory Blow {{A}}.7=Golpe de Memoria {{A}}.7
 
+r:"^Mahamaon Lv\.(\d+)$"="Mahamaon Nv.$1"
+
+r:"^Triple Down Lv\.(\d+)$"="Triple Caída Nv.$1"
+
++--Historia--+
+
+A deity that appears in the Kojiki and Nihon Shoki. It is said that he was chosen by the sea god Watatsumi and ferried Hoori-no-Mikoto from Watatsumi's palace to the earthly realm in a single day. Hoori presented him with a small knife on a cord around his neck, which is why his name means "sword-bearer".=Una deidad que aparece en el Kojiki y el Nihon Shoki. Se dice que el dios del mar, Watatsumi, lo eligió para llevar a Hoori-no-Mikoto desde su palacio hasta el mundo terrenal en un solo día. Hoori le regaló un pequeño cuchillo con un cordón al cuello, y por eso su nombre significa "portador de la espada".

@@ -38,7 +38,8 @@ Kiuchi's=Kiuchi
 Kiuchi=Kiuchi
 Munehisa Iwai=Munehisa Iwai
 Shichi-kun=Shichi-kun
-
+Motoha=Motoha
+Shun=Shun
 Riko Tanemura=Riko Tanemura
 Tanemura-senpai=Tanemura-senpai
 Tanemura-san=Tanemura-san
@@ -72,7 +73,7 @@ Mitsuru Kirijo=Mitsuru Kirijo
 Fuuka Yamagishi=Fuuka Yamagishi
 Akihiko Sanada=Akihiko Sanada
 Leo Kamiyama=Leo Kamiyama
-Yui=Yui
+
 Lufel=Lufel
 Yumi Shiina=Yumi Shiina
 

@@ -75,6 +75,19 @@ It'd be nice if we had these in Tartarus...=Sería bueno que tuviéramos esto en
 Combat Gear=Equipo de combate
 Okay. I'm going!=Está bien. ¡Ya voy!
 All right, let's be off!=¡Muy bien, vámonos!
+I'll go find our treasure, my prince!=¡Iré a buscar nuestro tesoro, mi amado príncipe!
+Let's go. Be careful, everyone.=Vamos. Tengan cuidado, todos.
+There's a safe room!\nTime for a break!=¡Hay una habitación segura!\n¡Es hora de tomar un descanso!
+There's a treasure chest nearby.=Hay un cofre del tesoro cerca.
+Heheh, we found something great!=Jeje, ¡encontramos algo genial!
+There's a treasure chest,\nWonder!=¡Hay un cofre del tesoro, Wonder!
+Just you wait.=Ya lo verás.
+Let's cool down.=Relajémonos un poco.
+Whoa! Nice!=¡Guau! ¡Qué bien!
+Look... Better move quietly.=Mira... Mejor nos movemos con cuidado.
+Shh... Don't let them find us...=Shh... Que no nos encuentren...
+I wonder if there will be any blooming flowers. Probably not...=Me pregunto si habrá flores floreciendo. Probablemente no...
+There's a safe room. Should\nwe take a rest?=Hay una habitación segura. ¿Deberíamos descansar?
 A<color\=#000000>t</color>tack Down=A<color\=#000000>t</color>aque Bajo
 M<color\=#ff0000ff>a</color>koto Yuki & Shun=M<color\=#ff0000ff>a</color>koto Yuki y Shun
 M<color\=#000000>a</color>tarunda=M<color\=#000000>a</color>tarunda
@@ -136,7 +149,7 @@ Weapons with the same star level can be used as material.=Las armas con el mismo
 Bond of Swordsmanship=Vínculo de la esgrima
 Shoot the Moon=Dispara a la Luna
 Trial by Fire=Prueba de Fuego
-About Lufel's "Business" Plan EX=Acerca del Plan "Business" de Lufel EX
+About Lufel's "Business" Plan EX=Acerca del Plan de "Negocios" de Lufel EX
 Activate Inferno of Nothingness based on number of stacks.=Activa Infierno de la Nada según el número de acumulaciones.
 Moon Phase Bonus Skill Multiplier=Multiplicador de Habilidad de Bonificación de Fase Lunar
 Full Moon Skill Multiplier=Multiplicador de Habilidad Luna Llena
@@ -175,6 +188,7 @@ Until next time, then! Woof! Woof! Hooray!=¡Hasta la próxima, entonces! ¡Guau
 2303938(textId) error=error 2303938(textId)
 2303092(textId) error=2303092(textId) error
 2303421(textId) error=2303421(textId) error
+2002667(textId) error=Error 2002667(textId)
 tnxotb-[Skill_descSimple_142140]=tnxotb-[Skill_descSimple_142140]
 Comrade's Protection=Protección de Camarada
 Kageuchi=Kageuchi
@@ -865,6 +879,8 @@ Time for an all-out attack! ♪=¡Hora de un Ataque Combinado! ♪
 You're down! Are you okay!?=¡Te derribaron! ¡¿Te Encuentras bien?!
 Time for some payback!=¡Es hora de vengarnos!
 Are you okay?\nCan you hear me!?=¿Estás bien?\n¡¿Puedes oírme?!
+The enemy looks strong...\nBe careful!=El enemigo se ve fuerte... ¡Ten cuidado!
+Kyaaah! Wonder!?=¡Kyaaah! ¡¿Wonder?!
 H<color\=#ff0000ff>a</color>tsune Miku=H<color\=#ff0000ff>a</color>tsune Miku
 Miku's song resounds through\nthe halls. I stop and listen\nto her sing for a while...=La canción de Miku resuena por los pasillos.\nMe detengo y la escucho cantar un rato...
 Miku is singing happily.\nListening to her song, I feel\nmyself relax...=Miku canta con mucha alegría.\nAl escuchar su canción,\nsiento cómo me relajo...
@@ -1695,6 +1711,7 @@ Melting Ichi-Go Butter=Dulzura Fundente Ichi-Go
 Lovesick=Mal de Amor
 Chains of Love=Cadenas de Amor
 
+
 Mine Alone=Solo Mío
 Pounding Heartbeat=Latido Palpitante
 {{A}} of Love=Poder del Amor
@@ -1742,15 +1759,222 @@ S<color\=#000000>c</color>ythe of Obsession=G<color\=#000000>u</color>adaña de 
 B<color\=#000000>i</color>tter Stagnation=E<color\=#000000>s</color>tancamiento Amargo
 L<color\=#000000>o</color>vesick Critical=M<color\=#000000>a</color>l de Amor Crítico
 
+Lovesick Bonus Skill Multiplier=Multiplicador de habilidad de bonificación de Mal de Amor 
+Lovesick Skill Multiplier=Multiplicador de habilidad de Mal de Amor 
+
+Weh... I not feeling so good...=Ugh... No me siento muy bien...
+Let's go on a date!=¡Tengamos una cita!
+A shiny, sparkling treasure's just around the corner!=¡Un tesoro brillante y reluciente está a la vuelta de la esquina!
+It's a safe room. Maybe we should rest up!=Es una habitación segura. ¡Tal vez deberíamos descansar!
+
+Katayama can inflict various <color\=#FFFC40>debuffs</color> on foes that decrease Defense and increase damage taken.=Katayama puede infligir varias <color\=#FFFC40>desventajas (debuffs)</color> a los enemigos que reducen su Defensa y aumentan el daño recibido.
+
+She has the ability to <color\=#FFFC40>greatly decrease the target's Down Points</color> when dealing damage, <color\=#FFFC40>regardless of Electric affinity</color>. This allows her to help allies to knock down foes and increase chances to activate All-Out Attacks. She can also increase <color\=#FFFC40>downed foes' damage taken</color>, boosting her allies' offensive potential.=Tiene la capacidad de <color\=#FFFC40>reducir mucho los Puntos de Derribo del objetivo</color> al infligir daño, <color\=#FFFC40>sin importar su afinidad eléctrica</color>. Esto le permite ayudar a sus aliados a derribar enemigos y aumentar las probabilidades de activar un Ataque Combinado. También puede aumentar el <color\=#FFFC40>daño recibido de los enemigos derribados</color>, potenciando la capacidad ofensiva de su equipo.
+
+Katayama=Katayama
+Kiskil-lilla=Kiskil-lilla
+Discharge Sprocket=Engranaje de Descarga
+Thunderbolt Outrage=Furia del Relámpago
+Secret Technique: Lightning Legs=Técnica Secreta: Patadas Relámpago
+Answer the Call=Responde al Llamado
+High-Speed Vector=Vector de Alta Velocidad
+Detention=Detención
+Lightning Legs=Patadas Relámpago
+Hard Knocks=Golpes Fuertes
+
+Tenacious Teacher=Profesora Tenaz
+Lightning Lecturer=Catedrática Fulminante
+Role Model=Modelo a Seguir
+Electric Cycle=Ciclo Eléctrico
+Class in Session=Clase en Curso
+Unstoppable Light=Luz Imparable
+
+Spiked Boots=Botas con Pinchos
+[Bullet Kick]=[Patada Proyectil]
+Bullet Kick=Patada Proyectil
+
+Steel-Reinforced Boots=Botas Reforzadas de Acero
+[Steelspike Kick]=[Patada de Pinchos de Acero]
+Steelspike Kick=Patada de Pinchos de Acero
+
+Blitzkrieg Bangs=Estallido Blitzkrieg
+[Flash Kick]=[Patada Destello]
+Flash Kick=Patada Destello
+
+Lightning Riders=Jinetes del Rayo
+[Trailblazer's Special]=[Especial de la Vanguardista]
+Trailblazer's Special=Especial de la Vanguardista
+
+D<color\=#000000>i</color>scharge Sprocket=E<color\=#000000>n</color>granaje de Descarga
+T<color\=#000000>h</color>underbolt Outrage=F<color\=#000000>u</color>ria del Relámpago
+A<color\=#000000>n</color>swer the Call=Responde al Llamado
+H<color\=#000000>i</color>gh-Speed Vector=V<color\=#000000>e</color>ctor de Alta Velocidad
+T<color\=#000000>e</color>nacious Teacher=P<color\=#000000>r</color>ofesora Tenaz
+L<color\=#000000>i</color>ghtning Lecturer=C<color\=#000000>a</color>tedrática Fulminante
+R<color\=#000000>o</color>le Model=M<color\=#000000>o</color>delo a Seguir
+E<color\=#000000>l</color>ectric Cycle=C<color\=#000000>i</color>clo Eléctrico
+C<color\=#000000>l</color>ass in Session=C<color\=#000000>l</color>ase en Curso
+U<color\=#000000>n</color>stoppable Light=L<color\=#000000>u</color>z Imparable
+S<color\=#000000>p</color>iked Boots=B<color\=#000000>o</color>tas con Pinchos
+B<color\=#000000>u</color>llet Kick=P<color\=#000000>a</color>tada Proyectil
+S<color\=#000000>t</color>eel-Reinforced Boots=B<color\=#000000>o</color>tas Reforzadas de Acero
+S<color\=#000000>t</color>eelspike Kick=P<color\=#000000>a</color>tada de Pinchos de Acero
+B<color\=#000000>l</color>itzkrieg Bangs=E<color\=#000000>s</color>tallido Blitzkrieg
+F<color\=#000000>l</color>ash Kick=P<color\=#000000>a</color>tada Destello
+L<color\=#000000>i</color>ghtning Riders=J<color\=#000000>i</color>netes del Rayo
+T<color\=#000000>r</color>ailblazer's Special=E<color\=#000000>s</color>pecial de la Vanguardista
+H<color\=#000000>a</color>rd Knocks=G<color\=#000000>o</color>lpes Fuertes
+D<color\=#000000>e</color>tention=D<color\=#000000>e</color>tención
+L<color\=#000000>i</color>ghtning Legs=P<color\=#000000>a</color>tadas Relámpago
+H<color\=#000000>I</color>GHLIGHT=H<color\=#000000>I</color>HLIGHT
+
+Kotone Shiomi=Kotone Shiomi
+When entering this state, gain 2 extra actions.\nWhen this state ends, the ally in the Arcana Link state activates their Highlight or Theurgy. Afterwards, Kotone Shiomi will enter the Sick state for 2 turns, making her unable to act.=Al entrar en este estado, se obtienen 2 acciones adicionales.\nAl finalizar este estado, el aliado afectado por Vínculo de Arcana activará su Highlight o Teúrgia. Después, Kotone Shiomi entrará en el estado de Enferma durante 2 turnos, lo que le impedirá actuar.
+When an ally in this state uses a skill, or when Kotone Shiomi uses a skill on them, increase the target's Lunar Bond, and gain effects based on the rank.\nKotone Shiomi can re-select the target at the beginning of her turn, but doing so will remove any specific buff effects that have been granted.=Cuando un aliado en este estado usa una habilidad, o cuando Kotone Shiomi usa una habilidad en él, aumenta el Vínculo Lunar del objetivo y se obtienen efectos según el nivel.\nKotone Shiomi puede volver a seleccionar el objetivo al inicio de su turno, pero hacerlo eliminará cualquier efecto de potenciador (buff) específico que se haya otorgado.
+<color\=#72C5FF>Copy Multiplier</color>=<color\=#72C5FF>Multiplicador de Copia</color>
+When Kotone copies buff effects, their effectiveness will be multiplied and granted to the target as a separate effect.=Cuando Kotone copie los efectos de los potenciadores (buff), su efectividad se multiplicará y se otorgará al objetivo como un efecto independiente.
+<color\=#72C5FF>Certain Buff Effects</color>=<color\=#72C5FF>Ciertos efectos de potenciadores</color>
+Includes buffs granted by Skills, Highlight, Theurgy, Awareness, Talent, Medicine, etc. Certain special buffs are excluded.=Incluye los potenciadores otorgados por habilidades, Highlight, Teúrgia, Conciencias, talento, medicina, etc. Se excluyen ciertos potenciadores especiales.
+
+Lyre's Melody=Melodía de la Lira
+Burning Moon's Cry=Clamor de la Luna Ardiente
+Lunar Phaseshift=Fase Lunar Variable
+Leader's Guidance=Liderazgo Inspirador
+Clean Sweep=Arrasada Total
+Arcana Link=Vínculo de Arcana
+Lunar Bond=Vínculo Lunar
+
+Moment of Truth=Momento de la Verdad
+Echoing Strings=Cuerdas Resonantes
+Team Mom=Figura Materna
+Full Moon Night=Noche de Luna Llena
+Eternal Bonds=Vínculos Eternos
+Unquenchable Flames=Llamas Inextinguibles
+Song of the Soul=Canción del Alma
+
+Chun Qiu Da Dao=Chun Qiu Da Dao
+[Green Dragon's Might]=[Poder del Dragón Verde]
+Green Dragon's Might=Poder del Dragón Verde
+Sonobe's Naginata=Naginata de Sonobe
+[Martial Artist's Faith]=[Fe del Artista Marcial]
+Martial Artist's Faith=Fe del Artista Marcial
+Ame-no-Nuboko=Ame-no-Nuboko
+[Implement of Izanagi]=[Implemento de Izanagi]
+Implement of Izanagi=Implemento de Izanagi
+Vetri Vel Muruga=Vetri Vel Muruga
+[On Paravani's Wings]=[Sobre las Alas de Paravani]
+On Paravani's Wings=Sobre las Alas de Paravani
+
+A<color\=#000000>r</color>cana Link=V<color\=#000000>í</color>nculo de Arcana
+L<color\=#000000>u</color>nar Bond=V<color\=#000000>í</color>nculo Lunar
+P<color\=#000000>o</color>werful Bond=V<color\=#000000>í</color>nculo Poderoso
+L<color\=#000000>y</color>re's Melody=M<color\=#000000>e</color>lodía de la Lira
+B<color\=#000000>u</color>rning Moon's Cry=C<color\=#000000>l</color>amor de la Luna Ardiente
+L<color\=#000000>u</color>nar Phaseshift=F<color\=#000000>a</color>se Lunar Variable
+L<color\=#000000>e</color>ader's Guidance=L<color\=#000000>i</color>derazgo Inspirador
+C<color\=#000000>l</color>ean Sweep=A<color\=#000000>r</color>rasada Total
+F<color\=#000000>o</color>rtune=F<color\=#000000>o</color>rtuna
+S<color\=#000000>i</color>ck=E<color\=#000000>n</color>ferma
+M<color\=#000000>o</color>ment of Truth=M<color\=#000000>o</color>mento de la Verdad
+E<color\=#000000>c</color>hoing Strings=C<color\=#000000>u</color>erdas Resonantes
+T<color\=#000000>e</color>am Mom=F<color\=#000000>i</color>gura Materna
+F<color\=#000000>u</color>ll Moon Night=N<color\=#000000>o</color>che de Luna Llena
+E<color\=#000000>t</color>ernal Bonds=V<color\=#000000>í</color>nculos Eternos
+U<color\=#000000>n</color>quenchable Flames=L<color\=#000000>l</color>amas Inextinguibles
+S<color\=#000000>o</color>ng of the Soul=C<color\=#000000>a</color>nción del Alma
+G<color\=#000000>r</color>een Dragon's Might=P<color\=#000000>o</color>der del Dragón Verde
+M<color\=#000000>a</color>rtial Artist's Faith=F<color\=#000000>e</color> del Artista Marcial
+I<color\=#000000>m</color>plement of Izanagi=I<color\=#000000>m</color>plemento de Izanagi
+O<color\=#000000>n</color> Paravani's Wings=S<color\=#000000>o</color>bre las Alas de Paravani
+Go for Broke=A Toda Marcha
+Got sick...=Me enfermé...
+Too sick to move!=¡Me lele la pancha tanto que no puedo ni moverme!
+No longer sick!=¡Ya no me lele la pancha!
+
+Cosmic Yui=Yui Cósmica
+During battle, Cosmic Yui summons and fights alongside 4 types of Veggie Knights. Up to 1 Eggplant Knight, Mushroom Knight, and Asparagus Knight can be summoned each. Up to 4 Potato Knights can be summoned.=Durante la batalla, Yui Cósmica invoca a 4 tipos de Caballeros Vegetales y lucha junto a ellos. Se puede invocar un máximo de 1 Caballero de la Berenjena, 1 Caballero del Champiñón y 1 Caballero del Espárrago por separado, y hasta 4 Caballeros de la Papa.
+
+[Count] Can be gained from certain actions. At 7 Veggie Energy stacks, Cosmic Yui can spend all Veggie Energy to activate Veg-Out Attack, dealing damage to foes. This damage is distributed equally among all foes.=[Cargas] Se obtiene mediante ciertas acciones. Al llegar a 7 acumulaciones de Energía Vegetal, Yui Cósmica puede gastar toda la Energía Vegetal para activar Ataque Vegetal, lo que inflige daño a los enemigos. Este daño se distribuye por igual entre todos los objetivos.
+
+A color state corresponding to the Potato Knight.\nIncrease Cosmic Yui's All-Out Attack damage.\nWhen activating the Resonance Harvest Havoc, gain Potato Poder, and increase All-Out Attack damage.=Un estado de color correspondiente al Caballero de la Papa.\nAumenta el daño de Ataque Combinado de Yui Cósmica.\nAl activar la resonancia Cosecha Caótica, obtiene Poder de la Papa y aumenta el daño de Ataque Combinado.
+
+A color state corresponding to the Eggplant Knight.\nAfter activating a skill, gain 1 more Veggie Energy stack.\nWhen activating the Resonance Harvest Havoc, gain 1 Veggie Energy stack.=Un estado de color correspondiente al Caballero de la Berenjena.\nDespués de activar una habilidad, obtiene 1 acumulación adicional de Energía Vegetal.\nAl activar la resonancia Cosecha Caótica, obtiene 1 acumulación de Energía Vegetal.
+
+When in the Huge Harvest state, at the end of Cosmic Yui's action, activate the Resonance Harvest Havoc, dealing Nuclear damage to 1 random foe. Also, based on the current state, activate the following effects.\nEggplant Purple: Gain 1 Veggie Energy.\nPotato Yellow: Gain Potato Poder, and increase All-Out Attack damage.\nMushroom Red: Inflict Shroom Spores on the target, and increase damage taken.\nAsparagus Green: Restore a fixed amount of HP to the ally with the lowest remaining HP.=Cuando esté en el estado de Gran Cosecha, al finalizar la acción de Yui Cósmica, activa la resonancia Cosecha Caótica, lo que inflige daño Nuclear a 1 enemigo al azar. Además, según el estado actual, activa los siguientes efectos.\nBerenjena Púrpura: Obtiene 1 de Energía Vegetal.\nPapa Amarilla: Obtiene Poder de la Papa y aumenta el daño de Ataque Combinado.\nChampiñón Rojo: Inflige Esporas de Champiñón al objetivo y aumenta el daño recibido.\nEspárrago Verde: Restaura una cantidad fija de PS al aliado con el menor porcentaje de PS restantes.
+
+When Cosmic Yui is in the Potato Yellow state and activates the Resonance Harvest Havoc, gain Potato Poder and increase All-Out Attack damage.=Cuando Yui Cósmica esté en el estado de Papa Amarilla y active la resonancia Cosecha Caótica, obtiene Poder de la Papa y aumenta el daño de Ataque Combinado.
+
+A color state corresponding to the Mushroom Knight.\nWhen dealing damage with a skill or All-Out Attack, there is a fixed chance to inflict Brainwash on the target for 1 turn.\nAfter activating the Resonance Harvest Havoc, inflict Shroom Spores on the target, increasing damage taken.=Un estado de color correspondiente al Caballero del Champiñón.\nAl infligir daño con una habilidad o un Ataque Combinado, hay una probabilidad fija de infligir Lavado de Cerebro al objetivo durante 1 turno.\nAl activar la resonancia Cosecha Caótica, inflige Esporas de Champiñón al objetivo, lo que aumenta el daño recibido.
+
+A color state corresponding to the Asparagus Knight.\nWhen dealing damage with a skill or All-Out Attack, restore Cosmic Yui's HP by a fixed percentage of the damage dealt.\nAfter activating the Resonance Harvest Havoc, restore a fixed amount of HP to the ally with the lowest remaining HP percentage.=Un estado de color correspondiente al Caballero del Espárrago.\nAl infligir daño con una habilidad o un Ataque Combinado, restaura los PS de Yui Cósmica según un porcentaje fijo del daño causado.\nAl activar la resonancia Cosecha Caótica, restaura una cantidad fija de PS al aliado con el menor porcentaje de PS restantes.
+
+When Cosmic Yui uses Harvest Fest, enter the Huge Harvest state until the end of her next turn.\nHuge Harvest: At the end of Cosmic Yui's action, activate the Resonance Harvest Havoc, dealing Nuclear damage to 1 random foe. Also, based on the current state, activate the following effects.\nEggplant Purple: Gain 1 Veggie Energy.\nPotato Yellow: Gain Potato Poder, and increase All-Out Attack damage.\nMushroom Red: Inflict Shroom Spores on the target, and increase damage taken.\nAsparagus Green: Restore a fixed amount of HP to the ally with the lowest remaining HP.=Cuando Yui Cósmica use Festival de la Cosecha, entrará en el estado de Gran Cosecha hasta el final de su próximo turno.\nGran Cosecha: Al finalizar la acción de Yui Cósmica, activa la resonancia Cosecha Caótica, lo que inflige daño Nuclear a 1 enemigo al azar. Además, según el estado actual, activa los siguientes efectos.\nBerenjena Púrpura: Obtiene 1 de Energía Vegetal.\nPapa Amarilla: Obtiene Poder de la Papa y aumenta el daño de Ataque Combinado.\nChampiñón Rojo: Inflige Esporas de Champiñón al objetivo y aumenta el daño recibido.\nEspárrago Verde: Restaura una cantidad fija de PS al aliado con el menor porcentaje de PS restantes.
+
+<color\=#66ccff>Potato Poder</color>=<color\=#66ccff>Poder de Papa</color>
+
+Cosmic Yui has excellent <color\=#FFFC40>single-target damage abilities</color>. During battle, she can summon her <color\=#FFFC40>Veggie Knights</color> and command them to attack foes.=Yui Cósmica tiene excelentes <color\=#FFFC40>habilidades de daño contra un solo objetivo</color>. Durante la batalla, puede invocar a sus <color\=#FFFC40>Caballeros Vegetales</color> y ordenarles que ataquen a los enemigos.
+Also, Cosmic Yui's Phantom Thief Attire will change color according to her Veggie Knights, granting a variety of different effects.=Además, el atuendo de Ladrón Fantasma de Yui Cósmica cambiará de color según sus Caballeros Vegetales, lo que le otorga una variedad de efectos distintos.
+
+Harvest Fest=Festival de la Cosecha
+Veggie Knights, Go!=¡Adelante, Caballeros Vegetales!
+Veg-Out Attack=Ataque Vegetal
+Veggie Satellite=Satélite Vegetal
+Mixed Vegetables=Verduras Mixtas
+Harvest Havoc=Cosecha Caótica
+Potato Knight=Caballero de la Papa
+Huge Harvest=Gran Cosecha
+Potato Yellow=Papa Amarilla
+Eggplant Knight=Caballero de la Berenjena
+Veggie Energy=Energía Vegetal
+Asparagus Knight=Caballero del Espárrago
+Mushroom Knight=Caballero del Champiñón
+Mushroom Red=Champiñón Rojo
+Potato Poder=Poder de la Papa
+Asparagus Green=Espárrago Verde
+Eggplant Purple=Berenjena Púrpura
+Shroom Spores=Esporas de Champiñón
+Veggie Knights Change=Cambio de Caballeros Vegetales
 
 
+Veggie Knight Rounds=Rondas de Caballeros Vegetales
+Seed Potato Knight=Caballero de la Papa Semilla
+Veggie Knight Master=Maestro de los Caballeros Vegetales
+Cyber Farmer=Granjero Cibernético
+Starlight Fest=Festival de la Luz Estelar
+Prismatic Vegetables=Vegetales Prismáticos
 
+Star Rings=Anillos Estelares
+[Starlight]=[Luz Estelar]
+Starlight=Luz Estelar
+Centauri Rings=Anillos de Centauri
+[Aura Light]=[Luz de Aura]
+Aura Light=Luz de Aura
+Sprouting Voyagers=Viajeros de los Brotes
+[Deep Light]=[Luz Profunda]
+Deep Light=Luz Profunda
+Starlight Decimators=Aniquiladores de la Luz Estelar
+[Vegeta-Bright]=[Fulgor Vegetal]
+Vegeta-Bright=Fulgor Vegetal
 
-
-
-
-
-
+H<color\=#000000>a</color>rvest Fest=F<color\=#000000>e</color>stival de la Cosecha
+V<color\=#000000>e</color>ggie Knights, Go!=A<color\=#000000>d</color>elante, Caballeros Vegetales!
+V<color\=#000000>e</color>g-Out Attack=A<color\=#000000>t</color>aque Vegetal
+V<color\=#000000>e</color>ggie Satellite=S<color\=#000000>a</color>télite Vegetal
+M<color\=#000000>i</color>xed Vegetables=V<color\=#000000>e</color>rduras Mixtas
+V<color\=#000000>e</color>ggie Knight Rounds=R<color\=#000000>o</color>ndas de Caballeros Vegetales
+S<color\=#000000>e</color>ed Potato Knight=C<color\=#000000>a</color>ballero de la Papa Semilla
+V<color\=#000000>e</color>ggie Knight Master=M<color\=#000000>a</color>estro de los Caballeros Vegetales
+C<color\=#000000>y</color>ber Farmer=G<color\=#000000>r</color>anjero Cibernético
+S<color\=#000000>t</color>arlight Fest=F<color\=#000000>e</color>stival de la Luz Estelar
+P<color\=#000000>r</color>ismatic Vegetables=V<color\=#000000>e</color>getales Prismáticos
+S<color\=#000000>t</color>arlight=L<color\=#000000>u</color>z Estelar
+A<color\=#000000>u</color>ra Light=L<color\=#000000>u</color>z de Aura
+D<color\=#000000>e</color>ep Light=L<color\=#000000>u</color>z Profunda
+V<color\=#000000>e</color>geta-Bright=F<color\=#000000>u</color>lgor Vegetal
+P<color\=#000000>r</color>osperity=P<color\=#000000>r</color>osperidad
+P<color\=#000000>o</color>tato Yellow=P<color\=#000000>a</color>pa Amarilla
+E<color\=#000000>g</color>gplant Purple=B<color\=#000000>e</color>renjena Púrpura
+S<color\=#000000>h</color>room Spores=E<color\=#000000>s</color>poras de Champiñón
 
 
 

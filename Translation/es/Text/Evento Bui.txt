@@ -1,0 +1,10 @@
++--Evento Bui--+
+
+Select <color\=#FF423F>NEW GAME</color> to begin.=Selecciona <color\=#FF423F>NUEVA PARTIDA</color> para comenzar.
+<color\=#FF423F>Start the game</color> now.=<color\=#FF423F>Comenzar el juego</color> ahora.
+
+
+Log in for 10 days to receive <size\=48><sprite\=19></size> x10=Inicia sesión por 10 días para recibir<size\=48><sprite\=19></size> x10
+
+
+When Cosmic Yui's Awareness 6 is unlocked, she can change between Prismatic and Normal colors. With the Prismatic color, random Veggie Knights will appear during the Harvest Havoc animation. This does not have an effect on battle performance.=Cuando se desbloquee la Concientización 6 de Yui Cósmica, podrá alternar entre los colores prismático y normal. Con el color prismático, aparecerán Caballeros Vegetales al azar durante la animación de Cosecha Caótica. Esto no afecta el rendimiento en batalla.
