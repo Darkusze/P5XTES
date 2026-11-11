@@ -177,6 +177,7 @@ Hah, not even close. Just guessing? The\nanswer is exercise to train the body an
 Woof! Woof! Hooray! Nice weather, huh? It's\nanother perfect day here in Shibuya!=¡Guau! ¡Guau! ¡Hurra! Buen clima, ¿eh? ¡Es otro día perfecto aquí en Shibuya!
 All right, for getting every single question\nright, you've earned a reward! Here, you\ndeserve this!=¡Muy bien, por responder correctamente cada una de las preguntas, te has ganado una recompensa! ¡Toma, te desmerces esto!
 Until next time, then! Woof! Woof! Hooray!=¡Hasta la próxima, entonces! ¡Guau! ¡Guau! ¡Hurra!
+Yeah! This is our chance!=¡Sí! ¡Esta es nuestra oportunidad!
 2303420(textId) error=2303420(textId) error
 2303067(textId) error=2303067(textId) error
 2303452(textId) error=2303452(textId) error
@@ -189,6 +190,7 @@ Until next time, then! Woof! Woof! Hooray!=¡Hasta la próxima, entonces! ¡Guau
 2303092(textId) error=2303092(textId) error
 2303421(textId) error=2303421(textId) error
 2002667(textId) error=Error 2002667(textId)
+2303854(textId) error=2303854(textId) error
 tnxotb-[Skill_descSimple_142140]=tnxotb-[Skill_descSimple_142140]
 Comrade's Protection=Protección de Camarada
 Kageuchi=Kageuchi
@@ -445,7 +447,7 @@ Sanada possesses a high <color\=#FFFC40>critical rate</color> and <color\=#FFFC4
 During battle, Sanada can spend Mettle stacks to unleash a <color\=#FFFC40>Resonance</color>, dealing Physical damage to foes. This can also effectively reduce foes' Down Points.=Durante la batalla, Sanada puede gastar acumulaciones de Bravura para desatar una <color\=#FFFC40>Resonancia</color>, lo que inflige daño físico a los enemigos. Esto también puede reducir de manera eficaz los Puntos de derribo de los enemigos.
 Akihiko=Akihiko
 Sanada=Sanada
-Polydeuces=Polideuces
+Polydeuces=Polideuco
 Blitzkrieg=Guerra Relámpago
 Spark Impact=Impacto Eléctrico
 Lightning Fist=Puño de Rayo
@@ -1766,6 +1768,7 @@ Weh... I not feeling so good...=Ugh... No me siento muy bien...
 Let's go on a date!=¡Tengamos una cita!
 A shiny, sparkling treasure's just around the corner!=¡Un tesoro brillante y reluciente está a la vuelta de la esquina!
 It's a safe room. Maybe we should rest up!=Es una habitación segura. ¡Tal vez deberíamos descansar!
+I'm so excited, kyun!=¡Estoy muy emocionada, kyun!
 
 Katayama can inflict various <color\=#FFFC40>debuffs</color> on foes that decrease Defense and increase damage taken.=Katayama puede infligir varias <color\=#FFFC40>desventajas (debuffs)</color> a los enemigos que reducen su Defensa y aumentan el daño recibido.
 
@@ -1891,6 +1894,12 @@ Got sick...=Me enfermé...
 Too sick to move!=¡Me lele la pancha tanto que no puedo ni moverme!
 No longer sick!=¡Ya no me lele la pancha!
 
+Look! There's a chest!=¡Mira! ¡Hay un cofre!
+Here we are.=Aquí estamos.
+Wow! That's super amazing!=¡Guau! ¡Eso es increíble!
+What is it? What is it!?=¿Qué es? ¡¿Qué es?!
+Let's roll out!=¡En marcha!
+
 Cosmic Yui=Yui Cósmica
 During battle, Cosmic Yui summons and fights alongside 4 types of Veggie Knights. Up to 1 Eggplant Knight, Mushroom Knight, and Asparagus Knight can be summoned each. Up to 4 Potato Knights can be summoned.=Durante la batalla, Yui Cósmica invoca a 4 tipos de Caballeros Vegetales y lucha junto a ellos. Se puede invocar un máximo de 1 Caballero de la Berenjena, 1 Caballero del Champiñón y 1 Caballero del Espárrago por separado, y hasta 4 Caballeros de la Papa.
 
@@ -1975,6 +1984,159 @@ P<color\=#000000>r</color>osperity=P<color\=#000000>r</color>osperidad
 P<color\=#000000>o</color>tato Yellow=P<color\=#000000>a</color>pa Amarilla
 E<color\=#000000>g</color>gplant Purple=B<color\=#000000>e</color>renjena Púrpura
 S<color\=#000000>h</color>room Spores=E<color\=#000000>s</color>poras de Champiñón
+
+Penthesilea=Pentesilea
+Mitsuru=Mitsuru
+Flower of Ice=Flor de Hielo
+Frozen Tempest=Tempestad Helada
+Snowpierced Waltz=Vals Invernal Perforanieves
+Pre-Navigator=Pre-Navegador
+Freeze Mark=Marca de Congelación
+Imperious Queen=Reina del Imperio
+Frostbound=Confinamiento de Escarcha
+Blizzard Edge=Filo de Ventisca
+
+Captain's Duty=Deber del Capitán
+C'est Magnifique=C'est Magnifique
+Queen of Swordplay=Reina de la Esgrima
+Executed!=¡Ejecución!
+Behind the Lies=Detrás de las Mentiras
+Sheltered Side=Lado Vulnerable
+Burning Spirit=Espíritu Ardiente
+
+SEES Rapier=Estoque de SEES
+[Riposte]=[Riposte]
+Riposte=Riposte
+Skrep=Skrep
+[Queen's Foil]=[Florete de la Reina]
+Queen's Foil=Florete de la Reina
+Rose Flamberge=Flambarte de Rosa
+[Ice-Cold Lunge]=[Estocada Gélida]
+Ice-Cold Lunge=Estocada Gélida
+Longinus=Longinos
+[Glacial Break]=[Ruptura Glacial]
+Glacial Break=Ruptura Glacial
+
+
+Evolved from Frostbound. Can activate Frostbound effects from skills.=Evolucionó de Confinamiento de Escarcha. Puede activar los efectos de Confinamiento de Escarcha con sus habilidades.
+
+Deal more damage to target equal to the number of Frostbound stacks multiplied by a fixed percentage of Attack 1 time. This effect is based on the attacking ally's stats (Attack, damage increase, critical rate, critical damage, and pierce rate), and the affinity matches the attack's attribute.=Inflige daño adicional al objetivo equivalente al número de acumulaciones de Confinamiento de Escarcha multiplicado por un porcentaje fijo de Ataque por cada ocurrencia. Este efecto se basa en las estadísticas del aliado atacante (Ataque, aumento de daño, probabilidad de crítico, daño crítico y tasa de perforación), y su afinidad coincide con el atributo del ataque.
+
+Evolved from Snowbound. Can activate Frostbound and Snowbound effects from skills.=Evolucionó de Bloqueo de Nieve. Puede activar los efectos de Confinamiento de Escarcha y Bloqueo de Nieve con sus habilidades.
+
+F<color\=#000000>l</color>ower of Ice=F<color\=#000000>l</color>or de Hielo
+F<color\=#000000>r</color>ozen Tempest=T<color\=#000000>e</color>mpestad Helada
+S<color\=#000000>n</color>owpierced Waltz=V<color\=#000000>a</color>ls Invernal Perforanieves
+P<color\=#000000>r</color>e-Navigator=P<color\=#000000>r</color>e-Navegador
+F<color\=#000000>r</color>eeze Mark=M<color\=#000000>a</color>rca de Congelación
+C<color\=#000000>a</color>ptain's Duty=D<color\=#000000>e</color>ber del Capitán
+Q<color\=#000000>u</color>een of Swordplay=R<color\=#000000>e</color>ina de la Esgrima
+E<color\=#000000>x</color>ecuted!=E<color\=#000000>j</color>ecución!
+B<color\=#000000>e</color>hind the Lies=D<color\=#000000>e</color>trás de las Mentiras
+S<color\=#000000>h</color>eltered Side=L<color\=#000000>a</color>do Vulnerable
+B<color\=#000000>u</color>rning Spirit=E<color\=#000000>s</color>píritu Ardiente
+R<color\=#000000>i</color>poste=R<color\=#000000>i</color>poste
+Q<color\=#000000>u</color>een's Foil=F<color\=#000000>l</color>orete de la Reina
+I<color\=#000000>c</color>e-Cold Lunge=E<color\=#000000>s</color>tocada Gélida
+G<color\=#000000>l</color>acial Break=R<color\=#000000>u</color>ptura Glacial
+I<color\=#000000>m</color>perious Queen=R<color\=#000000>e</color>ina del Imperio
+F<color\=#000000>r</color>ostbound=C<color\=#000000>o</color>nfinamiento de Escarcha
+B<color\=#000000>l</color>izzard Edge=F<color\=#000000>i</color>lo de Ventisca
+
+I'll toss in a lil'\nsomethin' extra, no\nmatter what ya buy!=¡Te daré algo extra, sin importar lo que compres!
+
+Fuuka=Fuuka
+Lucia=Lucía
+
+Luminous Force=Fuerza Luminosa
+Divine Prayer=Oración Divina
+Thoughtful Waves=Ondas Reflexivas
+Courtesy=Cortesía
+Mercy=Misericordia
+Oracle Shift=Cambio de Oráculo
+Over Oracle=Oráculo Supremo
+
+Reliable Support=Apoyo Confiable
+Where I Belong=El Lugar Al Que Pertenezco
+Pros and Cons=Pros y Contras
+Binding Ties=Lazos Vinculantes
+Tower Navigator=Navegación de la torre
+Unifying Poder=Poder Unificador
+My Own Worth=Mi Propio Valor
+
+SEES Communicator=Comunicador de SEES
+[A Cry for Help]=[Un Grito de Ayuda]
+A Cry for Help=Un Grito de Ayuda
+Suspension Headset=Auriculares de Suspensión
+[Navigator's Call]=[Llamada del Navegador]
+Navigator's Call=Llamada del Navegador
+Dancer in Moonlight=Bailarina bajo la Luz de la Luna
+[Voice Our Moment]=[Expresemos Nuestro Momento]
+Voice Our Moment=Expresemos Nuestro Momento
+Rainbow Relay=Relevo Arcoíris
+[Voice of Hope]=[Voz de Esperanza]
+Voice of Hope=Voz de Esperanza
+
+Fuuka Yamagishi can select 1 Shift Member.=Fuuka Yamagishi Puede Seleccionar a 1 Miembro de Relevo.
+
+Use to activate Oracle Shift.=Se usa para activar Cambio de Oráculo.
+
+When Fuuka is assigned to the party, you can select 1 ally outside the party. The selected ally is not counted as a party member, and at the start of battle, is not included in counts regarding attribute, role, or number of party members.=Cuando Fuuka se asigna al grupo, puedes seleccionar a 1 aliado fuera del mismo. El aliado seleccionado no se cuenta como miembro del grupo y, al inicio de la batalla, no se incluye en los conteos de atributos, roles o cantidad de miembros del grupo.
+
+When all non-KO'd allies have taken 1 action (excluding extra actions), it counts as 1 round.=Cuando todos los aliados que no estén K.O. hayan realizado 1 acción (excluyendo las acciones adicionales), contará como 1 ronda.
+
+Temporarily swap Shift Member with the currently acting ally, allowing them to take 1 action. At this time, replicate all buff and debuff effects from the swapped-out target excluding certain effects applied by themself (replicated effects are active only during swap). When Shift Member first swaps, activate all start-of-battle effects. After Shift Member's action, they swap back with target, who can continue acting. However, the Shift Member's cooldown time for support skills does not decrease, and the turn counters for the swapped target's buff and debuff effects are not decreased.=Intercambia temporalmente al Miembro de Relevo con el aliado en acción, lo que le permite realizar 1 acción. En ese momento, se replican todos los efectos de mejora y desventaja del objetivo retirado, excluyendo ciertos efectos aplicados por sí mismo (los efectos replicados solo se mantienen activos durante el intercambio). Cuando el Miembro de Relevo entra por primera vez, se activan todos los efectos de inicio de batalla. Tras la acción del Miembro de Relevo, este vuelve a intercambiarse con el objetivo, quien puede continuar con su acción. Sin embargo, el tiempo de recarga de las habilidades de apoyo del Miembro de Relevo no disminuye, y los contadores de turnos de las mejoras y desventajas del objetivo retirado tampoco disminuyen.
+
+A <color\=#000000>C</color>ry for Help=U<color\=#000000>n</color> Grito de Ayuda
+N<color\=#000000>a</color>vigator's Call=L<color\=#000000>l</color>amada del Navegador
+V<color\=#000000>o</color>ice Our Moment=E<color\=#000000>x</color>presemos Nuestro Momento
+V<color\=#000000>o</color>ice of Hope=V<color\=#000000>o</color>z de Esperanza
+L<color\=#000000>u</color>minous Force=F<color\=#000000>u</color>erza Luminosa
+D<color\=#000000>i</color>vine Prayer=O<color\=#000000>r</color>ación Divina
+T<color\=#000000>h</color>oughtful Waves=O<color\=#000000>n</color>das Reflexivas
+C<color\=#000000>o</color>urtesy=C<color\=#000000>o</color>rtesía
+M<color\=#000000>e</color>rcy=M<color\=#000000>i</color>sericordia
+R<color\=#000000>e</color>liable Support=A<color\=#000000>p</color>oyo Confiable
+W<color\=#000000>h</color>ere I Belong=E<color\=#000000>l</color> Lugar Al Que Pertenezco
+P<color\=#000000>r</color>os and Cons=P<color\=#000000>r</color>os y Contras
+B<color\=#000000>i</color>nding Ties=L<color\=#000000>a</color>zos Vinculantes
+T<color\=#000000>o</color>wer Navigator=N<color\=#000000>a</color>vegación de la torre
+U<color\=#000000>n</color>ifying Poder=P<color\=#000000>o</color>der Unificador
+M<color\=#000000>y</color> Own Worth=M<color\=#000000>i</color> Propio Valor
+O<color\=#000000>r</color>acle Shift=C<color\=#000000>a</color>mbio de Oráculo
+O<color\=#000000>v</color>er Oracle=O<color\=#000000>r</color>áculo Supremo
+
+Keep it up, everyone!=¡Sigan así, todos!
+A critical hit!=¡Un golpe crítico!
+I think... you can use a Highlight now!=Mmm... ¡Creo que ya puedes usar un Highlight!
+I'm all set to go!=¡Estoy totalmente listo!
+That's a win for the team! Good job, everyone!=¡Esa es una victoria para el equipo! ¡Buen trabajo, todos!
+All enemies defeated! Good work out there!=¡Todos los enemigos han sido derrotados! ¡Buen trabajo!
+Looks like you can use a Highlight!=¡Parece que ya puedes usar un Highlight!
+This is our chance to strike first! Go for it!=¡Esta es nuestra oportunidad de atacar primero! ¡Adelante!
+You can ask me for support any time you need.=Puedes pedirme apoyo cuando lo necesites.
+You don't have enough Over Oracle.=No tienes suficiente Oráculo Supremo.
+You have not set a Shift Member for Fuuka Yamagishi. Do you want to proceed anyway?=No has asignado un Miembro de Relevo para Fuuka Yamagishi. ¿Quieres continuar de todos modos?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

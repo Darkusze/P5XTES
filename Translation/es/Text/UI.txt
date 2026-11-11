@@ -158,7 +158,6 @@ r:"^Area unlocks in (\d+) h$"="El área se desbloqueará en $1 h"
 
 r:"^Time: (\d{2}:\d{2})$"="Tiempo: $1"
 
-r:"^Resets after\s+(?:(\d+)\s*d\s*)?(?:(\d+)\s*h\s*)?(?:(\d+)\s*m\s*)?$"="Se reinicia en ${1:+$1 d }${2:+$2 h }${3:+$3 m}"
 
 ++-------------VA Character----------------++
 
@@ -577,8 +576,8 @@ r:"^\(Paid:\s+(\d+)\)$"="(Pagado: $1)"
 r:"^Unlocks at Lv\\. (\\d+)$"="Desbloquea a Nv. $1"
 r:"^Lv\\.(\\d+)$"="Nv.$1"
 r:"^EXP:\s+(\d+)\s*$"="EXP: $1"
-r:"© Perfect World Adapted from Persona 5 © ATLUS\. © SEGA\.\nSpecial Thanks: Fontworks Inc\. and SHOWASHOTAI Co\., Ltd\.\nClient Version: ([\d.]+) Game Version: ([\d.]+) Resource No\.: ([\w.]+)"="© Perfect World adaptado de Persona 5 © ATLUS. © SEGA.\nAgradecimientos especiales: Fontworks Inc. y SHOWASHOTAI Co., Ltd.\nTraducción al Español por Shinoesp Versión del P5XTES: 2.9.0\nVersión del cliente: $1 Versión del juego: $2 Nº de recurso: $3"
-r:"^©Perfect World Adapted from Persona5 ©ATLUS\. ©SEGA\.\nSpecial Thanks: Fontworks Inc\. and SHOWASHOTAI Co\., Ltd\.\nClient Version: ([\d.]+) Game Version: ([\d.]+) Resource No\.: (.*)$"="©Perfect World Adaptado de Persona5 ©ATLUS. ©SEGA.\nAgradecimientos especiales: Fontworks Inc. y SHOWASHOTAI Co., Ltd.\nTraducción al Español por Shinoesp Versión del P5XTES: 2.9.0\nVersión del cliente: $1 Versión del juego: $2 Nº de recurso: $3"
+r:"© Perfect World Adapted from Persona 5 © ATLUS\. © SEGA\.\nSpecial Thanks: Fontworks Inc\. and SHOWASHOTAI Co\., Ltd\.\nClient Version: ([\d.]+) Game Version: ([\d.]+) Resource No\.: ([\w.]+)"="© Perfect World adaptado de Persona 5 © ATLUS. © SEGA.\nAgradecimientos especiales: Fontworks Inc. y SHOWASHOTAI Co., Ltd.\nTraducción al Español por Shinoesp Versión del P5XTES: 2.9.2\nVersión del cliente: $1 Versión del juego: $2 Nº de recurso: $3"
+r:"^©Perfect World Adapted from Persona5 ©ATLUS\. ©SEGA\.\nSpecial Thanks: Fontworks Inc\. and SHOWASHOTAI Co\., Ltd\.\nClient Version: ([\d.]+) Game Version: ([\d.]+) Resource No\.: (.*)$"="©Perfect World Adaptado de Persona5 ©ATLUS. ©SEGA.\nAgradecimientos especiales: Fontworks Inc. y SHOWASHOTAI Co., Ltd.\nTraducción al Español por Shinoesp Versión del P5XTES: 2.9.2\nVersión del cliente: $1 Versión del juego: $2 Nº de recurso: $3"
 r:"^Fusion\s+will\s+produce\s+(\d+)\s+<color\=#FF423F>(.+?)'s\s+Seal</color>\.\s*$"="La fusión producirá $1 <color\=#FF423F>Sello de $2</color>."
 r:"^Phantom Thief level cap increased to \\n<color\=#FFF000>Lv\\. (\\d+)</color>\\.$"="El límite de Nivel de Ladrones Fantasma ha aumentado a \n<color\=#FFF000>Lv. $1</color>."
 Meta Jewels will be spent.=Se gastarán las Meta gemas.
@@ -952,6 +951,33 @@ Words of Harvest VI=Palabras de la Cosecha VI
 
 P3P Cover Art=Arte de portada de P3P
 
+Enemy Equipo=Equipo Enemigo
+Deployed Members=Miembros Desplegados
+
+Remove Favorite=Eliminar de favoritos
+Move to top=Mover al principio
+
+Key to the Collar=Llave del Collar
+
+Clear Recollections 1 time =Completa Recolección 1 vez
+It seems that Ichigo, Frostgale Kotone has something they want to talk about.=Parece que Ichigo, Kotone Vientogélido, tiene algo de lo que quiere hablar.
+It seems that Beachflower Minami, Ashiya has something they want to talk about.=Parece que Minami Flor Costera, Ashiya tiene algo de lo que quiere hablar.
+
+Hachiman=Hachiman
+
+Win the battle=Gana la batalla
+
+Claim Supplies=Reclamar Suministros
+r:"^(\d+) d left to claim$"="Quedan $1d para reclamar"
+
+r:"^Incense Select Box (\d+)$"="Caja de Incienso Selecto $1"
+Halloween Night=Noche de Halloween
+Ghostly Gala=Gala Fantasmagórica
+
+Tasks above blue rarity appear more often.=Las tareas de rareza superior a azul aparecen con más frecuencia.
+
+Switched to Gamepad Mode.=Se cambió al modo de mando.
+
 +--Categoría--+
 S.E.E.S.=S.E.E.S.
 P3P=P3P
@@ -965,6 +991,7 @@ P5R=P5R
 P3R=P3R
 Virtual=Virtual
 P5X=P5X
+SEES=SEES
 
 +--Ranking--+
 Thief Rating Ranking KOTONE=Clasificación de rango de Ladrón: KOTONE
@@ -1091,7 +1118,12 @@ Thank you for playing Persona5: The Phantom X.\n\nKotone Shiomi from Persona 3 P
 Daily Hoot-n-Loot Reward=Recompensa Hoot-&-Loot Diario
 The unclaimed rewards from the event Daily Hoot-n-Loot have been delivered to you via this message.=Las recompensas sin reclamar del evento Daily Hoot-&-Loot Diario se te han entregado mediante este mensaje.
 
+Met by Moonlight: Ice-Cold Empress Ending Soon=Encontrado por la Luz de la Luna: Emperatriz de Hielo está cerca de terminar
 
+The event period for Met by Moonlight: Ice-Cold Empress will end soon.\nFor details on the event period, check the Shop or Event pages in-game.\n*For events with an exchange shop, the shop will also close when the event ends. Be sure to exchange rewards as soon as possible.=El periodo del evento de Encontrado por la Luz de la Luna: Emperatriz de Hielo terminará pronto. Para más detalles sobre el periodo del evento, revisa la Tienda o las páginas de Eventos en el juego.\n*En los eventos con tienda de intercambio, la tienda también cerrará cuando el evento termine. Asegúrate de canjear tus recompensas lo antes posible.
+
+r:"^(\d+)/(\d+) Server Maintenance$"="Mantenimiento del servidor el $1/$2"
+Firestreaked Meteor=Meteoro con Estelas de Fuego
 
 +--Mementos--+
 S<color\=#ff0000ff>h</color>imotsuna's Palace=P<color\=#ff0000ff>a</color>lacio de Shimotsuna
@@ -1183,59 +1215,80 @@ The event period for Purchase Rewards will end soon.\nFor details on the event p
 Rewind Ending Soon=Recuento termina pronto
 The event period for Rewind will end soon.\nFor details on the event period, check the Shop or Event pages in-game.\n*For events with an exchange shop, the shop will also close when the event ends. Be sure to exchange rewards as soon as possible.=El periodo del evento Rewind terminará pronto.\nPara detalles sobre las fechas, revisa la Tienda o Eventos en el juego.\n*Si el evento tiene tienda de canje, esta cerrará al finalizar el evento. Canjea tus recompensas lo antes posible.
 
+r:"^The new Jan (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de ene. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Feb (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de feb. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Mar (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de mar. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Apr (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de abr. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new May (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de may. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Jun (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de jun. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Jul (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de jul. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Aug (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de ago. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Sep (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de sep. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Oct (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de oct. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Nov (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de nov. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+r:"^The new Dec (\d+), (\d+) Phantom Pass has started\.\nAs you cleared (\d+) daily missions in the previous pass, the new pass has been adjusted and rewards have been delivered to you via this message\.$"="El nuevo Pase de Fantasma del $1 de dic. de $2 ha comenzado. Como completaste las $3 misiones diarias del pase anterior, el nuevo pase ha sido ajustado y las recompensas te han sido enviadas a través de este mensaje."
+
+r:"^Halloween Treat - Day (\d+)$"="Dulce de Halloween - Día $1"
+
+r:"^Thank you for playing Persona5: The Phantom X\.\n\nPlease enjoy this treat for Day (\d+) of Halloween! \n\nWe hope you continue to enjoy Persona5: The Phantom X\.$"="Gracias por jugar Persona5: The Phantom X.\n\n¡Disfruta este dulce por el día $1 de Halloween!\n\nEsperamos que sigas disfrutando Persona5: The Phantom X."
+
+This season of Tycoon has ended, and your rank was Quite Poor.\nThe rank rewards have been delivered via this message.=Esta temporada de Tycoon terminó y tu rango fue Muy Pobre. Las recompensas de rango te han sido enviadas a través de este mensaje.
 
 +--días despejados--+
 Do you want to advance time until it's Clear and Night to start the mission?=¿Quieres avanzar el tiempo hasta que esté despejado y sea de noche para iniciar la misión?
 
 ++----Wp For----++
-Ryuji Only=Sólo Para Ryuji
-{{A}} Only=Sólo Para {{A}}
-Ann Only=Sólo Para Ann
-Tomoko Only=Sólo Para Tomoko
-Ren Only=Sólo Para Ren
-Shiratori Only=Sólo Para Shiratori
-Shoki Only=Sólo Para Shoki
-Lufel Only=Sólo Para Lufel
-Sumi Only=Sólo Para Sumi
-Kurotani Only=Sólo Para Kurotani
-Kamiyama Only=Sólo Para Kamiyama
-Motoha Only=Sólo Para Motoha
-Minami Only=Sólo Para Minami
+Ryuji Only=Solo Para Ryuji
+{{A}} Only=Solo Para {{A}}
+Ann Only=Solo Para Ann
+Tomoko Only=Solo Para Tomoko
+Ren Only=Solo Para Ren
+Shiratori Only=Solo Para Shiratori
+Shoki Only=Solo Para Shoki
+Lufel Only=Solo Para Lufel
+Sumi Only=Solo Para Sumi
+Kurotani Only=Solo Para Kurotani
+Kamiyama Only=Solo Para Kamiyama
+Motoha Only=Solo Para Motoha
+Minami Only=Solo Para Minami
 Beachflower Minami Only=Sólo para Minami Flor Costera
-Yukimi Only=Sólo Para Yukimi
-Tomiyama Only=Sólo Para Tomiyama
-Haruna Only=Sólo Para Haruna
-Miyu Only=Sólo Para Miyu
-Kotone Only=Sólo Para Kotone
-Makoto Only=Sólo Para Makoto
-Chizuko Only=Sólo Para Chizuko
-Yumi Only=Sólo Para Yumi
-Ayaka Only=Sólo Para Ayaka
-Yusuke Only=Sólo Para Yusuke
-Riko Only=Sólo Para Riko
-Seaside Tomoko Only=Sólo Para Tomoko Veraniega
-Futaba Only=Sólo Para Futaba
-Haru Only=Sólo Para Haru
-Justine & Caroline Only=Sólo Para Justine y Caroline
-Mio Only=Sólo Para Mio
-Frostgale Kotone Only=Sólo Para Kotone Vientogélido
-Yui Only=Sólo Para Yui
-Kira Only=Solo Kira
-Ashiya Only=Sólo Para Ashiya
-Firecracker Yaoling Only=Sólo Para Firecracker Yaoling 
+Yukimi Only=Solo Para Yukimi
+Tomiyama Only=Solo Para Tomiyama
+Haruna Only=Solo Para Haruna
+Miyu Only=Solo Para Miyu
+Kotone Only=Solo Para Kotone
+Makoto Only=Solo Para Makoto
+Chizuko Only=Solo Para Chizuko
+Yumi Only=Solo Para Yumi
+Ayaka Only=Solo Para Ayaka
+Yusuke Only=Solo Para Yusuke
+Riko Only=Solo Para Riko
+Seaside Tomoko Only=Solo Para Tomoko Veraniega
+Futaba Only=Solo Para Futaba
+Haru Only=Solo Para Haru
+Justine & Caroline Only=Solo Para Justine y Caroline
+Mio Only=Solo Para Mio
+Frostgale Kotone Only=Solo Para Kotone Vientogélido
+Yui Only=Solo Para Yui
+Kira Only=Solo Para Kira
+Ashiya Only=Solo Para Ashiya
+Firecracker Yaoling Only=Solo Para Firecracker Yaoling 
 Kasumi Only=Solamente para Kasumi
 Mayumi Only=Solo para Mayumi
 Akechi Only=Sólo para Akechi
-Manaka Only=Sólo Para Manaka
-Yukari Only=Sólo Para Yukari
-Akihiko Only=Sólo Para Akihiko
-Sanada Only=Sólo Para Sanada
-Ichigo Only=Sólo Para Ichigo
-Katayama Only=Sólo Para Katayama
-Kirijo Only=Sólo Para Kirijo
-Miku Only=Sólo Para Miku
+Manaka Only=Solo Para Manaka
+Yukari Only=Solo Para Yukari
+Akihiko Only=Solo Para Akihiko
+Sanada Only=Solo Para Sanada
+Ichigo Only=Solo Para Ichigo
+Katayama Only=Solo Para Katayama
+Kirijo Only=Solo Para Kirijo
+Miku Only=Solo Para Miku
 Wavecatcher Miyu Only=Sólo para Miyu Atrapaolas
 Cosmic Yui Only=Solo Para Yui Cósmica
+Mitsuru Only=Solo Para Mitsuru
+Fuuka Only=Solo Para Fuuka
+
 
 +--Modo Fotografía--+
 Relieved=Aliviado
@@ -1551,7 +1604,23 @@ Open 20 treasure chests in the fourth Palace. =Abre 20 cofres del tesoro en el c
 
 Begin the event Met by Moonlight: Strike like Lightning.=Comienza el evento Encontrado por la Luz de la Luna: Golpea como un Rayo
 Clear the event Met by Moonlight: Strike like Lightning.=Completa el evento Encontrado por la Luz de la Luna: Golpea como un Rayo
+Fourth Reading=Cuarta Lectura
 
+Begin the event Met by Moonlight: Ice-Cold Empress.=Comienza el evento Encontrado por la Luz de la Luna: Emperatriz de Hielo.
+Voice from the Tower=Voz desde la Torre
+Defeat the boss in the VIP Area of the fourth Palace.=Derrota al jefe en el área VIP del cuarto Palacio.
+Go to Mementos with Aran and encounter a Shadow.=Ve a Mementos con Aran y enfréntate a una Sombra.
+Find proof of Daichi Osaka being blackmailed.=Encuentra pruebas del chantaje a Daichi Osaka.
+Infiltrate the VIP area in the fourth Palace.=Infiltrate en el área VIP del cuarto Palacio.
+Clear the event Met by Moonlight: Ice-Cold Empress.=Completa el evento Encontrado por la Luz de la Luna: Emperatriz de Hielo.
+Split Paths=Caminos Divididos
+r:"^Begin the event Met by Moonlight: Guiding Light\.<size\=30>\((\d+)/(\d+)\)</size>$"="Comienza el evento Encontrado por la Luz de la Luna: Luz Guía.<size\=30>($1/$2)</size>"
+r:"^Clear the event Met by Moonlight: Guiding Light\.<size\=30>\((\d+)/(\d+)\)</size>$"="Completa el evento Encontrado por la Luz de la Luna: Luz Guía.<size\=30>($1/$2)</size>"
+r:"^Clear Emperor and Empress of Desire on difficulty (\d+) \((\d+)/(\d+)\)$"="Completa Emperador y Emperatriz del Deseo en dificultad $1 ($2/$3)"
+fficulty (\d+) \((\d+)/(\d+)\)$"="Completa Mago del Deseo en dificultad $1 ($2/$3)"
+r:"^Defeat (\d+) Sentinel in Tartarus: Tower of Eternal Night \((\d+)/(\d+)\)$"="Derrota a $1 Centinela en Tártaro: Torre de la Noche Eterna ($2/$3)"
+r:"^Clear chapter (\d+) of Met by Moonlight: Guiding Light \((\d+)/(\d+)\)$"="Completa el capítulo $1 de Encontrado por la Luz de la Luna: Luz Guía ($2/$3)"
+r:"^Do you want to use the following to perform All-Seeing Eye (\d+) times\?$"="¿Quieres usar lo siguiente para realizar Ojo Omnisciente $1 veces?"
 
 ++-------------Eventos-----------------++
 r:"^Raise\s+Justine\s+&\s+Caroline\s+to\s+Lv\.\s+(\d+)\.$"="Sube a Justine y Caroline a Nv. $1."
@@ -2134,8 +2203,29 @@ At the start of battle, <color\=#FF423F>Kotone Shiomi</color> automatically gran
 <color\=#FF423F>Lunar Phaseshift</color>: Kotone copies buff effects granted by an ally\nto the Arcana Link ally with a set amount of their original\neffectiveness. Certain special effects cannot be copied.=<color\=#FF423F>Fase Lunar Variable</color>: Kotone copia los efectos de los potenciadores\notorgados por un aliado al aliado con Vínculo de Arcana con una\ncantidad establecida de su efectividad original. Ciertos efectos especiales\nno se pueden copiar.
 Now take command and continue the battle.=Ahora toma el mando y continúa la batalla.
 
+Mitsuru Kirijo's Skills=Habilidades de Mitsuru Kirijo
+1. Mitsuru specializes in <color\=#FF423F>single-target attacks</color>. When allies use skills to attack foes inflicted with Snowbound, Iceblade activates, dealing even greater damage.\n2. She also possesses powerful support abilities and can <color\=#FF423F>decrease a foe's Defense</color> and <color\=#FF423F>increase their damage taken</color>.\n3. She can also decrease the <color\=#FF423F>Elucidator's</color> initial cooldown time, and increase the stats of all allies based on the Elucidator's stats.=1. Mitsuru se especializa en <color\=#FF423F>ataques a un solo objetivo</color>. Cuando los aliados usan habilidades para atacar a enemigos afectados por Bloqueo de Nieve, Hoja de Hielo se activa e inflige un daño aún mayor.\n2. También posee poderosas habilidades de apoyo y puede <color\=#FF423F>reducir la Defensa de un enemigo</color> e <color\=#FF423F>aumentar el daño que recibe</color>.\n3. También puede reducir el tiempo de recarga inicial de <color\=#FF423F>Elucidador</color>, y aumenta las estadísticas de todos los aliados según las estadísticas de Elucidador.
 
+<color\=#FF423F>Mitsuru Kirijo's</color> Talent allows her to decrease any\nElucidator's first cooldown time by 4 actions.=<color\=#FF423F>El Talento de Mitsuru Kirijo</color> le permite reducir el tiempo\nde recarga inicial de cualquier Elucidador en 4 acciones.
 
+<color\=#FF423F>Frozen Tempest</color>: Inflicts the Imperious Queen state on 1 foe,\ndecreasing their Defense and increasing their damage taken.\n<color\=#FF423F>After using this skill, another skill can be used on the same turn.</color>=<color\=#FF423F>Tempestad Helada</color>: Inflige el estado Reina del Imperio a 1 enemigo,\nreduciendo su Defensa y aumentando el daño que recibe.\n<color\=#FF423F>Tras usar esta habilidad, se puede utilizar otra en el mismo turno.</color>
+
+<color\=#FF423F>Flower of Ice</color>: Deals Ice damage to 1 foe, and decreases their Defense.\nAlso inflicts <color\=#FF423F>Frostbound</color>, further enhancing the skill effect.=<color\=#FF423F>Flor de Hielo</color>: Inflige daño de Hielo a 1 enemigo y reduce su Defensa.\nAdemás, aplica <color\=#FF423F>Confinamiento de Escarcha</color>, potenciando aún\nmás el efecto de la habilidad.
+
+<color\=#FF423F>Blizzard Edge</color>: Deals Ice damage to 1 foe, and evolves the\ntarget's Frostbound stacks to <color\=#FF423F>Snowbound</color> stacks for 2 turns.\nWhen allies use skills to attack foes inflicted with Snowbound,\n<color\=#FF423F>Iceblade</color> activates, dealing additional damage to the target.=<color\=#FF423F>Filo de Ventisca</color>: Inflige daño de Hielo a 1 enemigo y evoluciona las\nacumulaciones de Confinamiento de Escarcha del objetivo a acumulaciones de\n<color\=#FF423F>Bloqueo de Nieve</color> durante 2 turnos. Cuando los aliados usan habilidades para\natacar a enemigos afectados por Bloqueo de Nieve, se activa <color\=#FF423F>Hoja de Hielo</color>,\nlo que inflige daño adicional al objetivo.
+
+<color\=#FF423F>Snowpierced Waltz</color>: Damage increases based on the\nnumber of Frostbound stacks inflicted on the target.\nIf the target has 5 or more stacks,\nskill damage and critical rate are increased.=<color\=#FF423F>Vals Invernal Perforanieves</color>: El daño aumenta según el\nnúmero de acumulaciones de Confinamiento de Escarcha del objetivo.\nSi el objetivo tiene 5 o más acumulaciones,\nel daño de la habilidad y la probabilidad de crítico aumentan.
+
+Fuuka Yamagishi's Skills=Habilidades de Fuuka Yamagishi
+1. Fuuka has excellent support capabilities. She can increase the party's Attack, damage, and critical damage, as well as provide ailment, HP or SP recovery based on the party's condition.\n2. She can increase allies' Highlight and Theurgy gauges, helping them activate their Highlight or Theurgy more often.\n3. She can set 1 ally as a Shift Member on the party select screen, and by using Oracle Shift during battle, she can temporarily swap in the Shift Member with an ally and allow them to act 1 time. With this tactic, you can adapt to any combat situation based on the ally you choose.=1. Fuuka posee excelentes capacidades de soporte. Puede aumentar el Ataque, el daño y el daño crítico del grupo, así como proporcionar recuperación de dolencia, PS o PE según las condiciones del equipo.\n2. Puede aumentar los medidores de Highlight y de Teúrgia de los aliados, ayudándolos a activar sus técnicas con mayor frecuencia.\n3. Puede asignar a 1 aliado como Miembro de Relevo en la pantalla de selección de grupo y, al usar Cambio de Oráculo durante la batalla, intercambiarlo temporalmente por el aliado en acción para permitirle actuar 1 vez. Con esta táctica, puedes adaptarte a cualquier situación de combate según el aliado que elijas.
+
+<color\=#FF423F>Luminous Force</color>:\nIncrease party's Attack and damage, and gain 1\n<color\=#FF423F>Over Oracle</color> stack.=<color\=#FF423F>Fuerza Luminosa</color>:\nAumenta el Ataque y el daño del grupo, y obtienes 1\nacumulación de <color\=#FF423F>Oráculo Supremo</color>.
+
+After spending 4 Over Oracle stacks, <color\=#FF423F>Oracle Shift</color>can be used.\nWhen used, the current acting ally will temporarily swap out\nwith the <color\=#FF423F>Shift Member</color> who can act 1 time.=Tras gastar 4 acumulaciones de Oráculo Supremo, se puede usar <color\=#FF423F>Cambio de Oráculo</color>.\nAl usarlo, el aliado en acción se intercambiará temporalmente\ncon el <color\=#FF423F>Miembro de Relevo</color>, quien podrá actuar 1 vez.
+
+Swap the ally with the <color\=#FF423F>Shift Member</color> and act.=Intercambia al aliado con el <color\=#FF423F>Miembro de Relevo</color> para actuar.
+
+<color\=#FF423F>Thoughtful Waves</color>: Gain Over Oracle and increase the\nparty's critical damage. Based on the party's condition,\nactivate additional effects.=<color\=#FF423F>Ondas Reflexivas</color>:\nObtienes Oráculo Supremo y aumenta el daño crítico del grupo.\nActiva efectos adicionales según las condiciones del equipo.
 
 
 ++-------------Tutoriales Eventos-----------------++
@@ -3041,6 +3131,8 @@ r:"^Allies' <color\=#FFFC40>All-Out Attack</color> damage is increased by (\d+)%
 
 r:"^Increase All-Out Attack dmg by ([\d\.]+)%\.$"="Aumenta el daño de Ataque Combinado en un $1%."
 
+r:"^When activating a Theurgy, increase dmg dealt by ([\d\.]+)%\.$"="Al activar una Teúrgia, aumenta el daño infligido en un $1%."
+
 +--Stats--+
 Critical Rate=Probabilidad Crítica
 Critical Damage=Daño Crítico
@@ -3050,6 +3142,8 @@ Curse Mult. +=Mult. de Maldición +
 Attack Mult. +=Mult. de Ataque +
 Psy Mult. +=Mult. de Psicoquinesis +
 Total Mult. +=Mult. total +
+Resistance Pierce=Perforación de Resistencia
+
 Def Increase Cap=Límite de Aumento de Defensa
 Highlight Dmg Taken Decrease=Disminución de daño recibido por Highlight
 Highlight Base Shield=Escudo base por Highlight
@@ -3120,6 +3214,12 @@ E<color\=#000000>x</color>ecution of Justice=E<color\=#000000>j</color>ecución 
 
 When an ally uses a skill on the target, grant Inherited Wish to all allies.\nInherited Wish: Increase final damage by 20% for 3 turns. If the skill user is a SEES member, increase final damage by 20% more.=Cuando un aliado usa una habilidad contra el objetivo, otorga Deseo heredado a todos los aliados.\nDeseo heredado: Aumenta el daño final un 20% durante 3 turnos. Si el usuario de la habilidad es miembro de SEES, aumenta el daño final un 20% más.
 
+After a Theurgy is activated, gain 2 Thermal Photon stacks. After a Highlight is activated, gain 1 Thermal Photon stack.\nThermal Photon: Increase final damage by 10% for each stack. Lasts for 3 turns. Stacks up to 4 times.=Tras activar una Teúrgia, obtienes 2 acumulaciones de Fotón Térmico. Tras activar un Highlight, obtienes 1 acumulación de Fotón Térmico.\nFotón Térmico: Aumenta el daño final en un 10% por cada acumulación. Dura 3 turnos. Se acumula hasta 4 veces.
+
+Each time an Elucidator ally selects and uses a skill, grant 1 Neural Web stack to all allies.\nNeural Web: Increase final damage by 20% for each stack. Lasts for 1 turn. Stacks up to 2 times.=Cada vez que un aliado de tipo Elucidador elija y use una habilidad, otorga 1 acumulación de Red Neuronal a todos los aliados.\nRed Neuronal: Aumenta el daño final en un 20% por cada acumulación. Dura 1 turno. Se acumula hasta 2 veces.
+
+Neuronal Web=Red Neuronal
+N<color\=#000000>e</color>uronal Web=R<color\=#000000>e</color>d Neuronal
 
 +--Cartas de relevación--+
 Gain Revelation - Orange=Revelación de Ganancia - Naranja
@@ -3424,6 +3524,8 @@ Increase ailment accuracy 10.5%. Increase Sleep accuracy 45%.=Aumenta la precisi
 
 Let's get stickers!=¡Vamos por las calcomanías!
 
+r:"^Do you want to use the following to perform All-Seeing Eye (\d+) times\?$"="¿Quieres usar lo siguiente para realizar Ojo Omnisciente $1 veces?"
+
 +--Pendiente--+
 
 
@@ -3468,6 +3570,11 @@ Shoki ♣2=Shoki ♣2
 Fleeting Youth=Juventud Fugaz
 5★ Thief Select Ticket SP3=Ticket de Selección de Ladrón SP3 de 5★
 Orange Power Revelation=Revelación de Poder Naranja
+S-Rank Weapon Box=Caja de armas de rango S
+Ltd. Illustration Set=Conjunto de Ilustraciones Limitado
+5★ Mitsuru Kirijo is in the Most Wanted lineup! Press [Info] for more details.=¡Mitsuru Kirijo de 5★ está en la lista de los más buscados! Presiona [Info] para más detalles.
+Do you want to use the following to perform Brilliant Executioner 1 times?=¿Quieres usar lo siguiente para realizar Ejecutora Brillante 1 veces?
+Do you want to use the following to perform Brilliant Executioner 10 times?=¿Quieres usar lo siguiente para realizar Ejecutora Brillante 10 veces?
 
 Unlocks at Minami Miyashita rank 1=Se desbloquea en el rango 1 de Minami Miyashita.
 Can be gifted to accomplices to raise Synergy. Made with daisies and simple packaging at the workbench.=Se puede regalar a los cómplices para aumentar la Sinergia. Se hace con margaritas y un empacado sencillo en el mesa de trabajo.
@@ -3482,7 +3589,8 @@ Thank you for playing Persona5: The Phantom X.\n\nJun 21 is Yumi Shiina’s birt
 Thank you for playing Persona5: The Phantom X.\n\nAug 3 is Toshiya Sumi's birthday.\nTo celebrate, we've sent you a set of Hindrance Revelation - Orange cards for his Recommended Set.\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\nEl 3 de agosto es el cumpleaños de Toshiya Sumi. Para celebrarlo, te enviamos el Conjunto Recomendado: Revelación de Obstáculo - Naranja.\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
 As thanks for your long-term support, we have sent you additional rewards.=Como agradecimiento por tu apoyo incondicional, te enviamos recompensas adicionales.
 Thank you for playing Persona5: The Phantom X.\n\nJuly 11 is Shun Kano's birthday!\nTo celebrate, we’re sending you a set of Control Revelation - Orange cards from his Recommended Set.\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\n¡El 11 de julio es el cumpleaños de Shun Kano!\nPara celebrarlo, te enviamos el Conjunto Recomendado: Revelación de Control - Naranja.\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
-Thank you for playing Persona5: The Phantom X.\n\nJuly 17 is Masaki Ashiya's birthday!\nTo celebrate, we're sending you a set of Peace Revelation - Orange cards from his Recommended Set.\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona 5: The Phantom X.\n\n¡El 17 de julio es el cumpleaños de Masaki Ashiya!\nPara celebrarlo, tte enviamos el Conjunto Recomendado: Revelación de Paz - Naranja\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
+Thank you for playing Persona5: The Phantom X.\n\nJuly 17 is Masaki Ashiya's birthday!\nTo celebrate, we're sending you a set of Peace Revelation - Orange cards from his Recommended Set.\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona 5: The Phantom X.\n\n¡El 17 de julio es el cumpleaños de Masaki Ashiya!\nPara celebrarlo, te enviamos el Conjunto Recomendado: Revelación de Paz - Naranja\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
+Thank you for playing Persona5: The Phantom X. \n\nNovember 9 is Mio Natsukawa's birthday! \nTo celebrate, we are sending you a set of Futility Revelation - Orange cards for her Recommended Set.\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\n¡El 9 de noviembre es el cumpleaños de Mio Natsukawa! Para celebrarlo, te enviamos el Conjunto Recomendado: Revelación de Futilidad - Naranja.\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
 
 Distribution of Crystal Cognigems=Distribución de Cognigema de Cristal
 Thank you for playing Persona5: The Phantom X.\n\nWe are sending Crystal Cognigems to all players who have drawn the same 5★ Phantom Thief at least 8 times prior to the beginning of maintenance on July 30, 2026.\nFor details on the amount of Crystal Cognigems provided, please see the Ver. 4.6 Update Information notice.\n\nWe hope you continue to enjoy Persona5: The Phantom X.=Gracias por jugar Persona5: The Phantom X.\n\nEstamos enviando las Cognigema de Cristal a todos los jugadores que hayan obtenido el mismo Ladrón Fantasma de 5★ al menos 8 veces antes del inicio del mantenimiento del 30 de julio de 2026. Para conocer los detalles sobre la cantidad de Cognigema de Cristal que se entregarán, por favor consulta el aviso de Información de la Actualización Ver. 4.6.\n\nEsperamos que sigas disfrutando de Persona5: The Phantom X.
@@ -3514,7 +3622,7 @@ New Capsules Available=Nuevas Cápsulas Disponibles
 New Content=Contenido Nuevo
 
 
-<color\=#0F69CA><size\=36>Most Wanted Phantom Idol Contracts: The First Sound from the Future</size></color>\n\nThis is your chance to get the exclusive 5★ Hatsune Miku!\nYou can also get her exclusive 5★ weapon Light Up Your World in Silent Pistol Arms Deals!\n\nHatsune Miku is a 5★ Elucidator who can switch up the music in battle to pump up her allies.\n\nHatsune Miku can provide unique buffs or healing depending on each song she performs in battle.\nWhen she uses Skill 3, all enemies are stopped in their tracks, and her allies take the spotlight, gaining 2 extra actions each.\n\nWhen equipped with her 5★ weapon, Miku's Attack increases and she can activate even more buffs for her team.\n\nMiku's full setlist of support tactics and irresistible performance leave foes in a standstill, making her the star of any team.=<color\=#0F69CA><size\=36>Contratos de Ídolos Fantasma más buscados: El primer sonido del futuro</size></color>\n\n¡Esta es tu oportunidad de obtener a la exclusiva Hatsune Miku de 5★!\n¡También puedes conseguir su arma exclusiva de 5★, Ilumina Tu Mundo, en Tratos de Armas Pistola Silenciosa!\n\nHatsune Miku es una Elucidadora de 5★ que puede cambiar la música en batalla para potenciar a sus aliados.\n\nHatsune Miku aporta mejoras únicas o curación según la canción que interprete en el combate.\nCuando usa su Habilidad 3, paraliza a todos los enemigos y sus aliados toman el protagonismo, obteniendo 2 acciones adicionales cada uno.\n\nAl equiparla con su arma de 5★, el Ataque de Miku aumenta y puede activar todavía más mejoras para su equipo.\n\nEl repertorio completo de tácticas de apoyo y la irresistible actuación de Miku dejan a los rivales indefensos, convirtiéndola en la estrella de cualquier equipo.
+<color\=#0F69CA><size\=36>Most Wanted Phantom Idol Contracts: The First Sound from the Future</size></color>\n\nThis is your chance to get the exclusive 5★ Hatsune Miku!\nYou can also get her exclusive 5★ weapon Light Up Your World in Silent Pistol Arms Deals!\n\nHatsune Miku is a 5★ Elucidator who can switch up the music in battle to pump up her allies.\n\nHatsune Miku can provide unique buffs or healing depending on each song she performs in battle.\nWhen she uses Skill 3, all enemies are stopped in their tracks, and her allies take the spotlight, gaining 2 extra actions each.\n\nWhen equipped with her 5★ weapon, Miku's Attack increases and she can activate even more buffs for her team.\n\nMiku's full setlist of support tactics and irresistible performance leave foes in a standstill, making her the star of any team.=<color\=#0F69CA><size\=36>Contratos de Ídolos Fantasma más buscados: El primer sonido del futuro</size></color>\n\n¡Esta es tu oportunidad de obtener a la exclusiva Hatsune Miku de 5★!\n¡También puedes conseguir su arma exclusiva de 5★, Ilumina Tu Mundo, en Tratos de Armas Pistola Silenciosa!\n\nHatsune Miku es una Elucidador de 5★ que puede cambiar la música en batalla para potenciar a sus aliados.\n\nHatsune Miku aporta mejoras únicas o curación según la canción que interprete en el combate.\nCuando usa su Habilidad 3, paraliza a todos los enemigos y sus aliados toman el protagonismo, obteniendo 2 acciones adicionales cada uno.\n\nAl equiparla con su arma de 5★, el Ataque de Miku aumenta y puede activar todavía más mejoras para su equipo.\n\nEl repertorio completo de tácticas de apoyo y la irresistible actuación de Miku dejan a los rivales indefensos, convirtiéndola en la estrella de cualquier equipo.
 
 <color\=#0F69CA><size\=36>Hatsune Miku's collab event Miracle Concert has begun!</size></color>\n\nThe event includes the event story Let the Show Begin, Boss Battle, the collab minigame Play That Future Sound, Let the Sound Resound, and the login bonus Perfect Harmony.\n\n<color\=#FFD145>Let the Show Begin</color>\nView the story to receive Meta Jewels, and switch the background music that plays while walking around the city or in the Thieves Den to songs featuring Miku's vocals.\n\n<color\=#FFD145>Boss Battle</color>\nClear each stage to earn Miku Points and Joy Medals.\n\n<color\=#FFD145>Play That Future Sound</color>\nEarn Meta Jewels and Miku Points based on how well you play.\n\n<color\=#FFD145>Let the Sound Resound</color>\nReceive special Hatsune Miku profile designs and items based on Hatsune Miku's Awareness Level.\n\n<color\=#FFD145>Perfect Harmony</color>\nLog in during the event period for up to 12 days to receive Platinum Tickets and Platinum Milicoins.\n\n<color\=#FFD145>Exchange Shop</color>\nUse the Miku Points earned from Play That Future Sound and Boss Battle to trade for Platinum Milicoins, Vicissitude Ink, training materials, and other great rewards.=<color\=#0F69CA><size\=36>¡Comenzó el evento de colaboración Concierto Milagroso de Hatsune Miku!</size></color>\n\nEl evento incluye la historia especial Que Comience el Espectáculo, Batallas de Jefe, el minijuego de colaboración Reproduce Ese Sonido Del Futuro, las misiones Que El Sonido Resuene y el bono por inicio de sesión Armonía Perfecta.\n\n<color\=#FFD145>Let the Show Begin</color>\nDisfruta de la historia para recibir Meta Gemas y cambiar la música de fondo de la ciudad o de la Guarida de los Ladrones por canciones interpretadas por Miku.\n\n<color\=#FFD145>Batallas de jefe</color>\nCompleta cada etapa para obtener puntos Miku y Medallas de Alegría.\n\n<color\=#FFD145>Reproduce Ese Sonido Del Futuro</color>\nGana Meta Gemas y puntos Miku según tu puntuación en el juego.\n\n<color\=#FFD145>Que El Sonido Resuene</color>\nRecibe fondos de perfil exclusivos y objetos especiales de Hatsune Miku según su Nivel de concientización.\n\n<color\=#FFD145>Armonía Perfecta</color>\nInicia sesión durante el evento hasta por 12 días para obtener boletos de platino y Milimonedas de Platino.\n\n<color\=#FFD145>Tienda de intercambio</color>\nUsa los puntos Miku obtenidos en Reproduce Ese Sonido Del Futuro y en las Batallas de jefe para canjearlos por Milimonedas de Platino, Tinta Vicisitud, materiales de mejora y otras recompensas increíbles.
 

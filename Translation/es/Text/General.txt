@@ -2419,7 +2419,7 @@ Show me your true passion for Shibuya!=¡Muéstrame tu verdadera pasión por Shi
 Question two! This time we're headed over\nto Central Street!=¡Pregunta dos!\n¡Esta vez nos vamos a la Calle Central!
 Shopping in Central Street is so much fun,\nbut there's almost too many delicious things\nto eat!=Comprar en la Calle Central es muy divertido,\n¡aunque hay demasiadas cosas deliciosas para comer!
 Now tell me, do you know the name of the\nburger restaurant on Central Street?=Ahora dime, ¿sabes cómo se llama el restaurante de hamburguesas en la Calle Central?
-You got it!=¡Lo tienes!
+You got it!=¡Entendido!
 Big Dog Burger.=Big Dog Burger.
 Boom Bang Burger.=Boom Bang Burger.
 Bye-Bye Burger.=Bye-Bye Burger.
@@ -4384,7 +4384,7 @@ Megaton Raid=Golpe Megatón
 If you retreat, you will not earn rewards.\nDo you want to retreat?=Si te retiras, no obtendrás recompensas.\n¿Quieres retirarte?
 Uh, th-that's all!\nEveryone tried really hard!=Uh, ¡eso es todo!\n¡Todos se esforzaron mucho!
 Wonder's <color\=#EF0000>Weapons</color>, <color\=#EF0000>Persona</color>, Schema are not strong enough.=Las <color\=#EF0000>Armas</color>, <color\=#EF0000>Persona</color> y el esquema de Wonder no son lo suficientemente fuertes.
-Increase Elucidator allies' <color\=#FFFC40>stat buff</color> effects by 25%.=Aumenta los efectos de mejora de estadísticas en aliados de Elucidator en un 25% <color\=#FFFC40>(stat buff)</color>.
+Increase Elucidator allies' <color\=#FFFC40>stat buff</color> effects by 25%.=Aumenta los efectos de mejora de estadísticas en aliados de Elucidador en un 25% <color\=#FFFC40>(stat buff)</color>.
 The goddess of life in Shinto myth. She once mediated between Izanagi and Izanami during their confrontation in Yomi, the land of the dead.=La diosa de la vida en el mito sintoísta.\nUna vez medió entre Izanagi e Izanami durante su confrontación en Yomi, la tierra de los muertos.
 You did it! They're down!=¡Lo lograste!\n¡Están derrotados!
 {{A}}.48={{A}}.48
@@ -14332,7 +14332,7 @@ Increase damage by 15% for each foe present.=Aumenta el daño un 15% por cada en
 Adds an effect to Power of Passion: for each stack, increase party's damage taken from <link\="s|170"><u>Scarlet Tide</u></link> by 15%, and increase foes' damage taken from Scarlet Tide by 45%.=Añade un efecto a Poder de Pasión: por cada acumulación, aumenta el daño que recibe el grupo de <link\="s|170"><u>Marea Escarlata</u></link> en un 15%, y aumenta el daño recibido por los enemigos de Marea Escarlata en un 45%.
 Increase <link\="s|170"><u>Scarlet Tide</u></link>'s damage by 80%. When an ally is hit by <link\="s|170"><u>Scarlet Tide</u></link>, grant 40% chance to resist being knocked down for 1 turn.=Aumenta la resistencia a <link\="s|170"><u>Marea Escarlata</u></link> en un 80%. Cuando un aliado es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, otorga un 40% de probabilidad de resistir el derribo durante 1 turno.
 Each <link\="rg|1008"><u>Prayer Magatama</u></link> will give you 50 Railway Coins.=Cada <link\="rg|1008"><u>Oración Magatama</u></link> te dará 50 Monedas Ferroviarias.
-<nobr>After an ally acts, (<color\=#50b50d>48.0%</color>/60.0%) chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Después de que actúe un aliado, (<color\=#50b50d>48.0%</color>/60,0%) de probabilidad de reducir el tiempo de reutilización de Elucidator en 1 turno.</nobr>
+<nobr>After an ally acts, (<color\=#50b50d>48.0%</color>/60.0%) chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Después de que actúe un aliado, (<color\=#50b50d>48.0%</color>/60,0%) de probabilidad de reducir el tiempo de reutilización de Elucidador en 1 turno.</nobr>
 Lucky Clover=Trébol de la suerte
 Lucid V=Lúcido V
 Noble I=Noble I
@@ -14424,10 +14424,10 @@ Merciful II=Misericordioso II
 Use [Lucky Cat]=Usa [Gato de la Suerte]
 Battle a normal Shadow, and receive Charms and Railway Coins if you defeat it.\nYou also have a low chance to find a Lost Item.\nYou can obtain a Lucid Set Charm.=Lucha contra una Sombra normal, y recibe Amuletos y Monedas Ferroviarias si la derrotas. También tienes una baja probabilidad de encontrar un Objeto Perdido. Puedes obtener un amuleto de conjunto lúcido.
 <nobr>When using a single-target attack skill, decrease target's damage by (<color\=#50b50d>18.0%</color>/24.0%/30.0%) for 1 turn.</nobr>=<nobr>Al utilizar una habilidad de ataque de un solo objetivo, disminuye el daño del objetivo en (<color\=#50b50d>18.0%</color>/24,0%/30,0%) durante 1 turno.</nobr>
-<nobr>After Elucidator acts, restore HP by (<color\=#50b50d>30.0%</color>/40.0%/50.0%) for the ally with the lowest HP.</nobr>=<nobr>Después de que Elucidator actúe, restaura PS con (<color\=#50b50d>30.0%</color>/40,0%/50,0%) para el aliado con menos PS.</nobr>
+<nobr>After Elucidator acts, restore HP by (<color\=#50b50d>30.0%</color>/40.0%/50.0%) for the ally with the lowest HP.</nobr>=<nobr>Después de que Elucidador actúe, restaura PS con (<color\=#50b50d>30.0%</color>/40,0%/50,0%) para el aliado con menos PS.</nobr>
 Lucid I=Lúcido I
-After Elucidator acts, 40% chance to act again. This effect cannot activate when acting again.=Después de que Elucidator actúe, 40% de probabilidad de volver a actuar. Este efecto no puede activarse al volver a actuar.
-After Elucidator acts, increase the Attack of the ally with the highest Attack by 40%, and increase the Defense of the ally with the highest Defense by 40%. Lasts for 1 turn.=Después de que Elucidator actúe, aumenta el Ataque del aliado con el Ataque más alto en un 40%, y aumenta la Defensa del aliado con la Defensa más alta en un 40%. Dura 1 turno.
+After Elucidator acts, 40% chance to act again. This effect cannot activate when acting again.=Después de que Elucidador actúe, 40% de probabilidad de volver a actuar. Este efecto no puede activarse al volver a actuar.
+After Elucidator acts, increase the Attack of the ally with the highest Attack by 40%, and increase the Defense of the ally with the highest Defense by 40%. Lasts for 1 turn.=Después de que Elucidador actúe, aumenta el Ataque del aliado con el Ataque más alto en un 40%, y aumenta la Defensa del aliado con la Defensa más alta en un 40%. Dura 1 turno.
 After using a single-target skill, deal bonus Almighty damage equal to 70% of the damage taken by the target.=Después de usar una habilidad de un solo objetivo, inflige una bonificación de daño Todopoderoso igual al 70% del daño recibido por el objetivo.
 When activating a single-target skill, ignore 30% of the foe's Defense.=Al activar una habilidad de un solo objetivo, ignora el 30% de la Defensa del enemigo.
 Battle a tough Shadow, with a high chance of receiving Purple Charms and Railway Coins if you defeat it.\nThere is also a high chance of finding a Lost Item.\nYou can obtain a Cruel Set Charm.=Enfréntate a una dura Sombra, con una alta probabilidad de recibir Amuletos Morados y Monedas Ferroviarias si la derrotas. También hay una alta probabilidad de encontrar un Objeto Perdido. Puedes obtener un Amuleto de Conjunto Cruel.
@@ -14533,13 +14533,13 @@ Oh well. I'm sure you're feeling a bit more\nlimber and dextrous just from readi
 4 Set：Increase party's damage by 25%. Increase each ally's damage by 7.2% for each buff. Stacks up to 8 times.=4 Set：Aumenta el daño del grupo un 25%. Aumenta el daño de cada aliado un 7,2% por cada potenciador. Se acumula hasta 8 veces.
 2 Set：On an ally's action, increase damage based on number of buffs active. Increase by 3% per buff. Stacks up to 10 buffs.=2 Set： En la acción de un aliado, aumenta el daño según el número de potenciadores activos. Aumenta un 3% por potenciador. Acumula hasta 10 potenciadores.
 2 Set：Increase Defense of shielded allies by 35%.=2 Set：Aumenta la Defensa de los aliados con escudo un 35%.
-4 Set：After Elucidator acts, 40% chance to act again. This effect cannot activate when acting again.=4 Set：Después de que Elucidator actúe, 40% de probabilidad de volver a actuar. Este efecto no puede activarse al volver a actuar.
-2 Set：After Elucidator acts, increase the Attack of the ally with the highest Attack by 40%, and increase the Defense of the ally with the highest Defense by 40%. Lasts for 1 turn.=2 Set：Después de que Elucidator actúe, aumenta el Ataque del aliado con el Ataque más alto en un 40%, y aumenta la Defensa del aliado con la Defensa más alta en un 40%. Dura 1 turno.
+4 Set：After Elucidator acts, 40% chance to act again. This effect cannot activate when acting again.=4 piezas：Después de que Elucidador actúe, 40% de probabilidad de volver a actuar. Este efecto no puede activarse al volver a actuar.
+2 Set：After Elucidator acts, increase the Attack of the ally with the highest Attack by 40%, and increase the Defense of the ally with the highest Defense by 40%. Lasts for 1 turn.=2 piezas：Después de que Elucidador actúe, aumenta el Ataque del aliado con el Ataque más alto en un 40%, y aumenta la Defensa del aliado con la Defensa más alta en un 40%. Dura 1 turno.
 {{A}}.45={{A}}.45
 A hero in Celtic folklore. He was called {{A}} until he earned the name, "Culann's Hound." There are many tales of his adventures. He received his spear, Gae Bolg, from his mentor, {{B}}.=Un héroe del folclore celta. Se llamaba {{A}} hasta que se ganó el nombre de "Sabueso de Culann". Hay muchos relatos de sus aventuras. Recibió su lanza, Gae Bolg, de su mentor, {{B}}.
 Decrease HP after acting.=Disminuye HP después de actuar.
-C<color\=#000000>r</color>itical Rate Up=C<color\=#000000>r</color>itical Rate Up
-Elucidator's <color\=#FFFC40>stat buff</color> effects are increased by 25%.=Elucidator's <color\=#FFFC40>(stat buff)</color> efectos se incrementan en un 25%.
+C<color\=#000000>r</color>itical Rate Up=P<color\=#000000>r</color>obabilidad de Crítico Aumentada
+Elucidator's <color\=#FFFC40>stat buff</color> effects are increased by 25%.=Los efectos de <color\=#FFFC40>mejora de estadísticas</color> de Elucidador aumentan en un 25%.
 A motorcyclist whose violent nature turned him into a demon. His anger with himself and the world causes him to lash out, that everyone else would suffer as well.=Un motorista cuya naturaleza violenta lo convirtió en un demonio. Su ira consigo mismo y con el mundo le lleva a arremeter contra todos los demás para que también sufran.
 A legendary white horse with a single spiral horn. It can only be tamed by a pure maiden, and its horn supposedly has miraculous healing capabilities.=Un legendario caballo blanco con un único cuerno en espiral. Solo puede ser domado por una doncella pura, y su cuerno supuestamente tiene capacidades curativas milagrosas.
 Attack decreased!=¡Ataque disminuido!
@@ -14594,12 +14594,12 @@ A spare wallet with some loose change inside.=Una cartera de repuesto con algo d
 <nobr>Increase party's max HP by <color\=#50b50d>10.2%</color>→<color\=#c900e4>13.6%</color>.</nobr>=<nobr>Aumenta los PS máximos del grupo en <color\=#50b50d>10.2%</color>→<color\=#c900e4>13.6%</color>.</nobr>
 <nobr>When using a single-target attack skill, decrease target's damage by <color\=#50b50d>18.0%</color>→<color\=#c900e4>24.0%</color> for 1 turn.</nobr>=<nobr>Al utilizar una habilidad de ataque de un solo objetivo, el daño del objetivo disminuye en <color\=#50b50d>18.0%</color>→<color\=#c900e4>24.0%</color> durante 1 turno.</nobr>
 Lucid IV=Lúcido IV
-<nobr>At the start of battle, decrease Elucidator's cooldown time by (<color\=#50b50d>2</color>/3) turns.</nobr>=<nobr>Al inicio de la batalla, reduce el tiempo de reutilización de Elucidator en (<color\=#50b50d>2</color>/3) vueltas.</nobr>
+<nobr>At the start of battle, decrease Elucidator's cooldown time by (<color\=#50b50d>2</color>/3) turns.</nobr>=<nobr>Al inicio de la batalla, reduce el tiempo de reutilización de Elucidador en (<color\=#50b50d>2</color>/3) vueltas.</nobr>
 A second-edition pack of a popular trading card game. Contains many strategic cards.=Una segunda edición de un popular juego de cartas coleccionables. Contiene muchas cartas estratégicas.
 Increases max HP by 25%, but also decreases Attack by 15%. After collecting 3 cards, the negative effect will no longer activate.<color\=#FF423F> (0/4 Collected) </color>=Aumenta los PS máximos un 25%, pero también reduce el Ataque un 15%. Tras reunir 3 cartas, el efecto negativo deja de activarse.<color\=#FF423F> (0/4 Recogidas) </color>
 <nobr>Increase party's healing effect by <color\=#50b50d>14.4%</color>→<color\=#c900e4>19.2%</color>.</nobr>=<nobr>Aumenta el efecto curativo del grupo en <color\=#50b50d>14.4%</color>→<color\=#c900e4>19.2%</color>.</nobr>
 <nobr>Increase party's healing effect by 19.2%.</nobr>=<nobr>Aumenta el efecto curativo del grupo en un 19.2%.</nobr>
-<nobr>At the start of battle, decrease Elucidator's cooldown time by 2 turns.</nobr>=<nobr>Al inicio de la batalla, reduce el tiempo de reutilización de Elucidator en 2 turnos.</nobr>
+<nobr>At the start of battle, decrease Elucidator's cooldown time by 2 turns.</nobr>=<nobr>Al inicio de la batalla, reduce el tiempo de reutilización de Elucidador en 2 turnos.</nobr>
 L<color\=#ff0000ff>i</color>ar's Shadow=S<color\=#ff0000ff>o</color>mbra del Mentiroso
 Valid until: 2025/09/03, 21:59=Válido hasta: 2025/09/03, 21:59
 Can be used for the Spin to Win Raffle. Obtainable by clearing Marthym's Limited-Time Offers or playing Metro of Desire.=Se puede utilizar para el Sorteo Gira para Ganar. Se puede conseguir completando las ofertas limitadas de Marthym o jugando a Metro of Desire.
@@ -14616,7 +14616,7 @@ Randomly selects a Charm that can be strengthened. Will be spent even if the str
 <nobr>After defeating a foe, inflict (3/<color\=#c900e4>4</color>) <link\="s|167"><u>Agony</u></link> stacks on all other foes.</nobr>=<nobr>Tras derrotar a un enemigo, inflige (3/<color\=#c900e4>4</color>) <link\="s|167"><u>Agonía</u></link> se acumula en todos los demás enemigos.</nobr>
 <nobr>After a shielded ally takes damage, deal Almighty damage to the attacker equal to (30.0%/40.0%/<color\=#e9cb2f>50.0%</color>) of Defense.</nobr>=<nobr>Después de que un aliado con escudo reciba daño, inflige al atacante un daño Todopoderoso igual a (30,0%/40,0%/<color\=#e9cb2f>50.0%</color>) de Defensa.</nobr>
 Use [Magic Lamp]=Usar [Lámpara mágica]
-<nobr>After Elucidator acts, increase party's damage by (<color\=#50b50d>24.0%</color>/32.0%/40.0%) for 1 turn.</nobr>=<nobr>Después de que Elucidator actúe, aumenta el daño del grupo en (<color\=#50b50d>24.0%</color>/32,0%/40,0%) durante 1 turno.</nobr>
+<nobr>After Elucidator acts, increase party's damage by (<color\=#50b50d>24.0%</color>/32.0%/40.0%) for 1 turn.</nobr>=<nobr>Después de que Elucidador actúe, aumenta el daño del grupo en (<color\=#50b50d>24.0%</color>/32,0%/40,0%) durante 1 turno.</nobr>
 Lucid III=Lúcido III
 <nobr>When an ally's activated skill doesn't deal damage, increase party's damage by (<color\=#50b50d>24.0%</color>/30.0%) for 1 turn. Stacks up to 3 times.</nobr>=<nobr>Cuando la habilidad activada de un aliado no inflige daño, aumenta el daño del grupo en (<color\=#50b50d>24.0%</color>/30,0%) durante 1 turno. Se acumula hasta 3 veces.</nobr>
 Noble IV=Noble IV
@@ -14631,11 +14631,11 @@ Sit down=Siéntate.
 Receive 30 Railway Coins.=Recibe 30 Monedas Ferroviarias.
 Look underneath=Mira debajo
 Lucid VI=Lúcido VI
-<nobr>Every 2 times Elucidator acts, increase party's damage by 100% for 1 turn.</nobr>=<nobr>Cada 2 veces que actúa Elucidator, aumenta el daño del grupo un 100% durante 1 turno.</nobr>
+<nobr>Every 2 times Elucidator acts, increase party's damage by 100% for 1 turn.</nobr>=<nobr>Cada 2 veces que actúa Elucidador, aumenta el daño del grupo un 100% durante 1 turno.</nobr>
 A third-edition pack of a popular trading card game. Contains many technical cards.=Una tercera edición de un popular juego de cartas coleccionables. Contiene muchas cartas técnicas.
 Decreases damage taken by 25%, but also decreases damage dealt by 15%. After collecting 3 cards, the negative effect will no longer activate.<color\=#FF423F> (0/4 Collected) </color>=Reduce el daño recibido en un 25%, pero también reduce el daño infligido en un 15%. Tras reunir 3 cartas, el efecto negativo deja de activarse.<color\=#FF423F> (0/4 Recogidas) </color>
 <nobr>When using a single-target attack skill, increase damage to foes with less than 50% HP by <color\=#50b50d>48.0%</color>→<color\=#c900e4>60.0%</color>.</nobr>=<nobr>Al utilizar una habilidad de ataque de un solo objetivo, aumenta el daño a los enemigos con menos de un 50% de PS en <color\=#50b50d>48.0%</color>→<color\=#c900e4>60.0%</color>.</nobr>
-<nobr>At the start of battle, decrease Elucidator's cooldown time by <color\=#50b50d>2</color>→<color\=#c900e4>3</color> turns.</nobr>=<nobr>Al inicio de la batalla, reduce el tiempo de reutilización de Elucidator en <color\=#50b50d>2</color>→<color\=#c900e4>3</color> vueltas.</nobr>
+<nobr>At the start of battle, decrease Elucidator's cooldown time by <color\=#50b50d>2</color>→<color\=#c900e4>3</color> turns.</nobr>=<nobr>Al inicio de la batalla, reduce el tiempo de reutilización de Elucidador en <color\=#50b50d>2</color>→<color\=#c900e4>3</color> vueltas.</nobr>
 <nobr>After an ally is hit by <link\="s|170"><u>Scarlet Tide</u></link>, increase Attack by <color\=#50b50d>12.0%</color>→<color\=#c900e4>16.0%</color> for 1 turn.</nobr>=<nobr>Después de que un aliado sea golpeado por <link\="s|170"><u>Marea Escarlata</u></link>Aumentar el ataque en <color\=#50b50d>12.0%</color>→<color\=#c900e4>16.0%</color> durante 1 turno.</nobr>
 C<color\=#000000>r</color>itical Domain=C<color\=#000000>r</color>Dominio político
 Heroic Strength=Fuerza heroica
@@ -14726,7 +14726,7 @@ Customer Appreciation Pack A=Pack A de agradecimiento al cliente
 20% chance to activate the 4-set effect of one Charm.=20% de probabilidad de activar el efecto de 4 conjuntos de un Encantamiento.
 Hope to see you again soon!=Espero volver a verle pronto.
 Mood-Changing Meds=Medicamentos que cambian el estado de ánimo
-<nobr>After Elucidator acts, increase party's damage by <color\=#50b50d>24.0%</color>→<color\=#c900e4>32.0%</color> for 1 turn.</nobr>=<nobr>Después de que actúe Elucidator, aumenta el daño del grupo en <color\=#50b50d>24.0%</color>→<color\=#c900e4>32.0%</color> durante 1 turno.</nobr>
+<nobr>After Elucidator acts, increase party's damage by <color\=#50b50d>24.0%</color>→<color\=#c900e4>32.0%</color> for 1 turn.</nobr>=<nobr>Después de que actúe Elucidador, aumenta el daño del grupo en <color\=#50b50d>24.0%</color>→<color\=#c900e4>32.0%</color> durante 1 turno.</nobr>
 A strange medicine that can instantly change your mood.=Una extraña medicina que puede cambiar instantáneamente tu estado de ánimo.
 When selecting Charms after battle, gain 1 free redeal.=Al seleccionar amuletos tras una batalla, obtienes 1 redención gratuita.
 <nobr>Increase party's Attack by (12.0%/<color\=#c900e4>16.0%</color>/20.0%) for each foe present.</nobr>=<nobr>Aumenta el ataque del grupo en un (12,0%/)<color\=#c900e4>16.0%</color>/20,0%) por cada enemigo presente.</nobr>
@@ -14750,7 +14750,7 @@ For every 100 Railway Coins collected, increases all Phantom Thieves' Attack by 
 <nobr>When granting a shield to a target, increase shield by (14.4%/<color\=#c900e4>18.0%</color>) of that shield's value. Lasts for 2 turns.</nobr>=<nobr>Al otorgar un escudo a un objetivo, aumenta el escudo en (14,4%/<color\=#c900e4>18.0%</color>) del valor de ese escudo. Dura 2 turnos.</nobr>
 <nobr>When dealing damage to a foe, increase their damage taken by (16.0%/<color\=#c900e4>20.0%</color>) for 2 turns. Stacks up to 2 times.</nobr>=<nobr>Al infligir daño a un enemigo, aumenta el daño recibido en un (16,0%/)<color\=#c900e4>20.0%</color>) durante 2 turnos. Se acumula hasta 2 veces.</nobr>
 <nobr>After inflicting a debuff on a foe, (60.0%/80.0%/<color\=#e9cb2f>100.0%</color>) chance to inflict 1 <link\="s|167"><u>Agony</u></link> stack.</nobr>=<nobr>Tras infligir un debuff a un enemigo, (60,0%/80,0%/<color\=#e9cb2f>100.0%</color>) probabilidad de infligir 1 <link\="s|167"><u>Agonía</u></link>.</nobr>
-<nobr>After Elucidator acts, increase party's damage by (24.0%/<color\=#c900e4>32.0%</color>/40.0%) for 1 turn.</nobr>=<nobr>Después de que actúe Elucidator, aumenta el daño del grupo en un (24,0%/<color\=#c900e4>32.0%</color>/40,0%) durante 1 turno.</nobr>
+<nobr>After Elucidator acts, increase party's damage by (24.0%/<color\=#c900e4>32.0%</color>/40.0%) for 1 turn.</nobr>=<nobr>Después de que actúe Elucidador, aumenta el daño del grupo en un (24,0%/<color\=#c900e4>32.0%</color>/40,0%) durante 1 turno.</nobr>
 <nobr>When using a single-target attack skill, increase weakness damage by <color\=#50b50d>32.0%</color>→<color\=#c900e4>40.0%</color>.</nobr>=<nobr>Al utilizar una habilidad de ataque de un solo objetivo, aumenta el daño de debilidad en <color\=#50b50d>32.0%</color>→<color\=#c900e4>40.0%</color>.</nobr>
 Use [Mystic Crystal Ball]=Usa [Bola de Cristal Místico]
 <color\=#FFAF00>Battle a Boss Shadow at the Terminal Station.\nDefeat it to clear the Control Center.</color>\nDominion, Power, Principality, and Archangel are in the <color\=#FF423F>Soul Link</color> state, and also have the <color\=#FF423F>Sanctuary</color> state.\nSoul Link: When a Shadow with Soul Link takes damage, split the damage between all Shadows with Soul Link, based on its current HP.\nSanctuary: Increase damage taken by 6% per <color\=#FF423F>debuff</color> inflicted, up to 30%.=<color\=#FFAF00>Enfréntate a un Jefe Sombra en la Estación Terminal. Derrótalo para despejar el Centro de Control.</color>\nDominion, Power, Principality y Archangel se encuentran en el <color\=#FF423F>Enlace del alma</color> y también tienen el <color\=#FF423F>Santuario</color> estado. Enlace del alma: Cuando una Sombra con Vínculo del alma recibe daño, divide el daño entre todas las Sombras con Vínculo del alma, en función de sus PS actuales. Santuario: Aumenta el daño recibido un 6% por <color\=#FF423F>debuff</color> infligido, hasta un 30%.
@@ -15310,9 +15310,9 @@ The effect time of this fertilizer is longer than the remaining growth time. Do 
 <nobr>For each <link\="s|167"><u>Agony</u></link> stack inflicted on a foe, decrease Defense by 1.80%.</nobr>=<nobr>Para cada <link\="s|167"><u>Agonía</u></link> infligida a un enemigo, reduce la Defensa un 1,80%.</nobr>
 <nobr>After defeating a foe, inflict 4 <link\="s|167"><u>Agony</u></link> stacks on all other foes.</nobr>=<nobr>Tras derrotar a un enemigo, inflige 4 <link\="s|167"><u>Agonía</u></link> se acumula en todos los demás enemigos.</nobr>
 <nobr>When inflicting an elemental ailment on a foe, inflict 2 <link\="s|167"><u>Agony</u></link> stacks.</nobr>=<nobr>Al infligir una dolencia elemental a un enemigo, inflige 2 <link\="s|167"><u>Agonía</u></link>.</nobr>
-<nobr>After Elucidator acts, restore HP by 30.0% for the ally with the lowest HP.</nobr>=<nobr>Después de que Elucidator actúe, restaura un 30% los PS del aliado con menos PS.</nobr>
-<nobr>After Elucidator acts, increase party's damage by 32.0% for 1 turn.</nobr>=<nobr>Después de que Elucidator actúe, aumenta el daño del grupo un 32,0% durante 1 turno.</nobr>
-<nobr>After an ally acts, 48.0% chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Después de que actúe un aliado, un 48,0% de probabilidad de reducir el tiempo de reutilización de Elucidator en 1 turno.</nobr>
+<nobr>After Elucidator acts, restore HP by 30.0% for the ally with the lowest HP.</nobr>=<nobr>Después de que Elucidador actúe, restaura un 30% los PS del aliado con menos PS.</nobr>
+<nobr>After Elucidator acts, increase party's damage by 32.0% for 1 turn.</nobr>=<nobr>Después de que Elucidador actúe, aumenta el daño del grupo un 32,0% durante 1 turno.</nobr>
+<nobr>After an ally acts, 48.0% chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Después de que actúe un aliado, un 48,0% de probabilidad de reducir el tiempo de reutilización de Elucidador en 1 turno.</nobr>
 Transformation Item=Elemento de transformación
 Piggy Bank=Hucha
 Passionate Record=Récord de pasión
@@ -15437,7 +15437,7 @@ To Rank Up: =Para subir rango:
 Eastern Construction Site=Obras del Este
 Western Work Site=Obra occidental
 Coming soon=Próximamente
-Increase Elucidator allies' stat buff effects by 30% and increase weakness damage by 20%.=Aumenta un 30% los efectos de mejora de estadísticas de los aliados de Elucidator y un 20% el daño por debilidad.
+Increase Elucidator allies' stat buff effects by 30% and increase weakness damage by 20%.=Aumenta un 30% los efectos de mejora de estadísticas de los aliados de Elucidador y un 20% el daño por debilidad.
 Northern Dig Site=Excavación del Norte
 or\nlower=o\ninferior
 Take on a trial at least once to earn rewards. Rewards will be sent to Mail after the season ends.=Haz una prueba al menos una vez para ganar recompensas. Las recompensas se enviarán a Mail una vez finalizada la temporada.
@@ -15575,7 +15575,7 @@ When attacking a foe with a skill, gain 1 <link\="s|177"><u>Tenacity</u></link> 
 Use [Winning Ticket]=Utilizar [Boleto Ganador]
 <nobr>When using a multi-target attack skill, increase Attack by (24.0%/<color\=#c900e4>32.0%</color>/40.0%).</nobr>=<nobr>Al utilizar una habilidad de ataque multiobjetivo, aumenta el Ataque en (24,0%/<color\=#c900e4>32.0%</color>/40.0%).</nobr>
 Tranquil IV=Tranquilo IV
-<nobr>When hit by <link\="s|170"><u>Scarlet Tide</u></link>, (<color\=#50b50d>30%</color>/60%) chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Cuando es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, (<color\=#50b50d>30%</color>/60%) de probabilidad de reducir el tiempo de reutilización de Elucidator en 1 turno.</nobr>
+<nobr>When hit by <link\="s|170"><u>Scarlet Tide</u></link>, (<color\=#50b50d>30%</color>/60%) chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Cuando es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, (<color\=#50b50d>30%</color>/60%) de probabilidad de reducir el tiempo de reutilización de Elucidador en 1 turno.</nobr>
 Y<color\=#ff0000ff>o</color>ung Boy's Shadow=S<color\=#ff0000ff>o</color>mbra Niño
 Hey, mister. Wanna play with me?=Oiga, señor. ¿Quieres jugar conmigo?
 I've got tons of trading cards and toys.\nThey're all super popular, y'know.=Tengo toneladas de cromos y juguetes. Son todos super populares, ya sabes.
@@ -15603,7 +15603,7 @@ Your health is important.=Tu salud es importante.
 {{A}} recovers 20% HP.={{A}} recupera un 20% de PS.
 I talked about it with my wife. If we work\ntogether, we should be able to make it\nthrough this...=Lo he hablado con mi mujer. Si trabajamos juntos, deberíamos poder superar esto...
 Stalwart VI=Inquebrantable VI
-<nobr>When hit by <link\="s|170"><u>Scarlet Tide</u></link>, <color\=#50b50d>30%</color>→<color\=#c900e4>60%</color> chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Cuando es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, <color\=#50b50d>30%</color>→<color\=#c900e4>60%</color> Probabilidad de reducir el tiempo de reutilización de Elucidator en 1 turno.</nobr>
+<nobr>When hit by <link\="s|170"><u>Scarlet Tide</u></link>, <color\=#50b50d>30%</color>→<color\=#c900e4>60%</color> chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Cuando es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, <color\=#50b50d>30%</color>→<color\=#c900e4>60%</color> Probabilidad de reducir el tiempo de reutilización de Elucidador en 1 turno.</nobr>
 <nobr>When using a single-target attack skill, increase Attack by (24.0%/<color\=#c900e4>32.0%</color>/40.0%).</nobr>=<nobr>Al utilizar una habilidad de ataque de un solo objetivo, aumenta el Ataque en (24,0%/<color\=#c900e4>32.0%</color>/40.0%).</nobr>
 A savings box shaped like a pig.=Una caja de ahorros con forma de cerdo.
 For the next 5 stations, receive no Railway Coins, but then increase Railway Coins by 100%.=Durante las siguientes 5 estaciones, no recibas ninguna Monedas Ferroviarias, pero luego aumenta las Monedas Ferroviarias en un 100%.
@@ -15622,7 +15622,7 @@ A transformation item that plays a voice when the button is pressed. The line th
 <nobr>When attacking all foes with a skill, increase damage to main target by (36.0%/<color\=#c900e4>45.0%</color>).</nobr>=<nobr>Al atacar a todos los enemigos con una habilidad, aumenta el daño al objetivo principal en (36,0%/<color\=#c900e4>45.0%</color>).</nobr>
 Use [Spirit Board]=Usar [Spirit Board]
 Use [Old Bottle]=Usar [Botella Vieja]
-<nobr>After Elucidator acts, increase party's Attack by (<color\=#50b50d>30.0%</color>/40.0%/50.0%) for 1 turn.</nobr>=<nobr>Después de que Elucidator actúe, aumenta el Ataque del grupo en (<color\=#50b50d>30.0%</color>/40,0%/50,0%) durante 1 turno.</nobr>
+<nobr>After Elucidator acts, increase party's Attack by (<color\=#50b50d>30.0%</color>/40.0%/50.0%) for 1 turn.</nobr>=<nobr>Después de que Elucidador actúe, aumenta el Ataque del grupo en (<color\=#50b50d>30.0%</color>/40,0%/50,0%) durante 1 turno.</nobr>
 Lucid II=Lúcido II
 Increase Def by 30% and decrease dmg taken by 10%.=Aumenta la Def un 30% y reduce el daño recibido un 10%.
 Increase ailment accuracy by 20% and dmg by 10%.=Aumenta la precisión de las dolencias un 20% y los daños un 10%.
@@ -16179,7 +16179,7 @@ All foes' Attack is increased by 25%.=El ataque de todos los enemigos aumenta un
 {{A}}'s max HP is decreased by 20%.=Los PS máximos de {{A}} disminuyen un 20%.
 The Highlight gauge fills 60% slower.=El indicador Highlight se llena un 60% más despacio.
 Allies' Fire, Ice, Electric, and Wind damage is decreased by 80%.=El daño de Fuego, Hielo, Electricidad y Viento de los aliados disminuye un 80%.
-Elucidator's cooldown time is increased by 6 actions.=El tiempo de reutilización de Elucidator aumenta en 6 acciones.
+Elucidator's cooldown time is increased by 6 actions.=El tiempo de reutilización de Elucidador aumenta en 6 acciones.
 {{A}}'s shield effect is decreased by 40%.=El efecto de escudo de {{A}} disminuye un 40%.
 The shield from {{A}}'s Blade of Sanctuary is increased by 100%, and {{A}}'s max HP is increased by 80%.=El escudo de la Hoja del santuario de {{A}} aumenta un 100% y los PS máximos de {{A}} aumentan un 80%.
 Targets with a shield from {{A}}'s Blade of Sanctuary gain 25% increased Attack. {{A}}'s Attack is increased by 25%.=Los objetivos con escudo de la Hoja del Santuario de {{A}} ganan un 25% de Ataque aumentado. El Ataque de {{A}} aumenta un 25%.
@@ -21266,9 +21266,9 @@ Progress=Progreso
 Foes lose SP each turn.=Los enemigos pierden PE cada turno.
 SP Dogu=PE Dogu
 Northeast Side=Lado noreste
-When equipped by an Elucidator Phantom Thief: After using a skill to inflict a debuff on a foe, decrease target's Defense by <color\=#2899ff>10%</color> for 2 turns.=Cuando lo equipa un Ladrón Fantasma Elucidator: Después de usar una habilidad para infligir una desventaja a un enemigo, reduce la Defensa del objetivo en <color\=#2899ff>10%</color> durante 2 turnos.
+When equipped by an Elucidator Phantom Thief: After using a skill to inflict a debuff on a foe, decrease target's Defense by <color\=#2899ff>10%</color> for 2 turns.=Cuando lo equipa un Ladrón Fantasma Elucidador: Después de usar una habilidad para infligir una desventaja a un enemigo, reduce la Defensa del objetivo en <color\=#2899ff>10%</color> durante 2 turnos.
 Resolve & Labor=Resolución y Trabajo
-4 Set Effect：When equipped by an Elucidator Phantom Thief: During battle, increase party's max HP, Attack, and Defense by <color\=#2899ff>8%</color>.=4 piezas：Cuando lo equipa un Ladrón Fantasma Elucidator: Durante la batalla, aumenta los PS, Ataque y Defensa máximos del grupo en <color\=#2899ff>8%</color>.
+4 Set Effect：When equipped by an Elucidator Phantom Thief: During battle, increase party's max HP, Attack, and Defense by <color\=#2899ff>8%</color>.=4 Piezas：Cuando lo equipa un Ladrón Fantasma Elucidador: Durante la batalla, aumenta los PS, Ataque y Defensa máximos del grupo en <color\=#2899ff>8%</color>.
 [Labor]=[Trabajo]
 Words of Harmony=Palabras de armonía
 Labor: Sun=Trabajo: Sol
@@ -30453,7 +30453,7 @@ Who knows, it might've been\na joke the first time someone\nsaid it.=Quién sabe
 Although you gotta agree\nthat this is an absolute gem\nof a find. Haha.=Aunque tienes que estar de acuerdo en que esto es una joya absoluta de un hallazgo. Jaja.
 Pushing yourself that hard takes some\n<sprite\=6><color\=#e6b625>Guts</color>, I'll give you that.=Esforzarse tanto requiere algo de\n<sprite\=6><color\=#e6b625>Coraje</color>, te reconozco eso.
 Integrity & Labor=Integridad y Trabajo
-When equipped by an Elucidator Phantom Thief: At the start of battle, for each ally with a matching main attribute, increase party's max HP, Attack, and Defense by <color\=#2899ff>2%</color> more.=Cuando lo equipa un Elucidator Ladrón Fantasma: Al inicio de la batalla, por cada aliado con un atributo principal igual, aumenta los PS, Ataque y Defensa máximos del grupo en <color\=#2899ff>2%</color> adicional.
+When equipped by an Elucidator Phantom Thief: At the start of battle, for each ally with a matching main attribute, increase party's max HP, Attack, and Defense by <color\=#2899ff>2%</color> more.=Cuando lo equipa un Elucidador Ladrón Fantasma: Al inicio de la batalla, por cada aliado con un atributo principal igual, aumenta los PS, Ataque y Defensa máximos del grupo en <color\=#2899ff>2%</color> adicional.
 Do you want to work at Heritage Kitchen?=¿Quieres trabajar en Heritage Kitchen?
 Ahh, so you're our new part-time\nemployee, huh?=Ahh, así que eres nuestro nuevo empleado a tiempo parcial, ¿eh?
 Always good to see one of {{A}}'s\nfriends come by.=Siempre es bueno ver pasar a uno de los amigos de {{A}}.
@@ -32062,7 +32062,7 @@ I'm sensing a powerful aura from the Shadow\nup ahead...=Estoy sintiendo una pod
 If we want to continue on, we have no choice\nbut to defeat it. Let's go, {{A}}!=Si queremos seguir adelante, no tenemos más remedio que derrotarlo. ¡Vamos, {{A}}!
 I'm all set. Just say the word!=Estoy listo. ¡Sólo dilo!
 Helps allies from off-field with buffs and support skills.=Ayuda a los aliados desde fuera del campo con potenciadores y habilidades de apoyo.
-Elucidator=Elucidator
+Elucidator=Elucidador
 Investigate the pyramid's underground area=Investiga la zona subterránea de la pirámide
 V<color\=#000000>u</color>lnerability Found!=V<color\=#000000>u</color>lnerabilidad Detectada!
 D<color\=#000000>a</color>ta Storm=T<color\=#000000>o</color>rmenta de Datos
@@ -34595,12 +34595,12 @@ Well, shall we head back?=Bueno, ¿volvemos?
 The queen of the fairies and {{A}}'s wife. She is derived from the Roman goddess Diana. She was later immortalized in Shakespeare's play "A Midsummer Night's Dream."=La reina de las hadas y esposa de {{A}}. Procede de la diosa romana Diana. Más tarde fue inmortalizada en la obra de Shakespeare "Sueño de una noche de verano".
 Eh, you're right. I never have any luck.=Eh, tienes razón. Nunca tengo suerte.
 <nobr>Increase party's shield received by 12.0%.</nobr>=<nobr>Aumenta el escudo del partido recibido en un 12,0%.</nobr>
-<nobr>At the start of battle, decrease Elucidator's cooldown time by 3 turns.</nobr>=<nobr>Al inicio de la batalla, reduce el tiempo de reutilización de Elucidator en 3 turnos.</nobr>
+<nobr>At the start of battle, decrease Elucidator's cooldown time by 3 turns.</nobr>=<nobr>Al inicio de la batalla, reduce el tiempo de reutilización de Elucidador en 3 turnos.</nobr>
 You're right. It's worth putting some more\nthought into this.=Tienes razón. Merece la pena reflexionar un poco más.
 <nobr>When granted a buff from an ally, increase Defense by <color\=#50b50d>15.0%</color>→<color\=#c900e4>20.0%</color> for 2 turns.</nobr>=<nobr>Al recibir un potenciador de un aliado, aumenta la Defensa en <color\=#50b50d>15.0%</color>→<color\=#c900e4>20.0%</color> durante 2 turnos.</nobr>
-<nobr>After Elucidator acts, restore HP by <color\=#50b50d>30.0%</color>→<color\=#c900e4>40.0%</color> for the ally with the lowest HP.</nobr>=<nobr>Después de que Elucidator actúe, restaura HP con <color\=#50b50d>30.0%</color>→<color\=#c900e4>40.0%</color> para el aliado con menos HP.</nobr>
+<nobr>After Elucidator acts, restore HP by <color\=#50b50d>30.0%</color>→<color\=#c900e4>40.0%</color> for the ally with the lowest HP.</nobr>=<nobr>Después de que Elucidador actúe, restaura HP con <color\=#50b50d>30.0%</color>→<color\=#c900e4>40.0%</color> para el aliado con menos HP.</nobr>
 <nobr>On the current Thief's action, increase Attack for 1 turn, based on (32.0%/<color\=#c900e4>40.0%</color>) of the Attack of the ally who last acted.</nobr>=<nobr>En la acción actual del Ladrón, aumenta el Ataque durante 1 turno, basándose en (32.0%/<color\=#c900e4>40.0%</color>) del Ataque del aliado que actuó por última vez.</nobr>
-<nobr>After Elucidator acts, restore HP by 50.0% for the ally with the lowest HP.</nobr>=<nobr>Después de que Elucidator actúe, restaura los PS en un 50% para el aliado con los PS más bajos.</nobr>
+<nobr>After Elucidator acts, restore HP by 50.0% for the ally with the lowest HP.</nobr>=<nobr>Después de que Elucidador actúe, restaura los PS en un 50% para el aliado con los PS más bajos.</nobr>
 <nobr>When only 1 foe is present, increase party's Attack by 30.0%.</nobr>=<nobr>Cuando solo hay 1 enemigo, aumenta el Ataque del grupo un 30,0%.</nobr>
 <nobr>When an ally has a buff, increase damage by 12.00%.</nobr>=<nobr>Cuando un aliado tiene un potenciador, aumenta el daño un 12.00%.</nobr>
 Whirling Serpent=Serpiente giratoria
@@ -42824,7 +42824,7 @@ AAA=AAA
 <color\=#FF423F>Trojan Hack-S8</color>: After a <color\=#fffc40>Combat Drone</color> attacks, all allies' attacks have a <color\=#fffc40>50%</color> chance to inflict 1 random elemental ailment on the target. Lasts for 1 turn.=<color\=#FF423F>Troyano Hack-S8</color> Después de <color\=#fffc40>Dron de Combate</color> ataques, todos los ataques de los aliados tienen un <color\=#fffc40>50%</color> probabilidad de infligir 1 estado alterado elemental aleatorio al objetivo. Dura 1 turno.
 <color\=#FF423F>Chip Overclock-O1</color>: When a <color\=#fffc40>Combat Drone</color> attacks, the party's damage is increased by <color\=#fffc40>5%</color>. When this buff is applied, damage is increased by <color\=#fffc40>0.5%</color> more for each 1% of HP lost, up to <color\=#fffc40>40%</color>. Lasts for 1 turn.=<color\=#FF423F>Chip Overclockeado</color> Cuando un <color\=#fffc40>Dron de Combate</color> los ataques, el daño del equipo aumenta en <color\=#fffc40>5%</color>. Cuando se aplica este buff, el daño aumenta en <color\=#fffc40>0.5%</color> más por cada 1% de PS perdido, hasta un máximo de <color\=#fffc40>40%</color>. Dura 1 turno.
 <color\=#FF423F>Support Enhancer-N9</color>: When a <color\=#fffc40>Combat Drone</color> attacks, the party's damage is increased by <color\=#fffc40>2.5%</color>. Damage is increased by <color\=#fffc40>7.5%</color> more for each <color\=#fffc40>Combat Drone</color>. Lasts for 1 turn.=<color\=#FF423F>Potenciador de Apoyo-N9</color> Cuando un <color\=#fffc40>Dron de Combate</color> los ataques, el daño del equipo aumenta en <color\=#fffc40>2.5%</color>. El daño aumenta en <color\=#fffc40>7,5%</color> más por cada <color\=#fffc40>Dron de Combate</color>. Dura 1 turno.
-<color\=#FF423F>Algorithm Booster-F1</color>: When a <color\=#fffc40>Combat Drone</color> attacks, Elucidator's cooldown time is decreased by <color\=#fffc40>1</color> turn.=<color\=#FF423F>Potenciador de Algoritmo-F1</color> Cuando un <color\=#fffc40>Dron de Combate</color> ataques, el tiempo de enfriamiento de Elucidator se reduce en <color\=#fffc40>1</color> turno
+<color\=#FF423F>Algorithm Booster-F1</color>: When a <color\=#fffc40>Combat Drone</color> attacks, Elucidator's cooldown time is decreased by <color\=#fffc40>1</color> turn.=<color\=#FF423F>Potenciador de Algoritmo-F1</color> Cuando un <color\=#fffc40>Dron de Combate</color> ataques, el tiempo de enfriamiento de Elucidador se reduce en <color\=#fffc40>1</color> turno
 <color\=#FF423F>Energy Circuit Amp-F2</color>: Each time a <color\=#fffc40>Combat Drone</color>'s attack hits a foe, party's damage is increased by <color\=#fffc40>8%</color>, up to <color\=#fffc40>32%</color>. Lasts for 1 turn.=<color\=#FF423F>Circuito de Energía Amp-F2</color> Cada vez que un <color\=#fffc40>Dron de Combate</color>El ataque impacta a un enemigo, el daño del equipo aumenta en <color\=#fffc40>8%</color>, hasta <color\=#fffc40>32%</color>. Dura 1 turno.
 <color\=#FF423F>Electromagnetic Pulse-F3</color>: When a <color\=#fffc40>Combat Drone</color> attacks, 1 random foe will be Marked. When a Marked foe is attacked, spend Mark to deal a guaranteed critical hit.=<color\=#FF423F>Pulso Electromagnético-F3</color> Cuando un <color\=#fffc40>Dron de Combate</color> al atacar, 1 enemigo aleatorio será Marcado. Al atacar a un enemigo Marcado, gasta la Marca para infligir un golpe crítico garantizado.
 No event items obtained.=No se obtuvieron objetos de evento.
@@ -51623,7 +51623,7 @@ Abstract Laser=Láser Abstracto
 Gained Cardiac Stimulation!=¡Obtuviste Estimulación Cardíaca!
 C<color\=#000000>a</color>rdiac Stimulation=E<color\=#000000>s</color>timulación cardíaca
 Your Phantom Thieves' Weapons, Skills are not strong enough.=Las armas y habilidades de tus Ladrones Fantasma no son lo suficientemente fuertes.
-Requires 3 party members with a role other than Elucidator.=Requiere 3 miembros del equipo con un rol distinto a Elucidator.
+Requires 3 party members with a role other than Elucidator.=Requiere 3 miembros del equipo con un rol distinto a Elucidador.
 Ummmm... Guess I'll head back!=Ummmm... ¡Creo que mejor me voy!
 1. Jikokuten has <color\=#ff3b37>Blade of Sanctuary</color>.\nBlade of Sanctuary: Each time damage is dealt, also grants a shield to 1 random Shadow.\n2. Zouchouten can activate <color\=#ff3b37>Growth of All Things</color>.\nGrowth of All Things: Randomly increases Attack, Defense, or damage of all Shadows each turn.\n3. Koumokuten can activate <color\=#ff3b37>Eye of Heaven</color>.\nEye of Heaven: Selects 1 Phantom Thief.\nIncreases their damage taken and has Shadows focus attacks on them next turn.\n4. Bishamonten has <color\=#ff3b37>Parasol of Chaos</color>.\nParasol of Chaos: Covers the Shadow with the lowest HP, and changes all elemental affinities to Resist.\nLasts for 2 turns.=1. Jikokuten tiene <color\=#ff3b37>Hoja del Santuario</color>. Hoja del Santuario: Cada vez que se inflige daño, también otorga un escudo a 1 Sombra aleatoria. 2. Zouchouten puede activar <color\=#ff3b37>Crecimiento de todas las cosas</color>. Crecimiento de todas las cosas: Aumenta aleatoriamente el Ataque, la Defensa o el daño de todas las Sombras cada turno. 3. Koumokuten puede activar <color\=#ff3b37>Ojo del cielo</color>. Ojo del Cielo: Selecciona 1 Phantom Thief. Aumenta el daño que recibe y hace que las Sombras centren sus ataques en él en el siguiente turno. 4. Bishamonten tiene <color\=#ff3b37>Parasol del caos</color>. Sombrilla del Caos: Cubre a la Sombra con menos PS y cambia todas sus afinidades elementales a Resistir. Dura 2 turnos.
 This is currently equipped to Shun Kano. Do you want to change that?=Esto está equipado actualmente a Shun Kano. ¿Quieres cambiarlo?
@@ -54892,7 +54892,7 @@ Oh no! It seemed so promising, but luck\nwasn't on our side...=¡Oh no! Parecía
 Increase Atk and Def.=Aumenta ATQ y DEF.
 Ferocious Lion=León feroz
 <nobr>After using a healing skill, deal Almighty damage to 1 random foe equal to (39.0%/<color\=#c900e4>52.0%</color>/65.0%) of Attack.</nobr>=<nobr>Después de usar una habilidad de curación, inflige daño Todopoderoso a 1 enemigo aleatorio igual a (39.0%/<color\=#c900e4>52.0%</color>/65.0%) de Ataque.</nobr>
-<nobr>When hit by <link\="s|170"><u>Scarlet Tide</u></link>, (30%/<color\=#c900e4>60%</color>) chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Cuando es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, (30%/<color\=#c900e4>60%</color>) probabilidad de reducir el tiempo de reutilización de Elucidator en 1 turno.</nobr>
+<nobr>When hit by <link\="s|170"><u>Scarlet Tide</u></link>, (30%/<color\=#c900e4>60%</color>) chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Cuando es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, (30%/<color\=#c900e4>60%</color>) probabilidad de reducir el tiempo de reutilización de Elucidador en 1 turno.</nobr>
 <nobr>When inflicting an elemental ailment on a foe, inflict (2/<color\=#c900e4>3</color>) <link\="s|167"><u>Agony</u></link> stacks.</nobr>=<nobr>Al infligir una dolencia elemental a un enemigo, inflige (2/<color\=#c900e4>3</color>) <link\="s|167"><u>Agonía</u></link>.</nobr>
 <nobr>Increase party's healing effect by (14.4%/<color\=#c900e4>19.2%</color>/24.0%).</nobr>=<nobr>Aumenta el efecto de curación del grupo en (14.4%/<color\=#c900e4>19.2%</color>/24.0%).</nobr>
 <nobr>After a foe is hit by <link\="s|170"><u>Scarlet Tide</u></link>, decrease Defense by (18.0%/<color\=#c900e4>24.0%</color>/30.0%) for 1 turn.</nobr>=<nobr>Después de que un enemigo sea golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, reduce la Defensa en (18.0%/<color\=#c900e4>24.0%</color>/30.0%) por 1 turno.</nobr>
@@ -54939,7 +54939,7 @@ This material contains enhanced Revelation Cards. Enhanced materials will not be
 Assign 2 or more <size\=46><sprite\=9 tint\=1></size> Thieves in your party=Asigna 2 o más <size\=46><sprite\=9 tint\=1></size> Ladrones en tu grupo
 No special Persona conditions=Sin condiciones especiales de Persona
 My scheduled delivery time is coming up, but\nthe road's iced over... Whoa, almost slipped!=Mi hora de entrega programada se acerca, pero la carretera está cubierta de hielo... ¡Vaya, casi me resbalo!
-<nobr>When hit by <link\="s|170"><u>Scarlet Tide</u></link>, 30% chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Cuando es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, 30% de probabilidad de reducir el tiempo de reutilización de Elucidator en 1 turno.</nobr>
+<nobr>When hit by <link\="s|170"><u>Scarlet Tide</u></link>, 30% chance to decrease Elucidator's cooldown time by 1 turn.</nobr>=<nobr>Cuando es golpeado por <link\="s|170"><u>Marea Escarlata</u></link>, 30% de probabilidad de reducir el tiempo de reutilización de Elucidador en 1 turno.</nobr>
 Buying & Enhancing=Comprar y Mejorar
 Fully restore HP, SP, and Highlight Gauge before taking on the boss at the terminal station.=Restaura por completo PS, PE y la barra de Highlight antes de enfrentarte al jefe en la estación terminal.
 Weapon Gift Box=Caja de regalo de arma
@@ -54977,7 +54977,7 @@ And another time, this girl was crying after\nbeing broken up with, and she aske
 ...and for some reason, I wound up singing it\nfor her!=... ¡y por alguna razón, terminé cantándola para ella!
 Wow. you sang a song to cheer her up!? Huh,\nmaybe I could work there too...=Vaya. ¿¡Cantaste una canción para animarla!? Jeje, tal vez yo también podría trabajar allí...
 Manaka listened intently\nto Tomoko's stories...=Manaka escuchó atentamente las\nhistorias de Tomoko...
-When equipped by an Elucidator Phantom Thief: When granting buffs to allies with a skill, increase the main target's pierce rate by <color\=#2899ff>5%</color> for 1 turn.=Cuando lo equipa un Ladrón Fantasma con Elucidator: Al otorgar buffs a los aliados con una habilidad, aumenta la tasa de penetración del objetivo principal en <color\=#2899ff>5%</color> durante 1 turno.
+When equipped by an Elucidator Phantom Thief: When granting buffs to allies with a skill, increase the main target's pierce rate by <color\=#2899ff>5%</color> for 1 turn.=Cuando lo equipa un Ladrón Fantasma con Elucidador: Al otorgar buffs a los aliados con una habilidad, aumenta la tasa de penetración del objetivo principal en <color\=#2899ff>5%</color> durante 1 turno.
 Take down Shadows and complete challenges to earn special rewards.=Derrota a las Sombras y completa los desafíos para obtener recompensas especiales.
 The method to obtain the music track Blooming Villain has been unlocked.\n=Se ha desbloqueado el método para obtener la pista musical Villano en Flor.\n
 Overtaking!!=¡¡Rebasando!!

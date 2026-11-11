@@ -4426,6 +4426,9 @@ Treasure Account-ant=Conta-hormiga del Tesoro
 Instant Ramen Bros=Hermanos del ramen instantáneo
 King of the Ant Hill=Rey del Hormiguero
 Ant-believable Riches=Riquezas in-hormi-gables
+What Was That=Qué Fue Eso
+All for Takami-chan=Todo por Takami-chan
+
 
 +--Sombras--+
 Shadow Soldier Ant=Sombra Soldado Hormiga

@@ -2,9 +2,78 @@
 
 Select <color\=#FF423F>NEW GAME</color> to begin.=Selecciona <color\=#FF423F>NUEVA PARTIDA</color> para comenzar.
 <color\=#FF423F>Start the game</color> now.=<color\=#FF423F>Comenzar el juego</color> ahora.
+Each Veggie Knight has its own <color\=#FF423F>special effect</color>.\nPotato Knight can <color\=#FF423F>clear all projectiles onscreen</color>.\nClick <color\=#FF423F>Assign</color> to add him.=Cada Caballero Vegetal tiene su propio <color\=#FF423F>efecto especial</color>.\nEl Caballero de la Papa puede <color\=#FF423F>eliminar todos los proyectiles en pantalla</color>.\nHaz clic en <color\=#FF423F>Asignar</color> para añadirlo.
+Select <color\=#FF423F>Return</color>, and then start the game.=Selecciona <color\=#FF423F>Regresar</color>, y luego comenzar el juego.
+<color\=#FF423F>Start the battle</color> now.=<color\=#FF423F>Comenzar la batalla</color> ahora.
+
 
 
 Log in for 10 days to receive <size\=48><sprite\=19></size> x10=Inicia sesión por 10 días para recibir<size\=48><sprite\=19></size> x10
 
 
 When Cosmic Yui's Awareness 6 is unlocked, she can change between Prismatic and Normal colors. With the Prismatic color, random Veggie Knights will appear during the Harvest Havoc animation. This does not have an effect on battle performance.=Cuando se desbloquee la Concientización 6 de Yui Cósmica, podrá alternar entre los colores prismático y normal. Con el color prismático, aparecerán Caballeros Vegetales al azar durante la animación de Cosecha Caótica. Esto no afecta el rendimiento en batalla.
+
+Cosmic Calamity=Calamidad Cósmica
+Cosmic Calamity: Silver=Calamidad Cósmica: Plata
+Cosmic Calamity: Gold=Calamidad Cósmica: Oro
+Cosmic Calamity: Rainbow=Calamidad Cósmica: Arco Iris
+Awarded for clearing a specific mission in Cosmic Calamity.=Otorgado por completar una misión específica en Calamidad Cósmica.
+
+r:"^Complete a Stage ([0-9]+) goal \(([0-9]+)/([0-9]+)\)$"="Completa un objetivo de la Etapa $1 ($2/$3)"
+r:"^Complete 2 Stage ([0-9]+) goal \(([0-9]+)/([0-9]+)\)$"="Completa 2 objetivos de la Etapa $1 ($2/$3)"
+r:"^Complete all Stage ([0-9]+) goals \(([0-9]+)/([0-9]+)\)$"="Completar todos los objetivos de la Etapa $1 ($2/$3)"
+
+Unselected=Sin seleccionar
+Clear stage=Completar la fase
+r:"^Clear with ([0-9]+)\+ stamina left$"="Completar con $1+ de resistencia restante."
+Join your Veggie Knights and traverse the stars in Harvest World Online!=¡Únete a tus Caballeros Vegetales y atraviesa las estrellas en Harvest World Online!
+<color\=#FFD145>Additional Effects</color>: None=<color\=#FFD145>Efectos Adicionales</color>: Ninguno
+r:"^<color\=#FFD145>Additional Effects</color>: (.*?)Shots Fired"="<color\=#FFD145>Efectos Adicionales</color>: $1Cantidad de Disparos"
+r:"^<color\=#FFD145>Additional Effects</color>: (.*?)Shots Fired, (.*?)Shot Damage$"="<color\=#FFD145>Efectos Adicionales</color>: $1Cantidad de Disparos, $2Daño de disparos"
+r:"^<color\=#FFD145>Additional Effects</color>: (.*?)Shots Fired, (.*?)Shot Damage, (.*?)Fire Speed$"="<color\=#FFD145>Efectos Adicionales</color>: $1Cantidad de Disparos, $2Daño de disparos, $3Velocidad de Disparo"
+Time: =Tiempo: 
+Remaining Stamina: =Resistencia restante: 
+MAX=MÁX
+
+r:"^Clear enemy projectiles onscreen and deal ([0-9]+) damage to enemies \(Cooldown: ([0-9]+)s\)\.$"="Elimina los proyectiles enemigos en pantalla e inflige $1 de daño a los enemigos (Enfriamiento: $2s)."
+r:"^Current Effect: Clear enemy projectiles onscreen and deal ([0-9]+) damage to enemies \(Cooldown: ([0-9]+)s\)\.$"="Efecto Actual: Elimina los proyectiles enemigos en pantalla e inflige $1 de daño a los enemigos (Enfriamiento: $2s)."
+r:"^Next Level Effect: Clear enemy projectiles onscreen and deal ([0-9]+) damage to enemies \(Cooldown: ([0-9]+)s\)\.$"="Siguiente Nivel: Elimina los proyectiles enemigos en pantalla e inflige $1 de daño a los enemigos (Enfriamiento: $2s)."
+
+Eggplant=Berenjena
+r:"^Fire a laser forward, dealing damage every ([0-9]+) seconds \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Dispara un láser hacia adelante, que inflige daño cada $1 segundos (Dura $2s / Enfriamiento: $3s)."
+r:"^Fire a laser forward, dealing ([0-9]+) damage per second \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Dispara un láser hacia adelante, inflingiendo $1 de daño por segundo (Dura $2s / Enfriamiento: $3s)."
+r:"^Current Effect: Fire a laser forward, dealing damage every ([0-9]+) seconds \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Efecto Actual: Dispara un láser hacia adelante, que inflige daño cada $1 segundos (Dura $2s / Enfriamiento: $3s)."
+r:"^Current Effect: Fire a laser forward, dealing ([0-9]+) damage per second \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Efecto Actual: Dispara un láser hacia adelante, inflingiendo $1 de daño por segundo (Dura $2s / Enfriamiento: $3s)."
+r:"^Next Level Effect: Fire a laser forward, dealing ([0-9]+) damage per second \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Siguiente Nivel: Dispara un láser hacia adelante, que inflige daño cada $1 segundos (Dura $2s / Enfriamiento: $3s)."
+
+Mushroom=Champiñón
+r:"^Emit a mist that reduces enemy and enemy projectile speed by ([0-9]+)% \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Emite una niebla que reduce la velocidad del enemigo y del proyectil enemigo en un $1% (Dura $2s / Enfriamiento: $3s)."
+r:"^Emit a mist that reduces enemy and enemy projectile speed by ([0-9]+)% \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Emite una niebla que reduce la velocidad del enemigo y del proyectil enemigo en un $1% (Dura $2s / Enfriamiento: $3s)."
+r:"^Emit a mist that reduces enemy and enemy projectile speed by ([0-9]+)% \(Lasts ([0-9]+)\.([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Emite una niebla que reduce la velocidad del enemigo y del proyectil enemigo en un $1% (Dura $2,$3s / Enfriamiento: $4s)."
+r:"^Current Effect: Emit a mist that reduces enemy and enemy projectile speed by ([0-9]+)% \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Efecto Actual: Emite una niebla que reduce la velocidad del enemigo y del proyectil enemigo en un $1% (Dura $2s / Enfriamiento: $3s)."
+r:"^Current Effect: Emit a mist that reduces enemy and enemy projectile speed by ([0-9]+)% \(Lasts ([0-9]+)\.([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Efecto Actual: Emite una niebla que reduce la velocidad del enemigo y del proyectil enemigo en un $1% (Dura $2,$3s / Enfriamiento: $4s)."
+r:"^Next Level Effect: Emit a mist that reduces enemy and enemy projectile speed by ([0-9]+)% \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Siguiente Nivel: Emite una niebla que reduce la velocidad del enemigo y del proyectil enemigo en un $1% (Dura $2s / Enfriamiento: $3s)."
+r:"^Next Level Effect: Emit a mist that reduces enemy and enemy projectile speed by ([0-9]+)% \(Lasts ([0-9]+)\.([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Siguiente Nivel: Emite una niebla que reduce la velocidad del enemigo y del proyectil enemigo en un $1% (Dura $2,$3s / Enfriamiento: $4s)."
+
+
+Asparagus=Espárragos
+r:"^Nullify projectile damage and ([0-9]+) enemy contact \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Anula el daño de proyectiles y $1 contacto enemigo (Dura $2s / Enfriamiento: $3s)."
+r:"^Nullify projectile damage and ([0-9]+) enemy contacts \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Anula el daño de proyectiles y $1 contactos enemigos (Dura $2s / Enfriamiento: $3s)."
+r:"^Nullify projectile damage and ([0-9]+) enemy contacts \(Lasts ([0-9]+)\.([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Anula el daño de proyectiles y $1 contactos enemigos (Dura $2,$3s / Enfriamiento: $4s)."
+r:"^Current Effect: Nullify projectile damage and ([0-9]+) enemy contact \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Efecto Actual: Anula el daño de proyectiles y $1 contacto enemigo (Dura $2s / Enfriamiento: $3s)."
+r:"^Current Effect: Nullify projectile damage and ([0-9]+) enemy contacts \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Efecto Actual: Anula el daño de proyectiles y $1 contactos enemigos (Dura $2s / Enfriamiento: $3s)."
+r:"^Current Effect: Nullify projectile damage and ([0-9]+) enemy contacts \(Lasts ([0-9]+)\.([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Efecto Actual: Anula el daño de proyectiles y $1 contactos enemigos (Dura $2,$3s / Enfriamiento: $4s)."
+r:"^Next Level Effect: Nullify projectile damage and ([0-9]+) enemy contact \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Siguiente Nivel: Anula el daño de proyectiles y $1 contacto enemigo (Dura $2s / Enfriamiento: $3s)."
+r:"^Next Level Effect: Nullify projectile damage and ([0-9]+) enemy contacts \(Lasts ([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Siguiente Nivel: Anula el daño de proyectiles y $1 contactos enemigos (Dura $2s / Enfriamiento: $3s)."
+r:"^Next Level Effect: Nullify projectile damage and ([0-9]+) enemy contacts \(Lasts ([0-9]+)\.([0-9]+)s/Cooldown: ([0-9]+)s\)\.$"="Siguiente Nivel: Anula el daño de proyectiles y $1 contactos enemigos (Dura $2,$3s / Enfriamiento: $4s)."
+
+
+Movement=Movimiento
+PC: Use the <color\=#ff3b37>mouse</color> to move.\nMobile devices: <color\=#ff3b37>Swipe</color> the screen to move.\nGamepad: Use the <color\=#ff3b37>left stick</color> to move.\n<color\=#ff3b37>You will fire automatically on all devices.</color>=PC: Utiliza el <color\=#ff3b37>Ratón</color> para moverse.\nDispositivos móviles: <color\=#ff3b37>Desliza</color> la pantalla para moverse.\nMando: utiliza el <color\=#ff3b37>Stick Izquierdo</color> para moverse.\n<color\=#ff3b37>Dispararás automáticamente en todos los dispositivos.</color>
+Power is displayed at the bottom of the screen. The gauge fills as you <color\=#ff3b37>defeat enemies</color>, increasing your weapon level and allowing you to fire powerful shots.=El Poder se muestra en la parte de abajo de la pantalla. La barra se llena al <color\=#ff3b37>derrotar enemigos</color>, aumentando el nivel de tu arma y permitiendote disparar poderosos disparos.
+{{A}} is displayed at the bottom of the screen. The gauge fills as you <color\=#ff3b37>defeat enemies</color>, increasing\nyour weapon level and allowing you to fire powerful\nshots.=El {{A}} se muestra en la parte de abajo de la pantalla. La barra se llena al <color\=#ff3b37>derrotar enemigos</color>, aumentando el nivel de tu arma y permitiendote disparar poderosos disparos.
+Veggie Knights=Caballeros Vegetales
+Activate Veggie Knight skills by tapping the Veggie Knight icon on the bottom right.\nAfter using the skill, it will enter cooldown, and can be activated again when the icon lights up.=Activa las habilidades de los Caballeros Vegetales tocando el ícono del Caballero Vegetal en la parte inferior derecha.\nDespués de usar la habilidad, entrará en tiempo de enfriamiento y podrá activarse nuevamente cuando el ícono se ilumine.
+Barrier=Barrera
+In normal stages, you gain a barrier that nullifies damage when your HP is reduced to 1.\n*You do not gain a barrier in Endless Mode.=En las etapas normales, obtienes una barrera que anula el daño cuando tu PS se reduce a 1.\n*No obtienes una barrera en el Modo Infinito.
+
